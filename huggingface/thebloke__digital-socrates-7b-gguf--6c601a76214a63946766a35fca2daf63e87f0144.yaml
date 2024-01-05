@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q2_K.gguf
+    sha256: 21dbaa4146a6af5a001a8d59c3ca6ee55acec8b0203969db04ae9da09c33758d
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q3_K_L.gguf
+    sha256: 59c657774d99a550a3754964ed222d1a1582822d82aa394080d8912a23a1091b
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q3_K_M.gguf
+    sha256: 9674969c46c549a9ccb488d4fcae17ab1ba66bc65ce2a5e60de03037c1878e1b
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q3_K_S.gguf
+    sha256: e1260d242707b4eeffb8a974f64aa11b1a445527b31fc26988a950a450799cc0
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q4_0.gguf
+    sha256: 7c3ced213c20a71517dde96b4e69df1409393600fb44be9c4295a56cfd33aeb1
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q4_K_M.gguf
+    sha256: 0204e9721b3c404b661b82ca4480b8d09a4bc038c51367d67d0a48f3fc4f4fa1
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q4_K_S.gguf
+    sha256: 97cca140bb870a65c2f52a5d5ceda303b58e844862ce22357f282ab519b901f4
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q5_0.gguf
+    sha256: 31d8525fd2689d3647bf4d43c9fe187f46365c31d2e02f5ea2b0d5360d829a73
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q5_K_M.gguf
+    sha256: 1d42adde7e6e015dd8f44a50b03bcf23b1798d562dd2fe0045fe8ccb1fe42b61
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q5_K_S.gguf
+    sha256: 2b1273ffef145bbae7b1678218f3dd072644a4315f86883dbfae06ef1e619cad
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q6_K.gguf
+    sha256: f5bb0ea5d263082918b3898368960d53cca47866d7dd1f77287e724ddf213a22
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q8_0.gguf
+    sha256: 15842bd180a0f49de78468de831e2ce70406beb8cb8ac7f718ce2e2243c154a8
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q2_K.gguf
+    sha256: 21dbaa4146a6af5a001a8d59c3ca6ee55acec8b0203969db04ae9da09c33758d
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q3_K_L.gguf
+    sha256: 59c657774d99a550a3754964ed222d1a1582822d82aa394080d8912a23a1091b
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q3_K_M.gguf
+    sha256: 9674969c46c549a9ccb488d4fcae17ab1ba66bc65ce2a5e60de03037c1878e1b
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q3_K_S.gguf
+    sha256: e1260d242707b4eeffb8a974f64aa11b1a445527b31fc26988a950a450799cc0
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q4_0.gguf
+    sha256: 7c3ced213c20a71517dde96b4e69df1409393600fb44be9c4295a56cfd33aeb1
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q4_K_M.gguf
+    sha256: 0204e9721b3c404b661b82ca4480b8d09a4bc038c51367d67d0a48f3fc4f4fa1
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q4_K_S.gguf
+    sha256: 97cca140bb870a65c2f52a5d5ceda303b58e844862ce22357f282ab519b901f4
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q5_0.gguf
+    sha256: 31d8525fd2689d3647bf4d43c9fe187f46365c31d2e02f5ea2b0d5360d829a73
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q5_K_M.gguf
+    sha256: 1d42adde7e6e015dd8f44a50b03bcf23b1798d562dd2fe0045fe8ccb1fe42b61
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q5_K_S.gguf
+    sha256: 2b1273ffef145bbae7b1678218f3dd072644a4315f86883dbfae06ef1e619cad
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q6_K.gguf
+    sha256: f5bb0ea5d263082918b3898368960d53cca47866d7dd1f77287e724ddf213a22
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: digital-socrates-7b.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/digital-socrates-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: digital-socrates-7b.Q8_0.gguf
+    sha256: 15842bd180a0f49de78468de831e2ce70406beb8cb8ac7f718ce2e2243c154a8
+    uri: 
+      https://huggingface.co/TheBloke/digital-socrates-7B-GGUF/resolve/main/digital-socrates-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__digital-socrates-7b-gguf__digital-socrates-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2311.09613
+  - base_model:allenai/digital-socrates-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/digital-socrates-7B-GGUF

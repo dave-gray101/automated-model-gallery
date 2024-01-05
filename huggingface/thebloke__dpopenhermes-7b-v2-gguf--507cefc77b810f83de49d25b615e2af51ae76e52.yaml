@@ -1,0 +1,1344 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q2_K.gguf
+    sha256: 632c8c190b9ac96ab1fba49044eea52434008c0b036e4844bb0e00eef55662bd
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q3_K_L.gguf
+    sha256: f44305af6eceee1fcc6c3c2cada437fb955a906ae3ca0b767383da3902f8f9d6
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q3_K_M.gguf
+    sha256: ad01e20bf0afd2b54f60a595838d1700d028159909fb0d5e086f088fe51fce0d
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q3_K_S.gguf
+    sha256: ce8fb59d7e631a8eb19cd64852ba15fd8084e52d3f4c7264729ce755f742fa88
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q4_0.gguf
+    sha256: 2dbfe037749640cc7c334a3a8ba5a75ff13ed7a5a3f7bbdcf1674bc081610e6e
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q4_K_M.gguf
+    sha256: 0a7fd2474d2df9ed7e663dec20e00787c8f5d1c5039e23781aecfe1b9867a103
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q4_K_S.gguf
+    sha256: dbfe55df8908538b6a722e1de2e46c00a6df1794ea83f90802fdcf39e455edb0
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q5_0.gguf
+    sha256: 16ee09d19f40092e850ccdd54c7b446a207f2368dd85f9de21721d99e85f15d0
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q5_K_M.gguf
+    sha256: 2b46dbdae72cf78a8bc21289571cf440ace10e4680871bf1a1e0481dd10d121c
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q5_K_S.gguf
+    sha256: 4f98126b872d0c31a0b5aeeaeb3d613f089ee4913080ee01347981279f6eab7f
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q6_K.gguf
+    sha256: 3a115c57f5dea94120ea4871206a2bdf8dafc5cd0141c741bcf70cec2d675cf8
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dpopenhermes-7b-v2.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q8_0.gguf
+    sha256: bdc6102e66ecd2da5baa472c06bf0f7c7e78e9bbc04d330692e9eae35d06f3de
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q2_K.gguf
+    sha256: 632c8c190b9ac96ab1fba49044eea52434008c0b036e4844bb0e00eef55662bd
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q3_K_L.gguf
+    sha256: f44305af6eceee1fcc6c3c2cada437fb955a906ae3ca0b767383da3902f8f9d6
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q3_K_M.gguf
+    sha256: ad01e20bf0afd2b54f60a595838d1700d028159909fb0d5e086f088fe51fce0d
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q3_K_S.gguf
+    sha256: ce8fb59d7e631a8eb19cd64852ba15fd8084e52d3f4c7264729ce755f742fa88
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q4_0.gguf
+    sha256: 2dbfe037749640cc7c334a3a8ba5a75ff13ed7a5a3f7bbdcf1674bc081610e6e
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q4_K_M.gguf
+    sha256: 0a7fd2474d2df9ed7e663dec20e00787c8f5d1c5039e23781aecfe1b9867a103
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q4_K_S.gguf
+    sha256: dbfe55df8908538b6a722e1de2e46c00a6df1794ea83f90802fdcf39e455edb0
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q5_0.gguf
+    sha256: 16ee09d19f40092e850ccdd54c7b446a207f2368dd85f9de21721d99e85f15d0
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q5_K_M.gguf
+    sha256: 2b46dbdae72cf78a8bc21289571cf440ace10e4680871bf1a1e0481dd10d121c
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q5_K_S.gguf
+    sha256: 4f98126b872d0c31a0b5aeeaeb3d613f089ee4913080ee01347981279f6eab7f
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q6_K.gguf
+    sha256: 3a115c57f5dea94120ea4871206a2bdf8dafc5cd0141c741bcf70cec2d675cf8
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q8_0.gguf
+    sha256: bdc6102e66ecd2da5baa472c06bf0f7c7e78e9bbc04d330692e9eae35d06f3de
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q2_K.gguf
+    sha256: 632c8c190b9ac96ab1fba49044eea52434008c0b036e4844bb0e00eef55662bd
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q3_K_L.gguf
+    sha256: f44305af6eceee1fcc6c3c2cada437fb955a906ae3ca0b767383da3902f8f9d6
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q3_K_M.gguf
+    sha256: ad01e20bf0afd2b54f60a595838d1700d028159909fb0d5e086f088fe51fce0d
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q3_K_S.gguf
+    sha256: ce8fb59d7e631a8eb19cd64852ba15fd8084e52d3f4c7264729ce755f742fa88
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q4_0.gguf
+    sha256: 2dbfe037749640cc7c334a3a8ba5a75ff13ed7a5a3f7bbdcf1674bc081610e6e
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q4_K_M.gguf
+    sha256: 0a7fd2474d2df9ed7e663dec20e00787c8f5d1c5039e23781aecfe1b9867a103
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q4_K_S.gguf
+    sha256: dbfe55df8908538b6a722e1de2e46c00a6df1794ea83f90802fdcf39e455edb0
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q5_0.gguf
+    sha256: 16ee09d19f40092e850ccdd54c7b446a207f2368dd85f9de21721d99e85f15d0
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q5_K_M.gguf
+    sha256: 2b46dbdae72cf78a8bc21289571cf440ace10e4680871bf1a1e0481dd10d121c
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q5_K_S.gguf
+    sha256: 4f98126b872d0c31a0b5aeeaeb3d613f089ee4913080ee01347981279f6eab7f
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q6_K.gguf
+    sha256: 3a115c57f5dea94120ea4871206a2bdf8dafc5cd0141c741bcf70cec2d675cf8
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dpopenhermes-7b-v2.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DPOpenHermes-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dpopenhermes-7b-v2.Q8_0.gguf
+    sha256: bdc6102e66ecd2da5baa472c06bf0f7c7e78e9bbc04d330692e9eae35d06f3de
+    uri: 
+      https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF/resolve/main/dpopenhermes-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dpopenhermes-7b-v2-gguf__dpopenhermes-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:teknium/openhermes
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:openaccess-ai-collective/DPOpenHermes-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DPOpenHermes-7B-v2-GGUF

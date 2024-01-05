@@ -1,0 +1,744 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q2_K.gguf
+    sha256: fb0d4f417c49aa1b7731f0280383aa6683379fc0d1337d9d6f9bc75b567d9ad4
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q3_K_L.gguf
+    sha256: 5a253879da58be66eb474aa00452fe3286665d90a7c087b5c61985fa031880e9
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q3_K_M.gguf
+    sha256: 5cb61d90b39d312f6a3cabc8b39b278880ef9eab6b2c583f2ae2e622e3323e6a
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q3_K_S.gguf
+    sha256: 877c436d26038668478a9c48a196206a6d18c34ff83e2148893b656fb5bf582d
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q4_0.gguf
+    sha256: e38fe321d1883f9d32efd3b84bc092cd5a8a7973b53698c9e2627a4f91623520
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q4_K_M.gguf
+    sha256: 3179b264c0a3c1dcf78d7f4138210424188ca88ea4ff7d08d8c8fb71aea2be1b
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q4_K_S.gguf
+    sha256: e4f9c9e641ccd89ec8cb3167c566b60d189e92c85774e0da8d516dcdc6a96fb7
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q5_0.gguf
+    sha256: aaf849400776200e8518750352ff5273d2864b6e66cbec7c2c734d09c4f79c3b
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q5_K_M.gguf
+    sha256: 2adfebbd419eb053fe54d465a3cc8d6a777c74fbc4ae36b033a472a8375a3a88
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q5_K_S.gguf
+    sha256: 78ea944c1cada437284f156477009068c94c2d28d7a7016137efcdb27202787b
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q6_K.gguf
+    sha256: c925e9b1dddbc6e73c8497b11394664cd15643980476e32db75f0c246a378d0b
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q8_0.gguf
+    sha256: 8dccded82275d6300fd8224a958008d92a1f1eded541ef484d095306cd78721c
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q2_K.gguf
+    sha256: fb0d4f417c49aa1b7731f0280383aa6683379fc0d1337d9d6f9bc75b567d9ad4
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q3_K_L.gguf
+    sha256: 5a253879da58be66eb474aa00452fe3286665d90a7c087b5c61985fa031880e9
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q3_K_M.gguf
+    sha256: 5cb61d90b39d312f6a3cabc8b39b278880ef9eab6b2c583f2ae2e622e3323e6a
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q3_K_S.gguf
+    sha256: 877c436d26038668478a9c48a196206a6d18c34ff83e2148893b656fb5bf582d
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q4_0.gguf
+    sha256: e38fe321d1883f9d32efd3b84bc092cd5a8a7973b53698c9e2627a4f91623520
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q4_K_M.gguf
+    sha256: 3179b264c0a3c1dcf78d7f4138210424188ca88ea4ff7d08d8c8fb71aea2be1b
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q4_K_S.gguf
+    sha256: e4f9c9e641ccd89ec8cb3167c566b60d189e92c85774e0da8d516dcdc6a96fb7
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q5_0.gguf
+    sha256: aaf849400776200e8518750352ff5273d2864b6e66cbec7c2c734d09c4f79c3b
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q5_K_M.gguf
+    sha256: 2adfebbd419eb053fe54d465a3cc8d6a777c74fbc4ae36b033a472a8375a3a88
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q5_K_S.gguf
+    sha256: 78ea944c1cada437284f156477009068c94c2d28d7a7016137efcdb27202787b
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q6_K.gguf
+    sha256: c925e9b1dddbc6e73c8497b11394664cd15643980476e32db75f0c246a378d0b
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: noromaid-13b-v0.2.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Noromaid-13B-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: noromaid-13b-v0.2.Q8_0.gguf
+    sha256: 8dccded82275d6300fd8224a958008d92a1f1eded541ef484d095306cd78721c
+    uri: 
+      https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF/resolve/main/noromaid-13b-v0.2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__noromaid-13b-v0.2-gguf__noromaid-13b-v0.2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:NeverSleep/Noromaid-13b-v0.2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Noromaid-13B-v0.2-GGUF

@@ -1,0 +1,432 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q2_K.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q2_K.gguf
+    sha256: b202eac3b9b50b1a0ca06924103cf68e1b907cb2567e576e0c02f97583e80cac
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q3_K_L.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q3_K_L.gguf
+    sha256: db2e730f02dbf0c69d8ef45bbaa7c581b67da73c0dfac0cca87501b3fe7ad328
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q3_K_M.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q3_K_M.gguf
+    sha256: 87d39c8fd39988a1d2c9d9e1db31ba42a682e08852b3172cc5d93055031e1e81
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q3_K_S.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q3_K_S.gguf
+    sha256: eaaf669ddd028942532e0c6cacdaeec1eb62e703990f98abbf2d4d63e3100d5b
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q4_0.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q4_0.gguf
+    sha256: a97bcf80fa9948e0bd76abfb524d1139fd21b04966a03cbaa693223ea5d1c7a1
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q4_K_M.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q4_K_M.gguf
+    sha256: f961037c8c7fc710da82a1c597ee577be305614c1a79aedb2a35ca29bf80482f
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q4_K_S.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q4_K_S.gguf
+    sha256: 297c62666d63c28e410dea45ec7cfc7906c670ecd46332be0d5514b35047a747
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q5_0.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q5_0.gguf
+    sha256: a37fb8973eb48aeb43f070a4a44226ddaa53eb01efda41adfaeee3c67f932afb
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q5_K_M.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q5_K_M.gguf
+    sha256: 89d2c313324b045d98fe859ba8e0f86d52e778cfd7c541d93d090317fb21681e
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q5_K_S.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q5_K_S.gguf
+    sha256: 20874126965e24c38029bc7a20ef00dffebc41e4e705374dd386453f2ef881c1
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q6_K.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q6_K.gguf
+    sha256: 5caa08331db4057da3d05a0afd5fcc68dbd6fb5792a47fbcdf343c6edb28dc32
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: blossom-v3_1-yi-34b.Q8_0.gguf
+    template:
+      chat: blossom-system
+      completion: blossom-system
+  description: TheBloke/blossom-v3_1-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: blossom-system.tmpl
+    sha256: 947e9337c6c3342a8a01550d5cabf8aaa8317ce0d08ab18992d5de3303bc1742
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/blossom-system.tmpl
+  - filename: blossom-v3_1-yi-34b.Q8_0.gguf
+    sha256: 121b34210ca49914406825b1ba80f134b9699f9278b5f7fbc97ac655085173dc
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF/resolve/main/blossom-v3_1-yi-34b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__blossom-v3_1-yi-34b-gguf__blossom-v3_1-yi-34b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3_1-yi-34b
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3_1-yi-34b-GGUF

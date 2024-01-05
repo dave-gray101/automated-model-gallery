@@ -1,0 +1,1008 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q2_K.gguf
+    sha256: 77af1e2f272c6c7069df56146534a26e4c7edde2e41bb4d2db9b87a1b598194e
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q3_K_L.gguf
+    sha256: b75041aaa9b40163e34224b29b763028b9d6af7a2bbe8a358ede3b8c2b438b94
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q3_K_M.gguf
+    sha256: 4d192d40398723e7d71d95d33db9f0a93209ec4b9d90961f9799318d9c361012
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q3_K_S.gguf
+    sha256: e3db8a82addd6bbd022700f49494bb679913c2224254827f344f7e7baaf40aca
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q4_0.gguf
+    sha256: 7feb79c870100275a2e9b7c1ca8945c178e799a1a4c63e9c9ac7226fa4beb73d
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q4_K_M.gguf
+    sha256: 26fae1314dadaabba11bbf62dc4d5f4813011aa89c94cafaca541b99ebf8fea7
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q4_K_S.gguf
+    sha256: 05637bc0d1628754b5b1738de52bf068e6798bc57d4a3066a89d794ccb2cf5b8
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q5_0.gguf
+    sha256: acbeebf02434cc0172d488a1a847df8a468b8c399463c542cf1f8ca945224da4
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q5_K_M.gguf
+    sha256: 52be41b49f7ea72ef1905ecc1d1dde3673b4302055a0cc8dab3528ec1a9d8260
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q5_K_S.gguf
+    sha256: cd4920ea933a7a564022e0e232cf74905687a5d0681b745322283c1aae2c01a5
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q6_K.gguf
+    sha256: d7b6c30133b6d3ef930bb11f064e5282967195e82eb28bd7500710541bca64b5
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: juanako-7b-una.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q8_0.gguf
+    sha256: 404f80de62c02e63932f319bd765aa08217403bd570c5903edcbe96ef4c00517
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q2_K.gguf
+    sha256: 77af1e2f272c6c7069df56146534a26e4c7edde2e41bb4d2db9b87a1b598194e
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q3_K_L.gguf
+    sha256: b75041aaa9b40163e34224b29b763028b9d6af7a2bbe8a358ede3b8c2b438b94
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q3_K_M.gguf
+    sha256: 4d192d40398723e7d71d95d33db9f0a93209ec4b9d90961f9799318d9c361012
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q3_K_S.gguf
+    sha256: e3db8a82addd6bbd022700f49494bb679913c2224254827f344f7e7baaf40aca
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q4_0.gguf
+    sha256: 7feb79c870100275a2e9b7c1ca8945c178e799a1a4c63e9c9ac7226fa4beb73d
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q4_K_M.gguf
+    sha256: 26fae1314dadaabba11bbf62dc4d5f4813011aa89c94cafaca541b99ebf8fea7
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q4_K_S.gguf
+    sha256: 05637bc0d1628754b5b1738de52bf068e6798bc57d4a3066a89d794ccb2cf5b8
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q5_0.gguf
+    sha256: acbeebf02434cc0172d488a1a847df8a468b8c399463c542cf1f8ca945224da4
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q5_K_M.gguf
+    sha256: 52be41b49f7ea72ef1905ecc1d1dde3673b4302055a0cc8dab3528ec1a9d8260
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q5_K_S.gguf
+    sha256: cd4920ea933a7a564022e0e232cf74905687a5d0681b745322283c1aae2c01a5
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q6_K.gguf
+    sha256: d7b6c30133b6d3ef930bb11f064e5282967195e82eb28bd7500710541bca64b5
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: juanako-7b-una.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/juanako-7B-UNA-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: juanako-7b-una.Q8_0.gguf
+    sha256: 404f80de62c02e63932f319bd765aa08217403bd570c5903edcbe96ef4c00517
+    uri: 
+      https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF/resolve/main/juanako-7b-una.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__juanako-7b-una-gguf__juanako-7b-una.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - alignment-handbook
+  - generated_from_trainer
+  - juanako
+  - UNA
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - arxiv:2109.07958
+  - arxiv:2310.16944
+  - arxiv:2305.18290
+  - base_model:fblgit/juanako-7b-UNA
+  - license:apache-2.0
+  - model-index
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/juanako-7B-UNA-GGUF

@@ -1,0 +1,1488 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q2_K.gguf
+    sha256: d37e05209edb000a010f014c375a6603a2ab0fc65303fea413a27f8b79e2fa30
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q3_K_L.gguf
+    sha256: ad5e6556d1139a22a951da1fc500b75f7fee2a3d125d6c4df3ef7295c83e41d1
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q3_K_M.gguf
+    sha256: 08b2aea22d8885547520e4fc1562f90cf1fd58c3a6d7e4dfcfa543f6e3a184e3
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q3_K_S.gguf
+    sha256: 3b452f408f0220bb930dcd4585be4c9766d191525d0a4b7b24ddb9c2b92125de
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q4_0.gguf
+    sha256: 1171bd8a88da4cd85f89eb80dc293aedf4df2ebbd559316a81e2598041d0ad52
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q4_K_M.gguf
+    sha256: e6479cdaed84707b6a19edf03a01e5c0972fdeb8f6c28df3e20dd9f96ee376b2
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q4_K_S.gguf
+    sha256: fe7392175a8cab274c20a2e00abb48e70659d40506f7e58c90117480f03bf233
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q5_0.gguf
+    sha256: 2b7481d36354ddf1192c7fa5fd831f006e31d139bb0f6586ecf84bd24ad9c031
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q5_K_M.gguf
+    sha256: 8f11d79fea50fef5d0cff6d57c042ad723defa9b6663a2dc1972167916523b7d
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q5_K_S.gguf
+    sha256: 7533f5a2b65b3da93231179cbd1c5646906f11122093a8022d827636daefa705
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q6_K.gguf
+    sha256: 75cd1014412ffa1c939c660e54afd83835d8ab09d15452f5a4618171016ac169
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: notus-7b-v1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q8_0.gguf
+    sha256: 2b234e4a9ad4a8802340f91eb7f1b9da6d949c3447637a1d3f2fdf4b04223be6
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q2_K.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q2_K.gguf
+    sha256: d37e05209edb000a010f014c375a6603a2ab0fc65303fea413a27f8b79e2fa30
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q3_K_L.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q3_K_L.gguf
+    sha256: ad5e6556d1139a22a951da1fc500b75f7fee2a3d125d6c4df3ef7295c83e41d1
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q3_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q3_K_M.gguf
+    sha256: 08b2aea22d8885547520e4fc1562f90cf1fd58c3a6d7e4dfcfa543f6e3a184e3
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q3_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q3_K_S.gguf
+    sha256: 3b452f408f0220bb930dcd4585be4c9766d191525d0a4b7b24ddb9c2b92125de
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q4_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q4_0.gguf
+    sha256: 1171bd8a88da4cd85f89eb80dc293aedf4df2ebbd559316a81e2598041d0ad52
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q4_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q4_K_M.gguf
+    sha256: e6479cdaed84707b6a19edf03a01e5c0972fdeb8f6c28df3e20dd9f96ee376b2
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q4_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q4_K_S.gguf
+    sha256: fe7392175a8cab274c20a2e00abb48e70659d40506f7e58c90117480f03bf233
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q5_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q5_0.gguf
+    sha256: 2b7481d36354ddf1192c7fa5fd831f006e31d139bb0f6586ecf84bd24ad9c031
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q5_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q5_K_M.gguf
+    sha256: 8f11d79fea50fef5d0cff6d57c042ad723defa9b6663a2dc1972167916523b7d
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q5_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q5_K_S.gguf
+    sha256: 7533f5a2b65b3da93231179cbd1c5646906f11122093a8022d827636daefa705
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q6_K.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q6_K.gguf
+    sha256: 75cd1014412ffa1c939c660e54afd83835d8ab09d15452f5a4618171016ac169
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q8_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q8_0.gguf
+    sha256: 2b234e4a9ad4a8802340f91eb7f1b9da6d949c3447637a1d3f2fdf4b04223be6
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q2_K.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q2_K.gguf
+    sha256: d37e05209edb000a010f014c375a6603a2ab0fc65303fea413a27f8b79e2fa30
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q3_K_L.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q3_K_L.gguf
+    sha256: ad5e6556d1139a22a951da1fc500b75f7fee2a3d125d6c4df3ef7295c83e41d1
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q3_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q3_K_M.gguf
+    sha256: 08b2aea22d8885547520e4fc1562f90cf1fd58c3a6d7e4dfcfa543f6e3a184e3
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q3_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q3_K_S.gguf
+    sha256: 3b452f408f0220bb930dcd4585be4c9766d191525d0a4b7b24ddb9c2b92125de
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q4_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q4_0.gguf
+    sha256: 1171bd8a88da4cd85f89eb80dc293aedf4df2ebbd559316a81e2598041d0ad52
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q4_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q4_K_M.gguf
+    sha256: e6479cdaed84707b6a19edf03a01e5c0972fdeb8f6c28df3e20dd9f96ee376b2
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q4_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q4_K_S.gguf
+    sha256: fe7392175a8cab274c20a2e00abb48e70659d40506f7e58c90117480f03bf233
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q5_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q5_0.gguf
+    sha256: 2b7481d36354ddf1192c7fa5fd831f006e31d139bb0f6586ecf84bd24ad9c031
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q5_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q5_K_M.gguf
+    sha256: 8f11d79fea50fef5d0cff6d57c042ad723defa9b6663a2dc1972167916523b7d
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q5_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q5_K_S.gguf
+    sha256: 7533f5a2b65b3da93231179cbd1c5646906f11122093a8022d827636daefa705
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q6_K.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q6_K.gguf
+    sha256: 75cd1014412ffa1c939c660e54afd83835d8ab09d15452f5a4618171016ac169
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notus-7b-v1.Q8_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/notus-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: notus-7b-v1.Q8_0.gguf
+    sha256: 2b234e4a9ad4a8802340f91eb7f1b9da6d949c3447637a1d3f2fdf4b04223be6
+    uri: 
+      https://huggingface.co/TheBloke/notus-7B-v1-GGUF/resolve/main/notus-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__notus-7b-v1-gguf__notus-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - dataset:argilla/ultrafeedback-binarized-preferences
+  - base_model:argilla/notus-7b-v1
+  - license:mit
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notus-7B-v1-GGUF

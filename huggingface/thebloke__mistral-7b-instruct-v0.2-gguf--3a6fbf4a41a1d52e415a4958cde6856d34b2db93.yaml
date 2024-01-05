@@ -1,0 +1,1308 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q2_K.gguf
+    sha256: 6d52a37032d25bc879691b0e870da12ffd5788e6f4dd2eea1b5d9a7020091f71
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q3_K_L.gguf
+    sha256: 2c0e37f9d639e349c31dbc3c365fc1a140339a43fe478702511f6efead15488a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q3_K_M.gguf
+    sha256: a9d5cdce059f6e091f4dc664b28e6e21204a91794207b934a8308f2f37500043
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q3_K_S.gguf
+    sha256: 03968f7dc1ce056db8413079d6f2d03e8f2b9677987cee04cd744c15b03aac86
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q4_0.gguf
+    sha256: 25d80b918e4432661726ef408b248005bebefe3f8e1ac722d55d0c5dcf2893e0
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q4_K_M.gguf
+    sha256: 3e0039fd0273fcbebb49228943b17831aadd55cbcbf56f0af00499be2040ccf9
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q4_K_S.gguf
+    sha256: 1213e19b3e103932fdfdc82e3b6dee765f57ad5756e0f673e7d36514a5b60d0a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q5_0.gguf
+    sha256: 254ea79a2521dfb59f155078d9c37ad2fcfdf4ea3d8c2700ed17e03339ad402b
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q5_K_M.gguf
+    sha256: b85cdd596ddd76f3194047b9108a73c74d77ba04bef49255a50fc0cfbda83d32
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q5_K_S.gguf
+    sha256: 83d1104865d0790ada7a5e1191f2f702b9956ff3a457d67109ded0ab6a56aafd
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q6_K.gguf
+    sha256: a4643671c92f47eb6027d0eff50b9875562e8e172128a4b10b2be250bb4264de
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q8_0.gguf
+    sha256: f326f5f4f137f3ad30f8c9cc21d4d39e54476583e8306ee2931d5a022cb85b06
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q2_K.gguf
+    sha256: 6d52a37032d25bc879691b0e870da12ffd5788e6f4dd2eea1b5d9a7020091f71
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q3_K_L.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q3_K_L.gguf
+    sha256: 2c0e37f9d639e349c31dbc3c365fc1a140339a43fe478702511f6efead15488a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q3_K_M.gguf
+    sha256: a9d5cdce059f6e091f4dc664b28e6e21204a91794207b934a8308f2f37500043
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q3_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q3_K_S.gguf
+    sha256: 03968f7dc1ce056db8413079d6f2d03e8f2b9677987cee04cd744c15b03aac86
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q4_0.gguf
+    sha256: 25d80b918e4432661726ef408b248005bebefe3f8e1ac722d55d0c5dcf2893e0
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q4_K_M.gguf
+    sha256: 3e0039fd0273fcbebb49228943b17831aadd55cbcbf56f0af00499be2040ccf9
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q4_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q4_K_S.gguf
+    sha256: 1213e19b3e103932fdfdc82e3b6dee765f57ad5756e0f673e7d36514a5b60d0a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q5_0.gguf
+    sha256: 254ea79a2521dfb59f155078d9c37ad2fcfdf4ea3d8c2700ed17e03339ad402b
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q5_K_M.gguf
+    sha256: b85cdd596ddd76f3194047b9108a73c74d77ba04bef49255a50fc0cfbda83d32
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q5_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q5_K_S.gguf
+    sha256: 83d1104865d0790ada7a5e1191f2f702b9956ff3a457d67109ded0ab6a56aafd
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q6_K.gguf
+    sha256: a4643671c92f47eb6027d0eff50b9875562e8e172128a4b10b2be250bb4264de
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q8_0.gguf
+    sha256: f326f5f4f137f3ad30f8c9cc21d4d39e54476583e8306ee2931d5a022cb85b06
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q2_K.gguf
+    sha256: 6d52a37032d25bc879691b0e870da12ffd5788e6f4dd2eea1b5d9a7020091f71
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q3_K_L.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q3_K_L.gguf
+    sha256: 2c0e37f9d639e349c31dbc3c365fc1a140339a43fe478702511f6efead15488a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q3_K_M.gguf
+    sha256: a9d5cdce059f6e091f4dc664b28e6e21204a91794207b934a8308f2f37500043
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q3_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q3_K_S.gguf
+    sha256: 03968f7dc1ce056db8413079d6f2d03e8f2b9677987cee04cd744c15b03aac86
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q4_0.gguf
+    sha256: 25d80b918e4432661726ef408b248005bebefe3f8e1ac722d55d0c5dcf2893e0
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q4_K_M.gguf
+    sha256: 3e0039fd0273fcbebb49228943b17831aadd55cbcbf56f0af00499be2040ccf9
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q4_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q4_K_S.gguf
+    sha256: 1213e19b3e103932fdfdc82e3b6dee765f57ad5756e0f673e7d36514a5b60d0a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q5_0.gguf
+    sha256: 254ea79a2521dfb59f155078d9c37ad2fcfdf4ea3d8c2700ed17e03339ad402b
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q5_K_M.gguf
+    sha256: b85cdd596ddd76f3194047b9108a73c74d77ba04bef49255a50fc0cfbda83d32
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q5_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q5_K_S.gguf
+    sha256: 83d1104865d0790ada7a5e1191f2f702b9956ff3a457d67109ded0ab6a56aafd
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q6_K.gguf
+    sha256: a4643671c92f47eb6027d0eff50b9875562e8e172128a4b10b2be250bb4264de
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mistral-7B-Instruct-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mistral-7b-instruct-v0.2.Q8_0.gguf
+    sha256: f326f5f4f137f3ad30f8c9cc21d4d39e54476583e8306ee2931d5a022cb85b06
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-instruct-v0.2-gguf__mistral-7b-instruct-v0.2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetuned
+  - text-generation
+  - arxiv:2310.06825
+  - base_model:mistralai/Mistral-7B-Instruct-v0.2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF

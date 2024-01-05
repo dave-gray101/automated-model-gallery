@@ -1,0 +1,1680 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q2_K.gguf
+    sha256: 51a69f767f52004a1b5cfcf688c070e6486f81c8496d7cf8feb7704c717c6647
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_L.gguf
+    sha256: 488640e0c95bd9290181f952ad2f88e316d7ef2b60364b0f73126a8f913e7bd6
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_M.gguf
+    sha256: 9fd7b8e9e50244ae6d5c0c0c25113938b19ac03075ed781a1c4660741c70b3cd
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_S.gguf
+    sha256: ba6ec7d075da950e982bb2e065b4fcd885f9d95cc9ba4263126a5bac5a32c818
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_0.gguf
+    sha256: 6b6d525312e227484b0490f45d5aa7344a3656526809ecc155ae89936c294a44
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_K_M.gguf
+    sha256: 49d849d2d993a888c7fb866065140917a5853d0ca29941b8db3df72ef117ba42
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_K_S.gguf
+    sha256: 6bdcf7a5514a9aef13f96d730457f8257a5bf45eb00acb68a74ea114bba6738d
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_0.gguf
+    sha256: 441d3e983e1dda8e1c0eada25780311b1a8b56dc58999c127287b10558dab78f
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_K_M.gguf
+    sha256: 705ce9e312340d67166f436c8599be014d941ee85c7c1ae08f298178a7568df2
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_K_S.gguf
+    sha256: 8d1d53f16c560d099b57ac6bdfb2203b574b7becf39eefbaa4f6404ed3c3ea21
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q6_K.gguf
+    sha256: 2a0e4329f6d6d5b87ef92ea71d403d68b0804e1b68d26ed83bc843f97cc6c31c
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q8_0.gguf
+    sha256: 808b66daa4c460c0abda4c5d4d225aa599033a649f80d4c19467a123502348e0
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q2_K.gguf
+    sha256: 51a69f767f52004a1b5cfcf688c070e6486f81c8496d7cf8feb7704c717c6647
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_L.gguf
+    sha256: 488640e0c95bd9290181f952ad2f88e316d7ef2b60364b0f73126a8f913e7bd6
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_M.gguf
+    sha256: 9fd7b8e9e50244ae6d5c0c0c25113938b19ac03075ed781a1c4660741c70b3cd
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_S.gguf
+    sha256: ba6ec7d075da950e982bb2e065b4fcd885f9d95cc9ba4263126a5bac5a32c818
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_0.gguf
+    sha256: 6b6d525312e227484b0490f45d5aa7344a3656526809ecc155ae89936c294a44
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_K_M.gguf
+    sha256: 49d849d2d993a888c7fb866065140917a5853d0ca29941b8db3df72ef117ba42
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_K_S.gguf
+    sha256: 6bdcf7a5514a9aef13f96d730457f8257a5bf45eb00acb68a74ea114bba6738d
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_0.gguf
+    sha256: 441d3e983e1dda8e1c0eada25780311b1a8b56dc58999c127287b10558dab78f
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_K_M.gguf
+    sha256: 705ce9e312340d67166f436c8599be014d941ee85c7c1ae08f298178a7568df2
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_K_S.gguf
+    sha256: 8d1d53f16c560d099b57ac6bdfb2203b574b7becf39eefbaa4f6404ed3c3ea21
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q6_K.gguf
+    sha256: 2a0e4329f6d6d5b87ef92ea71d403d68b0804e1b68d26ed83bc843f97cc6c31c
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: velara.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q8_0.gguf
+    sha256: 808b66daa4c460c0abda4c5d4d225aa599033a649f80d4c19467a123502348e0
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q2_K.gguf
+    sha256: 51a69f767f52004a1b5cfcf688c070e6486f81c8496d7cf8feb7704c717c6647
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_L.gguf
+    sha256: 488640e0c95bd9290181f952ad2f88e316d7ef2b60364b0f73126a8f913e7bd6
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_M.gguf
+    sha256: 9fd7b8e9e50244ae6d5c0c0c25113938b19ac03075ed781a1c4660741c70b3cd
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_S.gguf
+    sha256: ba6ec7d075da950e982bb2e065b4fcd885f9d95cc9ba4263126a5bac5a32c818
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_0.gguf
+    sha256: 6b6d525312e227484b0490f45d5aa7344a3656526809ecc155ae89936c294a44
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_K_M.gguf
+    sha256: 49d849d2d993a888c7fb866065140917a5853d0ca29941b8db3df72ef117ba42
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_K_S.gguf
+    sha256: 6bdcf7a5514a9aef13f96d730457f8257a5bf45eb00acb68a74ea114bba6738d
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_0.gguf
+    sha256: 441d3e983e1dda8e1c0eada25780311b1a8b56dc58999c127287b10558dab78f
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_K_M.gguf
+    sha256: 705ce9e312340d67166f436c8599be014d941ee85c7c1ae08f298178a7568df2
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_K_S.gguf
+    sha256: 8d1d53f16c560d099b57ac6bdfb2203b574b7becf39eefbaa4f6404ed3c3ea21
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q6_K.gguf
+    sha256: 2a0e4329f6d6d5b87ef92ea71d403d68b0804e1b68d26ed83bc843f97cc6c31c
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q8_0.gguf
+    sha256: 808b66daa4c460c0abda4c5d4d225aa599033a649f80d4c19467a123502348e0
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q2_K.gguf
+    sha256: 51a69f767f52004a1b5cfcf688c070e6486f81c8496d7cf8feb7704c717c6647
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_L.gguf
+    sha256: 488640e0c95bd9290181f952ad2f88e316d7ef2b60364b0f73126a8f913e7bd6
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_M.gguf
+    sha256: 9fd7b8e9e50244ae6d5c0c0c25113938b19ac03075ed781a1c4660741c70b3cd
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q3_K_S.gguf
+    sha256: ba6ec7d075da950e982bb2e065b4fcd885f9d95cc9ba4263126a5bac5a32c818
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_0.gguf
+    sha256: 6b6d525312e227484b0490f45d5aa7344a3656526809ecc155ae89936c294a44
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_K_M.gguf
+    sha256: 49d849d2d993a888c7fb866065140917a5853d0ca29941b8db3df72ef117ba42
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q4_K_S.gguf
+    sha256: 6bdcf7a5514a9aef13f96d730457f8257a5bf45eb00acb68a74ea114bba6738d
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_0.gguf
+    sha256: 441d3e983e1dda8e1c0eada25780311b1a8b56dc58999c127287b10558dab78f
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_K_M.gguf
+    sha256: 705ce9e312340d67166f436c8599be014d941ee85c7c1ae08f298178a7568df2
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q5_K_S.gguf
+    sha256: 8d1d53f16c560d099b57ac6bdfb2203b574b7becf39eefbaa4f6404ed3c3ea21
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q6_K.gguf
+    sha256: 2a0e4329f6d6d5b87ef92ea71d403d68b0804e1b68d26ed83bc843f97cc6c31c
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: velara.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Velara-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: velara.Q8_0.gguf
+    sha256: 808b66daa4c460c0abda4c5d4d225aa599033a649f80d4c19467a123502348e0
+    uri: https://huggingface.co/TheBloke/Velara-GGUF/resolve/main/velara.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__velara-gguf__velara.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - starling
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Delcos/Velara
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Velara-GGUF

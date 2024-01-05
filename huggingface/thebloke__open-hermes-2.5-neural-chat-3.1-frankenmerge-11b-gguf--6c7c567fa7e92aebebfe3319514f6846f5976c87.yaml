@@ -1,0 +1,864 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q2_K.gguf
+    sha256: b6fcfb096317e716c43ea65a4a66826b98e715914cb9d8bfaaf6577467ee9cef
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_L.gguf
+    sha256: f53239283569d2765fb9b5e4f429bb46f4e0575707c18619c3f322980b0ad002
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_M.gguf
+    sha256: 560e60056cedec70eac5e717c9e05f3b8bb4df8be3626baa33067a14c8f08f55
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_S.gguf
+    sha256: a00410ba709600aa52ed0dbe67b48686f31bbaf04e5afd9e023f0270a5dfad68
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_0.gguf
+    sha256: 3eecdd3a09b4d6b50775dfdd33e073cc6423210741e4a8b29688fd599d1124a3
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_M.gguf
+    sha256: d22c8b0d0a508e16f93aa90d95d856e15848cf2445f11f92a95452aa7ded6402
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_S.gguf
+    sha256: 30632edd4701d2ed7b27dec8a20e532056dd54b323c0b56a382af6a31983e51c
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_0.gguf
+    sha256: b083f2c2a14b0373cd462acf165e19fa46bd89c4ff4e757038dab91b2124c13f
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_M.gguf
+    sha256: 2eb657d452767d64eba77b4ea5e769b6dc9f34347900eb4d5d392943be90c5a6
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_S.gguf
+    sha256: 833014443356e45eb80eef3ee65c35de3cd2d45c4b22ea1f3212d584b0e94399
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q6_K.gguf
+    sha256: 4cbd3a99e84ce3ce3327e5e9790333b067e738db6ca8af74cc8e518ffba1ff4a
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - mistral
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q8_0.gguf
+    sha256: a4776bd863db1abe511d736aa7eb2a8372abd0fa1c72cecd8bace142b08b2a7c
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q2_K.gguf
+    sha256: b6fcfb096317e716c43ea65a4a66826b98e715914cb9d8bfaaf6577467ee9cef
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_L.gguf
+    sha256: f53239283569d2765fb9b5e4f429bb46f4e0575707c18619c3f322980b0ad002
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_M.gguf
+    sha256: 560e60056cedec70eac5e717c9e05f3b8bb4df8be3626baa33067a14c8f08f55
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_S.gguf
+    sha256: a00410ba709600aa52ed0dbe67b48686f31bbaf04e5afd9e023f0270a5dfad68
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_0.gguf
+    sha256: 3eecdd3a09b4d6b50775dfdd33e073cc6423210741e4a8b29688fd599d1124a3
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_M.gguf
+    sha256: d22c8b0d0a508e16f93aa90d95d856e15848cf2445f11f92a95452aa7ded6402
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_S.gguf
+    sha256: 30632edd4701d2ed7b27dec8a20e532056dd54b323c0b56a382af6a31983e51c
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_0.gguf
+    sha256: b083f2c2a14b0373cd462acf165e19fa46bd89c4ff4e757038dab91b2124c13f
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_M.gguf
+    sha256: 2eb657d452767d64eba77b4ea5e769b6dc9f34347900eb4d5d392943be90c5a6
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_S.gguf
+    sha256: 833014443356e45eb80eef3ee65c35de3cd2d45c4b22ea1f3212d584b0e94399
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q6_K.gguf
+    sha256: 4cbd3a99e84ce3ce3327e5e9790333b067e738db6ca8af74cc8e518ffba1ff4a
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q8_0.gguf
+    sha256: a4776bd863db1abe511d736aa7eb2a8372abd0fa1c72cecd8bace142b08b2a7c
+    uri: 
+      https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF/resolve/main/open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b-gguf__open-hermes-2.5-neural-chat-3.1-frankenmerge-11b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:S4sch/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Open-Hermes-2.5-neural-chat-3.1-frankenmerge-11b-GGUF

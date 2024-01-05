@@ -1,0 +1,396 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q2_K.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q2_K.gguf
+    sha256: 020d73c694b8a63297ed2f88e192574927bfb591400c6d55da4873d669bea408
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q2_K.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q3_K_L.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q3_K_L.gguf
+    sha256: 7ddf513e4251928845b7cfbccf387c01fdc0a7f241c3b0bf7e91d5a3ada17bf2
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q3_K_L.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q3_K_M.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q3_K_M.gguf
+    sha256: 3432f80b6e73b5a5ecf84922c4072e72ffdd0abf05ca5f36f3c59ef53d2aa545
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q3_K_M.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q3_K_S.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q3_K_S.gguf
+    sha256: 44261d5e17bc0c8f427f1bf85e700994dba1d268567ff18ab86a8d1ca1b8bf92
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q3_K_S.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q4_0.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q4_0.gguf
+    sha256: b65e695a70ddf9bff519ea839932506787d9c740ff76c7bd18f8cc5aff8a2c69
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q4_0.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q4_K_M.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q4_K_M.gguf
+    sha256: 4f6d9d74d4bdc66279d2da784e6390822001258fa1231d194b292797fdf7d072
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q4_K_M.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q4_K_S.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q4_K_S.gguf
+    sha256: 4171bd5b11bd12fb869ba48522e241ae8d09ab5797942c450edfbdf763464c8c
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q4_K_S.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q5_0.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q5_0.gguf
+    sha256: 9170910835419a6c2baf8d7ad533129218893090ff1b36bf71830d9b9f31b325
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q5_0.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q5_K_M.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q5_K_M.gguf
+    sha256: 99dbd275cbc6e2a52c72ad3cc262f49a2159f7c2ce223087f502f7b67774f7d3
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q5_K_M.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q5_K_S.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q5_K_S.gguf
+    sha256: 41c4d8a643868ff06b523a0ce281b8eb5ad8ea347ea1975d9b36958a81cfa955
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q5_K_S.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q6_K.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q6_K.gguf
+    sha256: a8fea3a7edd5f409e51e1968da18d5345fe648230f9aca6f8a75028980454aeb
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q6_K.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr_7b_norobots.Q8_0.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/zephyr_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: zephyr_7b_norobots.Q8_0.gguf
+    sha256: 5a22c7718e7ef0a563aa3173017a26e02aa06966457cdac95855255bfbb253da
+    uri: 
+      https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF/resolve/main/zephyr_7b_norobots.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__zephyr_7b_norobots-gguf__zephyr_7b_norobots.Q8_0.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - zephyr
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/zephyr_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr_7b_norobots-GGUF

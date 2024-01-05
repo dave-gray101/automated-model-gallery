@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q2_K.gguf
+    sha256: 6046d6393dcaa20677f74295762ea10588b9b3b95de9927ccd8e3c1e3d4fdf41
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q3_K_L.gguf
+    sha256: 26bd3620fee4ed7d710ce503bb86670edfb9441219cb9e955c344f76f30968af
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q3_K_M.gguf
+    sha256: 973cdaffd80131a486f90ebfa0285f12f7af4a27e3a66a205ab0becad03c5fda
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q3_K_S.gguf
+    sha256: bf3bd4b40bdb977ac81cdc2d402f1cfcb15ac5e8636a124dd2c91848901de201
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q4_0.gguf
+    sha256: f79be2fdd583e4978f8a2adcfbb8424d9e81b472faa2be89ed746b9d5c5214de
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q4_K_M.gguf
+    sha256: ee6f83fc8b3efeb36088418ad33a7842e0e266e6199389313af1ee9405c9d7f4
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q4_K_S.gguf
+    sha256: 35187391562ba3feea6e0130f0bf12740cbfacc7e3028e44e7d12b691300fcfe
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q5_0.gguf
+    sha256: 92e404848bfb777e11576cbea9fc7266833c7ad3ec779f217bfeb670c49ed2ff
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q5_K_M.gguf
+    sha256: fe1fea2c9d3fe0f4c58c6e2deef48148c19e543ee253e3dce030ead401a78767
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q5_K_S.gguf
+    sha256: 2fa0729995d41e48b33bbf1df85269f3e5bb1fb91dc6b53bba8c18f190ca74c6
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q6_K.gguf
+    sha256: 502aca1cb0ae17b44b37f8a3618b1744efb1a5de4f0e2df12803b1764c0cad7e
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: koopenchat-sft.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q8_0.gguf
+    sha256: ff4dab088f58d396e67aa89cf0b94f6b56478077553b360918e5942ac0abd39d
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q2_K.gguf
+    sha256: 6046d6393dcaa20677f74295762ea10588b9b3b95de9927ccd8e3c1e3d4fdf41
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q3_K_L.gguf
+    sha256: 26bd3620fee4ed7d710ce503bb86670edfb9441219cb9e955c344f76f30968af
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q3_K_M.gguf
+    sha256: 973cdaffd80131a486f90ebfa0285f12f7af4a27e3a66a205ab0becad03c5fda
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q3_K_S.gguf
+    sha256: bf3bd4b40bdb977ac81cdc2d402f1cfcb15ac5e8636a124dd2c91848901de201
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q4_0.gguf
+    sha256: f79be2fdd583e4978f8a2adcfbb8424d9e81b472faa2be89ed746b9d5c5214de
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q4_K_M.gguf
+    sha256: ee6f83fc8b3efeb36088418ad33a7842e0e266e6199389313af1ee9405c9d7f4
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q4_K_S.gguf
+    sha256: 35187391562ba3feea6e0130f0bf12740cbfacc7e3028e44e7d12b691300fcfe
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q5_0.gguf
+    sha256: 92e404848bfb777e11576cbea9fc7266833c7ad3ec779f217bfeb670c49ed2ff
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q5_K_M.gguf
+    sha256: fe1fea2c9d3fe0f4c58c6e2deef48148c19e543ee253e3dce030ead401a78767
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q5_K_S.gguf
+    sha256: 2fa0729995d41e48b33bbf1df85269f3e5bb1fb91dc6b53bba8c18f190ca74c6
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q6_K.gguf
+    sha256: 502aca1cb0ae17b44b37f8a3618b1744efb1a5de4f0e2df12803b1764c0cad7e
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: koopenchat-sft.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/koOpenChat-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: koopenchat-sft.Q8_0.gguf
+    sha256: ff4dab088f58d396e67aa89cf0b94f6b56478077553b360918e5942ac0abd39d
+    uri: 
+      https://huggingface.co/TheBloke/koOpenChat-sft-GGUF/resolve/main/koopenchat-sft.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__koopenchat-sft-gguf__koopenchat-sft.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:maywell/koOpenChat-sft
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koOpenChat-sft-GGUF

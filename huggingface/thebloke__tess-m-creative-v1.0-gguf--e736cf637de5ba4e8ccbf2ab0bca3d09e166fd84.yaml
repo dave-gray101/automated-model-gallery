@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q2_K.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q2_K.gguf
+    sha256: c5de492dad804c39fa3e2026aa25767319cf41c51939b937be3c405a1aa0dad8
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q3_K_L.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q3_K_L.gguf
+    sha256: b0aebaa5c54fc04d00b5a10cdd9333772cd1242c79383a274dc6c4118d10091c
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q3_K_M.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q3_K_M.gguf
+    sha256: d13f6d55a5c9f1fd031e27d0555cae9a265437cbfd9b295d9be30e8bdd3d2ebd
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q3_K_S.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q3_K_S.gguf
+    sha256: d483780b98eb62b8b67ac7eead0fb594d78f38e20ed4fb7063dfa5216cd32fa9
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q4_0.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q4_0.gguf
+    sha256: 59db79812a1e4b3f07a402b59a7a78e516d7dd005ff6f396f10c3ccb44fd01e6
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q4_K_M.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q4_K_M.gguf
+    sha256: bc6e0efe4bc6ae1d0b4d39e537b4da51507595fb9f5f466c9ac536ee24abfa69
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q4_K_S.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q4_K_S.gguf
+    sha256: 17a3fd99af5d0fd331d06bcda610c8d97915414b094f35cb0ed77e90723908d5
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q5_0.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q5_0.gguf
+    sha256: 0543023058be6d71756d5adbdbab32f7bf874840b89a23ec989b41073b9e97bb
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q5_K_M.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q5_K_M.gguf
+    sha256: b36952b2d527a727df77099d06b8f36a8c0bc3497ca74ed5ef28383e80fbb260
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q5_K_S.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q5_K_S.gguf
+    sha256: 7d0280476cb770e5916d88a7d7591e9405bed8241533460d614a58a3f2617181
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q6_K.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q6_K.gguf
+    sha256: b42c63de9153edc0e2f3962a155c910524eb132e0dd1907fdee0adc7f12f7a56
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-medium-200k-v1.0.Q8_0.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-M-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-medium-200k-v1.0.Q8_0.gguf
+    sha256: 50410261862ac179edeeca4edde4d656cd67262d166cbac46b159939ba10adfd
+    uri: 
+      https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF/resolve/main/tess-medium-200k-v1.0.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-m-creative-v1.0-gguf__tess-medium-200k-v1.0.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-M-Creative-v1.0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-M-Creative-v1.0-GGUF

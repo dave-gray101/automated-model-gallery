@@ -1,0 +1,1308 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+    sha256: 17ea8d5d6cf2e058a1a4eba7c8fc2f6659f0ad92f72b853f9285f6d88ef9a4f7
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+    sha256: c12f8f928a9a0840c1a46166d5d7de75223634c4b7ecc5774ab2539356b24bbd
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+    sha256: 870d994d3e4f3f6ff742a7079f4c8805721e85a13efc43febd5474bce738b37a
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+    sha256: 50376366ef727604bdfb99aa974b39e867c310ac2eebd2b49b613fde23bc22a1
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+    sha256: ba75d2c6ad99584c458f45bb14ef82bda2df60256a5d87b82a08d390360b0039
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+    sha256: 8bee931faf5427efcc78a0c0e83b0f8c1916569ad08092c50458a9ae3d7e3be6
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+    sha256: 4b302f63047d7da815025e2e63576b71007f1ac9520008be8b6b3da76a898d2e
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+    sha256: e694a265f3e2e771bc30858223cfba4b189995c584068d9dd4ac95dce314ff37
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+    sha256: 03767d4a299513072735f346e05a11d1b06600da89a19da521d6b0a4c640084c
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+    sha256: c19ba6d52fd8b67be82d9cf364fedd6c552e50cd8d3e10c943811d8d5ec88dc5
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+    sha256: 6bbdd4d213e8e54c0c215b1f59fb2846b24c592c36a645ddcddf219cd3983796
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+    sha256: 09c14fbc1bd8543eb7e3d7f50c8a1a14c58929f72e83ae9b197ef7309ecfbc90
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+    sha256: 17ea8d5d6cf2e058a1a4eba7c8fc2f6659f0ad92f72b853f9285f6d88ef9a4f7
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+    sha256: c12f8f928a9a0840c1a46166d5d7de75223634c4b7ecc5774ab2539356b24bbd
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+    sha256: 870d994d3e4f3f6ff742a7079f4c8805721e85a13efc43febd5474bce738b37a
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+    sha256: 50376366ef727604bdfb99aa974b39e867c310ac2eebd2b49b613fde23bc22a1
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+    sha256: ba75d2c6ad99584c458f45bb14ef82bda2df60256a5d87b82a08d390360b0039
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+    sha256: 8bee931faf5427efcc78a0c0e83b0f8c1916569ad08092c50458a9ae3d7e3be6
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+    sha256: 4b302f63047d7da815025e2e63576b71007f1ac9520008be8b6b3da76a898d2e
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+    sha256: e694a265f3e2e771bc30858223cfba4b189995c584068d9dd4ac95dce314ff37
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+    sha256: 03767d4a299513072735f346e05a11d1b06600da89a19da521d6b0a4c640084c
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+    sha256: c19ba6d52fd8b67be82d9cf364fedd6c552e50cd8d3e10c943811d8d5ec88dc5
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+    sha256: 6bbdd4d213e8e54c0c215b1f59fb2846b24c592c36a645ddcddf219cd3983796
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+    sha256: 09c14fbc1bd8543eb7e3d7f50c8a1a14c58929f72e83ae9b197ef7309ecfbc90
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+    sha256: 17ea8d5d6cf2e058a1a4eba7c8fc2f6659f0ad92f72b853f9285f6d88ef9a4f7
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+    sha256: c12f8f928a9a0840c1a46166d5d7de75223634c4b7ecc5774ab2539356b24bbd
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+    sha256: 870d994d3e4f3f6ff742a7079f4c8805721e85a13efc43febd5474bce738b37a
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+    sha256: 50376366ef727604bdfb99aa974b39e867c310ac2eebd2b49b613fde23bc22a1
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+    sha256: ba75d2c6ad99584c458f45bb14ef82bda2df60256a5d87b82a08d390360b0039
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+    sha256: 8bee931faf5427efcc78a0c0e83b0f8c1916569ad08092c50458a9ae3d7e3be6
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+    sha256: 4b302f63047d7da815025e2e63576b71007f1ac9520008be8b6b3da76a898d2e
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+    sha256: e694a265f3e2e771bc30858223cfba4b189995c584068d9dd4ac95dce314ff37
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+    sha256: 03767d4a299513072735f346e05a11d1b06600da89a19da521d6b0a4c640084c
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+    sha256: c19ba6d52fd8b67be82d9cf364fedd6c552e50cd8d3e10c943811d8d5ec88dc5
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+    sha256: 6bbdd4d213e8e54c0c215b1f59fb2846b24c592c36a645ddcddf219cd3983796
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+    sha256: 09c14fbc1bd8543eb7e3d7f50c8a1a14c58929f72e83ae9b197ef7309ecfbc90
+    uri: 
+      https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF/resolve/main/openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openthaigpt-1.0.0-beta-13b-chat-gguf__openthaigpt-1.0.0-beta-13b-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - openthaigpt
+  - text-generation
+  - th
+  - en
+  - base_model:openthaigpt/openthaigpt-1.0.0-beta-13b-chat-hf
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openthaigpt-1.0.0-beta-13B-chat-GGUF

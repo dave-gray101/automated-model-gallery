@@ -1,0 +1,888 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q2_K.gguf
+    sha256: fd181e35c9cd29fc243e5ab2efe836b76c403cf351565099e84d7b1928a89591
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q3_K_L.gguf
+    sha256: e0894018b0ebec5abd18a9d85738d5fad62c484fd19e084f73cfc65acd3882f6
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q3_K_M.gguf
+    sha256: 242a7216ff1166da2c1dd8169bb447b0fd30e14375dc01ca615a24dd780effc9
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q3_K_S.gguf
+    sha256: cff838c9d5a4c5874853cb51422dc6145a1b7d949f19ecc874a2822c0e1d7fb5
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q4_0.gguf
+    sha256: 764b2a5563dcf6b4fc7251a97067a7af930fdc5fc61755ddbd13e935485bc707
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q4_K_M.gguf
+    sha256: b90c239cea8d60a986e4eed3f3dc019c8a4f5f5ac566fa46edbd9950613dc00e
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q4_K_S.gguf
+    sha256: 453736a9b77a06487385d88d973ed057244e79ba9b7387ff6335d62a90539f77
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q5_0.gguf
+    sha256: 8051bd9619f3a36603e26da70492680960559f77b58dbfddb98a080a8293dd7e
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q5_K_M.gguf
+    sha256: 5d14fdce9fbf72accab1aa31505e649399da837cf7f5dd3a07bc6d4643ab3cc9
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q5_K_S.gguf
+    sha256: d3bacbc23f8f34384e84329c2e0f4752bd65b716bab443096d5a942eaeba2d50
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q6_K.gguf
+    sha256: fc9eb129e73472f48f21f198ae4631f2df99fcf3ad5cb74557226da7cc03fe0d
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openzephyrchat.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q8_0.gguf
+    sha256: 2745e8a4c568384d505a330e2839e447d6f8f9074ee02bf079ad23363d763f4a
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q2_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q2_K.gguf
+    sha256: fd181e35c9cd29fc243e5ab2efe836b76c403cf351565099e84d7b1928a89591
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q3_K_L.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q3_K_L.gguf
+    sha256: e0894018b0ebec5abd18a9d85738d5fad62c484fd19e084f73cfc65acd3882f6
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q3_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q3_K_M.gguf
+    sha256: 242a7216ff1166da2c1dd8169bb447b0fd30e14375dc01ca615a24dd780effc9
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q3_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q3_K_S.gguf
+    sha256: cff838c9d5a4c5874853cb51422dc6145a1b7d949f19ecc874a2822c0e1d7fb5
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q4_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q4_0.gguf
+    sha256: 764b2a5563dcf6b4fc7251a97067a7af930fdc5fc61755ddbd13e935485bc707
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q4_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q4_K_M.gguf
+    sha256: b90c239cea8d60a986e4eed3f3dc019c8a4f5f5ac566fa46edbd9950613dc00e
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q4_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q4_K_S.gguf
+    sha256: 453736a9b77a06487385d88d973ed057244e79ba9b7387ff6335d62a90539f77
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q5_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q5_0.gguf
+    sha256: 8051bd9619f3a36603e26da70492680960559f77b58dbfddb98a080a8293dd7e
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q5_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q5_K_M.gguf
+    sha256: 5d14fdce9fbf72accab1aa31505e649399da837cf7f5dd3a07bc6d4643ab3cc9
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q5_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q5_K_S.gguf
+    sha256: d3bacbc23f8f34384e84329c2e0f4752bd65b716bab443096d5a942eaeba2d50
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q6_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q6_K.gguf
+    sha256: fc9eb129e73472f48f21f198ae4631f2df99fcf3ad5cb74557226da7cc03fe0d
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openzephyrchat.Q8_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/OpenZephyrChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: openzephyrchat.Q8_0.gguf
+    sha256: 2745e8a4c568384d505a330e2839e447d6f8f9074ee02bf079ad23363d763f4a
+    uri: 
+      https://huggingface.co/TheBloke/OpenZephyrChat-GGUF/resolve/main/openzephyrchat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openzephyrchat-gguf__openzephyrchat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - zephyr
+  - openchat
+  - en
+  - base_model:Fredithefish/OpenZephyrChat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenZephyrChat-GGUF

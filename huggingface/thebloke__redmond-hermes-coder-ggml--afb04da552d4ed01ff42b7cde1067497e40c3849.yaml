@@ -1,0 +1,160 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: redmond-hermes-coder.ggmlv3.q4_0.bin
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Redmond-Hermes-Coder-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: redmond-hermes-coder.ggmlv3.q4_0.bin
+    sha256: 865183c5ca68cfe0e89d9da479ed94730ade58092d60ea02d2b0a1cac249e0b7
+    uri: 
+      https://huggingface.co/TheBloke/Redmond-Hermes-Coder-GGML/resolve/main/redmond-hermes-coder.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl
+  name: thebloke__redmond-hermes-coder-ggml__redmond-hermes-coder.ggmlv3.q4_0.bin
+  tags:
+  - starcoder
+  - wizardcoder
+  - code
+  - self-instruct
+  - distillation
+  - en
+  - license:gpl
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Redmond-Hermes-Coder-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: redmond-hermes-coder.ggmlv3.q4_1.bin
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Redmond-Hermes-Coder-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: redmond-hermes-coder.ggmlv3.q4_1.bin
+    sha256: 61ed99654101d4b811b02db5e8f965d95d512e8f925b283ce9a6fc1e06baf72f
+    uri: 
+      https://huggingface.co/TheBloke/Redmond-Hermes-Coder-GGML/resolve/main/redmond-hermes-coder.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl
+  name: thebloke__redmond-hermes-coder-ggml__redmond-hermes-coder.ggmlv3.q4_1.bin
+  tags:
+  - starcoder
+  - wizardcoder
+  - code
+  - self-instruct
+  - distillation
+  - en
+  - license:gpl
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Redmond-Hermes-Coder-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: redmond-hermes-coder.ggmlv3.q5_0.bin
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Redmond-Hermes-Coder-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: redmond-hermes-coder.ggmlv3.q5_0.bin
+    sha256: cd68052f2eb0603bf63dcbf9c5debdc74036c531e19bf03c2189749a0b2fe0b8
+    uri: 
+      https://huggingface.co/TheBloke/Redmond-Hermes-Coder-GGML/resolve/main/redmond-hermes-coder.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl
+  name: thebloke__redmond-hermes-coder-ggml__redmond-hermes-coder.ggmlv3.q5_0.bin
+  tags:
+  - starcoder
+  - wizardcoder
+  - code
+  - self-instruct
+  - distillation
+  - en
+  - license:gpl
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Redmond-Hermes-Coder-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: redmond-hermes-coder.ggmlv3.q5_1.bin
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Redmond-Hermes-Coder-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: redmond-hermes-coder.ggmlv3.q5_1.bin
+    sha256: 34ea32b03d0ff06f4f32fb904c09b3da4e2475efb3839fd35a1ab60e66cb07f9
+    uri: 
+      https://huggingface.co/TheBloke/Redmond-Hermes-Coder-GGML/resolve/main/redmond-hermes-coder.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl
+  name: thebloke__redmond-hermes-coder-ggml__redmond-hermes-coder.ggmlv3.q5_1.bin
+  tags:
+  - starcoder
+  - wizardcoder
+  - code
+  - self-instruct
+  - distillation
+  - en
+  - license:gpl
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Redmond-Hermes-Coder-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: redmond-hermes-coder.ggmlv3.q8_0.bin
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Redmond-Hermes-Coder-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: redmond-hermes-coder.ggmlv3.q8_0.bin
+    sha256: 0e78f69cd7dc32ddc5bfadd20a2752a4fd32fd70c3893540eb77237d9876f41b
+    uri: 
+      https://huggingface.co/TheBloke/Redmond-Hermes-Coder-GGML/resolve/main/redmond-hermes-coder.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl
+  name: thebloke__redmond-hermes-coder-ggml__redmond-hermes-coder.ggmlv3.q8_0.bin
+  tags:
+  - starcoder
+  - wizardcoder
+  - code
+  - self-instruct
+  - distillation
+  - en
+  - license:gpl
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Redmond-Hermes-Coder-GGML

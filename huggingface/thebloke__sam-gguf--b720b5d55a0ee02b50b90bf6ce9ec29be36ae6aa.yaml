@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q2_K.gguf
+    sha256: b74175534d527200b7aed04b48aff4a169c1df51c8ebf565b96c28c1cdd0560c
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q3_K_L.gguf
+    sha256: 4c1e373bb77c267a7fb591d49d46c1545f0ea084e1627ab658ebd2687e3a1160
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q3_K_M.gguf
+    sha256: 8c5fb9eedd6a0a1650525bab75d279a4bb44409bcd2cb0bb4b2e920f93a20b9c
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q3_K_S.gguf
+    sha256: f1a8e3b76ab2553a6ffc5f0ea5fab9a388f11d6b1fbd5f88f8763732172345bd
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q4_0.gguf
+    sha256: 20f5ae4d97094915c83f590be260499462801fb065e28187650c41e22512c773
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q4_K_M.gguf
+    sha256: 31e3064383bdf6b6a84bae0a391b7020467f81a855c5d4b5eb23364f080ca20c
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q4_K_S.gguf
+    sha256: e1d53090da3dcb2ff529da0d545b0244e2ae764ba5e7c1d4805033ab4acb9a6f
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q5_0.gguf
+    sha256: 83665d0c22611aeda7f8bfa8b7437a75ba6ff043d794c5e0ab39769471fb75e3
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q5_K_M.gguf
+    sha256: af54a24367fbb44c2359a3c49f462e95c4745b8d933ceaf6eef1c8455c2ce9b4
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q5_K_S.gguf
+    sha256: fb6c50956f46cd63f2f158f20445e8f6872e277c7bd0cf9f30992f21637b265b
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q6_K.gguf
+    sha256: 9730ed095fe0026c4208e4c0e7644b01103f6378804addff4e67000a82aa95f3
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sam.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q8_0.gguf
+    sha256: fcf5a98744f2a7d7c9bd6b9df80ae751932a66a8d8e135d1535bbe279039b6f8
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q2_K.gguf
+    sha256: b74175534d527200b7aed04b48aff4a169c1df51c8ebf565b96c28c1cdd0560c
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q3_K_L.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q3_K_L.gguf
+    sha256: 4c1e373bb77c267a7fb591d49d46c1545f0ea084e1627ab658ebd2687e3a1160
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q3_K_M.gguf
+    sha256: 8c5fb9eedd6a0a1650525bab75d279a4bb44409bcd2cb0bb4b2e920f93a20b9c
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q3_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q3_K_S.gguf
+    sha256: f1a8e3b76ab2553a6ffc5f0ea5fab9a388f11d6b1fbd5f88f8763732172345bd
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q4_0.gguf
+    sha256: 20f5ae4d97094915c83f590be260499462801fb065e28187650c41e22512c773
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q4_K_M.gguf
+    sha256: 31e3064383bdf6b6a84bae0a391b7020467f81a855c5d4b5eb23364f080ca20c
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q4_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q4_K_S.gguf
+    sha256: e1d53090da3dcb2ff529da0d545b0244e2ae764ba5e7c1d4805033ab4acb9a6f
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q5_0.gguf
+    sha256: 83665d0c22611aeda7f8bfa8b7437a75ba6ff043d794c5e0ab39769471fb75e3
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q5_K_M.gguf
+    sha256: af54a24367fbb44c2359a3c49f462e95c4745b8d933ceaf6eef1c8455c2ce9b4
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q5_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q5_K_S.gguf
+    sha256: fb6c50956f46cd63f2f158f20445e8f6872e277c7bd0cf9f30992f21637b265b
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q6_K.gguf
+    sha256: 9730ed095fe0026c4208e4c0e7644b01103f6378804addff4e67000a82aa95f3
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sam.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SAM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sam.Q8_0.gguf
+    sha256: fcf5a98744f2a7d7c9bd6b9df80ae751932a66a8d8e135d1535bbe279039b6f8
+    uri: https://huggingface.co/TheBloke/SAM-GGUF/resolve/main/sam.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sam-gguf__sam.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:SuperAGI/SAM
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SAM-GGUF

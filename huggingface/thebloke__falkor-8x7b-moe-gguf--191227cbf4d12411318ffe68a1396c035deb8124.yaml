@@ -1,0 +1,248 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: falkor-8x7b-moe.Q2_K.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/Falkor-8x7B-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: falkor-8x7b-moe.Q2_K.gguf
+    sha256: 300462384e9a33f7311dac175c1b635458692993c2c71ec8356d9a92cb230187
+    uri: 
+      https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF/resolve/main/falkor-8x7b-moe.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__falkor-8x7b-moe-gguf__falkor-8x7b-moe.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:perlthoughts/Falkor-8x7B-MoE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: falkor-8x7b-moe.Q3_K_M.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/Falkor-8x7B-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: falkor-8x7b-moe.Q3_K_M.gguf
+    sha256: 1c58ae6c9137f57286fb01a72d34b86a1e16954e3eb7fd22aa47b262765c6353
+    uri: 
+      https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF/resolve/main/falkor-8x7b-moe.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__falkor-8x7b-moe-gguf__falkor-8x7b-moe.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:perlthoughts/Falkor-8x7B-MoE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: falkor-8x7b-moe.Q4_0.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/Falkor-8x7B-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: falkor-8x7b-moe.Q4_0.gguf
+    sha256: db2a445826d4c7bee617a8694bad4474fed3cc4764b1d073c4dac7c688e089e4
+    uri: 
+      https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF/resolve/main/falkor-8x7b-moe.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__falkor-8x7b-moe-gguf__falkor-8x7b-moe.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:perlthoughts/Falkor-8x7B-MoE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: falkor-8x7b-moe.Q4_K_M.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/Falkor-8x7B-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: falkor-8x7b-moe.Q4_K_M.gguf
+    sha256: 7a948a52db3d53fe56230784df6100196da3bdb0403271ca4e7ffd235752e455
+    uri: 
+      https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF/resolve/main/falkor-8x7b-moe.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__falkor-8x7b-moe-gguf__falkor-8x7b-moe.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:perlthoughts/Falkor-8x7B-MoE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: falkor-8x7b-moe.Q5_0.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/Falkor-8x7B-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: falkor-8x7b-moe.Q5_0.gguf
+    sha256: 1550a6c633750fce66756426d8084ccbede67cbb6b461084092e9a964542eb82
+    uri: 
+      https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF/resolve/main/falkor-8x7b-moe.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__falkor-8x7b-moe-gguf__falkor-8x7b-moe.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:perlthoughts/Falkor-8x7B-MoE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: falkor-8x7b-moe.Q5_K_M.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/Falkor-8x7B-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: falkor-8x7b-moe.Q5_K_M.gguf
+    sha256: edcb7c17abc0352fbbbb56f639e8498e94b1933111c0f6c25923f1303b96285d
+    uri: 
+      https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF/resolve/main/falkor-8x7b-moe.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__falkor-8x7b-moe-gguf__falkor-8x7b-moe.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:perlthoughts/Falkor-8x7B-MoE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: falkor-8x7b-moe.Q6_K.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/Falkor-8x7B-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: falkor-8x7b-moe.Q6_K.gguf
+    sha256: 67b5b4ff6dffd29264c0a60140fa2dab46397a6ef6b28db7b11103758211e22e
+    uri: 
+      https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF/resolve/main/falkor-8x7b-moe.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__falkor-8x7b-moe-gguf__falkor-8x7b-moe.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:perlthoughts/Falkor-8x7B-MoE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: falkor-8x7b-moe.Q8_0.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/Falkor-8x7B-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: falkor-8x7b-moe.Q8_0.gguf
+    sha256: 89246a253fbac6aad7bc6d9c89e1c8d3710bf23111d876f8452cc1904a0089e6
+    uri: 
+      https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF/resolve/main/falkor-8x7b-moe.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__falkor-8x7b-moe-gguf__falkor-8x7b-moe.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:perlthoughts/Falkor-8x7B-MoE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Falkor-8x7B-MoE-GGUF

@@ -1,0 +1,864 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q2_K.gguf
+    sha256: ca7bf6e37f0e23a73cbd8835877807b3a2ef9e56d13e710e453a90ad3e994dc9
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q3_K_L.gguf
+    sha256: 1aa31df79735cf3e81209c5f9badbd6a8d16ac1ab34e06b1e234183490c1da6e
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q3_K_M.gguf
+    sha256: 1a6f348f56aa67a72ffa2876e3a7cbd81c94cc938d03257c2ed0fbe19510a7d3
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q3_K_S.gguf
+    sha256: 645cdbb2a6a2458a9b748b53fef7c549f712e8dbe33f9a99b5f24f63f89c6afa
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q4_0.gguf
+    sha256: c6284fd953cc268de0fdc458ebd315f0ddb907e104fd1b4e4f0830a8eed6130b
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q4_K_M.gguf
+    sha256: aa3834958b20896d899f7b40ffa13d32714e1a65b493c62348cfb30778069642
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q4_K_S.gguf
+    sha256: 8a2245b3ff2a60c1487d0f657c4073dc1a8a00c04c327814a29ef72793bd5c3d
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q5_0.gguf
+    sha256: 97fea3de79bdd337100889cbf7716305b710771176ecafd147b2b0040ecf1bea
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q5_K_M.gguf
+    sha256: 572b08871e001fc61f273c5d96b08be1ebe02eaaa5f930c646156b5d5a446be0
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q5_K_S.gguf
+    sha256: 65a9278537d07862039a32c808331929abc281849756e5238206120f8ec1e399
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q6_K.gguf
+    sha256: cc39bb715c54fd8d707b1fd35c97cda2a67e832193fdc4b76a088c7b6816fd66
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-macaroni-maid-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q8_0.gguf
+    sha256: 4927496e5165d88f4bc31adbf348bc002ef0201f7a5800a460bfc5b9ba9ae935
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q2_K.gguf
+    sha256: ca7bf6e37f0e23a73cbd8835877807b3a2ef9e56d13e710e453a90ad3e994dc9
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q3_K_L.gguf
+    sha256: 1aa31df79735cf3e81209c5f9badbd6a8d16ac1ab34e06b1e234183490c1da6e
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q3_K_M.gguf
+    sha256: 1a6f348f56aa67a72ffa2876e3a7cbd81c94cc938d03257c2ed0fbe19510a7d3
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q3_K_S.gguf
+    sha256: 645cdbb2a6a2458a9b748b53fef7c549f712e8dbe33f9a99b5f24f63f89c6afa
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q4_0.gguf
+    sha256: c6284fd953cc268de0fdc458ebd315f0ddb907e104fd1b4e4f0830a8eed6130b
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q4_K_M.gguf
+    sha256: aa3834958b20896d899f7b40ffa13d32714e1a65b493c62348cfb30778069642
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q4_K_S.gguf
+    sha256: 8a2245b3ff2a60c1487d0f657c4073dc1a8a00c04c327814a29ef72793bd5c3d
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q5_0.gguf
+    sha256: 97fea3de79bdd337100889cbf7716305b710771176ecafd147b2b0040ecf1bea
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q5_K_M.gguf
+    sha256: 572b08871e001fc61f273c5d96b08be1ebe02eaaa5f930c646156b5d5a446be0
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q5_K_S.gguf
+    sha256: 65a9278537d07862039a32c808331929abc281849756e5238206120f8ec1e399
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q6_K.gguf
+    sha256: cc39bb715c54fd8d707b1fd35c97cda2a67e832193fdc4b76a088c7b6816fd66
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-macaroni-maid-7b.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Loyal-Macaroni-Maid-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: loyal-macaroni-maid-7b.Q8_0.gguf
+    sha256: 4927496e5165d88f4bc31adbf348bc002ef0201f7a5800a460bfc5b9ba9ae935
+    uri: 
+      https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF/resolve/main/loyal-macaroni-maid-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-macaroni-maid-7b-gguf__loyal-macaroni-maid-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - not-for-all-audiences
+  - nsfw
+  - base_model:SanjiWatsuki/Loyal-Macaroni-Maid-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Loyal-Macaroni-Maid-7B-GGUF

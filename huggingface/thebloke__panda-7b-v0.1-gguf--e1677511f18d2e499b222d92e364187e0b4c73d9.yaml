@@ -1,0 +1,840 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q2_K.gguf
+    sha256: bd3c20a314f882979229a1528c7f43fdfe4ff7e3c0063c05cb27a8ebd236a26c
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q3_K_L.gguf
+    sha256: c8a213d236be1da07872dac412fcc69314c262eac04c187c2ec868a15b8320e8
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q3_K_M.gguf
+    sha256: 404b53b1d26e40244ffa242199535049a12a8129ea6be133811b389a3af09c38
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q3_K_S.gguf
+    sha256: f7b1f35cdf61ad01b6c38838088f0dfebecbbbc215284102460c5f8140bd09ef
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q4_0.gguf
+    sha256: 55e7b81305cf416abf0e1a70e33d1b574c386fe2a4fea87f06726393cc70bcf3
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q4_K_M.gguf
+    sha256: 6f928affed046ed8f985d10a3d2e0b73ef71df1190b6e37672d1cc579a0de9d4
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q4_K_S.gguf
+    sha256: a2c7431c4d0f14eb662d57aa18a4c4aead046178d2f2d94b519d5f9d8d97074d
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q5_0.gguf
+    sha256: 52328004c7e99e972c427c99a8ac0496fa56250026b182eafc9646185bae7f8e
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q5_K_M.gguf
+    sha256: 91f93b544881442576d85c063acf06fe277ded92aa5445104bffcf6863ce9c3f
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q5_K_S.gguf
+    sha256: b99c3f21d20bdc8f8017c75e95092ff6dd7d11ced39224f897c9ee12939a3d8e
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q6_K.gguf
+    sha256: 2a5150026d780734f06851722b373183b44a3be7141fbadf68e2cb8fba776313
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: panda-7b-v0.1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q8_0.gguf
+    sha256: b56a19cf8a89199ef73495ec309ff026d60bc376a454e0398037ba226cc8d438
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q2_K.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q2_K.gguf
+    sha256: bd3c20a314f882979229a1528c7f43fdfe4ff7e3c0063c05cb27a8ebd236a26c
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q3_K_L.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q3_K_L.gguf
+    sha256: c8a213d236be1da07872dac412fcc69314c262eac04c187c2ec868a15b8320e8
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q3_K_M.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q3_K_M.gguf
+    sha256: 404b53b1d26e40244ffa242199535049a12a8129ea6be133811b389a3af09c38
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q3_K_S.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q3_K_S.gguf
+    sha256: f7b1f35cdf61ad01b6c38838088f0dfebecbbbc215284102460c5f8140bd09ef
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q4_0.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q4_0.gguf
+    sha256: 55e7b81305cf416abf0e1a70e33d1b574c386fe2a4fea87f06726393cc70bcf3
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q4_K_M.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q4_K_M.gguf
+    sha256: 6f928affed046ed8f985d10a3d2e0b73ef71df1190b6e37672d1cc579a0de9d4
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q4_K_S.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q4_K_S.gguf
+    sha256: a2c7431c4d0f14eb662d57aa18a4c4aead046178d2f2d94b519d5f9d8d97074d
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q5_0.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q5_0.gguf
+    sha256: 52328004c7e99e972c427c99a8ac0496fa56250026b182eafc9646185bae7f8e
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q5_K_M.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q5_K_M.gguf
+    sha256: 91f93b544881442576d85c063acf06fe277ded92aa5445104bffcf6863ce9c3f
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q5_K_S.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q5_K_S.gguf
+    sha256: b99c3f21d20bdc8f8017c75e95092ff6dd7d11ced39224f897c9ee12939a3d8e
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q6_K.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q6_K.gguf
+    sha256: 2a5150026d780734f06851722b373183b44a3be7141fbadf68e2cb8fba776313
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: panda-7b-v0.1.Q8_0.gguf
+    template:
+      chat: thebloke__panda-7b-v0.1-gguf
+      completion: thebloke__panda-7b-v0.1-gguf
+  description: TheBloke/Panda-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__panda-7b-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__panda-7b-v0.1-gguf.tmpl
+  - filename: panda-7b-v0.1.Q8_0.gguf
+    sha256: b56a19cf8a89199ef73495ec309ff026d60bc376a454e0398037ba226cc8d438
+    uri: 
+      https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF/resolve/main/panda-7b-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__panda-7b-v0.1-gguf__panda-7b-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:NeuralNovel/Creative-Logic-Problem-Solver-v1
+  - dataset:NeuralNovel/Neural-Story-v1
+  - base_model:NeuralNovel/Panda-7B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Panda-7B-v0.1-GGUF

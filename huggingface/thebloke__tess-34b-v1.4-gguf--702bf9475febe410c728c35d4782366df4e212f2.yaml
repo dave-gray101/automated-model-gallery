@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q2_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q2_K.gguf
+    sha256: 4185a8fb675cdc48cc32a41279b1ec24b8aa5fe3edce709170f429c420fec2c1
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q3_K_L.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q3_K_L.gguf
+    sha256: ec2a30c357ac8aed7a4110d6eb3b4ed1ecca67adbe341cec6c7a3347f16925e0
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q3_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q3_K_M.gguf
+    sha256: 6b43eb114d6c6b0099646120f1efeaea6818ed50720ce379b1f1932eae3b067a
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q3_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q3_K_S.gguf
+    sha256: 165ae6b00e5251a1ef1f2cb03f9b586acde710ce290543f19410c432d007cbc2
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q4_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q4_0.gguf
+    sha256: b7611c75d010576ddb5ec25078aaa4e765026d13a2e2bd3fa4dec7b68f6f22a5
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q4_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q4_K_M.gguf
+    sha256: 48ec5a94734b876ec1ea3598029fdbe59a352cf3fcf5784b67b3991ab3cb93ff
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q4_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q4_K_S.gguf
+    sha256: fe0b710ddc99a7dae5fd9b4b8225bd0fa8de23ee3afb22196d521c469419bd08
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q5_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q5_0.gguf
+    sha256: 309a044756b2478aab6d1082bf18dd6f734f5fe5a45625e32107b67a05afd885
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q5_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q5_K_M.gguf
+    sha256: 619eafd70540f4e3826e11efed32e9e26f4899c7eaf8787c7110059dd2b6c8a5
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q5_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q5_K_S.gguf
+    sha256: f0b8689517919a2729add76cedf64909b2ee207730c99c4d5ce79b1d1b02ce38
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q6_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q6_K.gguf
+    sha256: fc1cd870ec82f48be8391658896c8f9a7e6144781c90c6b795a9d9a767fdbd79
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-34b-v1.4.Q8_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-34B-v1.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-34b-v1.4.Q8_0.gguf
+    sha256: 6ad2f0b93268ae3620740e023ca1a5c6e08b566414470705d226680cf9e60b33
+    uri: 
+      https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF/resolve/main/tess-34b-v1.4.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tess-34b-v1.4-gguf__tess-34b-v1.4.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:migtissera/Tess-34B-v1.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-34B-v1.4-GGUF

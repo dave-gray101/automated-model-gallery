@@ -1,0 +1,1404 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q2_K.gguf
+    sha256: 295219eef18bcf416e39744cf078cb44e921ef4f62492d3cbcb9126d242bb5d3
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q3_K_L.gguf
+    sha256: 87d5670dfcd7ca5ecd8671cdb66758ac1270e15dfd2189e8515199d23784384e
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q3_K_M.gguf
+    sha256: 2a571c65e7a04f9d2c728fd6d6b864a5760704d7ade271e6cf8960fa78b7dec8
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q3_K_S.gguf
+    sha256: 42e5b530a7674bc20c89eba4487e791aba5f65727ba11c9dd329030ef02ef8c4
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q4_0.gguf
+    sha256: f632bdd1fbcfa7f508284a230d952165a088ce960afe2b686c55e1b9e202501d
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q4_K_M.gguf
+    sha256: 20ee17c6004871171c5db29faa33d5c4773a8c040d426f4d73cbad017ed1d53c
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q4_K_S.gguf
+    sha256: ab54843fa0fa0f2900d48a30e669a986b6a8155016e7e0c302770b80f40fc480
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q5_0.gguf
+    sha256: 63019b8bdc859b3d574d2362c0a75f7825a14a8372d47e38de416672cb41120f
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q5_K_M.gguf
+    sha256: cc6f19e29473bc7d0bc8630d0da10907957cf691af974a46d22f40dbfc95ecff
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q5_K_S.gguf
+    sha256: ac4ca42b7d642b5f58e945f6e234fe8682f050758fa8b7bfa3a318e0996d337e
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q6_K.gguf
+    sha256: 28eb0e7e5a0ffc63a4d11e5d6b6b2339698b5a4d301b7bb12508c3368df14b57
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q8_0.gguf
+    sha256: 7c4b15ffbd7f26150381e4fb2a9ca5d17086cfb905dddbcdf100989ca1e1a7b8
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q2_K.gguf
+    sha256: 295219eef18bcf416e39744cf078cb44e921ef4f62492d3cbcb9126d242bb5d3
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q3_K_L.gguf
+    sha256: 87d5670dfcd7ca5ecd8671cdb66758ac1270e15dfd2189e8515199d23784384e
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q3_K_M.gguf
+    sha256: 2a571c65e7a04f9d2c728fd6d6b864a5760704d7ade271e6cf8960fa78b7dec8
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q3_K_S.gguf
+    sha256: 42e5b530a7674bc20c89eba4487e791aba5f65727ba11c9dd329030ef02ef8c4
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q4_0.gguf
+    sha256: f632bdd1fbcfa7f508284a230d952165a088ce960afe2b686c55e1b9e202501d
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q4_K_M.gguf
+    sha256: 20ee17c6004871171c5db29faa33d5c4773a8c040d426f4d73cbad017ed1d53c
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q4_K_S.gguf
+    sha256: ab54843fa0fa0f2900d48a30e669a986b6a8155016e7e0c302770b80f40fc480
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q5_0.gguf
+    sha256: 63019b8bdc859b3d574d2362c0a75f7825a14a8372d47e38de416672cb41120f
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q5_K_M.gguf
+    sha256: cc6f19e29473bc7d0bc8630d0da10907957cf691af974a46d22f40dbfc95ecff
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q5_K_S.gguf
+    sha256: ac4ca42b7d642b5f58e945f6e234fe8682f050758fa8b7bfa3a318e0996d337e
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q6_K.gguf
+    sha256: 28eb0e7e5a0ffc63a4d11e5d6b6b2339698b5a4d301b7bb12508c3368df14b57
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q8_0.gguf
+    sha256: 7c4b15ffbd7f26150381e4fb2a9ca5d17086cfb905dddbcdf100989ca1e1a7b8
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q2_K.gguf
+    sha256: 295219eef18bcf416e39744cf078cb44e921ef4f62492d3cbcb9126d242bb5d3
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q3_K_L.gguf
+    sha256: 87d5670dfcd7ca5ecd8671cdb66758ac1270e15dfd2189e8515199d23784384e
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q3_K_M.gguf
+    sha256: 2a571c65e7a04f9d2c728fd6d6b864a5760704d7ade271e6cf8960fa78b7dec8
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q3_K_S.gguf
+    sha256: 42e5b530a7674bc20c89eba4487e791aba5f65727ba11c9dd329030ef02ef8c4
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q4_0.gguf
+    sha256: f632bdd1fbcfa7f508284a230d952165a088ce960afe2b686c55e1b9e202501d
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q4_K_M.gguf
+    sha256: 20ee17c6004871171c5db29faa33d5c4773a8c040d426f4d73cbad017ed1d53c
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q4_K_S.gguf
+    sha256: ab54843fa0fa0f2900d48a30e669a986b6a8155016e7e0c302770b80f40fc480
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q5_0.gguf
+    sha256: 63019b8bdc859b3d574d2362c0a75f7825a14a8372d47e38de416672cb41120f
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q5_K_M.gguf
+    sha256: cc6f19e29473bc7d0bc8630d0da10907957cf691af974a46d22f40dbfc95ecff
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q5_K_S.gguf
+    sha256: ac4ca42b7d642b5f58e945f6e234fe8682f050758fa8b7bfa3a318e0996d337e
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q6_K.gguf
+    sha256: 28eb0e7e5a0ffc63a4d11e5d6b6b2339698b5a4d301b7bb12508c3368df14b57
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: law-llm-13b.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/law-LLM-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: law-llm-13b.Q8_0.gguf
+    sha256: 7c4b15ffbd7f26150381e4fb2a9ca5d17086cfb905dddbcdf100989ca1e1a7b8
+    uri: 
+      https://huggingface.co/TheBloke/law-LLM-13B-GGUF/resolve/main/law-llm-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__law-llm-13b-gguf__law-llm-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - legal
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/law-LLM-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/law-LLM-13B-GGUF

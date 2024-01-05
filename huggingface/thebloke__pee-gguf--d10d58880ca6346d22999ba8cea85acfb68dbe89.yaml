@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q2_K.gguf
+    sha256: 03b232c0edc0bd9e69fc1266b799bbb35e30362f979310bbafc213d8e4bc3854
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q3_K_L.gguf
+    sha256: 3673ed370fe36fdcc279872ef10eecb436f3d6c045353c49adb25bf90c5a2b75
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q3_K_M.gguf
+    sha256: 1751619d0430a89a5349edd173ae32f4620a5e64992ae8852166a0f94f36e381
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q3_K_S.gguf
+    sha256: 8241d4c9a33a45cef90fa36d2958c47d310bbecbac0fe1023c63d0a6acd1d94e
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q4_0.gguf
+    sha256: e658d2386904f0135ee0a300aae3192e126bccf7b599bbfcd461e01d111b6b4f
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q4_K_M.gguf
+    sha256: 5a8061f6eb3467ea438dd0de7a365581fb67acc59b5acb3b83debfefad510737
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q4_K_S.gguf
+    sha256: f8914c90fd606f158dc2294813645090fbd20a09ee72b2e2b2eb698a60ddc892
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q5_0.gguf
+    sha256: 6dcb7a86b84840bbcc36757fb19082d796ead2ad1d73a0d142788c2c3c99b5a6
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q5_K_M.gguf
+    sha256: 4fb9fec72704a5b5f8672a18b5749aa26ad7a44a9726627549b70ffdcbd2b97d
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q5_K_S.gguf
+    sha256: 522f890fd9a05b8f3bddcd7fe4eb1a619a1ee717db7c866c2209e9036ac1c789
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q6_K.gguf
+    sha256: 68733df1df3ebc2573540ba908d77735614dc127a8e530c1490e785f332a4fd6
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pee.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - mistral configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q8_0.gguf
+    sha256: 9bc78549aadcc12ec772de4da2cf4510e1530226fe4d464239fae043061d38d0
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q2_K.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q2_K.gguf
+    sha256: 03b232c0edc0bd9e69fc1266b799bbb35e30362f979310bbafc213d8e4bc3854
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q3_K_L.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q3_K_L.gguf
+    sha256: 3673ed370fe36fdcc279872ef10eecb436f3d6c045353c49adb25bf90c5a2b75
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q3_K_M.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q3_K_M.gguf
+    sha256: 1751619d0430a89a5349edd173ae32f4620a5e64992ae8852166a0f94f36e381
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q3_K_S.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q3_K_S.gguf
+    sha256: 8241d4c9a33a45cef90fa36d2958c47d310bbecbac0fe1023c63d0a6acd1d94e
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q4_0.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q4_0.gguf
+    sha256: e658d2386904f0135ee0a300aae3192e126bccf7b599bbfcd461e01d111b6b4f
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q4_K_M.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q4_K_M.gguf
+    sha256: 5a8061f6eb3467ea438dd0de7a365581fb67acc59b5acb3b83debfefad510737
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q4_K_S.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q4_K_S.gguf
+    sha256: f8914c90fd606f158dc2294813645090fbd20a09ee72b2e2b2eb698a60ddc892
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q5_0.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q5_0.gguf
+    sha256: 6dcb7a86b84840bbcc36757fb19082d796ead2ad1d73a0d142788c2c3c99b5a6
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q5_K_M.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q5_K_M.gguf
+    sha256: 4fb9fec72704a5b5f8672a18b5749aa26ad7a44a9726627549b70ffdcbd2b97d
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q5_K_S.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q5_K_S.gguf
+    sha256: 522f890fd9a05b8f3bddcd7fe4eb1a619a1ee717db7c866c2209e9036ac1c789
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q6_K.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q6_K.gguf
+    sha256: 68733df1df3ebc2573540ba908d77735614dc127a8e530c1490e785f332a4fd6
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pee.Q8_0.gguf
+    template:
+      chat: thebloke__pee-gguf
+      completion: thebloke__pee-gguf
+  description: TheBloke/pee-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__pee-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__pee-gguf.tmpl
+  - filename: pee.Q8_0.gguf
+    sha256: 9bc78549aadcc12ec772de4da2cf4510e1530226fe4d464239fae043061d38d0
+    uri: https://huggingface.co/TheBloke/pee-GGUF/resolve/main/pee.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__pee-gguf__pee.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:rwitz2/pee
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/pee-GGUF

@@ -1,0 +1,1236 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q2_K.gguf
+    sha256: 392c184e1cd4854d51f9beeed33ab7f312e6fcc24fe15ce48ea913471489db9e
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q3_K_L.gguf
+    sha256: bb7d3553cb52179c398482246f2ed027b3afbcfc0bfb66f0217e67352fc0ed8e
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q3_K_M.gguf
+    sha256: c61914eece3ab8af2b2d1e8334afe76f73adbdcda73889f618ef6f9add268b41
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q3_K_S.gguf
+    sha256: 64c6a19a18f9b6b796826627a92275178fd684e8b92ad5c02e6b817048822415
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q4_0.gguf
+    sha256: 2e1df5c866bb14595def00335f013dafd2061ff59db1e8e078fea84b56af9903
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q4_K_M.gguf
+    sha256: 9db3c4766817578dbc61da21419bc4f52ef9f7e8fd3793ce0bcd639896ba3cf0
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q4_K_S.gguf
+    sha256: 7222aa6a401c17bf44aa8c85154c4ac26b671b34f2edd5b7e5b76a6e5a55776a
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q5_0.gguf
+    sha256: cb6b3c1fb6a72ef1f0ad3c0cd1fff0f586243843667e3790dfc4d514b332eaae
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q5_K_M.gguf
+    sha256: 03fdf171fa3bb17fdeb909760aca258e900088f6dacc8e95eff13619f9aad86a
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q5_K_S.gguf
+    sha256: 13ec51bf0741ec621fe2948294c472fa91ced2af2230b5b5892ed7e4ce590ad9
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q6_K.gguf
+    sha256: 877baf9523fe226f2ea00344e637f346f2faa9b86c2aa8741eec81b4d15d9c6e
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-7b-v0.3-base.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q8_0.gguf
+    sha256: 80a6c1fee7bcddebd19eb9409cb141cd1d192745237b9216fb37c7b713b9455c
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q2_K.gguf
+    sha256: 392c184e1cd4854d51f9beeed33ab7f312e6fcc24fe15ce48ea913471489db9e
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q3_K_L.gguf
+    sha256: bb7d3553cb52179c398482246f2ed027b3afbcfc0bfb66f0217e67352fc0ed8e
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q3_K_M.gguf
+    sha256: c61914eece3ab8af2b2d1e8334afe76f73adbdcda73889f618ef6f9add268b41
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q3_K_S.gguf
+    sha256: 64c6a19a18f9b6b796826627a92275178fd684e8b92ad5c02e6b817048822415
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q4_0.gguf
+    sha256: 2e1df5c866bb14595def00335f013dafd2061ff59db1e8e078fea84b56af9903
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q4_K_M.gguf
+    sha256: 9db3c4766817578dbc61da21419bc4f52ef9f7e8fd3793ce0bcd639896ba3cf0
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q4_K_S.gguf
+    sha256: 7222aa6a401c17bf44aa8c85154c4ac26b671b34f2edd5b7e5b76a6e5a55776a
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q5_0.gguf
+    sha256: cb6b3c1fb6a72ef1f0ad3c0cd1fff0f586243843667e3790dfc4d514b332eaae
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q5_K_M.gguf
+    sha256: 03fdf171fa3bb17fdeb909760aca258e900088f6dacc8e95eff13619f9aad86a
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q5_K_S.gguf
+    sha256: 13ec51bf0741ec621fe2948294c472fa91ced2af2230b5b5892ed7e4ce590ad9
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q6_K.gguf
+    sha256: 877baf9523fe226f2ea00344e637f346f2faa9b86c2aa8741eec81b4d15d9c6e
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q8_0.gguf
+    sha256: 80a6c1fee7bcddebd19eb9409cb141cd1d192745237b9216fb37c7b713b9455c
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q2_K.gguf
+    sha256: 392c184e1cd4854d51f9beeed33ab7f312e6fcc24fe15ce48ea913471489db9e
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q3_K_L.gguf
+    sha256: bb7d3553cb52179c398482246f2ed027b3afbcfc0bfb66f0217e67352fc0ed8e
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q3_K_M.gguf
+    sha256: c61914eece3ab8af2b2d1e8334afe76f73adbdcda73889f618ef6f9add268b41
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q3_K_S.gguf
+    sha256: 64c6a19a18f9b6b796826627a92275178fd684e8b92ad5c02e6b817048822415
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q4_0.gguf
+    sha256: 2e1df5c866bb14595def00335f013dafd2061ff59db1e8e078fea84b56af9903
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q4_K_M.gguf
+    sha256: 9db3c4766817578dbc61da21419bc4f52ef9f7e8fd3793ce0bcd639896ba3cf0
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q4_K_S.gguf
+    sha256: 7222aa6a401c17bf44aa8c85154c4ac26b671b34f2edd5b7e5b76a6e5a55776a
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q5_0.gguf
+    sha256: cb6b3c1fb6a72ef1f0ad3c0cd1fff0f586243843667e3790dfc4d514b332eaae
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q5_K_M.gguf
+    sha256: 03fdf171fa3bb17fdeb909760aca258e900088f6dacc8e95eff13619f9aad86a
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q5_K_S.gguf
+    sha256: 13ec51bf0741ec621fe2948294c472fa91ced2af2230b5b5892ed7e4ce590ad9
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q6_K.gguf
+    sha256: 877baf9523fe226f2ea00344e637f346f2faa9b86c2aa8741eec81b4d15d9c6e
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-7b-v0.3-base.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Synatra-7B-v0.3-base-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: synatra-7b-v0.3-base.Q8_0.gguf
+    sha256: 80a6c1fee7bcddebd19eb9409cb141cd1d192745237b9216fb37c7b713b9455c
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF/resolve/main/synatra-7b-v0.3-base.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-7b-v0.3-base-gguf__synatra-7b-v0.3-base.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-7B-v0.3-base
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-7B-v0.3-base-GGUF

@@ -1,0 +1,150 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: ultralm-13b.ggmlv3.q4_0.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/UltraLM-13B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: ultralm-13b.ggmlv3.q4_0.bin
+    sha256: ffb20eeec7067b7c0a82872c4e2dcb4581f2378bfb55d31acc575afe06670016
+    uri: 
+      https://huggingface.co/TheBloke/UltraLM-13B-GGML/resolve/main/ultralm-13b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__ultralm-13b-ggml__ultralm-13b.ggmlv3.q4_0.bin
+  tags:
+  - dataset:stingning/ultrachat
+  - arxiv:2305.14233
+  - license:other
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UltraLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: ultralm-13b.ggmlv3.q4_1.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/UltraLM-13B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: ultralm-13b.ggmlv3.q4_1.bin
+    sha256: fa70220a6cbde79142e3d905dac85242db4232ad5d5afc3bdc127fa31a6ad131
+    uri: 
+      https://huggingface.co/TheBloke/UltraLM-13B-GGML/resolve/main/ultralm-13b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__ultralm-13b-ggml__ultralm-13b.ggmlv3.q4_1.bin
+  tags:
+  - dataset:stingning/ultrachat
+  - arxiv:2305.14233
+  - license:other
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UltraLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: ultralm-13b.ggmlv3.q5_0.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/UltraLM-13B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: ultralm-13b.ggmlv3.q5_0.bin
+    sha256: 89b6bfab890ca44e8a6a3beb08d67e76b75cbfb1870c8989059cbcce51c4d0d0
+    uri: 
+      https://huggingface.co/TheBloke/UltraLM-13B-GGML/resolve/main/ultralm-13b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__ultralm-13b-ggml__ultralm-13b.ggmlv3.q5_0.bin
+  tags:
+  - dataset:stingning/ultrachat
+  - arxiv:2305.14233
+  - license:other
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UltraLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: ultralm-13b.ggmlv3.q5_1.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/UltraLM-13B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: ultralm-13b.ggmlv3.q5_1.bin
+    sha256: 66e1a8eaaef9127f9c0e7ebe34f10b008e0dfc1dc760d8228c9542b9088ab2e8
+    uri: 
+      https://huggingface.co/TheBloke/UltraLM-13B-GGML/resolve/main/ultralm-13b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__ultralm-13b-ggml__ultralm-13b.ggmlv3.q5_1.bin
+  tags:
+  - dataset:stingning/ultrachat
+  - arxiv:2305.14233
+  - license:other
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UltraLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: ultralm-13b.ggmlv3.q8_0.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/UltraLM-13B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: ultralm-13b.ggmlv3.q8_0.bin
+    sha256: 733f202e2104781601122b090bab25fad2fc7f370a1034011aafc933824414c9
+    uri: 
+      https://huggingface.co/TheBloke/UltraLM-13B-GGML/resolve/main/ultralm-13b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__ultralm-13b-ggml__ultralm-13b.ggmlv3.q8_0.bin
+  tags:
+  - dataset:stingning/ultrachat
+  - arxiv:2305.14233
+  - license:other
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UltraLM-13B-GGML

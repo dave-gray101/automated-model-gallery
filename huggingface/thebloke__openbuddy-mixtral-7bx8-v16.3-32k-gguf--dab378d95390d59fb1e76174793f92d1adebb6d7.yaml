@@ -1,0 +1,664 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q2_K.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFallback configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q2_K.gguf
+    sha256: b3e244f9f7085ac4462499f3c5454efe3287fbf36db1ac8ce70141ac01698e49
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q3_K_M.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFallback configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q3_K_M.gguf
+    sha256: 17823658bab7b9283d933ee9c70ba0cbab4e60d3b9fd8175d7c04342eff859b1
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q4_0.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFallback configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q4_0.gguf
+    sha256: 73d5f4d1e1fd7a38b495136e58a053c4765900d592d6e5e3ec939b0bcf665073
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q4_K_M.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFallback configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q4_K_M.gguf
+    sha256: 45eb380aead9562fdba823e85c013c5ca541b77c71f9852879c0c59eb703d7af
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q5_0.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFallback configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q5_0.gguf
+    sha256: eedbb78f7f0456e00fe1661121c168ea0d8278b67c418e7263116481cffff2b4
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q5_K_M.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFallback configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q5_K_M.gguf
+    sha256: fc8d37fdb37e3deae5c31f2ce902628789043eb313e777524ae749585460cc89
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q6_K.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFallback configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q6_K.gguf
+    sha256: 3b54617f5d22deefa74e882ef705ed0714540623273f1720e587f39d84fd18c4
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q8_0.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFallback configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q8_0.gguf
+    sha256: 7dfc51fc558e2c5c23b0d5b9195bc9d7ec7a60f37d55eef19719efcd3add3fb6
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q2_K.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q2_K.gguf
+    sha256: b3e244f9f7085ac4462499f3c5454efe3287fbf36db1ac8ce70141ac01698e49
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q3_K_M.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q3_K_M.gguf
+    sha256: 17823658bab7b9283d933ee9c70ba0cbab4e60d3b9fd8175d7c04342eff859b1
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q4_0.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q4_0.gguf
+    sha256: 73d5f4d1e1fd7a38b495136e58a053c4765900d592d6e5e3ec939b0bcf665073
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q4_K_M.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q4_K_M.gguf
+    sha256: 45eb380aead9562fdba823e85c013c5ca541b77c71f9852879c0c59eb703d7af
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q5_0.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q5_0.gguf
+    sha256: eedbb78f7f0456e00fe1661121c168ea0d8278b67c418e7263116481cffff2b4
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q5_K_M.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q5_K_M.gguf
+    sha256: fc8d37fdb37e3deae5c31f2ce902628789043eb313e777524ae749585460cc89
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q6_K.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q6_K.gguf
+    sha256: 3b54617f5d22deefa74e882ef705ed0714540623273f1720e587f39d84fd18c4
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mixtral-7bx8-v16.3-32k.Q8_0.gguf
+    template:
+      chat: openbuddy
+      completion: openbuddy
+  description: TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openbuddy.tmpl
+    sha256: 780ad278ac9f9d27b9e7980574e32462f703c83eff8e5c098c0babf0f2e1d770
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openbuddy.tmpl
+  - filename: openbuddy-mixtral-7bx8-v16.3-32k.Q8_0.gguf
+    sha256: 7dfc51fc558e2c5c23b0d5b9195bc9d7ec7a60f37d55eef19719efcd3add3fb6
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF/resolve/main/openbuddy-mixtral-7bx8-v16.3-32k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__openbuddy-mixtral-7bx8-v16.3-32k-gguf__openbuddy-mixtral-7bx8-v16.3-32k.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mixtral-7bx8-v16.3-32k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mixtral-7bx8-v16.3-32k-GGUF

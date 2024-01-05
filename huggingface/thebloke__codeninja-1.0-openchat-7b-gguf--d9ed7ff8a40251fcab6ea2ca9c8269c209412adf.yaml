@@ -1,0 +1,1344 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q2_K.gguf
+    sha256: e3beb4e174f8e46605cbfbbb341ba8ec6d88fc492b1e6b30ff99894e060befa9
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q3_K_L.gguf
+    sha256: 7f37453592e2a26b600184f71b9ef5d23fe60402069a62fb018b1052431cc124
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q3_K_M.gguf
+    sha256: 4f50a24b2807505d45bf1d21e67785352184528af6d9d20a19998c1645d1b78d
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q3_K_S.gguf
+    sha256: 2868befc4f05e52c114194fde3cd65837a7fbc201ebae30a02213333a54a10ff
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q4_0.gguf
+    sha256: 3ef24972116b3f4b0da187e514c3f29ae653f83c00fd6886d70d7b74694b3833
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q4_K_M.gguf
+    sha256: d1c5f845abccf57b19d6572ab9dc387988142b1d3fd93d4b4955df4bf79da237
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q4_K_S.gguf
+    sha256: 05b1373c3cd949a933d058080765a0db4ea165426b11de8300d52faa79a65f07
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q5_0.gguf
+    sha256: e4a66c43a56251b8c400d9f46887a8014fdd509cdec22b82a586bce602ba020b
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q5_K_M.gguf
+    sha256: 728a96dc670ad021ba6ce0aa04f31ed38daf5bf5f564237c869c9807a861f991
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q5_K_S.gguf
+    sha256: 8e65333896104ff99443894d405909a89689bae3b604b650ddf89013322a7519
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q6_K.gguf
+    sha256: 70c169b24af38d22545c47d061ae10e10f63e21ef7eddc38afa9f4cfc2d2c9e7
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q8_0.gguf
+    sha256: 96018256cfdba336b1a435057ac4b375d17c5fdec047db78ac26581d1dd60ec2
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q2_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q2_K.gguf
+    sha256: e3beb4e174f8e46605cbfbbb341ba8ec6d88fc492b1e6b30ff99894e060befa9
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q3_K_L.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q3_K_L.gguf
+    sha256: 7f37453592e2a26b600184f71b9ef5d23fe60402069a62fb018b1052431cc124
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q3_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q3_K_M.gguf
+    sha256: 4f50a24b2807505d45bf1d21e67785352184528af6d9d20a19998c1645d1b78d
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q3_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q3_K_S.gguf
+    sha256: 2868befc4f05e52c114194fde3cd65837a7fbc201ebae30a02213333a54a10ff
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q4_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q4_0.gguf
+    sha256: 3ef24972116b3f4b0da187e514c3f29ae653f83c00fd6886d70d7b74694b3833
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q4_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q4_K_M.gguf
+    sha256: d1c5f845abccf57b19d6572ab9dc387988142b1d3fd93d4b4955df4bf79da237
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q4_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q4_K_S.gguf
+    sha256: 05b1373c3cd949a933d058080765a0db4ea165426b11de8300d52faa79a65f07
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q5_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q5_0.gguf
+    sha256: e4a66c43a56251b8c400d9f46887a8014fdd509cdec22b82a586bce602ba020b
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q5_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q5_K_M.gguf
+    sha256: 728a96dc670ad021ba6ce0aa04f31ed38daf5bf5f564237c869c9807a861f991
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q5_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q5_K_S.gguf
+    sha256: 8e65333896104ff99443894d405909a89689bae3b604b650ddf89013322a7519
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q6_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q6_K.gguf
+    sha256: 70c169b24af38d22545c47d061ae10e10f63e21ef7eddc38afa9f4cfc2d2c9e7
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q8_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q8_0.gguf
+    sha256: 96018256cfdba336b1a435057ac4b375d17c5fdec047db78ac26581d1dd60ec2
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q2_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q2_K.gguf
+    sha256: e3beb4e174f8e46605cbfbbb341ba8ec6d88fc492b1e6b30ff99894e060befa9
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q3_K_L.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q3_K_L.gguf
+    sha256: 7f37453592e2a26b600184f71b9ef5d23fe60402069a62fb018b1052431cc124
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q3_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q3_K_M.gguf
+    sha256: 4f50a24b2807505d45bf1d21e67785352184528af6d9d20a19998c1645d1b78d
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q3_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q3_K_S.gguf
+    sha256: 2868befc4f05e52c114194fde3cd65837a7fbc201ebae30a02213333a54a10ff
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q4_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q4_0.gguf
+    sha256: 3ef24972116b3f4b0da187e514c3f29ae653f83c00fd6886d70d7b74694b3833
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q4_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q4_K_M.gguf
+    sha256: d1c5f845abccf57b19d6572ab9dc387988142b1d3fd93d4b4955df4bf79da237
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q4_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q4_K_S.gguf
+    sha256: 05b1373c3cd949a933d058080765a0db4ea165426b11de8300d52faa79a65f07
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q5_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q5_0.gguf
+    sha256: e4a66c43a56251b8c400d9f46887a8014fdd509cdec22b82a586bce602ba020b
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q5_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q5_K_M.gguf
+    sha256: 728a96dc670ad021ba6ce0aa04f31ed38daf5bf5f564237c869c9807a861f991
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q5_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q5_K_S.gguf
+    sha256: 8e65333896104ff99443894d405909a89689bae3b604b650ddf89013322a7519
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q6_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q6_K.gguf
+    sha256: 70c169b24af38d22545c47d061ae10e10f63e21ef7eddc38afa9f4cfc2d2c9e7
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeninja-1.0-openchat-7b.Q8_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: codeninja-1.0-openchat-7b.Q8_0.gguf
+    sha256: 96018256cfdba336b1a435057ac4b375d17c5fdec047db78ac26581d1dd60ec2
+    uri: 
+      https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__codeninja-1.0-openchat-7b-gguf__codeninja-1.0-openchat-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - code
+  - text-generation-inference
+  - text-generation
+  - en
+  - dataset:glaiveai/glaive-code-assistant-v2
+  - dataset:TokenBender/code_instructions_122k_alpaca_style
+  - base_model:beowolx/CodeNinja-1.0-OpenChat-7B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeNinja-1.0-OpenChat-7B-GGUF

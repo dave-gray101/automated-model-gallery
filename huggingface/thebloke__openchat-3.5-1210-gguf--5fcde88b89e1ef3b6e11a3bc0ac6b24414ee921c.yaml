@@ -1,0 +1,1776 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q2_K.gguf
+    sha256: 7242e2b94cf002311a3129d3fce1881bac99c7c45b7edb0542f876b7d69c7b63
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q3_K_L.gguf
+    sha256: 5bfaaeffc6704b2d381ea848c81f4b503446c72f7df2c7d65474bcec0cd4fafd
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q3_K_M.gguf
+    sha256: bbb3a6a34204d51a5db7dbfe5620deaa2f57b4a4716ba69abd72cff3f7ad989c
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q3_K_S.gguf
+    sha256: 5d915b36d3e5f9c56b146008da10924b87e91eea9fad75004980b9be77ddfedc
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q4_0.gguf
+    sha256: 2dd51d1f5d40a0c2982565b51449fbb54c01a719a59625e6d57d4f9247ec5589
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q4_K_M.gguf
+    sha256: 6229974d92e7220e6aab0c458b29747c8cdfff7bca34827b787024a85e1f4a88
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q4_K_S.gguf
+    sha256: 817d93618c6edd0b3a0aaf5bf07e851036d4fcfccb956e34d6bc97e107f81e3d
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q5_0.gguf
+    sha256: 91347209cb110bdb00155864e6fccaec4d06b85bf3804cd3efaac875729e9242
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q5_K_M.gguf
+    sha256: fbbb15ed13c630110b1790e0a0a621419fbf2f5564ead433c6ded9f8f196b95c
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q5_K_S.gguf
+    sha256: 23ec99788bb08a258657511272ef3a157b975ae26119cbe8737a2968e3a5c12e
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q6_K.gguf
+    sha256: 697b7eb96a32befe3fc18761157085121346bbc7358caea1aa5fdf4c9bdfc69a
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-1210.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q8_0.gguf
+    sha256: 6ae8faf84f3f2f6926917451dfd678abf711af80c34669924404c291a5b4cf39
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q2_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q2_K.gguf
+    sha256: 7242e2b94cf002311a3129d3fce1881bac99c7c45b7edb0542f876b7d69c7b63
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q3_K_L.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q3_K_L.gguf
+    sha256: 5bfaaeffc6704b2d381ea848c81f4b503446c72f7df2c7d65474bcec0cd4fafd
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q3_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q3_K_M.gguf
+    sha256: bbb3a6a34204d51a5db7dbfe5620deaa2f57b4a4716ba69abd72cff3f7ad989c
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q3_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q3_K_S.gguf
+    sha256: 5d915b36d3e5f9c56b146008da10924b87e91eea9fad75004980b9be77ddfedc
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q4_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q4_0.gguf
+    sha256: 2dd51d1f5d40a0c2982565b51449fbb54c01a719a59625e6d57d4f9247ec5589
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q4_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q4_K_M.gguf
+    sha256: 6229974d92e7220e6aab0c458b29747c8cdfff7bca34827b787024a85e1f4a88
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q4_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q4_K_S.gguf
+    sha256: 817d93618c6edd0b3a0aaf5bf07e851036d4fcfccb956e34d6bc97e107f81e3d
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q5_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q5_0.gguf
+    sha256: 91347209cb110bdb00155864e6fccaec4d06b85bf3804cd3efaac875729e9242
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q5_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q5_K_M.gguf
+    sha256: fbbb15ed13c630110b1790e0a0a621419fbf2f5564ead433c6ded9f8f196b95c
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q5_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q5_K_S.gguf
+    sha256: 23ec99788bb08a258657511272ef3a157b975ae26119cbe8737a2968e3a5c12e
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q6_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q6_K.gguf
+    sha256: 697b7eb96a32befe3fc18761157085121346bbc7358caea1aa5fdf4c9bdfc69a
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q8_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q8_0.gguf
+    sha256: 6ae8faf84f3f2f6926917451dfd678abf711af80c34669924404c291a5b4cf39
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q2_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q2_K.gguf
+    sha256: 7242e2b94cf002311a3129d3fce1881bac99c7c45b7edb0542f876b7d69c7b63
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q3_K_L.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q3_K_L.gguf
+    sha256: 5bfaaeffc6704b2d381ea848c81f4b503446c72f7df2c7d65474bcec0cd4fafd
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q3_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q3_K_M.gguf
+    sha256: bbb3a6a34204d51a5db7dbfe5620deaa2f57b4a4716ba69abd72cff3f7ad989c
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q3_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q3_K_S.gguf
+    sha256: 5d915b36d3e5f9c56b146008da10924b87e91eea9fad75004980b9be77ddfedc
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q4_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q4_0.gguf
+    sha256: 2dd51d1f5d40a0c2982565b51449fbb54c01a719a59625e6d57d4f9247ec5589
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q4_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q4_K_M.gguf
+    sha256: 6229974d92e7220e6aab0c458b29747c8cdfff7bca34827b787024a85e1f4a88
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q4_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q4_K_S.gguf
+    sha256: 817d93618c6edd0b3a0aaf5bf07e851036d4fcfccb956e34d6bc97e107f81e3d
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q5_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q5_0.gguf
+    sha256: 91347209cb110bdb00155864e6fccaec4d06b85bf3804cd3efaac875729e9242
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q5_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q5_K_M.gguf
+    sha256: fbbb15ed13c630110b1790e0a0a621419fbf2f5564ead433c6ded9f8f196b95c
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q5_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q5_K_S.gguf
+    sha256: 23ec99788bb08a258657511272ef3a157b975ae26119cbe8737a2968e3a5c12e
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q6_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q6_K.gguf
+    sha256: 697b7eb96a32befe3fc18761157085121346bbc7358caea1aa5fdf4c9bdfc69a
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-1210.Q8_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-1210-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-1210.Q8_0.gguf
+    sha256: 6ae8faf84f3f2f6926917451dfd678abf711af80c34669924404c291a5b4cf39
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF/resolve/main/openchat-3.5-1210.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-1210-gguf__openchat-3.5-1210.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - dataset:openchat/openchat_sharegpt4_dataset
+  - dataset:kaist-ai/Feedback-Collection
+  - dataset:imone/OpenOrca_FLAN
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:tiedong/goat
+  - dataset:glaiveai/glaive-code-assistant
+  - dataset:meta-math/MetaMathQA
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - arxiv:2212.10560
+  - base_model:openchat/openchat-3.5-1210
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF

@@ -1,0 +1,415 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q2_K.gguf
+    sha256: 1e0cbdfffb9c8e0eda8468c452ae02f5014987452349a1b033cf8bc3d63ae66d
+    uri: https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q3_K_L.gguf
+    sha256: 62bedff91de9d8884e2f26b2227e3937482e2e00d2ade0fb256847fbb0f17421
+    uri: 
+      https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q3_K_M.gguf
+    sha256: b65420753e2d6577299dd1272f9dd009caf93ae185b2f48ced3ffb0a2c5729dc
+    uri: 
+      https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q3_K_S.gguf
+    sha256: b8b075cf845c44dc637feccbd13a1a7a22d7c6d8a98e53b526f0cb14a11d9f35
+    uri: 
+      https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q4_0.gguf
+    sha256: b89ea77f1b89a4abf54686253a68aa0b89fd0a4e69dbe247369e0d34dbbedbec
+    uri: https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q4_K_M.gguf
+    sha256: 542e22c3c166c325393b819984c072676f8042ee4801cd94d6ca73b2d26ab3b6
+    uri: 
+      https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q4_K_S.gguf
+    sha256: 91e6dff2b54c60c1d16431d46330c12c6e1dec6af35fa39c1c9bb074c0663c26
+    uri: 
+      https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q5_0.gguf
+    sha256: 2d8cfee00f3805cbf08d5cffc25a478365ae9fcddbf8a838a05de6f32a8a5bc9
+    uri: https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q5_K_M.gguf
+    sha256: 6acee498f64cd092ad7b1959f179ed34b8625b43cfad2e33ce90bec29d4099a9
+    uri: 
+      https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q5_K_S.gguf
+    sha256: 0d29abae50a04849b6b37255d6345e6f49c20f9b262e1ca07409c93b64d4215c
+    uri: 
+      https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q6_K.gguf
+    sha256: b81906dec671e650554c99e79fdf571be397e0b98f2a9d48dfd0a986ffada0a6
+    uri: https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rocket-3b.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/rocket-3B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: rocket-3b.Q8_0.gguf
+    sha256: 80318b92d4a3ee81b3f5ee147a3cf5b9e6f32c2306ff130c7ec323df776d9240
+    uri: https://huggingface.co/TheBloke/rocket-3B-GGUF/resolve/main/rocket-3b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__rocket-3b-gguf__rocket-3b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm
+  - en
+  - arxiv:2305.18290
+  - arxiv:2101.00027
+  - arxiv:2305.06161
+  - base_model:pansophic/rocket-3B
+  - license:cc-by-sa-4.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rocket-3B-GGUF

@@ -1,0 +1,864 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q2_K.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q2_K.gguf
+    sha256: 7a678d28b4aef2854755ede8b772fad8bfa6c1393dbb28b8ad752b1e6728daa2
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_L.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_L.gguf
+    sha256: 75928feaf55fa268bf141837c37469ffbfd45e259463e0713f65fe9693afa5af
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_M.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_M.gguf
+    sha256: e954b1e97b7dcfb7e4ec6223bde08bfe9517119c202d4441d51ad77f47b63fc3
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_S.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_S.gguf
+    sha256: dd51a26672ec620bbf242159f0c96a400f3fdd0780ca5e5c2724cd4ff2c3aa35
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_0.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_0.gguf
+    sha256: f9e2f9bbf3e346e0e404bb236bea265df6ca7e93ec5d570044e2320875f6ad6a
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_M.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_M.gguf
+    sha256: 9f7e118bd96db067d5ed651afdef3279417d94bbaeeb8091bb6604b9248d078a
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_S.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_S.gguf
+    sha256: f1fa096fe4d9d4f96557cafb6c61f78e67764a9e12bcdee36622ffa2bb092d84
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_0.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_0.gguf
+    sha256: aed5772bde2528593794e2974c37813a125080b4891ae6aad9eab0fb4ce6be35
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_M.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_M.gguf
+    sha256: d2df4dbcb9d243fe11ebd66c57420277d26622e28c319e3123c5134528f80ff0
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_S.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_S.gguf
+    sha256: f2de0727ea2ba9f9bd217bc97bb24f0774f4032f29ee8d858a453972141cceea
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q6_K.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q6_K.gguf
+    sha256: 19391e5cc3edda035a029a1a9fae04d3c3459f0a6a49ec3559569ff84cd1c002
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q8_0.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llama
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q8_0.gguf
+    sha256: 07bf92495e6310bc343e116089c5c656caf2e8ee479d30eec2804d5a685cc496
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q2_K.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q2_K.gguf
+    sha256: 7a678d28b4aef2854755ede8b772fad8bfa6c1393dbb28b8ad752b1e6728daa2
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_L.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_L.gguf
+    sha256: 75928feaf55fa268bf141837c37469ffbfd45e259463e0713f65fe9693afa5af
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_M.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_M.gguf
+    sha256: e954b1e97b7dcfb7e4ec6223bde08bfe9517119c202d4441d51ad77f47b63fc3
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_S.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_S.gguf
+    sha256: dd51a26672ec620bbf242159f0c96a400f3fdd0780ca5e5c2724cd4ff2c3aa35
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_0.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_0.gguf
+    sha256: f9e2f9bbf3e346e0e404bb236bea265df6ca7e93ec5d570044e2320875f6ad6a
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_M.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_M.gguf
+    sha256: 9f7e118bd96db067d5ed651afdef3279417d94bbaeeb8091bb6604b9248d078a
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_S.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_S.gguf
+    sha256: f1fa096fe4d9d4f96557cafb6c61f78e67764a9e12bcdee36622ffa2bb092d84
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_0.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_0.gguf
+    sha256: aed5772bde2528593794e2974c37813a125080b4891ae6aad9eab0fb4ce6be35
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_M.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_M.gguf
+    sha256: d2df4dbcb9d243fe11ebd66c57420277d26622e28c319e3123c5134528f80ff0
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_S.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_S.gguf
+    sha256: f2de0727ea2ba9f9bd217bc97bb24f0774f4032f29ee8d858a453972141cceea
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q6_K.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q6_K.gguf
+    sha256: 19391e5cc3edda035a029a1a9fae04d3c3459f0a6a49ec3559569ff84cd1c002
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q8_0.gguf
+    template:
+      chat: human-response
+      completion: human-response
+  description: TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: human-response.tmpl
+    sha256: 3c90167dc15caff386d2ecb71b6d60df09a36b99219e056f2aa6dbafb69e774e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-response.tmpl
+  - filename: open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q8_0.gguf
+    sha256: 07bf92495e6310bc343e116089c5c656caf2e8ee479d30eec2804d5a685cc496
+    uri: 
+      https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF/resolve/main/open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__open-llama-3b-v2-wizard-evol-instuct-v2-196k-gguf__open-llama-3b-v2-wizard-evol-instuct-v2-196k.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - base_model:harborwater/open-llama-3b-v2-wizard-evol-instuct-v2-196k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/open-llama-3b-v2-wizard-evol-instuct-v2-196k-GGUF

@@ -1,0 +1,828 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q2_K.gguf
+    sha256: 21ad2f193ae21545378668c61013fed385a61eae2d2df1f9aa6608b81242738a
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q3_K_L.gguf
+    sha256: 19e5f5d3e7729b0337813759007e081869b6ac12038bdda585a9a5a732b51da8
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q3_K_M.gguf
+    sha256: a5742f6998337c6699f2e41e6eff54f2a5101f4f766ef49655bed716b5ff7dbf
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q3_K_S.gguf
+    sha256: 9d88d32cdf1facdf6d364df280b4fc70dc4035a055a2c6a8f3a381887df6a031
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q4_0.gguf
+    sha256: 516d5ee2e858a1a63aa4c6804defc261f599097ec4e32de580eab36f39c7ba5a
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q4_K_M.gguf
+    sha256: 0ab9b9270b7c20829c6e32b65a87b21bf87e9776890e7205ffbb998d2e37920f
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q4_K_S.gguf
+    sha256: e662c637d54f72162f0d00299134b5a41835fe5045e6205cf6bfed7b7b3755ed
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q5_0.gguf
+    sha256: 8d4083151432f4745ccc1504cbac33548d976c50a3ab402d228016bdc8afe094
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q5_K_M.gguf
+    sha256: a1db5544d15bb9301da316287c049fca996ba24b92bb4191c5e85b6316714ab6
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q5_K_S.gguf
+    sha256: c484861f548520ddb8687fb6f4cc149d4fca8e5fda870f34665e3c6fdeaefd58
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q6_K.gguf
+    sha256: 944f1cc3a309985ba15c2067ea752200e0ff6aa9da06643e1acf3a61c959420f
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q8_0.gguf
+    sha256: e0899883f664374d93cd0d2a4259c65c1bf6da31389d3479e9ccc4b3cdf145d3
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q2_K.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q2_K.gguf
+    sha256: 21ad2f193ae21545378668c61013fed385a61eae2d2df1f9aa6608b81242738a
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q3_K_L.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q3_K_L.gguf
+    sha256: 19e5f5d3e7729b0337813759007e081869b6ac12038bdda585a9a5a732b51da8
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q3_K_M.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q3_K_M.gguf
+    sha256: a5742f6998337c6699f2e41e6eff54f2a5101f4f766ef49655bed716b5ff7dbf
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q3_K_S.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q3_K_S.gguf
+    sha256: 9d88d32cdf1facdf6d364df280b4fc70dc4035a055a2c6a8f3a381887df6a031
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q4_0.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q4_0.gguf
+    sha256: 516d5ee2e858a1a63aa4c6804defc261f599097ec4e32de580eab36f39c7ba5a
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q4_K_M.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q4_K_M.gguf
+    sha256: 0ab9b9270b7c20829c6e32b65a87b21bf87e9776890e7205ffbb998d2e37920f
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q4_K_S.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q4_K_S.gguf
+    sha256: e662c637d54f72162f0d00299134b5a41835fe5045e6205cf6bfed7b7b3755ed
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q5_0.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q5_0.gguf
+    sha256: 8d4083151432f4745ccc1504cbac33548d976c50a3ab402d228016bdc8afe094
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q5_K_M.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q5_K_M.gguf
+    sha256: a1db5544d15bb9301da316287c049fca996ba24b92bb4191c5e85b6316714ab6
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q5_K_S.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q5_K_S.gguf
+    sha256: c484861f548520ddb8687fb6f4cc149d4fca8e5fda870f34665e3c6fdeaefd58
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q6_K.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q6_K.gguf
+    sha256: 944f1cc3a309985ba15c2067ea752200e0ff6aa9da06643e1acf3a61c959420f
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-7b-v1.Q8_0.gguf
+    template:
+      chat: thebloke__leoscorpius-greennode-7b-v1-gguf
+      completion: thebloke__leoscorpius-greennode-7b-v1-gguf
+  description: TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__leoscorpius-greennode-7b-v1-gguf.tmpl
+  - filename: leoscorpius-greennode-7b-v1.Q8_0.gguf
+    sha256: e0899883f664374d93cd0d2a4259c65c1bf6da31389d3479e9ccc4b3cdf145d3
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF/resolve/main/leoscorpius-greennode-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-7b-v1-gguf__leoscorpius-greennode-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Toten5/LeoScorpius-GreenNode-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-7B-v1-GGUF

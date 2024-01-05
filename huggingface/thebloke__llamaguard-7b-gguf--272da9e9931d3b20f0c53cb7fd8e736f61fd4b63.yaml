@@ -1,0 +1,840 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q2_K.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q2_K.gguf
+    sha256: 9f08119a6e53891dc5addd402530cc8d3b13c690face701e0b96a426fd274b62
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q3_K_L.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q3_K_L.gguf
+    sha256: 81c8dd873867f975706b6ff4fa26f4ecb998aade06487f826aff4fe43f45cc8f
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q3_K_M.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q3_K_M.gguf
+    sha256: 83bfa96dc76ee3ca619dc0e2adbc52c9802e1b99e31a61b48b897e8ed9ad310a
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q3_K_S.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q3_K_S.gguf
+    sha256: 06031c06c707bcd7e9cf1a8fe3b207758a2250447f73489e4df7ee85abd3e2ea
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q4_0.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q4_0.gguf
+    sha256: d521d4b2dfb3d292ebda20040c6721ac1b43186849915d0988d399dd43865888
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q4_K_M.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q4_K_M.gguf
+    sha256: 3582fb57aae8ec10a35aa4e372d87b5c990eee82a542975a0e9c6a82f6618ad0
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q4_K_S.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q4_K_S.gguf
+    sha256: 799f40e5d1cecf0757770d94547cd3e9b1e65584b786f437850365a1b1d1707f
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q5_0.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q5_0.gguf
+    sha256: 71b8095867aafe80845b0f61ac669fac3b76457ff854ab8532867cadbde9d9af
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q5_K_M.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q5_K_M.gguf
+    sha256: 1ffd5ff0d25793d4fbcdf4629b8d0bfabddd05f607edabe16ec0595cd32b32fd
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q5_K_S.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q5_K_S.gguf
+    sha256: a8106c3de57bff5c68237b0d45962e4017beae3fdc870834b772f74770a9b1f6
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q6_K.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q6_K.gguf
+    sha256: e9b372215ffe654729331dc05a77ae197327b2d4e77113c17c7ef034f5ebb9aa
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q8_0.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llama configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q8_0.gguf
+    sha256: c9c90cdb435695b0cf162bd056e28cc9f86020c6deec99a9f0e9fc585526e211
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q2_K.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q2_K.gguf
+    sha256: 9f08119a6e53891dc5addd402530cc8d3b13c690face701e0b96a426fd274b62
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q3_K_L.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q3_K_L.gguf
+    sha256: 81c8dd873867f975706b6ff4fa26f4ecb998aade06487f826aff4fe43f45cc8f
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q3_K_M.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q3_K_M.gguf
+    sha256: 83bfa96dc76ee3ca619dc0e2adbc52c9802e1b99e31a61b48b897e8ed9ad310a
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q3_K_S.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q3_K_S.gguf
+    sha256: 06031c06c707bcd7e9cf1a8fe3b207758a2250447f73489e4df7ee85abd3e2ea
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q4_0.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q4_0.gguf
+    sha256: d521d4b2dfb3d292ebda20040c6721ac1b43186849915d0988d399dd43865888
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q4_K_M.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q4_K_M.gguf
+    sha256: 3582fb57aae8ec10a35aa4e372d87b5c990eee82a542975a0e9c6a82f6618ad0
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q4_K_S.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q4_K_S.gguf
+    sha256: 799f40e5d1cecf0757770d94547cd3e9b1e65584b786f437850365a1b1d1707f
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q5_0.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q5_0.gguf
+    sha256: 71b8095867aafe80845b0f61ac669fac3b76457ff854ab8532867cadbde9d9af
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q5_K_M.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q5_K_M.gguf
+    sha256: 1ffd5ff0d25793d4fbcdf4629b8d0bfabddd05f607edabe16ec0595cd32b32fd
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q5_K_S.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q5_K_S.gguf
+    sha256: a8106c3de57bff5c68237b0d45962e4017beae3fdc870834b772f74770a9b1f6
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q6_K.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q6_K.gguf
+    sha256: e9b372215ffe654729331dc05a77ae197327b2d4e77113c17c7ef034f5ebb9aa
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llamaguard-7b.Q8_0.gguf
+    template:
+      chat: inst
+      completion: inst
+  description: TheBloke/LlamaGuard-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: inst.tmpl
+    sha256: 580cc7745d369695aecd51bf146dfcc4dbbd3655b7882aed9e9b8688880b3f5a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/inst.tmpl
+  - filename: llamaguard-7b.Q8_0.gguf
+    sha256: c9c90cdb435695b0cf162bd056e28cc9f86020c6deec99a9f0e9fc585526e211
+    uri: 
+      https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF/resolve/main/llamaguard-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__llamaguard-7b-gguf__llamaguard-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - pytorch
+  - llama-2
+  - en
+  - arxiv:2307.09288
+  - base_model:llamas-community/LlamaGuard-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlamaGuard-7B-GGUF

@@ -1,0 +1,248 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b-x8-moe.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/sonya-7B-x8-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b-x8-moe.Q2_K.gguf
+    sha256: e20dd560743b22b96471597ea74ee3cdceb4b43e662688d8298583321eef0746
+    uri: 
+      https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF/resolve/main/sonya-7b-x8-moe.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: thebloke__sonya-7b-x8-moe-gguf__sonya-7b-x8-moe.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:dillfrescott/sonya-7b-x8-MoE
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b-x8-moe.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/sonya-7B-x8-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b-x8-moe.Q3_K_M.gguf
+    sha256: d9f52172bb83fe9df873a76cb63db12a431a98f54c052f487c1da63e3757450a
+    uri: 
+      https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF/resolve/main/sonya-7b-x8-moe.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: thebloke__sonya-7b-x8-moe-gguf__sonya-7b-x8-moe.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:dillfrescott/sonya-7b-x8-MoE
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b-x8-moe.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/sonya-7B-x8-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b-x8-moe.Q4_0.gguf
+    sha256: 3a6fe67f89f8a12b33eddeeda8e8f56f2200abdaff9eaee53ff6237c5935d48a
+    uri: 
+      https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF/resolve/main/sonya-7b-x8-moe.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: thebloke__sonya-7b-x8-moe-gguf__sonya-7b-x8-moe.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:dillfrescott/sonya-7b-x8-MoE
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b-x8-moe.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/sonya-7B-x8-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b-x8-moe.Q4_K_M.gguf
+    sha256: e449f188120cd0c3f1dc5d69fe9809e2a7e1eee268ccd6f97b7c4cc82888b52f
+    uri: 
+      https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF/resolve/main/sonya-7b-x8-moe.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: thebloke__sonya-7b-x8-moe-gguf__sonya-7b-x8-moe.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:dillfrescott/sonya-7b-x8-MoE
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b-x8-moe.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/sonya-7B-x8-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b-x8-moe.Q5_0.gguf
+    sha256: 6fd1d109125582769bdfe20be191f74e8cb7e351094377133e7a821b186d63ac
+    uri: 
+      https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF/resolve/main/sonya-7b-x8-moe.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: thebloke__sonya-7b-x8-moe-gguf__sonya-7b-x8-moe.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:dillfrescott/sonya-7b-x8-MoE
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b-x8-moe.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/sonya-7B-x8-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b-x8-moe.Q5_K_M.gguf
+    sha256: 437c9e6766578d8a8eb9fd77d3b25664bf4124e4e85ce7a28eed2f176ea658dd
+    uri: 
+      https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF/resolve/main/sonya-7b-x8-moe.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: thebloke__sonya-7b-x8-moe-gguf__sonya-7b-x8-moe.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:dillfrescott/sonya-7b-x8-MoE
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b-x8-moe.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/sonya-7B-x8-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b-x8-moe.Q6_K.gguf
+    sha256: 01257291809a01c21f34135c03de8bae6a0c5dc91c8729ea2a262331010b6bab
+    uri: 
+      https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF/resolve/main/sonya-7b-x8-moe.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: thebloke__sonya-7b-x8-moe-gguf__sonya-7b-x8-moe.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:dillfrescott/sonya-7b-x8-MoE
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b-x8-moe.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/sonya-7B-x8-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b-x8-moe.Q8_0.gguf
+    sha256: f84b9e60989c5a66e09c01918316b9aeed448f179d3f0435c806ea54e7301868
+    uri: 
+      https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF/resolve/main/sonya-7b-x8-moe.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: thebloke__sonya-7b-x8-moe-gguf__sonya-7b-x8-moe.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:dillfrescott/sonya-7b-x8-MoE
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/sonya-7B-x8-MoE-GGUF

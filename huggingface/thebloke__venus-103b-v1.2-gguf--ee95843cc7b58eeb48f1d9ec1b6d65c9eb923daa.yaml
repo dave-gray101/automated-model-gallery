@@ -1,0 +1,198 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: venus-103b-v1.2.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Venus-103b-v1.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: venus-103b-v1.2.Q2_K.gguf
+    sha256: 12e902adbae3dae050468fb260dcac50ea7e4d6ee861d65ec3ee9884bac8afdf
+    uri: 
+      https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF/resolve/main/venus-103b-v1.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__venus-103b-v1.2-gguf__venus-103b-v1.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - not-for-all-audiences
+  - en
+  - base_model:nsfwthrowitaway69/Venus-103b-v1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: venus-103b-v1.2.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Venus-103b-v1.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: venus-103b-v1.2.Q3_K_M.gguf
+    sha256: 40a792cfe41c75905bd2ddd6163521bc821467fc4f2826a2833c4f9d38769619
+    uri: 
+      https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF/resolve/main/venus-103b-v1.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__venus-103b-v1.2-gguf__venus-103b-v1.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - not-for-all-audiences
+  - en
+  - base_model:nsfwthrowitaway69/Venus-103b-v1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: venus-103b-v1.2.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Venus-103b-v1.2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: venus-103b-v1.2.Q3_K_S.gguf
+    sha256: f3bf584c4bd88f6f400f204a6898c524d2a8f39e4f5d95f1f8ae00816f17cabf
+    uri: 
+      https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF/resolve/main/venus-103b-v1.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__venus-103b-v1.2-gguf__venus-103b-v1.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - not-for-all-audiences
+  - en
+  - base_model:nsfwthrowitaway69/Venus-103b-v1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: venus-103b-v1.2.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Venus-103b-v1.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: venus-103b-v1.2.Q2_K.gguf
+    sha256: 12e902adbae3dae050468fb260dcac50ea7e4d6ee861d65ec3ee9884bac8afdf
+    uri: 
+      https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF/resolve/main/venus-103b-v1.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__venus-103b-v1.2-gguf__venus-103b-v1.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - not-for-all-audiences
+  - en
+  - base_model:nsfwthrowitaway69/Venus-103b-v1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: venus-103b-v1.2.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Venus-103b-v1.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: venus-103b-v1.2.Q3_K_M.gguf
+    sha256: 40a792cfe41c75905bd2ddd6163521bc821467fc4f2826a2833c4f9d38769619
+    uri: 
+      https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF/resolve/main/venus-103b-v1.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__venus-103b-v1.2-gguf__venus-103b-v1.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - not-for-all-audiences
+  - en
+  - base_model:nsfwthrowitaway69/Venus-103b-v1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: venus-103b-v1.2.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Venus-103b-v1.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: venus-103b-v1.2.Q3_K_S.gguf
+    sha256: f3bf584c4bd88f6f400f204a6898c524d2a8f39e4f5d95f1f8ae00816f17cabf
+    uri: 
+      https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF/resolve/main/venus-103b-v1.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__venus-103b-v1.2-gguf__venus-103b-v1.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - not-for-all-audiences
+  - en
+  - base_model:nsfwthrowitaway69/Venus-103b-v1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Venus-103b-v1.2-GGUF

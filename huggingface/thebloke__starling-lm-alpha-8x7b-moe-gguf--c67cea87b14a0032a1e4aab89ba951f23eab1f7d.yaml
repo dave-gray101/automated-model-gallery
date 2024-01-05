@@ -1,0 +1,307 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: starling-lm-alpha-8x7b-moe.Q2_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: starling-lm-alpha-8x7b-moe.Q2_K.gguf
+    sha256: 03eb691e9cd1e3e2b564b6a415034dfe3abef61a16114658e154f51df528a8cd
+    uri: 
+      https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF/resolve/main/starling-lm-alpha-8x7b-moe.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__starling-lm-alpha-8x7b-moe-gguf__starling-lm-alpha-8x7b-moe.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - reward model
+  - RLHF
+  - RLAIF
+  - en
+  - dataset:berkeley-nest/Nectar
+  - arxiv:2306.02231
+  - base_model:perlthoughts/Starling-LM-alpha-8x7B-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: starling-lm-alpha-8x7b-moe.Q3_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: starling-lm-alpha-8x7b-moe.Q3_K_M.gguf
+    sha256: e0171b7222a817253ed5c0f85054f3977bba4ee44d722553672c879dbb861005
+    uri: 
+      https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF/resolve/main/starling-lm-alpha-8x7b-moe.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__starling-lm-alpha-8x7b-moe-gguf__starling-lm-alpha-8x7b-moe.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - reward model
+  - RLHF
+  - RLAIF
+  - en
+  - dataset:berkeley-nest/Nectar
+  - arxiv:2306.02231
+  - base_model:perlthoughts/Starling-LM-alpha-8x7B-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: starling-lm-alpha-8x7b-moe.Q4_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: starling-lm-alpha-8x7b-moe.Q4_0.gguf
+    sha256: 111db738e1f1031ca1bf1b0e6f8a3bc587fd2b1373e975f13bbea406c2895bd3
+    uri: 
+      https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF/resolve/main/starling-lm-alpha-8x7b-moe.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__starling-lm-alpha-8x7b-moe-gguf__starling-lm-alpha-8x7b-moe.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - reward model
+  - RLHF
+  - RLAIF
+  - en
+  - dataset:berkeley-nest/Nectar
+  - arxiv:2306.02231
+  - base_model:perlthoughts/Starling-LM-alpha-8x7B-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: starling-lm-alpha-8x7b-moe.Q4_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: starling-lm-alpha-8x7b-moe.Q4_K_M.gguf
+    sha256: d3bf4966511601bcd4c7eca5751421ab944a7b9173219cbb7154994c16d5358b
+    uri: 
+      https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF/resolve/main/starling-lm-alpha-8x7b-moe.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__starling-lm-alpha-8x7b-moe-gguf__starling-lm-alpha-8x7b-moe.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - reward model
+  - RLHF
+  - RLAIF
+  - en
+  - dataset:berkeley-nest/Nectar
+  - arxiv:2306.02231
+  - base_model:perlthoughts/Starling-LM-alpha-8x7B-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: starling-lm-alpha-8x7b-moe.Q5_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: starling-lm-alpha-8x7b-moe.Q5_0.gguf
+    sha256: b41d3771dff9f198abf0c49f125d6dfcb706a758f376ea41c297668bc83b3141
+    uri: 
+      https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF/resolve/main/starling-lm-alpha-8x7b-moe.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__starling-lm-alpha-8x7b-moe-gguf__starling-lm-alpha-8x7b-moe.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - reward model
+  - RLHF
+  - RLAIF
+  - en
+  - dataset:berkeley-nest/Nectar
+  - arxiv:2306.02231
+  - base_model:perlthoughts/Starling-LM-alpha-8x7B-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: starling-lm-alpha-8x7b-moe.Q5_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: starling-lm-alpha-8x7b-moe.Q5_K_M.gguf
+    sha256: 918ad6407cb73a281a4bcb4819e82ca82044e39ff061936ea40b6dc1272e3c6d
+    uri: 
+      https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF/resolve/main/starling-lm-alpha-8x7b-moe.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__starling-lm-alpha-8x7b-moe-gguf__starling-lm-alpha-8x7b-moe.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - reward model
+  - RLHF
+  - RLAIF
+  - en
+  - dataset:berkeley-nest/Nectar
+  - arxiv:2306.02231
+  - base_model:perlthoughts/Starling-LM-alpha-8x7B-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: starling-lm-alpha-8x7b-moe.Q6_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: starling-lm-alpha-8x7b-moe.Q6_K.gguf
+    sha256: ed9a88e802bcec30da12a8c3f11990f6fb7d8eef35b5b936a2ad97eb0d1ee10f
+    uri: 
+      https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF/resolve/main/starling-lm-alpha-8x7b-moe.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__starling-lm-alpha-8x7b-moe-gguf__starling-lm-alpha-8x7b-moe.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - reward model
+  - RLHF
+  - RLAIF
+  - en
+  - dataset:berkeley-nest/Nectar
+  - arxiv:2306.02231
+  - base_model:perlthoughts/Starling-LM-alpha-8x7B-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: starling-lm-alpha-8x7b-moe.Q8_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: starling-lm-alpha-8x7b-moe.Q8_0.gguf
+    sha256: 3b68a5a989f55c7ba348e916a29dcb0ba08dd693efc4a31f1ac8408bdee278d9
+    uri: 
+      https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF/resolve/main/starling-lm-alpha-8x7b-moe.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__starling-lm-alpha-8x7b-moe-gguf__starling-lm-alpha-8x7b-moe.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - reward model
+  - RLHF
+  - RLAIF
+  - en
+  - dataset:berkeley-nest/Nectar
+  - arxiv:2306.02231
+  - base_model:perlthoughts/Starling-LM-alpha-8x7B-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Starling-LM-alpha-8x7B-MoE-GGUF

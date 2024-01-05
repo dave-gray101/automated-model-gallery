@@ -1,0 +1,1120 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+    sha256: ad9b6b20a6fe85f9c06c0ee7eed44bd7d79c4a9bf22066b851a83a946657c6c5
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+    sha256: ece8b4b773c5b4efc992fff852a3eabcd50a597b470ed66cf9297b5b8a22808b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+    sha256: 02585c333430911d08bc6b4711989312bbc4c2dafeacb562a8bd825006441b2a
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+    sha256: 9cbae4a790e87444a82267bf6b5587e168458092fcbe9847467b3d82bebf8f73
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+    sha256: 93a82b31495678f3a2561348cb5e9dd68fdbd5ec91477a300bfc198eca996681
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+    sha256: fdf10481acf15def402e9069bd452ae68dd953a368814e4f69549e04a03e50ff
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+    sha256: cfc4df87abe42869e9a265564b7530306c940a17de8646c31842081a658a3340
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+    sha256: 958e2073bff5fd0c6099e272edd88687e98d300da67bfdd68fff9a2d609f1985
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+    sha256: ad9b6b20a6fe85f9c06c0ee7eed44bd7d79c4a9bf22066b851a83a946657c6c5
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+    sha256: ece8b4b773c5b4efc992fff852a3eabcd50a597b470ed66cf9297b5b8a22808b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+    sha256: 02585c333430911d08bc6b4711989312bbc4c2dafeacb562a8bd825006441b2a
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+    sha256: 9cbae4a790e87444a82267bf6b5587e168458092fcbe9847467b3d82bebf8f73
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+    sha256: 93a82b31495678f3a2561348cb5e9dd68fdbd5ec91477a300bfc198eca996681
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+    sha256: fdf10481acf15def402e9069bd452ae68dd953a368814e4f69549e04a03e50ff
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+    sha256: cfc4df87abe42869e9a265564b7530306c940a17de8646c31842081a658a3340
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+    sha256: 958e2073bff5fd0c6099e272edd88687e98d300da67bfdd68fff9a2d609f1985
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+    sha256: ad9b6b20a6fe85f9c06c0ee7eed44bd7d79c4a9bf22066b851a83a946657c6c5
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+    sha256: ece8b4b773c5b4efc992fff852a3eabcd50a597b470ed66cf9297b5b8a22808b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+    sha256: 02585c333430911d08bc6b4711989312bbc4c2dafeacb562a8bd825006441b2a
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+    sha256: 9cbae4a790e87444a82267bf6b5587e168458092fcbe9847467b3d82bebf8f73
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+    sha256: 93a82b31495678f3a2561348cb5e9dd68fdbd5ec91477a300bfc198eca996681
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+    sha256: fdf10481acf15def402e9069bd452ae68dd953a368814e4f69549e04a03e50ff
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+    sha256: cfc4df87abe42869e9a265564b7530306c940a17de8646c31842081a658a3340
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+    sha256: 958e2073bff5fd0c6099e272edd88687e98d300da67bfdd68fff9a2d609f1985
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF/resolve/main/sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__sauerkrautlm-mixtral-8x7b-instruct-gguf__sauerkrautlm-mixtral-8x7b-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - mistral
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - fr
+  - it
+  - es
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-Mixtral-8x7B-Instruct
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-Mixtral-8x7B-Instruct-GGUF

@@ -1,0 +1,312 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtralrpchat-zloss.Q2_K.gguf
+    template:
+      chat: chargoddard
+      completion: chargoddard
+  description: TheBloke/MixtralRPChat-ZLoss-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chargoddard.tmpl
+    sha256: 2d2beef42b6f2a7c99725748a48cba1bcc868989f3032bb5bf3261932006cfa3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chargoddard.tmpl
+  - filename: mixtralrpchat-zloss.Q2_K.gguf
+    sha256: ae6a78f90f52624238ed43fb7f0b75df46985af5ea841d05b96911e90f52172a
+    uri: 
+      https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF/resolve/main/mixtralrpchat-zloss.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__mixtralrpchat-zloss-gguf__mixtralrpchat-zloss.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:lemonilia/LimaRP
+  - dataset:chargoddard/rpguild
+  - dataset:chargoddard/summarize_from_feedback_alpaca
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:chargoddard/coedit-reworded
+  - arxiv:2202.08906
+  - base_model:chargoddard/MixtralRPChat-ZLoss
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtralrpchat-zloss.Q3_K_M.gguf
+    template:
+      chat: chargoddard
+      completion: chargoddard
+  description: TheBloke/MixtralRPChat-ZLoss-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chargoddard.tmpl
+    sha256: 2d2beef42b6f2a7c99725748a48cba1bcc868989f3032bb5bf3261932006cfa3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chargoddard.tmpl
+  - filename: mixtralrpchat-zloss.Q3_K_M.gguf
+    sha256: 0fa43053ba36345b1160a318e412f7225f5276826e4566923d02adec55c8073a
+    uri: 
+      https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF/resolve/main/mixtralrpchat-zloss.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__mixtralrpchat-zloss-gguf__mixtralrpchat-zloss.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:lemonilia/LimaRP
+  - dataset:chargoddard/rpguild
+  - dataset:chargoddard/summarize_from_feedback_alpaca
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:chargoddard/coedit-reworded
+  - arxiv:2202.08906
+  - base_model:chargoddard/MixtralRPChat-ZLoss
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtralrpchat-zloss.Q4_0.gguf
+    template:
+      chat: chargoddard
+      completion: chargoddard
+  description: TheBloke/MixtralRPChat-ZLoss-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chargoddard.tmpl
+    sha256: 2d2beef42b6f2a7c99725748a48cba1bcc868989f3032bb5bf3261932006cfa3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chargoddard.tmpl
+  - filename: mixtralrpchat-zloss.Q4_0.gguf
+    sha256: 657cd8231559c0d61ed64232c568b33685d84efc6f7aa94fd0157e903ff9e91a
+    uri: 
+      https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF/resolve/main/mixtralrpchat-zloss.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__mixtralrpchat-zloss-gguf__mixtralrpchat-zloss.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:lemonilia/LimaRP
+  - dataset:chargoddard/rpguild
+  - dataset:chargoddard/summarize_from_feedback_alpaca
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:chargoddard/coedit-reworded
+  - arxiv:2202.08906
+  - base_model:chargoddard/MixtralRPChat-ZLoss
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtralrpchat-zloss.Q4_K_M.gguf
+    template:
+      chat: chargoddard
+      completion: chargoddard
+  description: TheBloke/MixtralRPChat-ZLoss-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chargoddard.tmpl
+    sha256: 2d2beef42b6f2a7c99725748a48cba1bcc868989f3032bb5bf3261932006cfa3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chargoddard.tmpl
+  - filename: mixtralrpchat-zloss.Q4_K_M.gguf
+    sha256: bb7522aa61bdcf27bbd558520cd6310b91a16e7cb2114bdbb5c4f407bd166c57
+    uri: 
+      https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF/resolve/main/mixtralrpchat-zloss.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__mixtralrpchat-zloss-gguf__mixtralrpchat-zloss.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:lemonilia/LimaRP
+  - dataset:chargoddard/rpguild
+  - dataset:chargoddard/summarize_from_feedback_alpaca
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:chargoddard/coedit-reworded
+  - arxiv:2202.08906
+  - base_model:chargoddard/MixtralRPChat-ZLoss
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtralrpchat-zloss.Q5_0.gguf
+    template:
+      chat: chargoddard
+      completion: chargoddard
+  description: TheBloke/MixtralRPChat-ZLoss-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chargoddard.tmpl
+    sha256: 2d2beef42b6f2a7c99725748a48cba1bcc868989f3032bb5bf3261932006cfa3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chargoddard.tmpl
+  - filename: mixtralrpchat-zloss.Q5_0.gguf
+    sha256: e342ef4578b6db123e7423b731b8d12f4ab2f453a5e3731a4061d79566692610
+    uri: 
+      https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF/resolve/main/mixtralrpchat-zloss.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__mixtralrpchat-zloss-gguf__mixtralrpchat-zloss.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:lemonilia/LimaRP
+  - dataset:chargoddard/rpguild
+  - dataset:chargoddard/summarize_from_feedback_alpaca
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:chargoddard/coedit-reworded
+  - arxiv:2202.08906
+  - base_model:chargoddard/MixtralRPChat-ZLoss
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtralrpchat-zloss.Q5_K_M.gguf
+    template:
+      chat: chargoddard
+      completion: chargoddard
+  description: TheBloke/MixtralRPChat-ZLoss-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chargoddard.tmpl
+    sha256: 2d2beef42b6f2a7c99725748a48cba1bcc868989f3032bb5bf3261932006cfa3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chargoddard.tmpl
+  - filename: mixtralrpchat-zloss.Q5_K_M.gguf
+    sha256: 2fc5b716d64366051a4ef2975b43e9f2976e2da54170d78f6ca64129751a6f31
+    uri: 
+      https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF/resolve/main/mixtralrpchat-zloss.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__mixtralrpchat-zloss-gguf__mixtralrpchat-zloss.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:lemonilia/LimaRP
+  - dataset:chargoddard/rpguild
+  - dataset:chargoddard/summarize_from_feedback_alpaca
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:chargoddard/coedit-reworded
+  - arxiv:2202.08906
+  - base_model:chargoddard/MixtralRPChat-ZLoss
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtralrpchat-zloss.Q6_K.gguf
+    template:
+      chat: chargoddard
+      completion: chargoddard
+  description: TheBloke/MixtralRPChat-ZLoss-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chargoddard.tmpl
+    sha256: 2d2beef42b6f2a7c99725748a48cba1bcc868989f3032bb5bf3261932006cfa3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chargoddard.tmpl
+  - filename: mixtralrpchat-zloss.Q6_K.gguf
+    sha256: 5107186dbbeeb4d9bfa623c26fed425e3534b3c37fed802ed44fabce5b8a8668
+    uri: 
+      https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF/resolve/main/mixtralrpchat-zloss.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__mixtralrpchat-zloss-gguf__mixtralrpchat-zloss.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:lemonilia/LimaRP
+  - dataset:chargoddard/rpguild
+  - dataset:chargoddard/summarize_from_feedback_alpaca
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:chargoddard/coedit-reworded
+  - arxiv:2202.08906
+  - base_model:chargoddard/MixtralRPChat-ZLoss
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtralrpchat-zloss.Q8_0.gguf
+    template:
+      chat: chargoddard
+      completion: chargoddard
+  description: TheBloke/MixtralRPChat-ZLoss-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chargoddard.tmpl
+    sha256: 2d2beef42b6f2a7c99725748a48cba1bcc868989f3032bb5bf3261932006cfa3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chargoddard.tmpl
+  - filename: mixtralrpchat-zloss.Q8_0.gguf
+    sha256: f90d8c4e629b627e0adbae66b2fdc5c5f2c63b93236ff7e8ac71a9ca7ea36dcf
+    uri: 
+      https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF/resolve/main/mixtralrpchat-zloss.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__mixtralrpchat-zloss-gguf__mixtralrpchat-zloss.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:lemonilia/LimaRP
+  - dataset:chargoddard/rpguild
+  - dataset:chargoddard/summarize_from_feedback_alpaca
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:chargoddard/coedit-reworded
+  - arxiv:2202.08906
+  - base_model:chargoddard/MixtralRPChat-ZLoss
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MixtralRPChat-ZLoss-GGUF

@@ -1,0 +1,744 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q2_K.gguf
+    sha256: bbab0fb4005cf109abf491be210863dd5713d3744f2bad54c6d855baf81a6bf2
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q3_K_L.gguf
+    sha256: 68ffd1eda75a60ff98d559aa9f1fcce01abe923f6c7c7ec768b50adf6c4218da
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q3_K_M.gguf
+    sha256: 48c4a12e2b4d40e84fc988da9e237239f17d4f848370db9d1c755a0c1ff7dcc4
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q3_K_S.gguf
+    sha256: c93833eaadf1f2d7f37a3a7a87233029e6d649a11e18822d675d2390d78461b1
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q4_0.gguf
+    sha256: 6ce5e52cd506011e3b464cd45e3feee3d93d2872c7cdd47fc037156beefe26f7
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q4_K_M.gguf
+    sha256: 86fb4380ed1dc9106a58daeecfac4e6aa7e2692e63eab4916593cfdb29209252
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q4_K_S.gguf
+    sha256: a7a7bc4175c8aaf803addccf851ba1b32d86d748d32a6a04e1b4466f35382165
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q5_0.gguf
+    sha256: 97f83951ca27071cadf904aa0622d9771cf992caf42220830d15423c9950e699
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q5_K_M.gguf
+    sha256: 8d9f8f8ab7e7bdf7028e4ef300e2f4dae642321d762d5eb6cfd8413ad13f802d
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q5_K_S.gguf
+    sha256: ffd16679b026a24d84e079a17246d2a2e4be390ae2f5f14190ec1f512c284d2a
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q6_K.gguf
+    sha256: de05625001a88748f8e9acec1a7043314e8618401feb73b4388fb92a61d4d0a1
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q8_0.gguf
+    sha256: 842272cdf0ab20274a534f319e9a611d63a0850e6b06c64d3f4e48b5360ba179
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q2_K.gguf
+    sha256: bbab0fb4005cf109abf491be210863dd5713d3744f2bad54c6d855baf81a6bf2
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q3_K_L.gguf
+    sha256: 68ffd1eda75a60ff98d559aa9f1fcce01abe923f6c7c7ec768b50adf6c4218da
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q3_K_M.gguf
+    sha256: 48c4a12e2b4d40e84fc988da9e237239f17d4f848370db9d1c755a0c1ff7dcc4
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q3_K_S.gguf
+    sha256: c93833eaadf1f2d7f37a3a7a87233029e6d649a11e18822d675d2390d78461b1
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q4_0.gguf
+    sha256: 6ce5e52cd506011e3b464cd45e3feee3d93d2872c7cdd47fc037156beefe26f7
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q4_K_M.gguf
+    sha256: 86fb4380ed1dc9106a58daeecfac4e6aa7e2692e63eab4916593cfdb29209252
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q4_K_S.gguf
+    sha256: a7a7bc4175c8aaf803addccf851ba1b32d86d748d32a6a04e1b4466f35382165
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q5_0.gguf
+    sha256: 97f83951ca27071cadf904aa0622d9771cf992caf42220830d15423c9950e699
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q5_K_M.gguf
+    sha256: 8d9f8f8ab7e7bdf7028e4ef300e2f4dae642321d762d5eb6cfd8413ad13f802d
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q5_K_S.gguf
+    sha256: ffd16679b026a24d84e079a17246d2a2e4be390ae2f5f14190ec1f512c284d2a
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q6_K.gguf
+    sha256: de05625001a88748f8e9acec1a7043314e8618401feb73b4388fb92a61d4d0a1
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nethena-20b-glued.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Nethena-20B-Glued-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: nethena-20b-glued.Q8_0.gguf
+    sha256: 842272cdf0ab20274a534f319e9a611d63a0850e6b06c64d3f4e48b5360ba179
+    uri: 
+      https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF/resolve/main/nethena-20b-glued.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nethena-20b-glued-gguf__nethena-20b-glued.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:athirdpath/Nethena-20b-Glued
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nethena-20B-Glued-GGUF

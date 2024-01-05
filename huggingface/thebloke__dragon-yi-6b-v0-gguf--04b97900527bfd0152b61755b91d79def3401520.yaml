@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q2_K.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q2_K.gguf
+    sha256: 7e3476de6cfb79dfcc77db7e81671ec3fedd463f8383e28130a054fefcae2492
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q3_K_L.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q3_K_L.gguf
+    sha256: 08e538a2a81a4a761f13e22dcd25364a97afc84077a7b3110ca61824441c25f0
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q3_K_M.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q3_K_M.gguf
+    sha256: 46578171359282e6474acc47d17cf0cead14e31deffbd2d11785c15314377522
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q3_K_S.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q3_K_S.gguf
+    sha256: 83c0a2a7b039a06310b568e36c9fddd200f0610362bdead2a1d00f4c3d873b5d
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q4_0.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q4_0.gguf
+    sha256: 87aa54dc3f957a68a042385ea352249ed9d7e25b7793f77141d1f2537a354331
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q4_K_M.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q4_K_M.gguf
+    sha256: a39ffbfee6a5634d3c3cb1ab346d3b4958d88a2ba5cb54734e7cfae22a1b4d42
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q4_K_S.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q4_K_S.gguf
+    sha256: 71a78ce5de30d14a9fe91eb944ea4ab3d6eec8b1847c04348fb9074b02447678
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q5_0.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q5_0.gguf
+    sha256: b5323e0dffdfea551662f31f791728af23ad03f9854d8208e989fa06eabbafc1
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q5_K_M.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q5_K_M.gguf
+    sha256: 3243310aee2151e614deacfcba31dc1b94bffb17a81d02194122985e6e469c67
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q5_K_S.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q5_K_S.gguf
+    sha256: 599a62077eb8ce84a1452a771da5b5b510b1eb5ad79ea6eadef900566df4c836
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q6_K.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q6_K.gguf
+    sha256: fb2d5388642f3984b0af46a46ab4987b285d265dd2995f31bafd9f0a301f2bb7
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-yi-6b-v0.Q8_0.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-yi-6B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-yi-6b-v0.Q8_0.gguf
+    sha256: 2117d2244d8f47600956574e6f385ad8235e0ff2dcf66e2b168e6dd7a030aa31
+    uri: 
+      https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF/resolve/main/dragon-yi-6b-v0.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dragon-yi-6b-v0-gguf__dragon-yi-6b-v0.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:llmware/dragon-yi-6b-v0
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-yi-6B-v0-GGUF

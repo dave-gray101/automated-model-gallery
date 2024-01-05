@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q2_K.gguf
+    sha256: f66d65cf9289dbae5166b5cab43ad2e2791ac1b5e969e1f95e71644c9deda54d
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q2_K.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q3_K_L.gguf
+    sha256: 9bd3e194ae3a4aec5944e42b23bfc2b0690c384737f811f1b3255a2a02cbafc5
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q3_K_L.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q3_K_M.gguf
+    sha256: 17fba464d4e1683867d8380bc2c6af1d1375d9ec8c6838c93e66df300d53652f
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q3_K_M.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q3_K_S.gguf
+    sha256: 5aa2813ee631fcacc8311f772e629337443571b8af02909e646dc3a3e9e9b5c5
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q3_K_S.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q4_0.gguf
+    sha256: a80d8187ce518d8f8bd3b0f4b2bbc81f252cf73a32592bfd221f830e17f10e79
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q4_0.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q4_K_M.gguf
+    sha256: b5162038c20f3b1368aa019d425d339a4de10a3618b10416ad8a5e8ab293301d
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q4_K_M.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q4_K_S.gguf
+    sha256: a4aae5e3c4cce2492f1eef3aff4e3b9efd01376b126c84b4b684a4218000b800
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q4_K_S.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q5_0.gguf
+    sha256: ca30929bebeb859c02267e0aa229b3a4465efc1fe1eaa217abed5a6ae8e3416c
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q5_0.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q5_K_M.gguf
+    sha256: 0e3857788ce1f644a19c1a4b55c73ae2a61053a5280df15b6ac91bffcec8d3e2
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q5_K_M.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q5_K_S.gguf
+    sha256: 2aded510d441d921b22aca9851262f896700dfcfdcf2f265ad2eec51cb53cf42
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q5_K_S.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q6_K.gguf
+    sha256: 1271f23cf7c99c0b22ba134ed0d8345f36b17be96f12e601b1a8c4a9ab5c3140
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q6_K.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rose-kimiko-20b.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Rose-Kimiko-20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: rose-kimiko-20b.Q8_0.gguf
+    sha256: 6f8f7edb888d425db171cb6983d18b58bfd3e6564aa53fd5be6ae21bd2fca749
+    uri: 
+      https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF/resolve/main/rose-kimiko-20b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__rose-kimiko-20b-gguf__rose-kimiko-20b.Q8_0.gguf
+  tags:
+  - peft
+  - gguf
+  - generated_from_trainer
+  - base_model:nRuaif/Rose-Kimiko-20B
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Rose-Kimiko-20B-GGUF

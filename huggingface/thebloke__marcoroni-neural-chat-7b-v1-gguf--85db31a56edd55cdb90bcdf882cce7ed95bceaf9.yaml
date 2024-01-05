@@ -1,0 +1,852 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q2_K.gguf
+    sha256: 71e75d42955efcf9c8809af921f457a5a38cdef758e047bd36ae3b4ae0c1491b
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q3_K_L.gguf
+    sha256: 7367df121d23dd7a8201a9250e4da5cb8858411dde3f382087fcd90ffb1d24a6
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q3_K_M.gguf
+    sha256: 0f8fa1c89d177424b03002feeecf55a905ef577741b49d2f80844fb1b6e8d4ac
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q3_K_S.gguf
+    sha256: 88b4139f3bd1008a08a0671bc483facefae2b4f055e3990408e1f2572290b54c
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q4_0.gguf
+    sha256: 3511f43cc407e47db40bb2cde543daad241435947042f653e52f63a2cd5c6977
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q4_K_M.gguf
+    sha256: a2b7d00a57974a67185b161579c95aa2dd5ae48fdb935a0bfaf2371ebf9ac0ce
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q4_K_S.gguf
+    sha256: da5d1e626d08f059f64991b31562f86b6f2150721b2c1b3c003e443904bcc06f
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q5_0.gguf
+    sha256: 8dc3aa7fdd3ab7faf7c8ebc680ee77402e25a4ab5c346030577d5a60e52d1486
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q5_K_M.gguf
+    sha256: 4967fafc3770537b5c4e65e9b6553c0ec568ed92f59a41a36e019e479cb5aba7
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q5_K_S.gguf
+    sha256: 0379c6a4a2481009a6d50c4c53c1b6db00c739727bdf46423a20e11147ab33ce
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q6_K.gguf
+    sha256: ecbe9c6e525b593dae4315d7d57c6d8df9c8b74982cfd42727902e0d0b84c429
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q8_0.gguf
+    sha256: bb7bfc77c1fca73b6471a2b5b2f6dfd884b2dbb18090c5bb39b60272fe08280c
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q2_K.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q2_K.gguf
+    sha256: 71e75d42955efcf9c8809af921f457a5a38cdef758e047bd36ae3b4ae0c1491b
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q3_K_L.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q3_K_L.gguf
+    sha256: 7367df121d23dd7a8201a9250e4da5cb8858411dde3f382087fcd90ffb1d24a6
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q3_K_M.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q3_K_M.gguf
+    sha256: 0f8fa1c89d177424b03002feeecf55a905ef577741b49d2f80844fb1b6e8d4ac
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q3_K_S.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q3_K_S.gguf
+    sha256: 88b4139f3bd1008a08a0671bc483facefae2b4f055e3990408e1f2572290b54c
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q4_0.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q4_0.gguf
+    sha256: 3511f43cc407e47db40bb2cde543daad241435947042f653e52f63a2cd5c6977
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q4_K_M.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q4_K_M.gguf
+    sha256: a2b7d00a57974a67185b161579c95aa2dd5ae48fdb935a0bfaf2371ebf9ac0ce
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q4_K_S.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q4_K_S.gguf
+    sha256: da5d1e626d08f059f64991b31562f86b6f2150721b2c1b3c003e443904bcc06f
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q5_0.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q5_0.gguf
+    sha256: 8dc3aa7fdd3ab7faf7c8ebc680ee77402e25a4ab5c346030577d5a60e52d1486
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q5_K_M.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q5_K_M.gguf
+    sha256: 4967fafc3770537b5c4e65e9b6553c0ec568ed92f59a41a36e019e479cb5aba7
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q5_K_S.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q5_K_S.gguf
+    sha256: 0379c6a4a2481009a6d50c4c53c1b6db00c739727bdf46423a20e11147ab33ce
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q6_K.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q6_K.gguf
+    sha256: ecbe9c6e525b593dae4315d7d57c6d8df9c8b74982cfd42727902e0d0b84c429
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-neural-chat-7b-v1.Q8_0.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Marcoroni-neural-chat-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: marcoroni-neural-chat-7b-v1.Q8_0.gguf
+    sha256: bb7bfc77c1fca73b6471a2b5b2f6dfd884b2dbb18090c5bb39b60272fe08280c
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF/resolve/main/marcoroni-neural-chat-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__marcoroni-neural-chat-7b-v1-gguf__marcoroni-neural-chat-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Toten5/Marcoroni-neural-chat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-neural-chat-7B-v1-GGUF

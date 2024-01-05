@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q2_K.gguf
+    sha256: 1087d3b6cefb792f768713fb12851d8053c198f8f2acadb0fb3390f5d3eaae27
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q3_K_L.gguf
+    sha256: ca966efa4a8494b6b07d1de49c458fcc98b4f88c32978e62389b545d5d8915db
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q3_K_M.gguf
+    sha256: ffffab022b932f60f195f90858c1a91515f48dc25ff717c698c1fd79a14032ae
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q3_K_S.gguf
+    sha256: d64e11ecbd3d2df8dc374de61f78b76492176e193ef071817ddf4666a1336b1c
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q4_0.gguf
+    sha256: 4d097c7388b5540429def3ad642eede1f8c6e33ee86f0d907d916db9b07f78ba
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q4_K_M.gguf
+    sha256: 0b7f279474268302ecf896d07bc665cc6d22eeeb803c128e1806add1dfa824a9
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q4_K_S.gguf
+    sha256: d825af364b455b03de746d5ddc96db93d5709104527376eba49e061463e61634
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q5_0.gguf
+    sha256: 08a45d05fa9757ed4887aebdd90a9962a0b2b68d79df07c215181624b2f622a7
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q5_K_M.gguf
+    sha256: 2bd9655c38d5852ca850c964c17163b0746819fa6c00bec2614e8fd68bf5acde
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q5_K_S.gguf
+    sha256: 56fd57f9f2c2b13bb268daf4eb5985a99e683dc39a29c801753cd994330de204
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q6_K.gguf
+    sha256: c4bef3180d8a116a072c0d87f82e45e9890da7130095e716dd2235c8c23e927f
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sonya-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q8_0.gguf
+    sha256: 9e6b059a597b5b2aa9af5fe9ec4e7a50d1bf07c6ee501fb37a66f7054fc24918
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q2_K.gguf
+    sha256: 1087d3b6cefb792f768713fb12851d8053c198f8f2acadb0fb3390f5d3eaae27
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q3_K_L.gguf
+    sha256: ca966efa4a8494b6b07d1de49c458fcc98b4f88c32978e62389b545d5d8915db
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q3_K_M.gguf
+    sha256: ffffab022b932f60f195f90858c1a91515f48dc25ff717c698c1fd79a14032ae
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q3_K_S.gguf
+    sha256: d64e11ecbd3d2df8dc374de61f78b76492176e193ef071817ddf4666a1336b1c
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q4_0.gguf
+    sha256: 4d097c7388b5540429def3ad642eede1f8c6e33ee86f0d907d916db9b07f78ba
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q4_K_M.gguf
+    sha256: 0b7f279474268302ecf896d07bc665cc6d22eeeb803c128e1806add1dfa824a9
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q4_K_S.gguf
+    sha256: d825af364b455b03de746d5ddc96db93d5709104527376eba49e061463e61634
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q5_0.gguf
+    sha256: 08a45d05fa9757ed4887aebdd90a9962a0b2b68d79df07c215181624b2f622a7
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q5_K_M.gguf
+    sha256: 2bd9655c38d5852ca850c964c17163b0746819fa6c00bec2614e8fd68bf5acde
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q5_K_S.gguf
+    sha256: 56fd57f9f2c2b13bb268daf4eb5985a99e683dc39a29c801753cd994330de204
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q6_K.gguf
+    sha256: c4bef3180d8a116a072c0d87f82e45e9890da7130095e716dd2235c8c23e927f
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sonya-7b.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Sonya-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: sonya-7b.Q8_0.gguf
+    sha256: 9e6b059a597b5b2aa9af5fe9ec4e7a50d1bf07c6ee501fb37a66f7054fc24918
+    uri: https://huggingface.co/TheBloke/Sonya-7B-GGUF/resolve/main/sonya-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__sonya-7b-gguf__sonya-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - en
+  - base_model:SanjiWatsuki/Sonya-7B
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sonya-7B-GGUF

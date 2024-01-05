@@ -1,0 +1,1236 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q2_K.gguf
+    sha256: 8602991b538b6b0ca953e82e1a0bb30dce56b98b96e1bfc68a25715c067dffd3
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q3_K_L.gguf
+    sha256: 87deb0b9e3fb016fb6ce893623c4ede77e96f8d8a6fa2bfa2010c8164a94f1b3
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q3_K_M.gguf
+    sha256: 1be6522a9e433ea773e2918dcaf48fe8e511982ee5a1e6b6f80135a1ae5484ed
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q3_K_S.gguf
+    sha256: 8fb519658eb1aa363c302c85fcfc4107f74f3d0e56a3104cbd7f8c1bbde51e84
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q4_0.gguf
+    sha256: 649acb336282e86731fc68bb3ab9d86c85901a482dff13bb6638de06a475c627
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q4_K_M.gguf
+    sha256: 9620e93d36d76442c48a7b9846889e513df73347ef0782bcd4dd25ee6a99ad56
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q4_K_S.gguf
+    sha256: 2ddf22c79ecb98ae1957de2c342413fe9de0bc36644fbf73403316445a7a7ac0
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q5_0.gguf
+    sha256: e293f8a00ef1785da1825e2d65775d4575d7d7206bdadb74918f6dc905d85591
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q5_K_M.gguf
+    sha256: 96505c4d897ed73f8f2671199bce722ecaa12c87ea19a4ec7e248faf34273246
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q5_K_S.gguf
+    sha256: 2d7716a370fdd8a8a566f116b087079980a42b44632e37247d4470e12b52c731
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q6_K.gguf
+    sha256: 01fcd69d0158cff8d3bdd5a5d8bbade90a284059a674d62bb976091a55a27d08
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: quantum-v0.01.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q8_0.gguf
+    sha256: 529efd3032dcd2d4254c36bbdcb2d96d0c0df678dd4a527de6503fda49496055
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q2_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q2_K.gguf
+    sha256: 8602991b538b6b0ca953e82e1a0bb30dce56b98b96e1bfc68a25715c067dffd3
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q3_K_L.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q3_K_L.gguf
+    sha256: 87deb0b9e3fb016fb6ce893623c4ede77e96f8d8a6fa2bfa2010c8164a94f1b3
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q3_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q3_K_M.gguf
+    sha256: 1be6522a9e433ea773e2918dcaf48fe8e511982ee5a1e6b6f80135a1ae5484ed
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q3_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q3_K_S.gguf
+    sha256: 8fb519658eb1aa363c302c85fcfc4107f74f3d0e56a3104cbd7f8c1bbde51e84
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q4_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q4_0.gguf
+    sha256: 649acb336282e86731fc68bb3ab9d86c85901a482dff13bb6638de06a475c627
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q4_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q4_K_M.gguf
+    sha256: 9620e93d36d76442c48a7b9846889e513df73347ef0782bcd4dd25ee6a99ad56
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q4_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q4_K_S.gguf
+    sha256: 2ddf22c79ecb98ae1957de2c342413fe9de0bc36644fbf73403316445a7a7ac0
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q5_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q5_0.gguf
+    sha256: e293f8a00ef1785da1825e2d65775d4575d7d7206bdadb74918f6dc905d85591
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q5_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q5_K_M.gguf
+    sha256: 96505c4d897ed73f8f2671199bce722ecaa12c87ea19a4ec7e248faf34273246
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q5_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q5_K_S.gguf
+    sha256: 2d7716a370fdd8a8a566f116b087079980a42b44632e37247d4470e12b52c731
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q6_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q6_K.gguf
+    sha256: 01fcd69d0158cff8d3bdd5a5d8bbade90a284059a674d62bb976091a55a27d08
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q8_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q8_0.gguf
+    sha256: 529efd3032dcd2d4254c36bbdcb2d96d0c0df678dd4a527de6503fda49496055
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q2_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q2_K.gguf
+    sha256: 8602991b538b6b0ca953e82e1a0bb30dce56b98b96e1bfc68a25715c067dffd3
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q3_K_L.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q3_K_L.gguf
+    sha256: 87deb0b9e3fb016fb6ce893623c4ede77e96f8d8a6fa2bfa2010c8164a94f1b3
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q3_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q3_K_M.gguf
+    sha256: 1be6522a9e433ea773e2918dcaf48fe8e511982ee5a1e6b6f80135a1ae5484ed
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q3_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q3_K_S.gguf
+    sha256: 8fb519658eb1aa363c302c85fcfc4107f74f3d0e56a3104cbd7f8c1bbde51e84
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q4_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q4_0.gguf
+    sha256: 649acb336282e86731fc68bb3ab9d86c85901a482dff13bb6638de06a475c627
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q4_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q4_K_M.gguf
+    sha256: 9620e93d36d76442c48a7b9846889e513df73347ef0782bcd4dd25ee6a99ad56
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q4_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q4_K_S.gguf
+    sha256: 2ddf22c79ecb98ae1957de2c342413fe9de0bc36644fbf73403316445a7a7ac0
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q5_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q5_0.gguf
+    sha256: e293f8a00ef1785da1825e2d65775d4575d7d7206bdadb74918f6dc905d85591
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q5_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q5_K_M.gguf
+    sha256: 96505c4d897ed73f8f2671199bce722ecaa12c87ea19a4ec7e248faf34273246
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q5_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q5_K_S.gguf
+    sha256: 2d7716a370fdd8a8a566f116b087079980a42b44632e37247d4470e12b52c731
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q6_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q6_K.gguf
+    sha256: 01fcd69d0158cff8d3bdd5a5d8bbade90a284059a674d62bb976091a55a27d08
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: quantum-v0.01.Q8_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/quantum-v0.01-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: quantum-v0.01.Q8_0.gguf
+    sha256: 529efd3032dcd2d4254c36bbdcb2d96d0c0df678dd4a527de6503fda49496055
+    uri: 
+      https://huggingface.co/TheBloke/quantum-v0.01-GGUF/resolve/main/quantum-v0.01.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__quantum-v0.01-gguf__quantum-v0.01.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:quantumaikr/quantum-v0.01
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/quantum-v0.01-GGUF

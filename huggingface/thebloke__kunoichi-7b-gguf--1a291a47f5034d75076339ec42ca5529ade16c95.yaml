@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q2_K.gguf
+    sha256: 8b66b48f09a314e958555c741ff898dfcbb54e8e97b2652c0c2bf879cc5b2bcd
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q3_K_L.gguf
+    sha256: 2028c8175dc8378208d873897122032b437ab8cccb771ff83e95e9ee805d6cc7
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q3_K_M.gguf
+    sha256: 7727afd10d8e9bd5349b123a816a1f61a58c70d0808ac5a1a305ee7e468f2531
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q3_K_S.gguf
+    sha256: e167edc9016a280ef45047896e1506c5cf41c006adf8cb1e4c55604f610903d5
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q4_0.gguf
+    sha256: b39a365b8ed6c331641efa72811ccc1b32c6a831b016be208b65afb5254afb91
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q4_K_M.gguf
+    sha256: d784928f0796f5c75f4bec5b441868c72a063384f91a28267bde0b29f1d16358
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q4_K_S.gguf
+    sha256: cce8c3a2a39b1b5d970a3fe8b83497fa223532a23e9e18e1f01adf90b75677b9
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q5_0.gguf
+    sha256: 3ee96e9f73a875cb26e76ce9809c7e827c0cc17cbdc4208adfda0a5313d5fc8b
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q5_K_M.gguf
+    sha256: f5289f555767ff7d6365b3b3d337f726972303c6e7f109795454065a52c6a071
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q5_K_S.gguf
+    sha256: af0c896c85e6ac7651afac6b7c7dfa773796b33758a8d5c133fe173b3541cb2c
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q6_K.gguf
+    sha256: 7de1a4e3406855596748c476cb4021862af415f3f1c87c9f8a3d10b64d0c3e9b
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kunoichi-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q8_0.gguf
+    sha256: d0be598c7b4b771cd958a632d1d6f13dc21496be8788571ffc701d228b8174d8
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q2_K.gguf
+    sha256: 8b66b48f09a314e958555c741ff898dfcbb54e8e97b2652c0c2bf879cc5b2bcd
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q3_K_L.gguf
+    sha256: 2028c8175dc8378208d873897122032b437ab8cccb771ff83e95e9ee805d6cc7
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q3_K_M.gguf
+    sha256: 7727afd10d8e9bd5349b123a816a1f61a58c70d0808ac5a1a305ee7e468f2531
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q3_K_S.gguf
+    sha256: e167edc9016a280ef45047896e1506c5cf41c006adf8cb1e4c55604f610903d5
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q4_0.gguf
+    sha256: b39a365b8ed6c331641efa72811ccc1b32c6a831b016be208b65afb5254afb91
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q4_K_M.gguf
+    sha256: d784928f0796f5c75f4bec5b441868c72a063384f91a28267bde0b29f1d16358
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q4_K_S.gguf
+    sha256: cce8c3a2a39b1b5d970a3fe8b83497fa223532a23e9e18e1f01adf90b75677b9
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q5_0.gguf
+    sha256: 3ee96e9f73a875cb26e76ce9809c7e827c0cc17cbdc4208adfda0a5313d5fc8b
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q5_K_M.gguf
+    sha256: f5289f555767ff7d6365b3b3d337f726972303c6e7f109795454065a52c6a071
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q5_K_S.gguf
+    sha256: af0c896c85e6ac7651afac6b7c7dfa773796b33758a8d5c133fe173b3541cb2c
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q6_K.gguf
+    sha256: 7de1a4e3406855596748c476cb4021862af415f3f1c87c9f8a3d10b64d0c3e9b
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kunoichi-7b.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Kunoichi-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: kunoichi-7b.Q8_0.gguf
+    sha256: d0be598c7b4b771cd958a632d1d6f13dc21496be8788571ffc701d228b8174d8
+    uri: 
+      https://huggingface.co/TheBloke/Kunoichi-7B-GGUF/resolve/main/kunoichi-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__kunoichi-7b-gguf__kunoichi-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:SanjiWatsuki/Kunoichi-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kunoichi-7B-GGUF

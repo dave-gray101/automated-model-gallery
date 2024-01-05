@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q2_K.gguf
+    sha256: 59c3fe94c73b02c3c5db21e1a114aabebc1764a8c9108ebe8625683b2ead76eb
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q3_K_L.gguf
+    sha256: 9b826f1a681dd6b1bfde4255549c1b35161fffd0d03dfb0630aff7707fdbafcf
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q3_K_M.gguf
+    sha256: b5311449511f535f0715941f268d62deb3d22ee3821f73415b3c7ee2dca5400a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q3_K_S.gguf
+    sha256: 1533c4e0bd8254fb4ed6b1c92ace9f69dca21b9d73068da3fa8282f4b06d83c1
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q4_0.gguf
+    sha256: 9b8df8cabf06f1dde91b3c4f6a267d3662be6212e502b5362bac511dc4e85935
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q4_K_M.gguf
+    sha256: 73a9b030d797a84a8e0627103680e81f4537bed616180450a73d345853e145e5
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q4_K_S.gguf
+    sha256: 1a67796c18fa6f1f0d80f1b3a6e1bd84e26ce9b7cb5b9c75ae280ed3d30c98b9
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q5_0.gguf
+    sha256: f6d0495095de21a15b5b59a4736487d0338fe71f3ca8e025cb4ecb32ff3fe990
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q5_K_M.gguf
+    sha256: 53ca50451527179844d0273549bfa45be0e09d06dc85a1ff34ae0a925d3e95db
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q5_K_S.gguf
+    sha256: 38d674c02cbcadfb300fb025b90dfb347339af2b2e94a6fb26e5a64862c106cf
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q6_K.gguf
+    sha256: 007c64b66b4ebe15081b5da3cbc02b80869f3426fbfa80201f321d18683005b3
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q8_0.gguf
+    sha256: 05e0f1c06f1a75ed26a00989393c1c064e8eaf683c306c72a3c11c432b7b207d
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q2_K.gguf
+    sha256: 59c3fe94c73b02c3c5db21e1a114aabebc1764a8c9108ebe8625683b2ead76eb
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q3_K_L.gguf
+    sha256: 9b826f1a681dd6b1bfde4255549c1b35161fffd0d03dfb0630aff7707fdbafcf
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q3_K_M.gguf
+    sha256: b5311449511f535f0715941f268d62deb3d22ee3821f73415b3c7ee2dca5400a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q3_K_S.gguf
+    sha256: 1533c4e0bd8254fb4ed6b1c92ace9f69dca21b9d73068da3fa8282f4b06d83c1
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q4_0.gguf
+    sha256: 9b8df8cabf06f1dde91b3c4f6a267d3662be6212e502b5362bac511dc4e85935
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q4_K_M.gguf
+    sha256: 73a9b030d797a84a8e0627103680e81f4537bed616180450a73d345853e145e5
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q4_K_S.gguf
+    sha256: 1a67796c18fa6f1f0d80f1b3a6e1bd84e26ce9b7cb5b9c75ae280ed3d30c98b9
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q5_0.gguf
+    sha256: f6d0495095de21a15b5b59a4736487d0338fe71f3ca8e025cb4ecb32ff3fe990
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q5_K_M.gguf
+    sha256: 53ca50451527179844d0273549bfa45be0e09d06dc85a1ff34ae0a925d3e95db
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q5_K_S.gguf
+    sha256: 38d674c02cbcadfb300fb025b90dfb347339af2b2e94a6fb26e5a64862c106cf
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q6_K.gguf
+    sha256: 007c64b66b4ebe15081b5da3cbc02b80869f3426fbfa80201f321d18683005b3
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-aezakmi-v1.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-AEZAKMI-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-aezakmi-v1.Q8_0.gguf
+    sha256: 05e0f1c06f1a75ed26a00989393c1c064e8eaf683c306c72a3c11c432b7b207d
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF/resolve/main/mistral-7b-aezakmi-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mistral-7b-aezakmi-v1-gguf__mistral-7b-aezakmi-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:adamo1139/Mistral-7B-AEZAKMI-v1
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-AEZAKMI-v1-GGUF

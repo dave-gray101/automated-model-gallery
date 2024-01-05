@@ -1,0 +1,1236 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q2_K.gguf
+    sha256: 84958b0758766184fb25a6649e25a611e8a327a7016f3a8a6cd092b9b2e97e00
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q3_K_L.gguf
+    sha256: 2ad86e78950b84645381b146bba910ca911566c358683beb8c417442ff22b9ef
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q3_K_M.gguf
+    sha256: e3e6bebe33a668edf741cdd2e317dac8389d8805d086a74ea387b8647a6d4f07
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q3_K_S.gguf
+    sha256: 5a1efbc5e15c7eb63242437d06cbea59874a8b8debe6c73ed2bbea1cfc41fbd6
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q4_0.gguf
+    sha256: 6c92b507ed814ec586b05b0c838ab969a0989929a5e3877f3513a3e285e7efbf
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q4_K_M.gguf
+    sha256: a69c16efe8ab5e3a08fa2a724f36f31f20635fec8547fb1339fce829f86e6c08
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q4_K_S.gguf
+    sha256: 9260b83a38a734ced4563574a6af63fe17e7b23b1c1e154addbc82ba95a5d2ec
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q5_0.gguf
+    sha256: a5f602b0e0c30323b481cb5b361527fce18ce8099233e29182c455fb28550ce8
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q5_K_M.gguf
+    sha256: b725a9a65bf3a65805018ed67fb298620154b8df01fd3bb222204b98c562b507
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q5_K_S.gguf
+    sha256: e4e05d80fb0f930c65018a3193c726f8810170661ead8a315cf67452276c15c0
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q6_K.gguf
+    sha256: 563f1a4bb4ce5f7b88ee7e6a1e97468612d11f9a11cfeb14ae74153492a8c040
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q8_0.gguf
+    sha256: 1de1c9b303a0bb9936a5a09b45eba439ba530e150935b7ee6b880633fb5c9f84
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q2_K.gguf
+    sha256: 84958b0758766184fb25a6649e25a611e8a327a7016f3a8a6cd092b9b2e97e00
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q3_K_L.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q3_K_L.gguf
+    sha256: 2ad86e78950b84645381b146bba910ca911566c358683beb8c417442ff22b9ef
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q3_K_M.gguf
+    sha256: e3e6bebe33a668edf741cdd2e317dac8389d8805d086a74ea387b8647a6d4f07
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q3_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q3_K_S.gguf
+    sha256: 5a1efbc5e15c7eb63242437d06cbea59874a8b8debe6c73ed2bbea1cfc41fbd6
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q4_0.gguf
+    sha256: 6c92b507ed814ec586b05b0c838ab969a0989929a5e3877f3513a3e285e7efbf
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q4_K_M.gguf
+    sha256: a69c16efe8ab5e3a08fa2a724f36f31f20635fec8547fb1339fce829f86e6c08
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q4_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q4_K_S.gguf
+    sha256: 9260b83a38a734ced4563574a6af63fe17e7b23b1c1e154addbc82ba95a5d2ec
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q5_0.gguf
+    sha256: a5f602b0e0c30323b481cb5b361527fce18ce8099233e29182c455fb28550ce8
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q5_K_M.gguf
+    sha256: b725a9a65bf3a65805018ed67fb298620154b8df01fd3bb222204b98c562b507
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q5_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q5_K_S.gguf
+    sha256: e4e05d80fb0f930c65018a3193c726f8810170661ead8a315cf67452276c15c0
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q6_K.gguf
+    sha256: 563f1a4bb4ce5f7b88ee7e6a1e97468612d11f9a11cfeb14ae74153492a8c040
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q8_0.gguf
+    sha256: 1de1c9b303a0bb9936a5a09b45eba439ba530e150935b7ee6b880633fb5c9f84
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q2_K.gguf
+    sha256: 84958b0758766184fb25a6649e25a611e8a327a7016f3a8a6cd092b9b2e97e00
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q3_K_L.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q3_K_L.gguf
+    sha256: 2ad86e78950b84645381b146bba910ca911566c358683beb8c417442ff22b9ef
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q3_K_M.gguf
+    sha256: e3e6bebe33a668edf741cdd2e317dac8389d8805d086a74ea387b8647a6d4f07
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q3_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q3_K_S.gguf
+    sha256: 5a1efbc5e15c7eb63242437d06cbea59874a8b8debe6c73ed2bbea1cfc41fbd6
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q4_0.gguf
+    sha256: 6c92b507ed814ec586b05b0c838ab969a0989929a5e3877f3513a3e285e7efbf
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q4_K_M.gguf
+    sha256: a69c16efe8ab5e3a08fa2a724f36f31f20635fec8547fb1339fce829f86e6c08
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q4_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q4_K_S.gguf
+    sha256: 9260b83a38a734ced4563574a6af63fe17e7b23b1c1e154addbc82ba95a5d2ec
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q5_0.gguf
+    sha256: a5f602b0e0c30323b481cb5b361527fce18ce8099233e29182c455fb28550ce8
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q5_K_M.gguf
+    sha256: b725a9a65bf3a65805018ed67fb298620154b8df01fd3bb222204b98c562b507
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q5_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q5_K_S.gguf
+    sha256: e4e05d80fb0f930c65018a3193c726f8810170661ead8a315cf67452276c15c0
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q6_K.gguf
+    sha256: 563f1a4bb4ce5f7b88ee7e6a1e97468612d11f9a11cfeb14ae74153492a8c040
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synatra-v0.1-7b-instruct.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Synatra-V0.1-7B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: synatra-v0.1-7b-instruct.Q8_0.gguf
+    sha256: 1de1c9b303a0bb9936a5a09b45eba439ba530e150935b7ee6b880633fb5c9f84
+    uri: 
+      https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF/resolve/main/synatra-v0.1-7b-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__synatra-v0.1-7b-instruct-gguf__synatra-v0.1-7b-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - ko
+  - base_model:maywell/Synatra-V0.1-7B-Instruct
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synatra-V0.1-7B-Instruct-GGUF

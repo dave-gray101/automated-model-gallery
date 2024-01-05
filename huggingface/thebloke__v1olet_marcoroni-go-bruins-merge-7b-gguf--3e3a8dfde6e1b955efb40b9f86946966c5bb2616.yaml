@@ -1,0 +1,852 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q2_K.gguf
+    sha256: 4d3fbb1a41bbfe43908ba9181b9010eabb97a7bb54438fec0ec14a77d86dc728
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_L.gguf
+    sha256: d1426afcab613a468c6d6eec6af2a9df9f4f037a76662ea7c5b7eeb227dc0997
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_M.gguf
+    sha256: caa38fb65b93596b7efdbfb947c9a4078b4298d67f0c6c16018c472ad663b190
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_S.gguf
+    sha256: 0ace14b73e68e4180e1c909238e777693bf3f7d655ae012e6fb67d4c964f342d
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q4_0.gguf
+    sha256: de06e84d36aad9dec5b68c1f9b6a5db28487348323bfaf18f2d08d35c9784b42
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q4_K_M.gguf
+    sha256: 5005ea194327c23831f3a63e94c843af26255978f89e67ae18244482ce47956f
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q4_K_S.gguf
+    sha256: 59628aeb2cf2d66691c6a66e4d292128817997d2cc11659dffa07b42943e1dd9
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q5_0.gguf
+    sha256: 65b807c88e7d2d3a9b3bb2cc0856666f0454b9686b14f7a8333c9f3fd0bc1917
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q5_K_M.gguf
+    sha256: 5bd77a07751bb9c22e3e1c58519a5cf67f128dd005cccce9c5d1343a8da0a7ab
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q5_K_S.gguf
+    sha256: 75fec9e41a56f2696c36ffe2c1eab4b065e61ace39207320a0dcab4b54a1033a
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q6_K.gguf
+    sha256: c0828c9e4a25ab2abae028bc473c5e04f8bbd5cb26bf0e61f289444bd8e44f26
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q8_0.gguf
+    sha256: 19cec2543ef81ec07433a1fbe547edeab8d70761b6724b01419e33bcb71afc1e
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q2_K.gguf
+    sha256: 4d3fbb1a41bbfe43908ba9181b9010eabb97a7bb54438fec0ec14a77d86dc728
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_L.gguf
+    sha256: d1426afcab613a468c6d6eec6af2a9df9f4f037a76662ea7c5b7eeb227dc0997
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_M.gguf
+    sha256: caa38fb65b93596b7efdbfb947c9a4078b4298d67f0c6c16018c472ad663b190
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q3_K_S.gguf
+    sha256: 0ace14b73e68e4180e1c909238e777693bf3f7d655ae012e6fb67d4c964f342d
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q4_0.gguf
+    sha256: de06e84d36aad9dec5b68c1f9b6a5db28487348323bfaf18f2d08d35c9784b42
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q4_K_M.gguf
+    sha256: 5005ea194327c23831f3a63e94c843af26255978f89e67ae18244482ce47956f
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q4_K_S.gguf
+    sha256: 59628aeb2cf2d66691c6a66e4d292128817997d2cc11659dffa07b42943e1dd9
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q5_0.gguf
+    sha256: 65b807c88e7d2d3a9b3bb2cc0856666f0454b9686b14f7a8333c9f3fd0bc1917
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q5_K_M.gguf
+    sha256: 5bd77a07751bb9c22e3e1c58519a5cf67f128dd005cccce9c5d1343a8da0a7ab
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q5_K_S.gguf
+    sha256: 75fec9e41a56f2696c36ffe2c1eab4b065e61ace39207320a0dcab4b54a1033a
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q6_K.gguf
+    sha256: c0828c9e4a25ab2abae028bc473c5e04f8bbd5cb26bf0e61f289444bd8e44f26
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_marcoroni-go-bruins-merge-7b.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_marcoroni-go-bruins-merge-7b.Q8_0.gguf
+    sha256: 19cec2543ef81ec07433a1fbe547edeab8d70761b6724b01419e33bcb71afc1e
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF/resolve/main/v1olet_marcoroni-go-bruins-merge-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__v1olet_marcoroni-go-bruins-merge-7b-gguf__v1olet_marcoroni-go-bruins-merge-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_marcoroni-go-bruins-merge-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_marcoroni-go-bruins-merge-7B-GGUF

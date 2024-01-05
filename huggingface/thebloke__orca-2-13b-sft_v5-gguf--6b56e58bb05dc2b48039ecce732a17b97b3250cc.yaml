@@ -1,0 +1,1008 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q2_K.gguf
+    sha256: 8939b8b2f79b4167bd42e2dfc719ba9fc262f9a1b9005bdc378c5508cdc5eeae
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q3_K_L.gguf
+    sha256: 9235dccbf1f46c1983fc15e844d73114aae7777bdf6507b3df3c075702b2415d
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q3_K_M.gguf
+    sha256: ebcc16786d889feb0085223fb7c402f3f2a81dfb3488adc27d10bd04873c5b10
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q3_K_S.gguf
+    sha256: 0d2fd9c33f6dc48cfd7388729d871b833bd9073a8de9bff55c659e651cc43036
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q4_0.gguf
+    sha256: 806a09bc9aea0dc21e6d9e7af19f0f6969d1166f9968ac68a9577725a73338d4
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q4_K_M.gguf
+    sha256: 9ae4b6a8c4cd82593a6084059e0ffe362dcdce6c3134a6979271451701346e7e
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q4_K_S.gguf
+    sha256: f0630e8c2d8342117f7bd12caafbf6b370c9a0756c34ffa2941e58a28e085046
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q5_0.gguf
+    sha256: 2a736b2ab14f7662a856cfa029ed941012d679124b95dbd86b1f2378a9980284
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q5_K_M.gguf
+    sha256: c3b9749ebd6c0ff339d79a1b4bb9e19edd3e5ce8882ad5b15554a1509b0acb43
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q5_K_S.gguf
+    sha256: ec3fa13b4f7d3d340bae7949929281080e5e232d246770eed647129269700736
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q6_K.gguf
+    sha256: 8da84f2726a6710d0e3e8f218a9f0d82abc413580d743d82fae4100d8c7e5693
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q8_0.gguf
+    sha256: c19710f1c460ff9974f9a4c32b00d1a41ced87ceee506815d7c1b5aa732f4dc7
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q2_K.gguf
+    sha256: 8939b8b2f79b4167bd42e2dfc719ba9fc262f9a1b9005bdc378c5508cdc5eeae
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q3_K_L.gguf
+    sha256: 9235dccbf1f46c1983fc15e844d73114aae7777bdf6507b3df3c075702b2415d
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q3_K_M.gguf
+    sha256: ebcc16786d889feb0085223fb7c402f3f2a81dfb3488adc27d10bd04873c5b10
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q3_K_S.gguf
+    sha256: 0d2fd9c33f6dc48cfd7388729d871b833bd9073a8de9bff55c659e651cc43036
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q4_0.gguf
+    sha256: 806a09bc9aea0dc21e6d9e7af19f0f6969d1166f9968ac68a9577725a73338d4
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q4_K_M.gguf
+    sha256: 9ae4b6a8c4cd82593a6084059e0ffe362dcdce6c3134a6979271451701346e7e
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q4_K_S.gguf
+    sha256: f0630e8c2d8342117f7bd12caafbf6b370c9a0756c34ffa2941e58a28e085046
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q5_0.gguf
+    sha256: 2a736b2ab14f7662a856cfa029ed941012d679124b95dbd86b1f2378a9980284
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q5_K_M.gguf
+    sha256: c3b9749ebd6c0ff339d79a1b4bb9e19edd3e5ce8882ad5b15554a1509b0acb43
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q5_K_S.gguf
+    sha256: ec3fa13b4f7d3d340bae7949929281080e5e232d246770eed647129269700736
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q6_K.gguf
+    sha256: 8da84f2726a6710d0e3e8f218a9f0d82abc413580d743d82fae4100d8c7e5693
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-13b-sft_v5.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Orca-2-13B-SFT_v5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: orca-2-13b-sft_v5.Q8_0.gguf
+    sha256: c19710f1c460ff9974f9a4c32b00d1a41ced87ceee506815d7c1b5aa732f4dc7
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF/resolve/main/orca-2-13b-sft_v5.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__orca-2-13b-sft_v5-gguf__orca-2-13b-sft_v5.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - fr
+  - es
+  - hi
+  - zh
+  - code
+  - dataset:HuggingFaceH4/no_robots
+  - dataset:mlabonne/guanaco-llama2-1k
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:Locutusque/Orca-2-13b-SFT_v5
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-13B-SFT_v5-GGUF

@@ -1,0 +1,68 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: goliath-120b.Q2_K.gguf
+    template:
+      chat: vicuna-short
+      completion: vicuna-short
+  description: TheBloke/goliath-120b-GGUF - llama configuration
+  files:
+  - filename: vicuna-short.tmpl
+    sha256: 97c10ccfcdc2d7d21704a4ff8040a3530fc28ea8c3bed5619dee4b7ec886a187
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna-short.tmpl
+  - filename: goliath-120b.Q2_K.gguf
+    sha256: 24b0fd1bc571b349cf0e0a76ac91cce785d939af6177d698e630aff788d2370a
+    uri: 
+      https://huggingface.co/TheBloke/goliath-120b-GGUF/resolve/main/goliath-120b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__goliath-120b-gguf__goliath-120b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - conversational
+  - en
+  - base_model:alpindale/goliath-120b
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/goliath-120b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: goliath-120b.Q2_K.gguf
+    template:
+      chat: vicuna-short
+      completion: vicuna-short
+  description: TheBloke/goliath-120b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna-short.tmpl
+    sha256: 97c10ccfcdc2d7d21704a4ff8040a3530fc28ea8c3bed5619dee4b7ec886a187
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna-short.tmpl
+  - filename: goliath-120b.Q2_K.gguf
+    sha256: 24b0fd1bc571b349cf0e0a76ac91cce785d939af6177d698e630aff788d2370a
+    uri: 
+      https://huggingface.co/TheBloke/goliath-120b-GGUF/resolve/main/goliath-120b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__goliath-120b-gguf__goliath-120b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - conversational
+  - en
+  - base_model:alpindale/goliath-120b
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/goliath-120b-GGUF

@@ -1,0 +1,962 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q2_K.gguf
+    sha256: f4592d76d9417b1d0a87900a5a63a7924493d7395ddd6871929360a5504bce6d
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q3_K_L.gguf
+    sha256: 1cd71e5d1b1bc1801d6e65c895fabc5ab0528cc20c2538fa511f7188b9149911
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q3_K_M.gguf
+    sha256: 2c2dafc0ad5b88e42e79ecbb421597da29a031cfc8d147107a3f5a3ece6d35aa
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q3_K_S.gguf
+    sha256: 8e740157c847ed0b92227bd07514759d5ff78bda8df356aa45ab1b91d6b11b33
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q4_0.gguf
+    sha256: 4879863434376301d034c4dedda13fc51fcb39c19d1576a3340daaee0913d5dd
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q4_K_M.gguf
+    sha256: 59ec6c56c371c053a1903eaac93e79f98c72ccda949c968cfeaa4781a65ceb6c
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q4_K_S.gguf
+    sha256: 9cd53c523925b3497cdda9467977099a0be2d0a6869c9e04d1110d1a29f1e97d
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q5_0.gguf
+    sha256: f1b00235eb7f1e05abef7a2daa4fb3bb29fa200067db3bd545228d5abdee79be
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q5_K_M.gguf
+    sha256: d19823e11d537b6718219abf863493052e36f4f19871aa6e68ad11fbfb6e7b04
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q5_K_S.gguf
+    sha256: e5e3194064901db31540c5f93793a858462051df6d53c170d1fecd7e9a913fce
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q6_K.gguf
+    sha256: 3e9d6d55532444d7f4607d5c8eca0abbc0931d315abc2a242e5379d982294d92
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q8_0.gguf
+    sha256: d03c9e099f6b4ef544bf5939177f1497a99acdf450f9ca57f852c0e9790e32d2
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q2_K.gguf
+    sha256: f4592d76d9417b1d0a87900a5a63a7924493d7395ddd6871929360a5504bce6d
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q3_K_L.gguf
+    sha256: 1cd71e5d1b1bc1801d6e65c895fabc5ab0528cc20c2538fa511f7188b9149911
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q3_K_M.gguf
+    sha256: 2c2dafc0ad5b88e42e79ecbb421597da29a031cfc8d147107a3f5a3ece6d35aa
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q3_K_S.gguf
+    sha256: 8e740157c847ed0b92227bd07514759d5ff78bda8df356aa45ab1b91d6b11b33
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q4_0.gguf
+    sha256: 4879863434376301d034c4dedda13fc51fcb39c19d1576a3340daaee0913d5dd
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q4_K_M.gguf
+    sha256: 59ec6c56c371c053a1903eaac93e79f98c72ccda949c968cfeaa4781a65ceb6c
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q4_K_S.gguf
+    sha256: 9cd53c523925b3497cdda9467977099a0be2d0a6869c9e04d1110d1a29f1e97d
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q5_0.gguf
+    sha256: f1b00235eb7f1e05abef7a2daa4fb3bb29fa200067db3bd545228d5abdee79be
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q5_K_M.gguf
+    sha256: d19823e11d537b6718219abf863493052e36f4f19871aa6e68ad11fbfb6e7b04
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q5_K_S.gguf
+    sha256: e5e3194064901db31540c5f93793a858462051df6d53c170d1fecd7e9a913fce
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q6_K.gguf
+    sha256: 3e9d6d55532444d7f4607d5c8eca0abbc0931d315abc2a242e5379d982294d92
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: luna-solarkrautlm-instruct.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: luna-solarkrautlm-instruct.Q8_0.gguf
+    sha256: d03c9e099f6b4ef544bf5939177f1497a99acdf450f9ca57f852c0e9790e32d2
+    uri: 
+      https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF/resolve/main/luna-solarkrautlm-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__luna-solarkrautlm-instruct-gguf__luna-solarkrautlm-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:fblgit/LUNA-SOLARkrautLM-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LUNA-SOLARkrautLM-Instruct-GGUF

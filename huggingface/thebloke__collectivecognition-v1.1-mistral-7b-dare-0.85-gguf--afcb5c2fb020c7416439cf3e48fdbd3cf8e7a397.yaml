@@ -1,0 +1,840 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q2_K.gguf
+    sha256: 55d977d27e0889343cf0d44fb724c4a89950fb5a3c907a0c4725eda269dc9eb8
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_L.gguf
+    sha256: 05277d67e20f9f17adf8be847c6b3cde22b241bbad5ae68c259abe2b7c077901
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_M.gguf
+    sha256: 9c50f508ddeac5bdeb6b1733117afa8db03daeffb7f9e2bd213d5f525ae70f34
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_S.gguf
+    sha256: ee2205a32fc26bce8fe08dfea33f14807e9bf33799ff1eb52d5bf940650cbcf3
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_0.gguf
+    sha256: fb83076a6904b990caa448192d2df125f4de9a5befcda1a9d3893d0e0dfb9229
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_M.gguf
+    sha256: bb54d013adceee6fdfb75b390194c90a9570a963aab89163873ee8c3050efc63
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_S.gguf
+    sha256: 708d4cf3be24ad8b37f8a4e1ce693c7861fc9da47142a253f0f5e47649d1ac70
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_0.gguf
+    sha256: 547d19fb116ead451520fc4bed758ee39eda9c9a96670a8411d2e4ef974d9bfe
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_M.gguf
+    sha256: 6a64a1cabb535994b405da0a3edbbf347fcca981578bf76235b90292a2aa145c
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_S.gguf
+    sha256: 2667db2baa917bb3f7f54b28f80a8cf927e0dfd3876aa4692e2df65559e07fb8
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q6_K.gguf
+    sha256: a39b836a4ff34676aca9c32801b5121fdf5372e17565bcad9b56ff6b24c6fb3c
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - mistral
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q8_0.gguf
+    sha256: 509a43d4de1dc4858b5dea9eae4365da6227259c11974a8e2b2e9937a7e63a49
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q2_K.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q2_K.gguf
+    sha256: 55d977d27e0889343cf0d44fb724c4a89950fb5a3c907a0c4725eda269dc9eb8
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_L.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_L.gguf
+    sha256: 05277d67e20f9f17adf8be847c6b3cde22b241bbad5ae68c259abe2b7c077901
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_M.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_M.gguf
+    sha256: 9c50f508ddeac5bdeb6b1733117afa8db03daeffb7f9e2bd213d5f525ae70f34
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_S.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_S.gguf
+    sha256: ee2205a32fc26bce8fe08dfea33f14807e9bf33799ff1eb52d5bf940650cbcf3
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_0.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_0.gguf
+    sha256: fb83076a6904b990caa448192d2df125f4de9a5befcda1a9d3893d0e0dfb9229
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_M.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_M.gguf
+    sha256: bb54d013adceee6fdfb75b390194c90a9570a963aab89163873ee8c3050efc63
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_S.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_S.gguf
+    sha256: 708d4cf3be24ad8b37f8a4e1ce693c7861fc9da47142a253f0f5e47649d1ac70
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_0.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_0.gguf
+    sha256: 547d19fb116ead451520fc4bed758ee39eda9c9a96670a8411d2e4ef974d9bfe
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_M.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_M.gguf
+    sha256: 6a64a1cabb535994b405da0a3edbbf347fcca981578bf76235b90292a2aa145c
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_S.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_S.gguf
+    sha256: 2667db2baa917bb3f7f54b28f80a8cf927e0dfd3876aa4692e2df65559e07fb8
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q6_K.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q6_K.gguf
+    sha256: a39b836a4ff34676aca9c32801b5121fdf5372e17565bcad9b56ff6b24c6fb3c
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: collectivecognition-v1.1-mistral-7b-dare-0.85.Q8_0.gguf
+    template:
+      chat: user-assistant-lc
+      completion: user-assistant-lc
+  description: TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-lc.tmpl
+    sha256: 9e0a2fbb1f98b8d1042827292e0cd71d97a63b153cc18c523aaf46d8a5f338a7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-lc.tmpl
+  - filename: collectivecognition-v1.1-mistral-7b-dare-0.85.Q8_0.gguf
+    sha256: 509a43d4de1dc4858b5dea9eae4365da6227259c11974a8e2b2e9937a7e63a49
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF/resolve/main/collectivecognition-v1.1-mistral-7b-dare-0.85.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__collectivecognition-v1.1-mistral-7b-dare-0.85-gguf__collectivecognition-v1.1-mistral-7b-dare-0.85.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:uukuguy/CollectiveCognition-v1.1-Mistral-7B-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-dare-0.85-GGUF

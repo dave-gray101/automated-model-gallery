@@ -1,0 +1,840 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q2_K.gguf
+    sha256: 815b2bdf400e5dd95875d0df8e0aca51da20341d08337dd94376f70123d93996
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q3_K_L.gguf
+    sha256: 4ef2760ffc1b8705e5e4307a70e917f650196a7659bb487a608867e3ddaf711d
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q3_K_M.gguf
+    sha256: 90f2678f4f0fb308b42fd6c41423a97d4206fc1710af69323ba4503da5cbc596
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q3_K_S.gguf
+    sha256: bcc772e4f43c7c85925c9f72b40abe0c7a3988d420d1e56cd6bb27e4bf7a9dbc
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q4_0.gguf
+    sha256: 3a9af8f190ab06f0d80c0481708f607312b85fe9941417234c6d870d70cf25bd
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q4_K_M.gguf
+    sha256: 661e1044a69ef4e5e268eff3e832fd4960f2cb17da8275ea5225c72a73cdaa8a
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q4_K_S.gguf
+    sha256: fe6564fe61c61ede4f32cd2e925611373091cd97448e9a4f9b99e9336cb8d96a
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q5_0.gguf
+    sha256: b34af78c770e29364fa850d4212503473476538ce662f13ae2147c7c09b5b6ba
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q5_K_M.gguf
+    sha256: 676dcc89c723b0e86d412353fb462c4570ba2c3a90a3c90c895d3efbd14422c3
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q5_K_S.gguf
+    sha256: bc290b5d8690bdfd9f9ce99edb310d730d8e5e7863a1e63f7475e76ef9e45a89
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q6_K.gguf
+    sha256: e55076bc9331a1ff12e04ea8d0025b75948af8ddc3cf7f47e429b975e0eac615
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: clover3-17b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q8_0.gguf
+    sha256: 3fb156bb876b8d5f24d2d22ee9565c29651a634f9345a2bd54b76e064d900030
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q2_K.gguf
+    sha256: 815b2bdf400e5dd95875d0df8e0aca51da20341d08337dd94376f70123d93996
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q3_K_L.gguf
+    sha256: 4ef2760ffc1b8705e5e4307a70e917f650196a7659bb487a608867e3ddaf711d
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q3_K_M.gguf
+    sha256: 90f2678f4f0fb308b42fd6c41423a97d4206fc1710af69323ba4503da5cbc596
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q3_K_S.gguf
+    sha256: bcc772e4f43c7c85925c9f72b40abe0c7a3988d420d1e56cd6bb27e4bf7a9dbc
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q4_0.gguf
+    sha256: 3a9af8f190ab06f0d80c0481708f607312b85fe9941417234c6d870d70cf25bd
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q4_K_M.gguf
+    sha256: 661e1044a69ef4e5e268eff3e832fd4960f2cb17da8275ea5225c72a73cdaa8a
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q4_K_S.gguf
+    sha256: fe6564fe61c61ede4f32cd2e925611373091cd97448e9a4f9b99e9336cb8d96a
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q5_0.gguf
+    sha256: b34af78c770e29364fa850d4212503473476538ce662f13ae2147c7c09b5b6ba
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q5_K_M.gguf
+    sha256: 676dcc89c723b0e86d412353fb462c4570ba2c3a90a3c90c895d3efbd14422c3
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q5_K_S.gguf
+    sha256: bc290b5d8690bdfd9f9ce99edb310d730d8e5e7863a1e63f7475e76ef9e45a89
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q6_K.gguf
+    sha256: e55076bc9331a1ff12e04ea8d0025b75948af8ddc3cf7f47e429b975e0eac615
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: clover3-17b.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Clover3-17B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: clover3-17b.Q8_0.gguf
+    sha256: 3fb156bb876b8d5f24d2d22ee9565c29651a634f9345a2bd54b76e064d900030
+    uri: 
+      https://huggingface.co/TheBloke/Clover3-17B-GGUF/resolve/main/clover3-17b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__clover3-17b-gguf__clover3-17b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Clover3-17B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Clover3-17B-GGUF

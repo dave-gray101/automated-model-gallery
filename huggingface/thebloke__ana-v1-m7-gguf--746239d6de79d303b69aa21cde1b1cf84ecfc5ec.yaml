@@ -1,0 +1,806 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q2_K.gguf
+    sha256: ce704a5a486761309b30a598c8b2b5dcf9e0a8e3a8d4397a0bd6aa9dbec3d37b
+    uri: https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q3_K_L.gguf
+    sha256: ef383ecfbda2647fe74bf5a1cd4598c55a8e7e6b27b5c55956dc8cade36b3a31
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q3_K_M.gguf
+    sha256: 24de076890e31afcbf9c2d6983738c4f4c9f7a76d3390008927860099eb2df13
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q3_K_S.gguf
+    sha256: 120f61de919f706fb21791d8c7f1369958f355d7f03066c40a8e32c5828ef100
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q4_0.gguf
+    sha256: 1ec2078c6bd9c5c88584d703dcf7de5b8b400138939e031d340b2a2789ac7117
+    uri: https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q4_K_M.gguf
+    sha256: 5a47da8d0fad37552c362e0e4832f17357b9f17c927dd93c14a9df2718e07956
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q4_K_S.gguf
+    sha256: 0d465e745e3b94bdcc2e587c3bc463fd6942c04ead8f4298224611a32c1b3b07
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q5_0.gguf
+    sha256: d02e2bd413f98fd1db503a6808bafae668493476c5776811b32e552ef556da77
+    uri: https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q5_K_M.gguf
+    sha256: 57186ad67485da8532c8c6d9b00a8e45675d1c683b6dc561bad40816bc53e3c9
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q5_K_S.gguf
+    sha256: 2403d3a5eea2696524adaa2da860372c0861aef77a3d0546c57afc02c7635c44
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q6_K.gguf
+    sha256: a4ca379d56f87c31410d35bfcaa93e535006cd6a9726bbcb87815d8a96edc27a
+    uri: https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ana-v1-m7.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q8_0.gguf
+    sha256: 928ff6802e9d5c1b2b7bca16ff02870116c78e4e4d330d58de4cbf98091aeec4
+    uri: https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q2_K.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q2_K.gguf
+    sha256: ce704a5a486761309b30a598c8b2b5dcf9e0a8e3a8d4397a0bd6aa9dbec3d37b
+    uri: https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q3_K_L.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q3_K_L.gguf
+    sha256: ef383ecfbda2647fe74bf5a1cd4598c55a8e7e6b27b5c55956dc8cade36b3a31
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q3_K_M.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q3_K_M.gguf
+    sha256: 24de076890e31afcbf9c2d6983738c4f4c9f7a76d3390008927860099eb2df13
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q3_K_S.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q3_K_S.gguf
+    sha256: 120f61de919f706fb21791d8c7f1369958f355d7f03066c40a8e32c5828ef100
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q4_0.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q4_0.gguf
+    sha256: 1ec2078c6bd9c5c88584d703dcf7de5b8b400138939e031d340b2a2789ac7117
+    uri: https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q4_K_M.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q4_K_M.gguf
+    sha256: 5a47da8d0fad37552c362e0e4832f17357b9f17c927dd93c14a9df2718e07956
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q4_K_S.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q4_K_S.gguf
+    sha256: 0d465e745e3b94bdcc2e587c3bc463fd6942c04ead8f4298224611a32c1b3b07
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q5_0.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q5_0.gguf
+    sha256: d02e2bd413f98fd1db503a6808bafae668493476c5776811b32e552ef556da77
+    uri: https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q5_K_M.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q5_K_M.gguf
+    sha256: 57186ad67485da8532c8c6d9b00a8e45675d1c683b6dc561bad40816bc53e3c9
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q5_K_S.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q5_K_S.gguf
+    sha256: 2403d3a5eea2696524adaa2da860372c0861aef77a3d0546c57afc02c7635c44
+    uri: 
+      https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q6_K.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q6_K.gguf
+    sha256: a4ca379d56f87c31410d35bfcaa93e535006cd6a9726bbcb87815d8a96edc27a
+    uri: https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ana-v1-m7.Q8_0.gguf
+    template:
+      chat: thebloke__ana-v1-m7-gguf
+      completion: thebloke__ana-v1-m7-gguf
+  description: TheBloke/Ana-v1-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__ana-v1-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__ana-v1-m7-gguf.tmpl
+  - filename: ana-v1-m7.Q8_0.gguf
+    sha256: 928ff6802e9d5c1b2b7bca16ff02870116c78e4e4d330d58de4cbf98091aeec4
+    uri: https://huggingface.co/TheBloke/Ana-v1-m7-GGUF/resolve/main/ana-v1-m7.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__ana-v1-m7-gguf__ana-v1-m7.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:Sao10K/Ana-v1-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ana-v1-m7-GGUF

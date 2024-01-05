@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q2_K.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q2_K.gguf
+    sha256: 31b020ce07d8ae029c8c896601baf53b85dbf15f5963c1c23407d46b5fe8d7fc
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_L.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_L.gguf
+    sha256: 42fa5ea6b10526eae7a54a5bc95388f71df70b70f6f8e05df7ce789f0383244b
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_M.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_M.gguf
+    sha256: f1c5e766f683d3d5494f30fe8696ded8b9afbbb258bb9c4e7ac914e79defb498
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_S.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_S.gguf
+    sha256: 50245d0b1abe55f45d519c93179ad30451bec710ed5d12bead2a11e73399ce92
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_0.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_0.gguf
+    sha256: aa5c149ebf2bcc3f0edccd77418834bec29d726764c6bf25fc75d241aeba9486
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_M.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_M.gguf
+    sha256: c0bdee744c6dc76e48d1bfc2fcbb7e56f9e0e815192678dc0d8037ca0d8ac7c9
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_S.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_S.gguf
+    sha256: e1401882deb279c1e23cc82f6eaa38a9e54e31e32ab94d07d48dbc155c4b957d
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_0.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_0.gguf
+    sha256: 768d333112abf8fb2453ea50b26555cdddd548ef80de8d4cfe9f0478c8f613d9
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_M.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_M.gguf
+    sha256: 07eef44d876eb7036b2cbe40feb4b132c2f7ed58f502f20b084ce9976f202456
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_S.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_S.gguf
+    sha256: 5de67e2d77fea36e9931e49da1a7761d979b80d06e004ca9124a9b47154f1139
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q6_K.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q6_K.gguf
+    sha256: 3dd0d0872fd0b9f31d984cc851c4bba90aa3a734445161acc052ae400c7ff733
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-intermediate-step-715k-1.5t.Q8_0.gguf
+    template:
+      chat: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+      completion: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf
+  description: TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf.tmpl
+  - filename: tinyllama-1.1b-intermediate-step-715k-1.5t.Q8_0.gguf
+    sha256: 4d2c5281c4efa28628936277ff6cd1a6211bd0c0a5c27a3a75efe524857179a5
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF/resolve/main/tinyllama-1.1b-intermediate-step-715k-1.5t.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__tinyllama-1.1b-intermediate-step-715k-1.5t-gguf__tinyllama-1.1b-intermediate-step-715k-1.5t.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - base_model:PY007/TinyLlama-1.1B-intermediate-step-715k-1.5T
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-intermediate-step-715k-1.5T-GGUF

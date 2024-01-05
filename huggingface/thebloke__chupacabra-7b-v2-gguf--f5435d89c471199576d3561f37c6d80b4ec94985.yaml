@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q2_K.gguf
+    sha256: bac66ebaba21f8aed47361a219476da015aa9e810775b13fed65b62edce405ae
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q3_K_L.gguf
+    sha256: e30ca8a28d89cbcb75ec6b73ccdba69a21ccb1234c7d2464681786542e4275f1
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q3_K_M.gguf
+    sha256: 57a02f8d087a0153c5befbadde5fce4dbf7a1384cb43a1d06a8ac03fe1b593cc
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q3_K_S.gguf
+    sha256: c35be6105d0e483a1d6368570a3322ef0aa6237e63237932a601c895e6b7325a
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q4_0.gguf
+    sha256: a9a49a6ce8ea8af710e35b2e4c2103372692808b2e2aadde096b0ada629919df
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q4_K_M.gguf
+    sha256: 666c1c4174b34003067c0bcd031d05f046f3a996e4e213cbac816ad763d52449
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q4_K_S.gguf
+    sha256: 50687c5f8f6cf77a4551e95a0e220d09c962a342c3f49b0f79c7edee3620a2c6
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q5_0.gguf
+    sha256: 346190bc80109800948ab13a5a9e12fde8a6266520b6ee8220e93bf7f187c299
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q5_K_M.gguf
+    sha256: 39f4c9022edb6f166984b20327ac5a6ddbda2813d1798751a67e98b46498e87d
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q5_K_S.gguf
+    sha256: 82d72f34ce84c767fe24449afa2287115fa7163ef6c2da0f74496f2ebdc6fc0f
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q6_K.gguf
+    sha256: b0f5ae01d2979566f1171e12da59d510e7aa1ab345025b440f043d5cbcb9df71
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v2.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q8_0.gguf
+    sha256: 4d5ee37132b2bdb164cc211fd2a62cacbcad45eafd012cdd4845dc27054443cb
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q2_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q2_K.gguf
+    sha256: bac66ebaba21f8aed47361a219476da015aa9e810775b13fed65b62edce405ae
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q3_K_L.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q3_K_L.gguf
+    sha256: e30ca8a28d89cbcb75ec6b73ccdba69a21ccb1234c7d2464681786542e4275f1
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q3_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q3_K_M.gguf
+    sha256: 57a02f8d087a0153c5befbadde5fce4dbf7a1384cb43a1d06a8ac03fe1b593cc
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q3_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q3_K_S.gguf
+    sha256: c35be6105d0e483a1d6368570a3322ef0aa6237e63237932a601c895e6b7325a
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q4_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q4_0.gguf
+    sha256: a9a49a6ce8ea8af710e35b2e4c2103372692808b2e2aadde096b0ada629919df
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q4_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q4_K_M.gguf
+    sha256: 666c1c4174b34003067c0bcd031d05f046f3a996e4e213cbac816ad763d52449
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q4_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q4_K_S.gguf
+    sha256: 50687c5f8f6cf77a4551e95a0e220d09c962a342c3f49b0f79c7edee3620a2c6
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q5_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q5_0.gguf
+    sha256: 346190bc80109800948ab13a5a9e12fde8a6266520b6ee8220e93bf7f187c299
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q5_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q5_K_M.gguf
+    sha256: 39f4c9022edb6f166984b20327ac5a6ddbda2813d1798751a67e98b46498e87d
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q5_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q5_K_S.gguf
+    sha256: 82d72f34ce84c767fe24449afa2287115fa7163ef6c2da0f74496f2ebdc6fc0f
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q6_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q6_K.gguf
+    sha256: b0f5ae01d2979566f1171e12da59d510e7aa1ab345025b440f043d5cbcb9df71
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v2.Q8_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Chupacabra-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: chupacabra-7b-v2.Q8_0.gguf
+    sha256: 4d5ee37132b2bdb164cc211fd2a62cacbcad45eafd012cdd4845dc27054443cb
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF/resolve/main/chupacabra-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v2-gguf__chupacabra-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v2-GGUF

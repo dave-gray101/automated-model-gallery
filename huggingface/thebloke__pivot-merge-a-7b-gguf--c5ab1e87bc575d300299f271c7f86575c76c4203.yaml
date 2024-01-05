@@ -1,0 +1,1308 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q2_K.gguf
+    sha256: 65ce270542268f0a33c60431a1121532a273b24b5ef4b2b89d145d7e9308031b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q3_K_L.gguf
+    sha256: 44cef3e72f7bb7603057d349a64589772edb3823d89a9cf1c7b9fef9921daa71
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q3_K_M.gguf
+    sha256: a14be98f1014ef42d14abe7fa7a95379a97b482a035a6cc62044147a76ca75f3
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q3_K_S.gguf
+    sha256: ba530a441076faa3af77d92f8184c27e7f18fdd79827bf9d9468817d4fc927a0
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q4_0.gguf
+    sha256: c0d2b8f0393c0685dbb4162dda8530c6c8fa076d1227cf5e9f687d7a19c1c4f6
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q4_K_M.gguf
+    sha256: 5f848389bc3c6362b96a05066de5f3657fc7c855c71175bd7858c4ce8f0e7199
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q4_K_S.gguf
+    sha256: f19e8227e3c6b09fa21012c4d1ca90eb6d9944fa706fe94d315606834c7f73ba
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q5_0.gguf
+    sha256: d52309f2a8db0c6cbdfd6e14e1d5d627944128b904ffc4b1db0d2c8441380c1b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q5_K_M.gguf
+    sha256: f42eeb51c01c08448e34d89c83223214ad00dd9d01b3395adb61c0fc34ec3689
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q5_K_S.gguf
+    sha256: f539cb04ebb378c9ce351f201e110030087f81d77fad48c60ff5a048cc53a6b2
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q6_K.gguf
+    sha256: f3f506cc8713aa80eadce1154cb642cb9f425bbc92861d8782445f8a1c4fe6f0
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-merge-a-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q8_0.gguf
+    sha256: 642c5adbf9de7f2f48b2a453877550acffdc18eac6fd3c275a01f2f46962959b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q2_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q2_K.gguf
+    sha256: 65ce270542268f0a33c60431a1121532a273b24b5ef4b2b89d145d7e9308031b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q3_K_L.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q3_K_L.gguf
+    sha256: 44cef3e72f7bb7603057d349a64589772edb3823d89a9cf1c7b9fef9921daa71
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q3_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q3_K_M.gguf
+    sha256: a14be98f1014ef42d14abe7fa7a95379a97b482a035a6cc62044147a76ca75f3
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q3_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q3_K_S.gguf
+    sha256: ba530a441076faa3af77d92f8184c27e7f18fdd79827bf9d9468817d4fc927a0
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q4_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q4_0.gguf
+    sha256: c0d2b8f0393c0685dbb4162dda8530c6c8fa076d1227cf5e9f687d7a19c1c4f6
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q4_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q4_K_M.gguf
+    sha256: 5f848389bc3c6362b96a05066de5f3657fc7c855c71175bd7858c4ce8f0e7199
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q4_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q4_K_S.gguf
+    sha256: f19e8227e3c6b09fa21012c4d1ca90eb6d9944fa706fe94d315606834c7f73ba
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q5_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q5_0.gguf
+    sha256: d52309f2a8db0c6cbdfd6e14e1d5d627944128b904ffc4b1db0d2c8441380c1b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q5_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q5_K_M.gguf
+    sha256: f42eeb51c01c08448e34d89c83223214ad00dd9d01b3395adb61c0fc34ec3689
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q5_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q5_K_S.gguf
+    sha256: f539cb04ebb378c9ce351f201e110030087f81d77fad48c60ff5a048cc53a6b2
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q6_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q6_K.gguf
+    sha256: f3f506cc8713aa80eadce1154cb642cb9f425bbc92861d8782445f8a1c4fe6f0
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q8_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q8_0.gguf
+    sha256: 642c5adbf9de7f2f48b2a453877550acffdc18eac6fd3c275a01f2f46962959b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q2_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q2_K.gguf
+    sha256: 65ce270542268f0a33c60431a1121532a273b24b5ef4b2b89d145d7e9308031b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q3_K_L.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q3_K_L.gguf
+    sha256: 44cef3e72f7bb7603057d349a64589772edb3823d89a9cf1c7b9fef9921daa71
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q3_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q3_K_M.gguf
+    sha256: a14be98f1014ef42d14abe7fa7a95379a97b482a035a6cc62044147a76ca75f3
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q3_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q3_K_S.gguf
+    sha256: ba530a441076faa3af77d92f8184c27e7f18fdd79827bf9d9468817d4fc927a0
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q4_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q4_0.gguf
+    sha256: c0d2b8f0393c0685dbb4162dda8530c6c8fa076d1227cf5e9f687d7a19c1c4f6
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q4_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q4_K_M.gguf
+    sha256: 5f848389bc3c6362b96a05066de5f3657fc7c855c71175bd7858c4ce8f0e7199
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q4_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q4_K_S.gguf
+    sha256: f19e8227e3c6b09fa21012c4d1ca90eb6d9944fa706fe94d315606834c7f73ba
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q5_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q5_0.gguf
+    sha256: d52309f2a8db0c6cbdfd6e14e1d5d627944128b904ffc4b1db0d2c8441380c1b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q5_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q5_K_M.gguf
+    sha256: f42eeb51c01c08448e34d89c83223214ad00dd9d01b3395adb61c0fc34ec3689
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q5_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q5_K_S.gguf
+    sha256: f539cb04ebb378c9ce351f201e110030087f81d77fad48c60ff5a048cc53a6b2
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q6_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q6_K.gguf
+    sha256: f3f506cc8713aa80eadce1154cb642cb9f425bbc92861d8782445f8a1c4fe6f0
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-merge-a-7b.Q8_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-Merge-A-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-merge-a-7b.Q8_0.gguf
+    sha256: 642c5adbf9de7f2f48b2a453877550acffdc18eac6fd3c275a01f2f46962959b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF/resolve/main/pivot-merge-a-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-merge-a-7b-gguf__pivot-merge-a-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - text-generation
+  - en
+  - base_model:Redwood0/PiVoT-Merge-A-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-Merge-A-7B-GGUF

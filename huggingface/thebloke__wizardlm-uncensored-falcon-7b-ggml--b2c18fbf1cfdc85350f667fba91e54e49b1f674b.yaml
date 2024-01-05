@@ -1,0 +1,30 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizard-falcon-7b.ggmlv3.fp16.bin
+    template:
+      chat: wizardlm
+      completion: wizardlm
+  description: TheBloke/WizardLM-Uncensored-Falcon-7B-GGML - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: wizardlm.tmpl
+    sha256: 8a7b97d078170be366aee512b881b4fc43e149fc9d75b5f73622961cbc9d154f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/wizardlm.tmpl
+  - filename: wizard-falcon-7b.ggmlv3.fp16.bin
+    sha256: 33cbccec1832d9b9f33bd277c790c9ba56e3bb74888f248aaf1b483e49a29977
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML/resolve/main/wizard-falcon-7b.ggmlv3.fp16.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__wizardlm-uncensored-falcon-7b-ggml__wizard-falcon-7b.ggmlv3.fp16.bin
+  tags:
+  - transformers
+  - falcon
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GGML

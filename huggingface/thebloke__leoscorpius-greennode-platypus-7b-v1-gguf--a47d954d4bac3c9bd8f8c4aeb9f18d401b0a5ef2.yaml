@@ -1,0 +1,828 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q2_K.gguf
+    sha256: 7639ddd08410d87f9ce396d8f8daea0962e9ebef4310a2108af03129d89a1c4b
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q3_K_L.gguf
+    sha256: 5cc0f215888d76f77e6a9f085de61318405640a31d941e9beb5f6609c1ccceb4
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q3_K_M.gguf
+    sha256: 91af7508d14e4031511572ef01bfbf458cfce73d10813216004b57f25cec0f89
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q3_K_S.gguf
+    sha256: c4a48c9cbbcafcff3b8450117d5100d40715593e560aed7174b92474c0108593
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q4_0.gguf
+    sha256: b532a5f1dbb48d9974c701a47fa326e9b607d7ddca4a5221c67e170da04e9f65
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q4_K_M.gguf
+    sha256: 43a036e25dc194367262cc450a6e099086acbca47e7a888ff0a475f9066156ef
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q4_K_S.gguf
+    sha256: 22f6282e31a5a02d7908f5f0ff9fa2af1601fe3b1dca544f3c58607a56bdeec4
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q5_0.gguf
+    sha256: 4d3123d5b62b7f1ae175a0acbdc492957ede34a7f46b78ee2c0a1b1f99e17c3d
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q5_K_M.gguf
+    sha256: 19ffd0da227e868517c8c68bb31bc189cda71bfd967d89737ff6261cb1054ff2
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q5_K_S.gguf
+    sha256: d08eefbb448e52d2760faa2596b7a9f809fdcd2abf84480ae1705eea793f076e
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q6_K.gguf
+    sha256: 319a7d64c90c3950b6e9b64314c0e7e066ef98583d2f10f383073aab6eda1e0d
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q8_0.gguf
+    sha256: be280eca3b44b311d36ef5b702979101b6b39520ce79d9bbd8fdb3904f3ae117
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q2_K.gguf
+    sha256: 7639ddd08410d87f9ce396d8f8daea0962e9ebef4310a2108af03129d89a1c4b
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q3_K_L.gguf
+    sha256: 5cc0f215888d76f77e6a9f085de61318405640a31d941e9beb5f6609c1ccceb4
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q3_K_M.gguf
+    sha256: 91af7508d14e4031511572ef01bfbf458cfce73d10813216004b57f25cec0f89
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q3_K_S.gguf
+    sha256: c4a48c9cbbcafcff3b8450117d5100d40715593e560aed7174b92474c0108593
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q4_0.gguf
+    sha256: b532a5f1dbb48d9974c701a47fa326e9b607d7ddca4a5221c67e170da04e9f65
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q4_K_M.gguf
+    sha256: 43a036e25dc194367262cc450a6e099086acbca47e7a888ff0a475f9066156ef
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q4_K_S.gguf
+    sha256: 22f6282e31a5a02d7908f5f0ff9fa2af1601fe3b1dca544f3c58607a56bdeec4
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q5_0.gguf
+    sha256: 4d3123d5b62b7f1ae175a0acbdc492957ede34a7f46b78ee2c0a1b1f99e17c3d
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q5_K_M.gguf
+    sha256: 19ffd0da227e868517c8c68bb31bc189cda71bfd967d89737ff6261cb1054ff2
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q5_K_S.gguf
+    sha256: d08eefbb448e52d2760faa2596b7a9f809fdcd2abf84480ae1705eea793f076e
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q6_K.gguf
+    sha256: 319a7d64c90c3950b6e9b64314c0e7e066ef98583d2f10f383073aab6eda1e0d
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leoscorpius-greennode-platypus-7b-v1.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: leoscorpius-greennode-platypus-7b-v1.Q8_0.gguf
+    sha256: be280eca3b44b311d36ef5b702979101b6b39520ce79d9bbd8fdb3904f3ae117
+    uri: 
+      https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF/resolve/main/leoscorpius-greennode-platypus-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__leoscorpius-greennode-platypus-7b-v1-gguf__leoscorpius-greennode-platypus-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:ignos/LeoScorpius-GreenNode-Platypus-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LeoScorpius-GreenNode-Platypus-7B-v1-GGUF

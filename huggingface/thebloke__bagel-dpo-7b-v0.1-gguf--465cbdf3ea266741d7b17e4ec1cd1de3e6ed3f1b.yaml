@@ -1,0 +1,1392 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q2_K.gguf
+    sha256: e00190bd57fb618d05f11d8b47d29f1113528f90c3de35e7efb13bb15f28bd98
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q3_K_L.gguf
+    sha256: 83129ab053f6ab365d45c3154778742c500fa9f22e0a62a4474195f80289c34a
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q3_K_M.gguf
+    sha256: 07f6a94f4826b807c2e9d5a693b043950305bfce30d088813136f191cc79ab8b
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q3_K_S.gguf
+    sha256: 85a009bc01d8b24f2772597af7a7588439520fe2742dd355314cececef994337
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q4_0.gguf
+    sha256: e4c9dcae62c3843e2da77e50a9c2f917b7f54fc84d5254aff235512c9958a039
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q4_K_M.gguf
+    sha256: d9c2e4227de77f7aeec3ee4192ef2d91703c7bb0c9cf1c76c49fe4cdcdc922cf
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q4_K_S.gguf
+    sha256: cad94b912b1a95fd897ecfd089bedb24ccc9bab911919bcbd0aa2d39b478ccf4
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q5_0.gguf
+    sha256: fcc80542495ebbbb06495fe815e42f02113996bf98776a1c5fc825a895436386
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q5_K_M.gguf
+    sha256: c1ebfcc4b6f0ebe9f33063945efdfe0f9bfd6b025763d9badcb7cf5f3e73db9b
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q5_K_S.gguf
+    sha256: ccb6cb68248ef3ecb876679bc9519332d7e8158caef4fac7eae8b3be228fa56e
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q6_K.gguf
+    sha256: da16e50a869fe4a6d6b3f09a97820ecdb642dba5855d97d4adfdb3a63c5498c7
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q8_0.gguf
+    sha256: c1dffb48f991c906f5fc232c104805c71369847ef9cf1f58a3942e030e785216
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q2_K.gguf
+    sha256: e00190bd57fb618d05f11d8b47d29f1113528f90c3de35e7efb13bb15f28bd98
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q3_K_L.gguf
+    sha256: 83129ab053f6ab365d45c3154778742c500fa9f22e0a62a4474195f80289c34a
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q3_K_M.gguf
+    sha256: 07f6a94f4826b807c2e9d5a693b043950305bfce30d088813136f191cc79ab8b
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q3_K_S.gguf
+    sha256: 85a009bc01d8b24f2772597af7a7588439520fe2742dd355314cececef994337
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q4_0.gguf
+    sha256: e4c9dcae62c3843e2da77e50a9c2f917b7f54fc84d5254aff235512c9958a039
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q4_K_M.gguf
+    sha256: d9c2e4227de77f7aeec3ee4192ef2d91703c7bb0c9cf1c76c49fe4cdcdc922cf
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q4_K_S.gguf
+    sha256: cad94b912b1a95fd897ecfd089bedb24ccc9bab911919bcbd0aa2d39b478ccf4
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q5_0.gguf
+    sha256: fcc80542495ebbbb06495fe815e42f02113996bf98776a1c5fc825a895436386
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q5_K_M.gguf
+    sha256: c1ebfcc4b6f0ebe9f33063945efdfe0f9bfd6b025763d9badcb7cf5f3e73db9b
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q5_K_S.gguf
+    sha256: ccb6cb68248ef3ecb876679bc9519332d7e8158caef4fac7eae8b3be228fa56e
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q6_K.gguf
+    sha256: da16e50a869fe4a6d6b3f09a97820ecdb642dba5855d97d4adfdb3a63c5498c7
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-dpo-7b-v0.1.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/bagel-dpo-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: bagel-dpo-7b-v0.1.Q8_0.gguf
+    sha256: c1dffb48f991c906f5fc232c104805c71369847ef9cf1f58a3942e030e785216
+    uri: 
+      https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF/resolve/main/bagel-dpo-7b-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__bagel-dpo-7b-v0.1-gguf__bagel-dpo-7b-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - base_model:jondurbin/bagel-dpo-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bagel-dpo-7B-v0.1-GGUF

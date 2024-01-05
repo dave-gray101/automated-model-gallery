@@ -1,0 +1,33 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bigplap-8x20b.Q2_K.gguf
+    template:
+      chat: thebloke__bigplap-8x20b-gguf
+      completion: thebloke__bigplap-8x20b-gguf
+  description: TheBloke/BigPlap-8x20B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bigplap-8x20b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bigplap-8x20b-gguf.tmpl
+  - filename: bigplap-8x20b.Q2_K.gguf
+    sha256: a6e94daebad6e4be879e0ad7405881da621dbacf95421259c5727f831aba53d6
+    uri: 
+      https://huggingface.co/TheBloke/BigPlap-8x20B-GGUF/resolve/main/bigplap-8x20b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__bigplap-8x20b-gguf__bigplap-8x20b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/BigPlap-8x20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BigPlap-8x20B-GGUF

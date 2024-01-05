@@ -1,0 +1,782 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q2_K.gguf
+    sha256: 9fca561bccdd844ed7fba4086dbfc590ce52030ea5e914515c1b759684ab3d18
+    uri: https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q3_K_L.gguf
+    sha256: 050596d9ccde5327afdc94abbea02f2f7120bde7bf22836eaa5a4e70887c6526
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q3_K_M.gguf
+    sha256: 5b539f848f36c89980a4fe4b2fc5935e6f703a0a850cb77743af88c2ddc10626
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q3_K_S.gguf
+    sha256: 7f2335331ccef2e4b227c66a8e9159d056a22e666a43b80a9124dd5d257b5ed5
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q4_0.gguf
+    sha256: 2a4fc126eb2324bc7b9fe3bfa5b72bd7e870441d607b5dd5b17c1af7fdca8e9e
+    uri: https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q4_K_M.gguf
+    sha256: 25c8f4d63de5f98533692e332604e0bbee5264c10ad4e86bd208928780048040
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q4_K_S.gguf
+    sha256: f734752e3c43251f8a1a52b5e56ddd00051c58f62545347668e7649b188de5f9
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q5_0.gguf
+    sha256: 23c66f752f52fe92c21444ba8e3dcede2e77e4543688305c0c39fca1a05dcb32
+    uri: https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q5_K_M.gguf
+    sha256: dde0e4f3470d6614b9cee76ba4aca9ffad3ed365e4f84c8b18c19c66434e4104
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q5_K_S.gguf
+    sha256: bf252074d7358bc69ed34c7d6926357d087cdb476194f39999ee5d7d3d8c8c14
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q6_K.gguf
+    sha256: cfab1ab1fa98811fc3873b4d59a69980b48cb8da3d18c0bc11a6db489cc5b87c
+    uri: https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.3.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - mistral configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q8_0.gguf
+    sha256: e6c4be67f9fbf95dd3db927c563d68c4633e16bcd2218a5374450c738e4976c0
+    uri: https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q2_K.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q2_K.gguf
+    sha256: 9fca561bccdd844ed7fba4086dbfc590ce52030ea5e914515c1b759684ab3d18
+    uri: https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q3_K_L.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q3_K_L.gguf
+    sha256: 050596d9ccde5327afdc94abbea02f2f7120bde7bf22836eaa5a4e70887c6526
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q3_K_M.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q3_K_M.gguf
+    sha256: 5b539f848f36c89980a4fe4b2fc5935e6f703a0a850cb77743af88c2ddc10626
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q3_K_S.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q3_K_S.gguf
+    sha256: 7f2335331ccef2e4b227c66a8e9159d056a22e666a43b80a9124dd5d257b5ed5
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q4_0.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q4_0.gguf
+    sha256: 2a4fc126eb2324bc7b9fe3bfa5b72bd7e870441d607b5dd5b17c1af7fdca8e9e
+    uri: https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q4_K_M.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q4_K_M.gguf
+    sha256: 25c8f4d63de5f98533692e332604e0bbee5264c10ad4e86bd208928780048040
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q4_K_S.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q4_K_S.gguf
+    sha256: f734752e3c43251f8a1a52b5e56ddd00051c58f62545347668e7649b188de5f9
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q5_0.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q5_0.gguf
+    sha256: 23c66f752f52fe92c21444ba8e3dcede2e77e4543688305c0c39fca1a05dcb32
+    uri: https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q5_K_M.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q5_K_M.gguf
+    sha256: dde0e4f3470d6614b9cee76ba4aca9ffad3ed365e4f84c8b18c19c66434e4104
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q5_K_S.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q5_K_S.gguf
+    sha256: bf252074d7358bc69ed34c7d6926357d087cdb476194f39999ee5d7d3d8c8c14
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q6_K.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q6_K.gguf
+    sha256: cfab1ab1fa98811fc3873b4d59a69980b48cb8da3d18c0bc11a6db489cc5b87c
+    uri: https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.3.Q8_0.gguf
+    template:
+      chat: metis
+      completion: metis
+  description: TheBloke/Metis-0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: metis.tmpl
+    sha256: 0cec69d7237ac8dc7a4723b21d5c465d4eab1f74ff34ce18e86d3a779b623afe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/metis.tmpl
+  - filename: metis-0.3.Q8_0.gguf
+    sha256: e6c4be67f9fbf95dd3db927c563d68c4633e16bcd2218a5374450c738e4976c0
+    uri: https://huggingface.co/TheBloke/Metis-0.3-GGUF/resolve/main/metis-0.3.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.3-gguf__metis-0.3.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.3-GGUF

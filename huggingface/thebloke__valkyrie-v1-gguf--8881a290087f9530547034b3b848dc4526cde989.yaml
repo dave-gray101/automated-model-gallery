@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q2_K.gguf
+    sha256: 270d15fcf0569c3d83ad43dcaf52c1642b6f40c577e676a8d0ae771dd7bd4c10
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q3_K_L.gguf
+    sha256: d5586cc29a1352b1576c5abcbbb7adac63ad8d73296adb70e277be98019e0254
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q3_K_M.gguf
+    sha256: 878d6fd9618533a17ed459ba0a54c577494b76a187139abca9ae6be024728df3
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q3_K_S.gguf
+    sha256: 0e4c6cdcb900f472ca415dfea4bf77d35e250f2154ee29483cd1183d1707f1b6
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q4_0.gguf
+    sha256: 15c7bd6614b650bfa0a34128365c04b3590c0204e594046a9b4dae2373a3bf43
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q4_K_M.gguf
+    sha256: 9fc66f7cc7aaead0aba30c50a80adad1eb1ed91dbe46124f5ccd283eccaed6c8
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q4_K_S.gguf
+    sha256: 65ace2b2878ddb14ca79d8c3e572e243461fab87fdc639d6b42099b726ed150a
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q5_0.gguf
+    sha256: 1547827dcc8e0cedabfc3693568b5fa4048109be75969a991dbfe476f1d55e8b
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q5_K_M.gguf
+    sha256: c537ace3097fc8eb391c52f2249cf5116d819d9126fcb826192a58eec0dd9d45
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q5_K_S.gguf
+    sha256: 7879751d0085e1285aaaec12c07a75bd796c949a1bfd494ecb93c523080d49f7
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q6_K.gguf
+    sha256: efea915ab00aa92b4299d74c9ca59f98028687de5cd47c1a4f9932d2ee602611
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: valkyrie-v1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q8_0.gguf
+    sha256: be7d03b6b33344e2958a2b81b38f75a899cd2145236e1e6f5125c0effef8c830
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q2_K.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q2_K.gguf
+    sha256: 270d15fcf0569c3d83ad43dcaf52c1642b6f40c577e676a8d0ae771dd7bd4c10
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q3_K_L.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q3_K_L.gguf
+    sha256: d5586cc29a1352b1576c5abcbbb7adac63ad8d73296adb70e277be98019e0254
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q3_K_M.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q3_K_M.gguf
+    sha256: 878d6fd9618533a17ed459ba0a54c577494b76a187139abca9ae6be024728df3
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q3_K_S.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q3_K_S.gguf
+    sha256: 0e4c6cdcb900f472ca415dfea4bf77d35e250f2154ee29483cd1183d1707f1b6
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q4_0.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q4_0.gguf
+    sha256: 15c7bd6614b650bfa0a34128365c04b3590c0204e594046a9b4dae2373a3bf43
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q4_K_M.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q4_K_M.gguf
+    sha256: 9fc66f7cc7aaead0aba30c50a80adad1eb1ed91dbe46124f5ccd283eccaed6c8
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q4_K_S.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q4_K_S.gguf
+    sha256: 65ace2b2878ddb14ca79d8c3e572e243461fab87fdc639d6b42099b726ed150a
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q5_0.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q5_0.gguf
+    sha256: 1547827dcc8e0cedabfc3693568b5fa4048109be75969a991dbfe476f1d55e8b
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q5_K_M.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q5_K_M.gguf
+    sha256: c537ace3097fc8eb391c52f2249cf5116d819d9126fcb826192a58eec0dd9d45
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q5_K_S.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q5_K_S.gguf
+    sha256: 7879751d0085e1285aaaec12c07a75bd796c949a1bfd494ecb93c523080d49f7
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q6_K.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q6_K.gguf
+    sha256: efea915ab00aa92b4299d74c9ca59f98028687de5cd47c1a4f9932d2ee602611
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: valkyrie-v1.Q8_0.gguf
+    template:
+      chat: thebloke__valkyrie-v1-gguf
+      completion: thebloke__valkyrie-v1-gguf
+  description: TheBloke/Valkyrie-V1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__valkyrie-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__valkyrie-v1-gguf.tmpl
+  - filename: valkyrie-v1.Q8_0.gguf
+    sha256: be7d03b6b33344e2958a2b81b38f75a899cd2145236e1e6f5125c0effef8c830
+    uri: 
+      https://huggingface.co/TheBloke/Valkyrie-V1-GGUF/resolve/main/valkyrie-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__valkyrie-v1-gguf__valkyrie-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:cookinai/Valkyrie-V1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Valkyrie-V1-GGUF

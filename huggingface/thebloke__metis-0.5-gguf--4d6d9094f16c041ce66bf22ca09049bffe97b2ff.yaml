@@ -1,0 +1,782 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q2_K.gguf
+    sha256: f6c6451d5c7ae68463947a55225fae486152395309133d4b3bce74474523ca3c
+    uri: https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q3_K_L.gguf
+    sha256: 8192186c353f84c0fe8c980942965dc7e6c0dbf5f0922ee24776cd76dfd34325
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q3_K_M.gguf
+    sha256: d64573d94c9e8b551df24f2db0495400f649b9e302b79eb2a5e351ada47b6c01
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q3_K_S.gguf
+    sha256: b301beefd2e93df98ad70537382f157a6664841512b6d00c8f0cdbd0065a25bf
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q4_0.gguf
+    sha256: 0b634f09cc76cdcb3977ca9ba7d6734a974fb37082746bf670829881d8202060
+    uri: https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q4_K_M.gguf
+    sha256: 54797924449d200353fb2af411686ed65cd1fcb22efce28978ad406134e0775c
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q4_K_S.gguf
+    sha256: 720918507a664c4c5950fa349ad51dcab3343ca79e2ca628ad4c13a5c468601d
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q5_0.gguf
+    sha256: b21afca34f3519d083ba6343b597a184130f05087c2d24857506b8db364232e4
+    uri: https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q5_K_M.gguf
+    sha256: f498eecd3e70913dcae5691fb81901833a407c5598587b924dbadc47883ec988
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q5_K_S.gguf
+    sha256: 18a61c9b1e65a8a876b95cba238517e2c9ac44709d4b6e63c41d160c5680773c
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q6_K.gguf
+    sha256: 7a353bbf1b71fefe22595b81d4e7b1cc4dbdf2993e3f3c735dfcde6052cf7240
+    uri: https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metis-0.5.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q8_0.gguf
+    sha256: a4661514ae917b842505efdef6b497dbcedac3a3d3a1d3383cbe7cf18721cbab
+    uri: https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q2_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q2_K.gguf
+    sha256: f6c6451d5c7ae68463947a55225fae486152395309133d4b3bce74474523ca3c
+    uri: https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q3_K_L.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q3_K_L.gguf
+    sha256: 8192186c353f84c0fe8c980942965dc7e6c0dbf5f0922ee24776cd76dfd34325
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q3_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q3_K_M.gguf
+    sha256: d64573d94c9e8b551df24f2db0495400f649b9e302b79eb2a5e351ada47b6c01
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q3_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q3_K_S.gguf
+    sha256: b301beefd2e93df98ad70537382f157a6664841512b6d00c8f0cdbd0065a25bf
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q4_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q4_0.gguf
+    sha256: 0b634f09cc76cdcb3977ca9ba7d6734a974fb37082746bf670829881d8202060
+    uri: https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q4_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q4_K_M.gguf
+    sha256: 54797924449d200353fb2af411686ed65cd1fcb22efce28978ad406134e0775c
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q4_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q4_K_S.gguf
+    sha256: 720918507a664c4c5950fa349ad51dcab3343ca79e2ca628ad4c13a5c468601d
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q5_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q5_0.gguf
+    sha256: b21afca34f3519d083ba6343b597a184130f05087c2d24857506b8db364232e4
+    uri: https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q5_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q5_K_M.gguf
+    sha256: f498eecd3e70913dcae5691fb81901833a407c5598587b924dbadc47883ec988
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q5_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q5_K_S.gguf
+    sha256: 18a61c9b1e65a8a876b95cba238517e2c9ac44709d4b6e63c41d160c5680773c
+    uri: 
+      https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q6_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q6_K.gguf
+    sha256: 7a353bbf1b71fefe22595b81d4e7b1cc4dbdf2993e3f3c735dfcde6052cf7240
+    uri: https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metis-0.5.Q8_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Metis-0.5-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: metis-0.5.Q8_0.gguf
+    sha256: a4661514ae917b842505efdef6b497dbcedac3a3d3a1d3383cbe7cf18721cbab
+    uri: https://huggingface.co/TheBloke/Metis-0.5-GGUF/resolve/main/metis-0.5.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__metis-0.5-gguf__metis-0.5.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Mihaiii/Metis-0.5
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Metis-0.5-GGUF

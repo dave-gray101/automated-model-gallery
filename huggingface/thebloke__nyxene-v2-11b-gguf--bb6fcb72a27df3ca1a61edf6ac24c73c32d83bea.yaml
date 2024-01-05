@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q2_K.gguf
+    sha256: d69a6f6f5a9c3d15b1ddc5010ee6c8feff818487ab5d8610e74f26e7554df8d8
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q3_K_L.gguf
+    sha256: 8abced3e4c3afd28649f74622348b3ca7da44f690bfe8012b28a5979b5c566bd
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q3_K_M.gguf
+    sha256: 5a9405290e5b453fd3ade19fb11196743187e76ebb76ad541f08b5defc50b662
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q3_K_S.gguf
+    sha256: db15b20e445fd468ebb1071d1114d0be99e2f28d05e80ce47f5d5efcd74168b1
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q4_0.gguf
+    sha256: 6cd9711cffea9e9d9e83f8e829c442599d3491a94038922953e1e178de5df824
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q4_K_M.gguf
+    sha256: eebdd73788f780fed06ea098406db3cd1f97ce2d50c9d44cb711b5d88fd11668
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q4_K_S.gguf
+    sha256: 1995822aa94fbc79afd05f83d7dff19a4fa2603410007309b86b042e190ea8e5
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q5_0.gguf
+    sha256: ba9ccefa429899907257c4ab70260e52cab3421aff10288933ee5674608cc799
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q5_K_M.gguf
+    sha256: 89105dc465214b6431d3a7bbec3a052085e3abe058ddcc5530baa1614fd6c8e2
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q5_K_S.gguf
+    sha256: c669f7ad13a68ad94ccbc518ffa334cc82dbc80b0c85f912d586646ae0fedcd9
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q6_K.gguf
+    sha256: 4d576527f115a871172383a80c0afd2c8af0f9159356257d418c390ca2ccc067
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nyxene-v2-11b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - mistral configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q8_0.gguf
+    sha256: f8dd75f61689ff25aa915354c3e91f3604ba4c299e4f83bc474ee0987d333e15
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q2_K.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q2_K.gguf
+    sha256: d69a6f6f5a9c3d15b1ddc5010ee6c8feff818487ab5d8610e74f26e7554df8d8
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q3_K_L.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q3_K_L.gguf
+    sha256: 8abced3e4c3afd28649f74622348b3ca7da44f690bfe8012b28a5979b5c566bd
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q3_K_M.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q3_K_M.gguf
+    sha256: 5a9405290e5b453fd3ade19fb11196743187e76ebb76ad541f08b5defc50b662
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q3_K_S.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q3_K_S.gguf
+    sha256: db15b20e445fd468ebb1071d1114d0be99e2f28d05e80ce47f5d5efcd74168b1
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q4_0.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q4_0.gguf
+    sha256: 6cd9711cffea9e9d9e83f8e829c442599d3491a94038922953e1e178de5df824
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q4_K_M.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q4_K_M.gguf
+    sha256: eebdd73788f780fed06ea098406db3cd1f97ce2d50c9d44cb711b5d88fd11668
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q4_K_S.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q4_K_S.gguf
+    sha256: 1995822aa94fbc79afd05f83d7dff19a4fa2603410007309b86b042e190ea8e5
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q5_0.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q5_0.gguf
+    sha256: ba9ccefa429899907257c4ab70260e52cab3421aff10288933ee5674608cc799
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q5_K_M.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q5_K_M.gguf
+    sha256: 89105dc465214b6431d3a7bbec3a052085e3abe058ddcc5530baa1614fd6c8e2
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q5_K_S.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q5_K_S.gguf
+    sha256: c669f7ad13a68ad94ccbc518ffa334cc82dbc80b0c85f912d586646ae0fedcd9
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q6_K.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q6_K.gguf
+    sha256: 4d576527f115a871172383a80c0afd2c8af0f9159356257d418c390ca2ccc067
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nyxene-v2-11b.Q8_0.gguf
+    template:
+      chat: nyxene
+      completion: nyxene
+  description: TheBloke/Nyxene-v2-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: nyxene.tmpl
+    sha256: 4b4689a38cb01281e8ceeef05ee89ada9fd849524f04c81f627316a39368e198
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/nyxene.tmpl
+  - filename: nyxene-v2-11b.Q8_0.gguf
+    sha256: f8dd75f61689ff25aa915354c3e91f3604ba4c299e4f83bc474ee0987d333e15
+    uri: 
+      https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF/resolve/main/nyxene-v2-11b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__nyxene-v2-11b-gguf__nyxene-v2-11b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:beberik/Nyxene-v2-11B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nyxene-v2-11B-GGUF

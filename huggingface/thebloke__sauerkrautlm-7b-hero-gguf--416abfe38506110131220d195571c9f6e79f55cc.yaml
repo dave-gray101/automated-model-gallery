@@ -1,0 +1,1452 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q2_K.gguf
+    sha256: af5a432975ffbb36954ccd6c7ba81500de21dae5f673c73e924f72e25853a5d2
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q3_K_L.gguf
+    sha256: 86107164e973b2e2e299ad7a0730fe730a161654157f0d4fddd793bde863b54b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q3_K_M.gguf
+    sha256: 1633cc78367bac6d85b0c03d1cad8f1076e610ee751fee5a93b0d43aaaec794f
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q3_K_S.gguf
+    sha256: 9c8cc19e8c7b52bf293f34d3713fb67645147c53b919e3c29344bf8388c0f29b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q4_0.gguf
+    sha256: 89323e6581da37ca7e1b03f5b2ad3b73a827ea4bc929c06524b71c47fd4b5e86
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q4_K_M.gguf
+    sha256: 5e27a983661c5e62efd2b5c31deb7e999f3a508082a0ab0a0671bc36b0352a2d
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q4_K_S.gguf
+    sha256: e269ab71f460b77a1a09be2d47da1728ec1388cc4a8213f0a4174828274f7bc3
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q5_0.gguf
+    sha256: ef2a2d2acaa93147be9b249583dad791915bea48d920b177a86c284ed6b3b145
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q5_K_M.gguf
+    sha256: 9b98c2da0321c81566c70615135cd793345fa7d84d5230366533e408f093ef6d
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q5_K_S.gguf
+    sha256: d79ef881217ae374cb1656075854f16e6d8cf12304bbf4a4cddaa37248fefcb7
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q6_K.gguf
+    sha256: 0292b06b64b49d96f1f837046df4ac93f0a2085430c6b7c7650d5516ea6ae4fb
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sauerkrautlm-7b-hero.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q8_0.gguf
+    sha256: 067635cdf3263a6a22d836850ada8cdc47246da0a8c5ef7fcf4bf3d7eb23e9d4
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q2_K.gguf
+    sha256: af5a432975ffbb36954ccd6c7ba81500de21dae5f673c73e924f72e25853a5d2
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q3_K_L.gguf
+    sha256: 86107164e973b2e2e299ad7a0730fe730a161654157f0d4fddd793bde863b54b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q3_K_M.gguf
+    sha256: 1633cc78367bac6d85b0c03d1cad8f1076e610ee751fee5a93b0d43aaaec794f
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q3_K_S.gguf
+    sha256: 9c8cc19e8c7b52bf293f34d3713fb67645147c53b919e3c29344bf8388c0f29b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q4_0.gguf
+    sha256: 89323e6581da37ca7e1b03f5b2ad3b73a827ea4bc929c06524b71c47fd4b5e86
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q4_K_M.gguf
+    sha256: 5e27a983661c5e62efd2b5c31deb7e999f3a508082a0ab0a0671bc36b0352a2d
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q4_K_S.gguf
+    sha256: e269ab71f460b77a1a09be2d47da1728ec1388cc4a8213f0a4174828274f7bc3
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q5_0.gguf
+    sha256: ef2a2d2acaa93147be9b249583dad791915bea48d920b177a86c284ed6b3b145
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q5_K_M.gguf
+    sha256: 9b98c2da0321c81566c70615135cd793345fa7d84d5230366533e408f093ef6d
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q5_K_S.gguf
+    sha256: d79ef881217ae374cb1656075854f16e6d8cf12304bbf4a4cddaa37248fefcb7
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q6_K.gguf
+    sha256: 0292b06b64b49d96f1f837046df4ac93f0a2085430c6b7c7650d5516ea6ae4fb
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q8_0.gguf
+    sha256: 067635cdf3263a6a22d836850ada8cdc47246da0a8c5ef7fcf4bf3d7eb23e9d4
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q2_K.gguf
+    sha256: af5a432975ffbb36954ccd6c7ba81500de21dae5f673c73e924f72e25853a5d2
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q3_K_L.gguf
+    sha256: 86107164e973b2e2e299ad7a0730fe730a161654157f0d4fddd793bde863b54b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q3_K_M.gguf
+    sha256: 1633cc78367bac6d85b0c03d1cad8f1076e610ee751fee5a93b0d43aaaec794f
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q3_K_S.gguf
+    sha256: 9c8cc19e8c7b52bf293f34d3713fb67645147c53b919e3c29344bf8388c0f29b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q4_0.gguf
+    sha256: 89323e6581da37ca7e1b03f5b2ad3b73a827ea4bc929c06524b71c47fd4b5e86
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q4_K_M.gguf
+    sha256: 5e27a983661c5e62efd2b5c31deb7e999f3a508082a0ab0a0671bc36b0352a2d
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q4_K_S.gguf
+    sha256: e269ab71f460b77a1a09be2d47da1728ec1388cc4a8213f0a4174828274f7bc3
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q5_0.gguf
+    sha256: ef2a2d2acaa93147be9b249583dad791915bea48d920b177a86c284ed6b3b145
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q5_K_M.gguf
+    sha256: 9b98c2da0321c81566c70615135cd793345fa7d84d5230366533e408f093ef6d
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q5_K_S.gguf
+    sha256: d79ef881217ae374cb1656075854f16e6d8cf12304bbf4a4cddaa37248fefcb7
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q6_K.gguf
+    sha256: 0292b06b64b49d96f1f837046df4ac93f0a2085430c6b7c7650d5516ea6ae4fb
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-7b-hero.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/SauerkrautLM-7B-HerO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: sauerkrautlm-7b-hero.Q8_0.gguf
+    sha256: 067635cdf3263a6a22d836850ada8cdc47246da0a8c5ef7fcf4bf3d7eb23e9d4
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF/resolve/main/sauerkrautlm-7b-hero.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__sauerkrautlm-7b-hero-gguf__sauerkrautlm-7b-hero.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - finetune
+  - chatml
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - base_model:VAGOsolutions/SauerkrautLM-7b-HerO
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-HerO-GGUF

@@ -1,0 +1,960 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q2_K.gguf
+    sha256: 4ffd3e1713c55397ec46cb0ea6ccfae72dc7c04215bee20a94c5f21241bbaaba
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q3_K_L.gguf
+    sha256: 5c76341dc9c67045596d37e0378f039eae0c84ef3bff45dc16b8494d6ce8fa53
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q3_K_M.gguf
+    sha256: ee6223fdbac2fd97b2905d3c3c4ca8973ebeb80940b1527893e9c9e1533e2a33
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q3_K_S.gguf
+    sha256: 36c7d2bdcd0f87b8b32c68e9ef4dd00e5e733c44fe6e2108d7d23f886634d895
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q4_0.gguf
+    sha256: 49db4bc29cd9f135ff1125a2b73af166857a61d0ac08b21a63002adda78e3e86
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q4_K_M.gguf
+    sha256: 26183dce93d031f9572cc13cb91e9eeb26382331dfbc3bf63b0b37a1e1f55ac2
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q4_K_S.gguf
+    sha256: 7ffb1e075aa2dceda957d96bc37d9eec5887ad682b6f0ebe288f8ead3319c398
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q5_0.gguf
+    sha256: 3ef0c715b5f0279dcf9622e1503100517a03b4acef8244e61e1d6221a5c056e3
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q5_K_M.gguf
+    sha256: 86945ae2621e68c74665c156e84d78bc3e3e0e212d71177b28e1afe690822ef7
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q5_K_S.gguf
+    sha256: 9b433cf570761d67c4ea36e976f9b2a1fe5884e1891204cbc9eb0657ef1e0055
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q6_K.gguf
+    sha256: dc471826d520226d6c84cb3fb3799030188c6c44032d66c77732f1ed26953ac8
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q8_0.gguf
+    sha256: 8b9fe60879d3f418e5b102f243b55129d8cf25bbeb16ba9524480212677c0510
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q2_K.gguf
+    sha256: 4ffd3e1713c55397ec46cb0ea6ccfae72dc7c04215bee20a94c5f21241bbaaba
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q3_K_L.gguf
+    sha256: 5c76341dc9c67045596d37e0378f039eae0c84ef3bff45dc16b8494d6ce8fa53
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q3_K_M.gguf
+    sha256: ee6223fdbac2fd97b2905d3c3c4ca8973ebeb80940b1527893e9c9e1533e2a33
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q3_K_S.gguf
+    sha256: 36c7d2bdcd0f87b8b32c68e9ef4dd00e5e733c44fe6e2108d7d23f886634d895
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q4_0.gguf
+    sha256: 49db4bc29cd9f135ff1125a2b73af166857a61d0ac08b21a63002adda78e3e86
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q4_K_M.gguf
+    sha256: 26183dce93d031f9572cc13cb91e9eeb26382331dfbc3bf63b0b37a1e1f55ac2
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q4_K_S.gguf
+    sha256: 7ffb1e075aa2dceda957d96bc37d9eec5887ad682b6f0ebe288f8ead3319c398
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q5_0.gguf
+    sha256: 3ef0c715b5f0279dcf9622e1503100517a03b4acef8244e61e1d6221a5c056e3
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q5_K_M.gguf
+    sha256: 86945ae2621e68c74665c156e84d78bc3e3e0e212d71177b28e1afe690822ef7
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q5_K_S.gguf
+    sha256: 9b433cf570761d67c4ea36e976f9b2a1fe5884e1891204cbc9eb0657ef1e0055
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q6_K.gguf
+    sha256: dc471826d520226d6c84cb3fb3799030188c6c44032d66c77732f1ed26953ac8
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xdan-l1-chat-rl-v1.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/xDAN-L1-Chat-RL-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: xdan-l1-chat-rl-v1.Q8_0.gguf
+    sha256: 8b9fe60879d3f418e5b102f243b55129d8cf25bbeb16ba9524480212677c0510
+    uri: 
+      https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF/resolve/main/xdan-l1-chat-rl-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-4.0
+  name: thebloke__xdan-l1-chat-rl-v1-gguf__xdan-l1-chat-rl-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - xDAN-AI
+  - OpenOrca
+  - DPO
+  - Self-Think
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:xDAN-AI/xDAN-L1-Chat-RL-v1
+  - license:cc-by-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/xDAN-L1-Chat-RL-v1-GGUF

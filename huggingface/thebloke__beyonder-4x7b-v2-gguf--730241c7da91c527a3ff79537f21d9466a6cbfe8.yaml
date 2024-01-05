@@ -1,0 +1,256 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: beyonder-4x7b-v2.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Beyonder-4x7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: beyonder-4x7b-v2.Q2_K.gguf
+    sha256: 37e8c685838709e84aac2859101c3b216119b16a19064df5aa33cdb417862f12
+    uri: 
+      https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF/resolve/main/beyonder-4x7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__beyonder-4x7b-v2-gguf__beyonder-4x7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - base_model:mlabonne/Beyonder-4x7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: beyonder-4x7b-v2.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Beyonder-4x7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: beyonder-4x7b-v2.Q3_K_M.gguf
+    sha256: eacf9ca4bd2d1b794a0bf77074edd4933cc68c03aca4901aadfbe03ee005b6ad
+    uri: 
+      https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF/resolve/main/beyonder-4x7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__beyonder-4x7b-v2-gguf__beyonder-4x7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - base_model:mlabonne/Beyonder-4x7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: beyonder-4x7b-v2.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Beyonder-4x7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: beyonder-4x7b-v2.Q4_0.gguf
+    sha256: 2a78d733d3158b82143de6ef35693ae8b47d7652417c0cb3f978c1163d8d2862
+    uri: 
+      https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF/resolve/main/beyonder-4x7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__beyonder-4x7b-v2-gguf__beyonder-4x7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - base_model:mlabonne/Beyonder-4x7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: beyonder-4x7b-v2.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Beyonder-4x7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: beyonder-4x7b-v2.Q4_K_M.gguf
+    sha256: 39e01cc802935b3e787a08e1d11260263764981ef8c04f97c2a0db92bd723fa0
+    uri: 
+      https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF/resolve/main/beyonder-4x7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__beyonder-4x7b-v2-gguf__beyonder-4x7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - base_model:mlabonne/Beyonder-4x7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: beyonder-4x7b-v2.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Beyonder-4x7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: beyonder-4x7b-v2.Q5_0.gguf
+    sha256: f85208e199dd5d4eb9fd294c77c188946af511d4745bd7d0ce7295ab909a66d2
+    uri: 
+      https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF/resolve/main/beyonder-4x7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__beyonder-4x7b-v2-gguf__beyonder-4x7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - base_model:mlabonne/Beyonder-4x7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: beyonder-4x7b-v2.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Beyonder-4x7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: beyonder-4x7b-v2.Q5_K_M.gguf
+    sha256: 6511f202fc38bfeb0327015475428ca3906786176582b982cb9a0882f87630f4
+    uri: 
+      https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF/resolve/main/beyonder-4x7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__beyonder-4x7b-v2-gguf__beyonder-4x7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - base_model:mlabonne/Beyonder-4x7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: beyonder-4x7b-v2.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Beyonder-4x7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: beyonder-4x7b-v2.Q6_K.gguf
+    sha256: 7e157825006a155161c7cc6f2e8f48a9b229d000c81c440f6b4da57ad8ebd199
+    uri: 
+      https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF/resolve/main/beyonder-4x7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__beyonder-4x7b-v2-gguf__beyonder-4x7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - base_model:mlabonne/Beyonder-4x7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: beyonder-4x7b-v2.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Beyonder-4x7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: beyonder-4x7b-v2.Q8_0.gguf
+    sha256: 24e83fe18d976edb093d9d12ffa22f5ca0b739d0c6801910b3742b9d06c0fde6
+    uri: 
+      https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF/resolve/main/beyonder-4x7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__beyonder-4x7b-v2-gguf__beyonder-4x7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - base_model:mlabonne/Beyonder-4x7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF

@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q2_K.gguf
+    sha256: e01e60736109330e3b5defd924c3bc8b17fb14e260f8e88ccde6703c4a668b37
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q3_K_L.gguf
+    sha256: 79108125a254439bb434ede0d4222291be3b819ab5c7ca0099302a1f7d1d724a
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q3_K_M.gguf
+    sha256: 19f71c578b7d357227e9b3a8e4f5cbe1a8f5c3786dff246afa3a742c4a581194
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q3_K_S.gguf
+    sha256: 54ad04de2d79e875fda8b3625a0de811f2ed80b2beca6391fd3df796c16ed76e
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q4_0.gguf
+    sha256: 04063661e3e636e1f93a441070792f0bb90777913848f681add9d645791b1895
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q4_K_M.gguf
+    sha256: a7f909baeda3b84f51db7d2339de805fa3ac5ccf7b1f4ab10136160c0f3b35e8
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q4_K_S.gguf
+    sha256: f5dc768c7319accde58f8b380bd6d97bb4cd6109217777301db5eb6481095452
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q5_0.gguf
+    sha256: f1a5d6df67b0ccf5b318c47ffe1bf82293e26342dfa4443c08f44adccc31c599
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q5_K_M.gguf
+    sha256: 28c64a04ce20f5177beb5352d53e88aa52624a29e13f8dc33d11569a5f7963c2
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q5_K_S.gguf
+    sha256: df5c6f15ff9a3a9444b9d2f623b7b71117b2ac47fa7cd8fff1851c73d784fa2c
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q6_K.gguf
+    sha256: 88acf0f15d871d1c0ed145f2060af9d9541953148e42f2fc707fd94cb95c9098
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q8_0.gguf
+    sha256: 240a943d53127afc31916464fc51c47f0b195ac713dfabd580698fa4af10cc72
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q2_K.gguf
+    sha256: e01e60736109330e3b5defd924c3bc8b17fb14e260f8e88ccde6703c4a668b37
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q3_K_L.gguf
+    sha256: 79108125a254439bb434ede0d4222291be3b819ab5c7ca0099302a1f7d1d724a
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q3_K_M.gguf
+    sha256: 19f71c578b7d357227e9b3a8e4f5cbe1a8f5c3786dff246afa3a742c4a581194
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q3_K_S.gguf
+    sha256: 54ad04de2d79e875fda8b3625a0de811f2ed80b2beca6391fd3df796c16ed76e
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q4_0.gguf
+    sha256: 04063661e3e636e1f93a441070792f0bb90777913848f681add9d645791b1895
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q4_K_M.gguf
+    sha256: a7f909baeda3b84f51db7d2339de805fa3ac5ccf7b1f4ab10136160c0f3b35e8
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q4_K_S.gguf
+    sha256: f5dc768c7319accde58f8b380bd6d97bb4cd6109217777301db5eb6481095452
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q5_0.gguf
+    sha256: f1a5d6df67b0ccf5b318c47ffe1bf82293e26342dfa4443c08f44adccc31c599
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q5_K_M.gguf
+    sha256: 28c64a04ce20f5177beb5352d53e88aa52624a29e13f8dc33d11569a5f7963c2
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q5_K_S.gguf
+    sha256: df5c6f15ff9a3a9444b9d2f623b7b71117b2ac47fa7cd8fff1851c73d784fa2c
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q6_K.gguf
+    sha256: 88acf0f15d871d1c0ed145f2060af9d9541953148e42f2fc707fd94cb95c9098
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: meditron-7b-chat.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/meditron-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: meditron-7b-chat.Q8_0.gguf
+    sha256: 240a943d53127afc31916464fc51c47f0b195ac713dfabd580698fa4af10cc72
+    uri: 
+      https://huggingface.co/TheBloke/meditron-7B-chat-GGUF/resolve/main/meditron-7b-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__meditron-7b-chat-gguf__meditron-7b-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - Medicine
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:malhajar/meditron-7b-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/meditron-7B-chat-GGUF

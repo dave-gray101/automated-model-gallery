@@ -1,0 +1,708 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q2_K.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q2_K.gguf
+    sha256: b0236c41eaf70623d7da04de3e53efb9b0b299b7d649d0fca6bcf06a4f8e966e
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q3_K_L.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q3_K_L.gguf
+    sha256: 0512801962a94206444567f3b2efa24f73f36762c4e4ae0c8b9d7f00813022bc
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q3_K_M.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q3_K_M.gguf
+    sha256: 6ff9e4dba91cdc867506aa02caf0b4ff9fd7ab2b4dd574168a4236655e1e33cc
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q3_K_S.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q3_K_S.gguf
+    sha256: fd497f19d9d0facb0ce3654a73ff3087fce17cc3cbf09568abd5b264f0559666
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q4_0.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q4_0.gguf
+    sha256: b7eed214a3745ca0c516da95cab735963bef58d290bbae10b1b9aef55670dd86
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q4_K_M.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q4_K_M.gguf
+    sha256: bda6008d8957bf35ca3e791f5a2621a93d81014fbe5da92f97c8c5d276d2f215
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q4_K_S.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q4_K_S.gguf
+    sha256: 2518f115c37b01d68c9d306691af4fff8ada703a2700feb062e0027b9eaa86f1
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q5_0.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q5_0.gguf
+    sha256: 978f6caf48f5bc38ac3ab719203994e520fbc0309d8ea2ae0895cacb2582bd42
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q5_K_M.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q5_K_M.gguf
+    sha256: dd93ddeeb4f34cf67f54e4c4f66577ad4553acdeee2f9f752118a7b02f4854e8
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q5_K_S.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q5_K_S.gguf
+    sha256: 93a73fc169eb3ec91cde0fd10e8cb0b147c419e948fbc367a1f46df11d993c92
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q6_K.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q6_K.gguf
+    sha256: fdcc0fb9a4ed600ab32a34271dc5c91f66ab6a29908faae63beb1f409832b88c
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nontoxic-bagel-34b-v0.2.Q8_0.gguf
+    template:
+      chat: bagel-alpaca
+      completion: bagel-alpaca
+  description: TheBloke/nontoxic-bagel-34b-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: bagel-alpaca.tmpl
+    sha256: c21a6658e422da855f9bca123b21c9a66ef2caf257240ade36375eb6c5e9766d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/bagel-alpaca.tmpl
+  - filename: nontoxic-bagel-34b-v0.2.Q8_0.gguf
+    sha256: 7a04c76b614488b92dea71db4115848bfa9b9d420dd031ad80a2c4c73196ad28
+    uri: 
+      https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF/resolve/main/nontoxic-bagel-34b-v0.2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__nontoxic-bagel-34b-v0.2-gguf__nontoxic-bagel-34b-v0.2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - dataset:ai2_arc
+  - dataset:unalignment/spicy-3.1
+  - dataset:codeparrot/apps
+  - dataset:facebook/belebele
+  - dataset:boolq
+  - dataset:jondurbin/cinematika-v0.1
+  - dataset:drop
+  - dataset:lmsys/lmsys-chat-1m
+  - dataset:TIGER-Lab/MathInstruct
+  - dataset:cais/mmlu
+  - dataset:Muennighoff/natural-instructions
+  - dataset:openbookqa
+  - dataset:piqa
+  - dataset:Vezora/Tested-22k-Python-Alpaca
+  - dataset:cakiki/rosetta-code
+  - dataset:Open-Orca/SlimOrca
+  - dataset:spider
+  - dataset:squad_v2
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:datasets/winogrande
+  - dataset:nvidia/HelpSteer
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:unalignment/toxic-dpo-v0.1
+  - dataset:jondurbin/truthy-dpo-v0.1
+  - dataset:allenai/ultrafeedback_binarized_cleaned
+  - dataset:Squish42/bluemoon-fandom-1-1-rp-cleaned
+  - dataset:LDJnr/Capybara
+  - dataset:JULIELab/EmoBank
+  - dataset:kingbri/PIPPA-shareGPT
+  - base_model:jondurbin/nontoxic-bagel-34b-v0.2
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/nontoxic-bagel-34b-v0.2-GGUF

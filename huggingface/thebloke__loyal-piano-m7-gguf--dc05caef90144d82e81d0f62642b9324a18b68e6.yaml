@@ -1,0 +1,936 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q2_K.gguf
+    sha256: 7321d55041900ee99e90ef0706ad35f07b25cdccefbde9f506e90d74ed37105c
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q3_K_L.gguf
+    sha256: 473fcf2502ac4e8132a5466122b5bb9531b5f38ef885109af754d4af2f2a8236
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q3_K_M.gguf
+    sha256: abe3077b6c24bdfa7c252c0c898ecafc4040b3509a8f033144dea9b8cd7bd727
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q3_K_S.gguf
+    sha256: c83481e3ae29176c503bfcc864494398c0580026ee8423ac4c8ec28eaf90f6a0
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q4_0.gguf
+    sha256: 9df8585223114d6901a00281972e04dde79a64df33a56cfb977f8e515fb6d8c7
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q4_K_M.gguf
+    sha256: 20de70463cdce7938bf67c4e08beb7df93cf9d400e1a61617bc75081f9ebc37d
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q4_K_S.gguf
+    sha256: 851796495db5a374ac4df159443e15edf36b1bc4bc8552ca466710e2530cd76b
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q5_0.gguf
+    sha256: 30d61fcb5b263b4296ee200f1b1a3ef2560f9041b4ba7a17aa542de7bd289101
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q5_K_M.gguf
+    sha256: bf28831c9ded73aa1bc0aee3297901141bef5b9843d3c933f795a24e4df27adb
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q5_K_S.gguf
+    sha256: 1197af089f9b5f05ab0a6b80535a5c95f0a55214bc1a820dbdb5a0bbb8837b91
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q6_K.gguf
+    sha256: 9fa8283b9b588dd0b64327b495deb6505bf9fc3718033376cdd882e2d4426920
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: loyal-piano-m7.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - mistral configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q8_0.gguf
+    sha256: 59aea80a098e9b85ce9b7b7c79d9d70e6c4d7aed507c4eda75bae5bd2e1191d4
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q2_K.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q2_K.gguf
+    sha256: 7321d55041900ee99e90ef0706ad35f07b25cdccefbde9f506e90d74ed37105c
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q3_K_L.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q3_K_L.gguf
+    sha256: 473fcf2502ac4e8132a5466122b5bb9531b5f38ef885109af754d4af2f2a8236
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q3_K_M.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q3_K_M.gguf
+    sha256: abe3077b6c24bdfa7c252c0c898ecafc4040b3509a8f033144dea9b8cd7bd727
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q3_K_S.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q3_K_S.gguf
+    sha256: c83481e3ae29176c503bfcc864494398c0580026ee8423ac4c8ec28eaf90f6a0
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q4_0.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q4_0.gguf
+    sha256: 9df8585223114d6901a00281972e04dde79a64df33a56cfb977f8e515fb6d8c7
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q4_K_M.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q4_K_M.gguf
+    sha256: 20de70463cdce7938bf67c4e08beb7df93cf9d400e1a61617bc75081f9ebc37d
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q4_K_S.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q4_K_S.gguf
+    sha256: 851796495db5a374ac4df159443e15edf36b1bc4bc8552ca466710e2530cd76b
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q5_0.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q5_0.gguf
+    sha256: 30d61fcb5b263b4296ee200f1b1a3ef2560f9041b4ba7a17aa542de7bd289101
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q5_K_M.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q5_K_M.gguf
+    sha256: bf28831c9ded73aa1bc0aee3297901141bef5b9843d3c933f795a24e4df27adb
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q5_K_S.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q5_K_S.gguf
+    sha256: 1197af089f9b5f05ab0a6b80535a5c95f0a55214bc1a820dbdb5a0bbb8837b91
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q6_K.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q6_K.gguf
+    sha256: 9fa8283b9b588dd0b64327b495deb6505bf9fc3718033376cdd882e2d4426920
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: loyal-piano-m7.Q8_0.gguf
+    template:
+      chat: thebloke__loyal-piano-m7-gguf
+      completion: thebloke__loyal-piano-m7-gguf
+  description: TheBloke/loyal-piano-m7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__loyal-piano-m7-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__loyal-piano-m7-gguf.tmpl
+  - filename: loyal-piano-m7.Q8_0.gguf
+    sha256: 59aea80a098e9b85ce9b7b7c79d9d70e6c4d7aed507c4eda75bae5bd2e1191d4
+    uri: 
+      https://huggingface.co/TheBloke/loyal-piano-m7-GGUF/resolve/main/loyal-piano-m7.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__loyal-piano-m7-gguf__loyal-piano-m7.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:pankajmathur/orca_mini_v1_dataset
+  - dataset:openai/summarize_from_feedback
+  - dataset:PygmalionAI/PIPPA
+  - dataset:chargoddard/rpguild
+  - dataset:lemonilia/LimaRP
+  - base_model:chargoddard/loyal-piano-m7
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/loyal-piano-m7-GGUF

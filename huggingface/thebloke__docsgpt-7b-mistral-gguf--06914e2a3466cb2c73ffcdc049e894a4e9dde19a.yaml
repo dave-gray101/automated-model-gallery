@@ -1,0 +1,864 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q2_K.gguf
+    sha256: 88b6e1bb167226d058384e2ad5bc4730256307173086d1937c3df3bdd3850a7b
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q3_K_L.gguf
+    sha256: 2920082dee3cc4cc3f4ea11075aaabf3390e4cfed1f6a37994d40898036e8940
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q3_K_M.gguf
+    sha256: fce1b9025464415239df394e44c23a5d064486e07b76288c4af9e2328d3a5b1e
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q3_K_S.gguf
+    sha256: e7aacf68f2e37e47fade55772f13aae6e1fd798fdb74436336441bcd271bbe70
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q4_0.gguf
+    sha256: f021872457105152d3511b6aebba614cdccf2c786a882dee9806ac454aa63613
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q4_K_M.gguf
+    sha256: 9aa516f6a25e73dd978314e96cbc1b174632e899fa890a800ac143111ead0796
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q4_K_S.gguf
+    sha256: e7f693b608b5af5176b4020c2a5f388b1c191775174e70b8cb5fb064196a5ea0
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q5_0.gguf
+    sha256: 720d8d271f216c6883922b8c3d1141dcd08b23948d37fa2dce1ae67af466c99a
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q5_K_M.gguf
+    sha256: dda2a1a4babfe227f723a73a935e1d910c9bdc5be29f52612fa63718981686ca
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q5_K_S.gguf
+    sha256: 88ab4a012fc4da67affa01bb3ac601068d3b3748a17508e7432a53766b314b4c
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q6_K.gguf
+    sha256: 004e66b90c8fed30af628deb4a6009a612978a0746e0c8bfbca2a68a96994ccf
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: docsgpt-7b-mistral.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - mistral configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q8_0.gguf
+    sha256: 8fd1ccdd97cae07913e4846c121fb316443a284ba084ca1c97b4df38f0a7e187
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q2_K.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q2_K.gguf
+    sha256: 88b6e1bb167226d058384e2ad5bc4730256307173086d1937c3df3bdd3850a7b
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q3_K_L.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q3_K_L.gguf
+    sha256: 2920082dee3cc4cc3f4ea11075aaabf3390e4cfed1f6a37994d40898036e8940
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q3_K_M.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q3_K_M.gguf
+    sha256: fce1b9025464415239df394e44c23a5d064486e07b76288c4af9e2328d3a5b1e
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q3_K_S.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q3_K_S.gguf
+    sha256: e7aacf68f2e37e47fade55772f13aae6e1fd798fdb74436336441bcd271bbe70
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q4_0.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q4_0.gguf
+    sha256: f021872457105152d3511b6aebba614cdccf2c786a882dee9806ac454aa63613
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q4_K_M.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q4_K_M.gguf
+    sha256: 9aa516f6a25e73dd978314e96cbc1b174632e899fa890a800ac143111ead0796
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q4_K_S.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q4_K_S.gguf
+    sha256: e7f693b608b5af5176b4020c2a5f388b1c191775174e70b8cb5fb064196a5ea0
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q5_0.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q5_0.gguf
+    sha256: 720d8d271f216c6883922b8c3d1141dcd08b23948d37fa2dce1ae67af466c99a
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q5_K_M.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q5_K_M.gguf
+    sha256: dda2a1a4babfe227f723a73a935e1d910c9bdc5be29f52612fa63718981686ca
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q5_K_S.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q5_K_S.gguf
+    sha256: 88ab4a012fc4da67affa01bb3ac601068d3b3748a17508e7432a53766b314b4c
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q6_K.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q6_K.gguf
+    sha256: 004e66b90c8fed30af628deb4a6009a612978a0746e0c8bfbca2a68a96994ccf
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: docsgpt-7b-mistral.Q8_0.gguf
+    template:
+      chat: docsgpt
+      completion: docsgpt
+  description: TheBloke/docsgpt-7B-mistral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: docsgpt.tmpl
+    sha256: 9b1a24f7a348417523f120eb63ea771d00abc688b8adfb4683eefdc4a1378dba
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/docsgpt.tmpl
+  - filename: docsgpt-7b-mistral.Q8_0.gguf
+    sha256: 8fd1ccdd97cae07913e4846c121fb316443a284ba084ca1c97b4df38f0a7e187
+    uri: 
+      https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF/resolve/main/docsgpt-7b-mistral.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__docsgpt-7b-mistral-gguf__docsgpt-7b-mistral.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - rag
+  - closed-qa
+  - context
+  - base_model:Arc53/docsgpt-7b-mistral
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/docsgpt-7B-mistral-GGUF

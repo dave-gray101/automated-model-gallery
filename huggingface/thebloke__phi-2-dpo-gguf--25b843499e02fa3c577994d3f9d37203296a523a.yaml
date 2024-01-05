@@ -1,0 +1,830 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q2_K.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q2_K.gguf
+    sha256: 560b6a5c6c9b67d5cf6ef48e4bef19f48e94ae747efa17a6c3e206a086e93b3b
+    uri: https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q3_K_L.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q3_K_L.gguf
+    sha256: 8d774aa37ebf1b95956e03971b39bf7eba5e648974088c60358773ed5c2c0da1
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q3_K_M.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q3_K_M.gguf
+    sha256: e7effd3e3a3b6f1c05b914deca7c9646210bad34576d39d3c5c5f2a25cb97ae1
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q3_K_S.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q3_K_S.gguf
+    sha256: 9ab9615e57cf2d1d08fdda298185f9a8177aa227be7af128f9c0cd90fff0ff81
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q4_0.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q4_0.gguf
+    sha256: 314f4d5444a49b6dda0b535d036d26c75d4c6018f34ce2b117bc0d597c4dca50
+    uri: https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q4_K_M.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q4_K_M.gguf
+    sha256: 5e8fb1b8a20b373360d4ae2c2add65705b9f1adbdcf6bc1814848a1a135f9e52
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q4_K_S.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q4_K_S.gguf
+    sha256: 529594dc90964900510fa3d02284dd6c8c5bfff711b955f3e80fd9a97da66070
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q5_0.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q5_0.gguf
+    sha256: 3e40398e5eb2e91fc753cb70e99eb5c3ddce19b4d5877e4259403370da09483e
+    uri: https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q5_K_M.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q5_K_M.gguf
+    sha256: 43feee155e255b010a737ff748e0b2af69909b477cc38dbe082e33f888dea856
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q5_K_S.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q5_K_S.gguf
+    sha256: 80f946671aecbb752aaeacc3976c7f83a4083bf4921dacc30692e54f9e1cecd5
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q6_K.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q6_K.gguf
+    sha256: 3e0c07be2fbf814ba8e04fd82de01d95244a76ec56b43cbf13d9e72c81dc3fb4
+    uri: https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q8_0.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q8_0.gguf
+    sha256: f0ca0959f2621b1b6c0364b4f67a6e4e7ed48da2fd6e20298a28967475a41083
+    uri: https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q2_K.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q2_K.gguf
+    sha256: 560b6a5c6c9b67d5cf6ef48e4bef19f48e94ae747efa17a6c3e206a086e93b3b
+    uri: https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q3_K_L.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q3_K_L.gguf
+    sha256: 8d774aa37ebf1b95956e03971b39bf7eba5e648974088c60358773ed5c2c0da1
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q3_K_M.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q3_K_M.gguf
+    sha256: e7effd3e3a3b6f1c05b914deca7c9646210bad34576d39d3c5c5f2a25cb97ae1
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q3_K_S.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q3_K_S.gguf
+    sha256: 9ab9615e57cf2d1d08fdda298185f9a8177aa227be7af128f9c0cd90fff0ff81
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q4_0.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q4_0.gguf
+    sha256: 314f4d5444a49b6dda0b535d036d26c75d4c6018f34ce2b117bc0d597c4dca50
+    uri: https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q4_K_M.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q4_K_M.gguf
+    sha256: 5e8fb1b8a20b373360d4ae2c2add65705b9f1adbdcf6bc1814848a1a135f9e52
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q4_K_S.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q4_K_S.gguf
+    sha256: 529594dc90964900510fa3d02284dd6c8c5bfff711b955f3e80fd9a97da66070
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q5_0.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q5_0.gguf
+    sha256: 3e40398e5eb2e91fc753cb70e99eb5c3ddce19b4d5877e4259403370da09483e
+    uri: https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q5_K_M.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q5_K_M.gguf
+    sha256: 43feee155e255b010a737ff748e0b2af69909b477cc38dbe082e33f888dea856
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q5_K_S.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q5_K_S.gguf
+    sha256: 80f946671aecbb752aaeacc3976c7f83a4083bf4921dacc30692e54f9e1cecd5
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q6_K.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q6_K.gguf
+    sha256: 3e0c07be2fbf814ba8e04fd82de01d95244a76ec56b43cbf13d9e72c81dc3fb4
+    uri: https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-dpo.Q8_0.gguf
+    template:
+      chat: sus
+      completion: sus
+  description: TheBloke/phi-2-dpo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: sus.tmpl
+    sha256: 7ae587a8edf5bf348cc6eec8a2e544ce079d91c2b61a2cf8a3af559396d6bc3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/sus.tmpl
+  - filename: phi-2-dpo.Q8_0.gguf
+    sha256: f0ca0959f2621b1b6c0364b4f67a6e4e7ed48da2fd6e20298a28967475a41083
+    uri: https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__phi-2-dpo-gguf__phi-2-dpo.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - nlp
+  - code
+  - text-generation
+  - en
+  - base_model:lxuechen/phi-2-dpo
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-dpo-GGUF

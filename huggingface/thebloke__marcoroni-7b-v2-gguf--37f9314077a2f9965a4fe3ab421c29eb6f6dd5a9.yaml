@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q2_K.gguf
+    sha256: 289c67782abc55ba3a142e4e5c33d0b3b14e64858095a177e178184926032a86
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q3_K_L.gguf
+    sha256: b4f938db767596cf8ccd65750599b828bea8fe684dc18c5b875a158d7d947bd4
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q3_K_M.gguf
+    sha256: ab673e15bb0816dc55867c8f3cd0987cc9831dd542fe02f01613685b61f4bbb4
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q3_K_S.gguf
+    sha256: 67be4c974bb7e592a3741c17f633f7281977277844ca045cdfe073d6a3e1b576
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q4_0.gguf
+    sha256: 6d1d31c9283e7d294e0a0f75255afc8e06ddd3b8da5fcdaea7fc2890743c24c1
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q4_K_M.gguf
+    sha256: 9708da988a89ed6cd68777e6cc82cc561f17755442320a59f520a09840de6368
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q4_K_S.gguf
+    sha256: ce0ec20e7ed19b388e2e071e346e4872c73354cdc1d49d5f137c120f6e88870c
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q5_0.gguf
+    sha256: e8121d2fe4cd67e1b94c001bebceefb678619ea648c72b0c6355d699456974d4
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q5_K_M.gguf
+    sha256: 976bed34ce10a517d43143871e5f88f5f04a053d94cb55b999c3d11085005c13
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q5_K_S.gguf
+    sha256: f6a6c21e53d7a92fd2b2e8e21549cd13433ce95880f7dd3f00dfe0738ada6dcf
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q6_K.gguf
+    sha256: 3820d27547da6c4550a2e2463fea0f45d799bcf6734437bdf906056492796eec
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: marcoroni-7b-v2.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q8_0.gguf
+    sha256: 4d1a7a9156586b96f0bac0957cb113b9fe60000520d7fb2867d1b6bd73a95d90
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q2_K.gguf
+    sha256: 289c67782abc55ba3a142e4e5c33d0b3b14e64858095a177e178184926032a86
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q3_K_L.gguf
+    sha256: b4f938db767596cf8ccd65750599b828bea8fe684dc18c5b875a158d7d947bd4
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q3_K_M.gguf
+    sha256: ab673e15bb0816dc55867c8f3cd0987cc9831dd542fe02f01613685b61f4bbb4
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q3_K_S.gguf
+    sha256: 67be4c974bb7e592a3741c17f633f7281977277844ca045cdfe073d6a3e1b576
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q4_0.gguf
+    sha256: 6d1d31c9283e7d294e0a0f75255afc8e06ddd3b8da5fcdaea7fc2890743c24c1
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q4_K_M.gguf
+    sha256: 9708da988a89ed6cd68777e6cc82cc561f17755442320a59f520a09840de6368
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q4_K_S.gguf
+    sha256: ce0ec20e7ed19b388e2e071e346e4872c73354cdc1d49d5f137c120f6e88870c
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q5_0.gguf
+    sha256: e8121d2fe4cd67e1b94c001bebceefb678619ea648c72b0c6355d699456974d4
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q5_K_M.gguf
+    sha256: 976bed34ce10a517d43143871e5f88f5f04a053d94cb55b999c3d11085005c13
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q5_K_S.gguf
+    sha256: f6a6c21e53d7a92fd2b2e8e21549cd13433ce95880f7dd3f00dfe0738ada6dcf
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q6_K.gguf
+    sha256: 3820d27547da6c4550a2e2463fea0f45d799bcf6734437bdf906056492796eec
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b-v2.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Marcoroni-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: marcoroni-7b-v2.Q8_0.gguf
+    sha256: 4d1a7a9156586b96f0bac0957cb113b9fe60000520d7fb2867d1b6bd73a95d90
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF/resolve/main/marcoroni-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__marcoroni-7b-v2-gguf__marcoroni-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:AIDC-ai-business/Marcoroni-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7B-v2-GGUF

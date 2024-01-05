@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q2_K.gguf
+    sha256: eeadc579da6d4387dbc2876ce6b2d4d51310bfdbf8af258b3b7a3e4d8b5a4f46
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q3_K_L.gguf
+    sha256: b7ec26b2ad08c835585200a0089817c3151fe51629f0835d73206f1c59777fed
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q3_K_M.gguf
+    sha256: 512ff73533d0514cd76652ff7d063e59706966a1a00ca34a61e3cda71287f129
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q3_K_S.gguf
+    sha256: 39ec093928237dfd35572c6d2c2d096c4723a7c783a9662ebf5b12a869fc8feb
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q4_0.gguf
+    sha256: 075aacaa885e45ea492d7074f76411adfe759574d32b8b6aaf37c3e26cbec3e9
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q4_K_M.gguf
+    sha256: 2af65a2589268d855434c490deae548273985d0de03a68f819b8c171b7b2d9c3
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q4_K_S.gguf
+    sha256: d3db4ca6e25c6cc342f0e9e745eca7332a65aa136fbd1ccb8d62b89a7447532c
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q5_0.gguf
+    sha256: ecc9ddb329b785b6b2df7b4915ec80833604cfc0bbebde15d938f54048ac7138
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q5_K_M.gguf
+    sha256: 448ae35caf9d01cc0bf92aca2d1b5c6dd0ebc8d635f92e0221627332fa7bfe44
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q5_K_S.gguf
+    sha256: ad326e7977e0b5a3e2b54dab02e5b10448db0708a1f0d7faaeecb7989535f5ed
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q6_K.gguf
+    sha256: 78ee2bb6cd873780152002ead81be15e361c40eb9e57ee983b4c7fb3fa3869f6
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neural-chat-7b-v3-2.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - mistral configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q8_0.gguf
+    sha256: af5d718128d7b5052adf43f0dc15b89c4855e7e8710152494e114ebd3daa8ad5
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q2_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q2_K.gguf
+    sha256: eeadc579da6d4387dbc2876ce6b2d4d51310bfdbf8af258b3b7a3e4d8b5a4f46
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q3_K_L.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q3_K_L.gguf
+    sha256: b7ec26b2ad08c835585200a0089817c3151fe51629f0835d73206f1c59777fed
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q3_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q3_K_M.gguf
+    sha256: 512ff73533d0514cd76652ff7d063e59706966a1a00ca34a61e3cda71287f129
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q3_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q3_K_S.gguf
+    sha256: 39ec093928237dfd35572c6d2c2d096c4723a7c783a9662ebf5b12a869fc8feb
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q4_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q4_0.gguf
+    sha256: 075aacaa885e45ea492d7074f76411adfe759574d32b8b6aaf37c3e26cbec3e9
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q4_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q4_K_M.gguf
+    sha256: 2af65a2589268d855434c490deae548273985d0de03a68f819b8c171b7b2d9c3
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q4_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q4_K_S.gguf
+    sha256: d3db4ca6e25c6cc342f0e9e745eca7332a65aa136fbd1ccb8d62b89a7447532c
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q5_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q5_0.gguf
+    sha256: ecc9ddb329b785b6b2df7b4915ec80833604cfc0bbebde15d938f54048ac7138
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q5_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q5_K_M.gguf
+    sha256: 448ae35caf9d01cc0bf92aca2d1b5c6dd0ebc8d635f92e0221627332fa7bfe44
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q5_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q5_K_S.gguf
+    sha256: ad326e7977e0b5a3e2b54dab02e5b10448db0708a1f0d7faaeecb7989535f5ed
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q6_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q6_K.gguf
+    sha256: 78ee2bb6cd873780152002ead81be15e361c40eb9e57ee983b4c7fb3fa3869f6
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neural-chat-7b-v3-2.Q8_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/neural-chat-7B-v3-2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: neural-chat-7b-v3-2.Q8_0.gguf
+    sha256: af5d718128d7b5052adf43f0dc15b89c4855e7e8710152494e114ebd3daa8ad5
+    uri: 
+      https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF/resolve/main/neural-chat-7b-v3-2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neural-chat-7b-v3-2-gguf__neural-chat-7b-v3-2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Intel/neural-chat-7b-v3-2
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neural-chat-7B-v3-2-GGUF

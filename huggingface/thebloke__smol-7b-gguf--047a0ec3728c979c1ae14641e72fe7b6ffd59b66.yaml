@@ -1,0 +1,1272 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q2_K.gguf
+    sha256: a0ade154b0d6059dd466a443c991a85ea3a708166bb5228de34d7967cb43f430
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q3_K_L.gguf
+    sha256: 3a3a8e3fd1f1245bbf08c7a6a9df2439456216ff01fc88991af4db981af382b8
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q3_K_M.gguf
+    sha256: 98714a519f69375b597c1d01079b4efeab0140aa2b467d18518ce6d8c14422ce
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q3_K_S.gguf
+    sha256: 8215f9f5e9225c1d5faf64f957c158a34fc522c403578dc3757ef998f08b899e
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q4_0.gguf
+    sha256: 99a97caf98abe1428aeaadeb4f19d33c37e67b68fa4268b9c10c49d95a8968e5
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q4_K_M.gguf
+    sha256: f4139f77edfd1533aa9081a9cba5e4e6b87e0071698cf4c7f6a95df9708d8cc4
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q4_K_S.gguf
+    sha256: 53fdffc8a98c072b3f65fbd3bdd44a55b74240c59004ebaf6aba109805d7a8f6
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q5_0.gguf
+    sha256: 480073de9c13c59eb375169ec1269180731ecea1735a8cb6f3b21037951e43a0
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q5_K_M.gguf
+    sha256: 5337f65d7fd01b0de285ba5d783b87fa8c0759c9d400618ed0afd86e5e00cf29
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q5_K_S.gguf
+    sha256: e7b1fd878cfaed2945743de9f34925d6bff31e886950aedc36c6e7cf9d8e6134
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q6_K.gguf
+    sha256: ddddda0a587730985b74f3a330cf532a92fe393cb81ffda8789424fd2e829758
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smol-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q8_0.gguf
+    sha256: bca4e4f39647e03a56dd089e043ab23a6685663762310eac2d737932db4ec4d9
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q2_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q2_K.gguf
+    sha256: a0ade154b0d6059dd466a443c991a85ea3a708166bb5228de34d7967cb43f430
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q3_K_L.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q3_K_L.gguf
+    sha256: 3a3a8e3fd1f1245bbf08c7a6a9df2439456216ff01fc88991af4db981af382b8
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q3_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q3_K_M.gguf
+    sha256: 98714a519f69375b597c1d01079b4efeab0140aa2b467d18518ce6d8c14422ce
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q3_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q3_K_S.gguf
+    sha256: 8215f9f5e9225c1d5faf64f957c158a34fc522c403578dc3757ef998f08b899e
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q4_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q4_0.gguf
+    sha256: 99a97caf98abe1428aeaadeb4f19d33c37e67b68fa4268b9c10c49d95a8968e5
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q4_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q4_K_M.gguf
+    sha256: f4139f77edfd1533aa9081a9cba5e4e6b87e0071698cf4c7f6a95df9708d8cc4
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q4_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q4_K_S.gguf
+    sha256: 53fdffc8a98c072b3f65fbd3bdd44a55b74240c59004ebaf6aba109805d7a8f6
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q5_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q5_0.gguf
+    sha256: 480073de9c13c59eb375169ec1269180731ecea1735a8cb6f3b21037951e43a0
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q5_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q5_K_M.gguf
+    sha256: 5337f65d7fd01b0de285ba5d783b87fa8c0759c9d400618ed0afd86e5e00cf29
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q5_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q5_K_S.gguf
+    sha256: e7b1fd878cfaed2945743de9f34925d6bff31e886950aedc36c6e7cf9d8e6134
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q6_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q6_K.gguf
+    sha256: ddddda0a587730985b74f3a330cf532a92fe393cb81ffda8789424fd2e829758
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q8_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q8_0.gguf
+    sha256: bca4e4f39647e03a56dd089e043ab23a6685663762310eac2d737932db4ec4d9
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q2_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q2_K.gguf
+    sha256: a0ade154b0d6059dd466a443c991a85ea3a708166bb5228de34d7967cb43f430
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q3_K_L.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q3_K_L.gguf
+    sha256: 3a3a8e3fd1f1245bbf08c7a6a9df2439456216ff01fc88991af4db981af382b8
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q3_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q3_K_M.gguf
+    sha256: 98714a519f69375b597c1d01079b4efeab0140aa2b467d18518ce6d8c14422ce
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q3_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q3_K_S.gguf
+    sha256: 8215f9f5e9225c1d5faf64f957c158a34fc522c403578dc3757ef998f08b899e
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q4_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q4_0.gguf
+    sha256: 99a97caf98abe1428aeaadeb4f19d33c37e67b68fa4268b9c10c49d95a8968e5
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q4_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q4_K_M.gguf
+    sha256: f4139f77edfd1533aa9081a9cba5e4e6b87e0071698cf4c7f6a95df9708d8cc4
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q4_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q4_K_S.gguf
+    sha256: 53fdffc8a98c072b3f65fbd3bdd44a55b74240c59004ebaf6aba109805d7a8f6
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q5_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q5_0.gguf
+    sha256: 480073de9c13c59eb375169ec1269180731ecea1735a8cb6f3b21037951e43a0
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q5_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q5_K_M.gguf
+    sha256: 5337f65d7fd01b0de285ba5d783b87fa8c0759c9d400618ed0afd86e5e00cf29
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q5_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q5_K_S.gguf
+    sha256: e7b1fd878cfaed2945743de9f34925d6bff31e886950aedc36c6e7cf9d8e6134
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q6_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q6_K.gguf
+    sha256: ddddda0a587730985b74f3a330cf532a92fe393cb81ffda8789424fd2e829758
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smol-7b.Q8_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/smol-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: smol-7b.Q8_0.gguf
+    sha256: bca4e4f39647e03a56dd089e043ab23a6685663762310eac2d737932db4ec4d9
+    uri: https://huggingface.co/TheBloke/smol-7B-GGUF/resolve/main/smol-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smol-7b-gguf__smol-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - text-generation
+  - en
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:rishiraj/smol-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smol-7B-GGUF

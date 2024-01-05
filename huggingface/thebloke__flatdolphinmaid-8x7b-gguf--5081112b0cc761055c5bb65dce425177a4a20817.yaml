@@ -1,0 +1,264 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: flatdolphinmaid-8x7b.Q2_K.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/FlatDolphinMaid-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: flatdolphinmaid-8x7b.Q2_K.gguf
+    sha256: 327c2077dd08fd3baae4f9de5441616e1ff15dddf5fa6c1ed58c8ecd68c9b946
+    uri: 
+      https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF/resolve/main/flatdolphinmaid-8x7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__flatdolphinmaid-8x7b-gguf__flatdolphinmaid-8x7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/FlatDolphinMaid-8x7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: flatdolphinmaid-8x7b.Q3_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/FlatDolphinMaid-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: flatdolphinmaid-8x7b.Q3_K_M.gguf
+    sha256: 2205e4a3a2ea49742d0c528dd5a6663ea25cc962b09f65587bd3a2e58edba279
+    uri: 
+      https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF/resolve/main/flatdolphinmaid-8x7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__flatdolphinmaid-8x7b-gguf__flatdolphinmaid-8x7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/FlatDolphinMaid-8x7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: flatdolphinmaid-8x7b.Q4_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/FlatDolphinMaid-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: flatdolphinmaid-8x7b.Q4_0.gguf
+    sha256: 56b8a9cbab51d82d51ee7e4d5b5a18e969700cc68671bb3f7425c09b7d248abe
+    uri: 
+      https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF/resolve/main/flatdolphinmaid-8x7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__flatdolphinmaid-8x7b-gguf__flatdolphinmaid-8x7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/FlatDolphinMaid-8x7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: flatdolphinmaid-8x7b.Q4_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/FlatDolphinMaid-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: flatdolphinmaid-8x7b.Q4_K_M.gguf
+    sha256: 805e555867e5fe0e819286f66ef0f2a992faf6b0401a42ab3aab0591d54981cb
+    uri: 
+      https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF/resolve/main/flatdolphinmaid-8x7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__flatdolphinmaid-8x7b-gguf__flatdolphinmaid-8x7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/FlatDolphinMaid-8x7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: flatdolphinmaid-8x7b.Q5_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/FlatDolphinMaid-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: flatdolphinmaid-8x7b.Q5_0.gguf
+    sha256: 395c34b1880da9b8be63d7b8f1c12969421083b95d209c6f275fa4e9bd233789
+    uri: 
+      https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF/resolve/main/flatdolphinmaid-8x7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__flatdolphinmaid-8x7b-gguf__flatdolphinmaid-8x7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/FlatDolphinMaid-8x7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: flatdolphinmaid-8x7b.Q5_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/FlatDolphinMaid-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: flatdolphinmaid-8x7b.Q5_K_M.gguf
+    sha256: 9a3a1808aac8e678a599236f385412ef22a53069534ef93b44670c7b64d61bc9
+    uri: 
+      https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF/resolve/main/flatdolphinmaid-8x7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__flatdolphinmaid-8x7b-gguf__flatdolphinmaid-8x7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/FlatDolphinMaid-8x7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: flatdolphinmaid-8x7b.Q6_K.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/FlatDolphinMaid-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: flatdolphinmaid-8x7b.Q6_K.gguf
+    sha256: 0b6035f5808eadce490847a9a0cbe325b9ac1d90d0a51ea3884ea923dd4f5aeb
+    uri: 
+      https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF/resolve/main/flatdolphinmaid-8x7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__flatdolphinmaid-8x7b-gguf__flatdolphinmaid-8x7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/FlatDolphinMaid-8x7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: flatdolphinmaid-8x7b.Q8_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/FlatDolphinMaid-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: flatdolphinmaid-8x7b.Q8_0.gguf
+    sha256: a2e4597a35ad7ee5a444fc8fd965b8432ed963032194520b7996228062de328e
+    uri: 
+      https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF/resolve/main/flatdolphinmaid-8x7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__flatdolphinmaid-8x7b-gguf__flatdolphinmaid-8x7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/FlatDolphinMaid-8x7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FlatDolphinMaid-8x7B-GGUF

@@ -1,0 +1,852 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q2_K.gguf
+    sha256: f872f56be5b397002754e91461558d5e219408dd5c8f01aeaa26b244ddf6604b
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q3_K_L.gguf
+    sha256: 30bc25a5cb3b2499222a31c0b744e62a9331f2a17c9e2fc2dde9842109ad5dd6
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q3_K_M.gguf
+    sha256: c9b6db8374321905d53448ce84375993bc13fd09133831d4a2a6ee36fa1ac27a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q3_K_S.gguf
+    sha256: 300f44b271caec6c1d0c9889da8cfdd4622c897a3261eddf6ce9101bbe42ea0e
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q4_0.gguf
+    sha256: c5c85eaaee1933a28653ad4fc5b6c6ca7b4a8fd53c3e9a1d12e41186d9ab32b5
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q4_K_M.gguf
+    sha256: ff4b64690d7d91009ae6e036c6b65c49065ff3d2b82ba2c2bc296d84d5f0f7b1
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q4_K_S.gguf
+    sha256: 086621baba3759b4be5febe74d2f1ec3aeee528b30babbda8d86b2a5f60e5911
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q5_0.gguf
+    sha256: bd74ebebe3351fb46119147ef58bdb294564644b45da7dc17621860135891d70
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q5_K_M.gguf
+    sha256: 2231376d8302e142bf50d3358c0739f126f70533a44c729c707189c89a135a00
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q5_K_S.gguf
+    sha256: d5bd2fd1946aebcfae62ae889e397ac2e756e2e07d7e3cb70cf0ab83c1c6570f
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q6_K.gguf
+    sha256: 817c45fe2ef410c04447d93013b2ab8a5d0b08009c607d278b07a0e6e08c5919
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q8_0.gguf
+    sha256: b288d5dfff0243f6bbf9beca43e6d6e94410047a7f45e7e1e446b0f697a05709
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q2_K.gguf
+    sha256: f872f56be5b397002754e91461558d5e219408dd5c8f01aeaa26b244ddf6604b
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q3_K_L.gguf
+    sha256: 30bc25a5cb3b2499222a31c0b744e62a9331f2a17c9e2fc2dde9842109ad5dd6
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q3_K_M.gguf
+    sha256: c9b6db8374321905d53448ce84375993bc13fd09133831d4a2a6ee36fa1ac27a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q3_K_S.gguf
+    sha256: 300f44b271caec6c1d0c9889da8cfdd4622c897a3261eddf6ce9101bbe42ea0e
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q4_0.gguf
+    sha256: c5c85eaaee1933a28653ad4fc5b6c6ca7b4a8fd53c3e9a1d12e41186d9ab32b5
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q4_K_M.gguf
+    sha256: ff4b64690d7d91009ae6e036c6b65c49065ff3d2b82ba2c2bc296d84d5f0f7b1
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q4_K_S.gguf
+    sha256: 086621baba3759b4be5febe74d2f1ec3aeee528b30babbda8d86b2a5f60e5911
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q5_0.gguf
+    sha256: bd74ebebe3351fb46119147ef58bdb294564644b45da7dc17621860135891d70
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q5_K_M.gguf
+    sha256: 2231376d8302e142bf50d3358c0739f126f70533a44c729c707189c89a135a00
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q5_K_S.gguf
+    sha256: d5bd2fd1946aebcfae62ae889e397ac2e756e2e07d7e3cb70cf0ab83c1c6570f
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q6_K.gguf
+    sha256: 817c45fe2ef410c04447d93013b2ab8a5d0b08009c607d278b07a0e6e08c5919
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-instruct-v0.2-dare.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: mistral-7b-instruct-v0.2-dare.Q8_0.gguf
+    sha256: b288d5dfff0243f6bbf9beca43e6d6e94410047a7f45e7e1e446b0f697a05709
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF/resolve/main/mistral-7b-instruct-v0.2-dare.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mistral-7b-instruct-v0.2-dare-gguf__mistral-7b-instruct-v0.2-dare.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/Mistral-7B-Instruct-v0.2-DARE
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-DARE-GGUF

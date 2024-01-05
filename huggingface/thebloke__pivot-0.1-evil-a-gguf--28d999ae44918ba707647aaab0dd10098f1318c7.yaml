@@ -1,0 +1,1416 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q2_K.gguf
+    sha256: 19a96dda680b46ee3f082dd60334b8acfca5a3744147e989622284591ce03523
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q3_K_L.gguf
+    sha256: e0d9b4492d1ec7ee0f87d311b69d271cb2593afd8657322fa83297df351f397d
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q3_K_M.gguf
+    sha256: 6f49bbd7c5144120b8be7f9fcb9329eb43ef3739b109117a83f0d5044a252a8b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q3_K_S.gguf
+    sha256: 425f3836345fee7958d8291bf753d978a2805841c7a5a2f2a7761f0694736e0b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q4_0.gguf
+    sha256: f26db64eea44716a4f11bd712422e639b6c3d2d796c371bdc0826ce6d86ea419
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q4_K_M.gguf
+    sha256: 80b570048b4b419ff6d29d89ea9a06a943d49226d22d0c7a56d3d433023f277f
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q4_K_S.gguf
+    sha256: 2c4195852bb70d0be5beb267bc709071830e258ec5f53b04d6825b694650843b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q5_0.gguf
+    sha256: 56e069c724f2536556c10f03cf94f153222f4165380eb96440f88153fa83ec04
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q5_K_M.gguf
+    sha256: 2b8324efa1918e73411c98f92fc23dfd383e28ab2c3e9ead025f6b3fba0dde3b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q5_K_S.gguf
+    sha256: e9989b806f754a5a19b47287332b64619325c87248e0b90155dc033b1dc12734
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q6_K.gguf
+    sha256: defa926aa826704457d4b54789717242942469fb42d564881defc7c037944fb7
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-evil-a.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q8_0.gguf
+    sha256: 9624b322aa16bbe4446485f298aab2284102d27343faaf210b917846582c7dc4
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q2_K.gguf
+    sha256: 19a96dda680b46ee3f082dd60334b8acfca5a3744147e989622284591ce03523
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q3_K_L.gguf
+    sha256: e0d9b4492d1ec7ee0f87d311b69d271cb2593afd8657322fa83297df351f397d
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q3_K_M.gguf
+    sha256: 6f49bbd7c5144120b8be7f9fcb9329eb43ef3739b109117a83f0d5044a252a8b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q3_K_S.gguf
+    sha256: 425f3836345fee7958d8291bf753d978a2805841c7a5a2f2a7761f0694736e0b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q4_0.gguf
+    sha256: f26db64eea44716a4f11bd712422e639b6c3d2d796c371bdc0826ce6d86ea419
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q4_K_M.gguf
+    sha256: 80b570048b4b419ff6d29d89ea9a06a943d49226d22d0c7a56d3d433023f277f
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q4_K_S.gguf
+    sha256: 2c4195852bb70d0be5beb267bc709071830e258ec5f53b04d6825b694650843b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q5_0.gguf
+    sha256: 56e069c724f2536556c10f03cf94f153222f4165380eb96440f88153fa83ec04
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q5_K_M.gguf
+    sha256: 2b8324efa1918e73411c98f92fc23dfd383e28ab2c3e9ead025f6b3fba0dde3b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q5_K_S.gguf
+    sha256: e9989b806f754a5a19b47287332b64619325c87248e0b90155dc033b1dc12734
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q6_K.gguf
+    sha256: defa926aa826704457d4b54789717242942469fb42d564881defc7c037944fb7
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q8_0.gguf
+    sha256: 9624b322aa16bbe4446485f298aab2284102d27343faaf210b917846582c7dc4
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q2_K.gguf
+    sha256: 19a96dda680b46ee3f082dd60334b8acfca5a3744147e989622284591ce03523
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q3_K_L.gguf
+    sha256: e0d9b4492d1ec7ee0f87d311b69d271cb2593afd8657322fa83297df351f397d
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q3_K_M.gguf
+    sha256: 6f49bbd7c5144120b8be7f9fcb9329eb43ef3739b109117a83f0d5044a252a8b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q3_K_S.gguf
+    sha256: 425f3836345fee7958d8291bf753d978a2805841c7a5a2f2a7761f0694736e0b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q4_0.gguf
+    sha256: f26db64eea44716a4f11bd712422e639b6c3d2d796c371bdc0826ce6d86ea419
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q4_K_M.gguf
+    sha256: 80b570048b4b419ff6d29d89ea9a06a943d49226d22d0c7a56d3d433023f277f
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q4_K_S.gguf
+    sha256: 2c4195852bb70d0be5beb267bc709071830e258ec5f53b04d6825b694650843b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q5_0.gguf
+    sha256: 56e069c724f2536556c10f03cf94f153222f4165380eb96440f88153fa83ec04
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q5_K_M.gguf
+    sha256: 2b8324efa1918e73411c98f92fc23dfd383e28ab2c3e9ead025f6b3fba0dde3b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q5_K_S.gguf
+    sha256: e9989b806f754a5a19b47287332b64619325c87248e0b90155dc033b1dc12734
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q6_K.gguf
+    sha256: defa926aa826704457d4b54789717242942469fb42d564881defc7c037944fb7
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-evil-a.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/PiVoT-0.1-Evil-a-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: pivot-0.1-evil-a.Q8_0.gguf
+    sha256: 9624b322aa16bbe4446485f298aab2284102d27343faaf210b917846582c7dc4
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF/resolve/main/pivot-0.1-evil-a.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-0.1-evil-a-gguf__pivot-0.1-evil-a.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - text-generation
+  - en
+  - ko
+  - dataset:maywell/ko_wikidata_QA
+  - dataset:kyujinpy/OpenOrca-KO
+  - dataset:Anthropic/hh-rlhf
+  - base_model:maywell/PiVoT-0.1-Evil-a
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Evil-a-GGUF

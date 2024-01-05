@@ -1,0 +1,1200 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q2_K.gguf
+    sha256: 0b64cc87794e6e562bef1e639cbdf6e02ff6d8a5d1588d2653f656a781b4073f
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q3_K_L.gguf
+    sha256: d3e043baa4cebd3ef163b9469c90ec1d79c8a4dcc9a33822244f6acf741da980
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q3_K_M.gguf
+    sha256: d548c3edfbba5f84b20e57f5e03172f8946cffad7b3c22decfc110f8e0efab6e
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q3_K_S.gguf
+    sha256: 715dffdc01c37f92d3b4165091f9dc7a85007915e77140359a6e398bb5ce581f
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q4_0.gguf
+    sha256: 831a15a011591a2ff844baea29e2f8770d6038a9b545e534acecab8afb75bb39
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q4_K_M.gguf
+    sha256: 338d1fb4441c3ffbd5c60f69c8857541687eea90e84ecadc88974fd0946b76aa
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q4_K_S.gguf
+    sha256: b08f81ad92a1d32a2ed31ffe3bb1cd2d653463beec2f71230765c5a207cd7aa5
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q5_0.gguf
+    sha256: adbf3f16430b4a976d16f4923803607570ad0a29279ef3f4ef3728bec23fcf1a
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q5_K_M.gguf
+    sha256: 26b2b8bb49b64fc337612a64ae777c1c3d4756951fb052279f26e022e0d389f8
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q5_K_S.gguf
+    sha256: ae5351412204db8096c7f53782d3b8904ac6db8ebb531474e55e66d1d87c9058
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q6_K.gguf
+    sha256: f88a711ea33ed5a4d4ca46ff0dea8112462cd53f03dadfe9efed46c3af1bc27c
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pirouette-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - mistral configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q8_0.gguf
+    sha256: 1d16fe384bc6d48eda0a3d104b0af770b69d42d84251188474d813d27eb680b3
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q2_K.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q2_K.gguf
+    sha256: 0b64cc87794e6e562bef1e639cbdf6e02ff6d8a5d1588d2653f656a781b4073f
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q3_K_L.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q3_K_L.gguf
+    sha256: d3e043baa4cebd3ef163b9469c90ec1d79c8a4dcc9a33822244f6acf741da980
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q3_K_M.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q3_K_M.gguf
+    sha256: d548c3edfbba5f84b20e57f5e03172f8946cffad7b3c22decfc110f8e0efab6e
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q3_K_S.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q3_K_S.gguf
+    sha256: 715dffdc01c37f92d3b4165091f9dc7a85007915e77140359a6e398bb5ce581f
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q4_0.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q4_0.gguf
+    sha256: 831a15a011591a2ff844baea29e2f8770d6038a9b545e534acecab8afb75bb39
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q4_K_M.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q4_K_M.gguf
+    sha256: 338d1fb4441c3ffbd5c60f69c8857541687eea90e84ecadc88974fd0946b76aa
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q4_K_S.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q4_K_S.gguf
+    sha256: b08f81ad92a1d32a2ed31ffe3bb1cd2d653463beec2f71230765c5a207cd7aa5
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q5_0.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q5_0.gguf
+    sha256: adbf3f16430b4a976d16f4923803607570ad0a29279ef3f4ef3728bec23fcf1a
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q5_K_M.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q5_K_M.gguf
+    sha256: 26b2b8bb49b64fc337612a64ae777c1c3d4756951fb052279f26e022e0d389f8
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q5_K_S.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q5_K_S.gguf
+    sha256: ae5351412204db8096c7f53782d3b8904ac6db8ebb531474e55e66d1d87c9058
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q6_K.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q6_K.gguf
+    sha256: f88a711ea33ed5a4d4ca46ff0dea8112462cd53f03dadfe9efed46c3af1bc27c
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q8_0.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q8_0.gguf
+    sha256: 1d16fe384bc6d48eda0a3d104b0af770b69d42d84251188474d813d27eb680b3
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q2_K.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q2_K.gguf
+    sha256: 0b64cc87794e6e562bef1e639cbdf6e02ff6d8a5d1588d2653f656a781b4073f
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q3_K_L.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q3_K_L.gguf
+    sha256: d3e043baa4cebd3ef163b9469c90ec1d79c8a4dcc9a33822244f6acf741da980
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q3_K_M.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q3_K_M.gguf
+    sha256: d548c3edfbba5f84b20e57f5e03172f8946cffad7b3c22decfc110f8e0efab6e
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q3_K_S.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q3_K_S.gguf
+    sha256: 715dffdc01c37f92d3b4165091f9dc7a85007915e77140359a6e398bb5ce581f
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q4_0.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q4_0.gguf
+    sha256: 831a15a011591a2ff844baea29e2f8770d6038a9b545e534acecab8afb75bb39
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q4_K_M.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q4_K_M.gguf
+    sha256: 338d1fb4441c3ffbd5c60f69c8857541687eea90e84ecadc88974fd0946b76aa
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q4_K_S.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q4_K_S.gguf
+    sha256: b08f81ad92a1d32a2ed31ffe3bb1cd2d653463beec2f71230765c5a207cd7aa5
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q5_0.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q5_0.gguf
+    sha256: adbf3f16430b4a976d16f4923803607570ad0a29279ef3f4ef3728bec23fcf1a
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q5_K_M.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q5_K_M.gguf
+    sha256: 26b2b8bb49b64fc337612a64ae777c1c3d4756951fb052279f26e022e0d389f8
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q5_K_S.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q5_K_S.gguf
+    sha256: ae5351412204db8096c7f53782d3b8904ac6db8ebb531474e55e66d1d87c9058
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q6_K.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q6_K.gguf
+    sha256: f88a711ea33ed5a4d4ca46ff0dea8112462cd53f03dadfe9efed46c3af1bc27c
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pirouette-7b.Q8_0.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/Pirouette-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pirouette-7b.Q8_0.gguf
+    sha256: 1d16fe384bc6d48eda0a3d104b0af770b69d42d84251188474d813d27eb680b3
+    uri: 
+      https://huggingface.co/TheBloke/Pirouette-7B-GGUF/resolve/main/pirouette-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pirouette-7b-gguf__pirouette-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - base_model:ddh0/Pirouette-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pirouette-7B-GGUF

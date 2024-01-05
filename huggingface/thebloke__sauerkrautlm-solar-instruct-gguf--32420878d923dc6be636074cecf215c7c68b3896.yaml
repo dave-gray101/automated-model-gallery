@@ -1,0 +1,972 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q2_K.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q2_K.gguf
+    sha256: 700bb6ed47219ce607054b755a3ed0a11b1dd2c7ef1fbf9846a469a3d005a4f7
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q3_K_L.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q3_K_L.gguf
+    sha256: ba1fe6891ec46d2644148f4fcbe9acf70f810d7907b136d6bfff42b169996817
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q3_K_M.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q3_K_M.gguf
+    sha256: 4072ce7a7ec88ca833bfacd34f62c21c7dc75b2f55e963964559ba485baebda8
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q3_K_S.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q3_K_S.gguf
+    sha256: d8cb68f1eb19e4787d6bcec8e2965d7aed2bf54633bb3cbda994e880c71be761
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q4_0.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q4_0.gguf
+    sha256: e8d73dceb26a76fa2f0df10200977d589ae0bfdad2e55ce182f1a4175d284781
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q4_K_M.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q4_K_M.gguf
+    sha256: 2aaee6449d4abca39f8852ea84e66136bf8d2ef98d7645aa5134398117ae5caf
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q4_K_S.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q4_K_S.gguf
+    sha256: 6c10712a7435c40167331e199bfb9fdfb5423b2074631452fcb98b040c44cf1f
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q5_0.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q5_0.gguf
+    sha256: 17710f57ab61d30b029715bc8d3d4f000d8f563b47c7f1a21ad43e8766a7a52e
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q5_K_M.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q5_K_M.gguf
+    sha256: 91d90c17172812514c15fee46c97f7abfad8de42f9c6b43c444abd7b129761d7
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q5_K_S.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q5_K_S.gguf
+    sha256: 9b14bf103730bd5f6b9ca6f168f877d14ebb55640bdc354649a65d6ffa789604
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q6_K.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q6_K.gguf
+    sha256: c41eaa641367ed3502800ca8131f511920f77d6ffe9cb8c700606622cb7c5a1b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q8_0.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q8_0.gguf
+    sha256: 909cfee91ca868bb98459a67fe72d98f09a1a3f4773ed4a00248167ed8b2d40a
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q2_K.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q2_K.gguf
+    sha256: 700bb6ed47219ce607054b755a3ed0a11b1dd2c7ef1fbf9846a469a3d005a4f7
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q3_K_L.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q3_K_L.gguf
+    sha256: ba1fe6891ec46d2644148f4fcbe9acf70f810d7907b136d6bfff42b169996817
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q3_K_M.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q3_K_M.gguf
+    sha256: 4072ce7a7ec88ca833bfacd34f62c21c7dc75b2f55e963964559ba485baebda8
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q3_K_S.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q3_K_S.gguf
+    sha256: d8cb68f1eb19e4787d6bcec8e2965d7aed2bf54633bb3cbda994e880c71be761
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q4_0.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q4_0.gguf
+    sha256: e8d73dceb26a76fa2f0df10200977d589ae0bfdad2e55ce182f1a4175d284781
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q4_K_M.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q4_K_M.gguf
+    sha256: 2aaee6449d4abca39f8852ea84e66136bf8d2ef98d7645aa5134398117ae5caf
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q4_K_S.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q4_K_S.gguf
+    sha256: 6c10712a7435c40167331e199bfb9fdfb5423b2074631452fcb98b040c44cf1f
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q5_0.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q5_0.gguf
+    sha256: 17710f57ab61d30b029715bc8d3d4f000d8f563b47c7f1a21ad43e8766a7a52e
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q5_K_M.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q5_K_M.gguf
+    sha256: 91d90c17172812514c15fee46c97f7abfad8de42f9c6b43c444abd7b129761d7
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q5_K_S.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q5_K_S.gguf
+    sha256: 9b14bf103730bd5f6b9ca6f168f877d14ebb55640bdc354649a65d6ffa789604
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q6_K.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q6_K.gguf
+    sha256: c41eaa641367ed3502800ca8131f511920f77d6ffe9cb8c700606622cb7c5a1b
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-solar-instruct.Q8_0.gguf
+    template:
+      chat: user-assistant-newlines
+      completion: user-assistant-newlines
+  description: TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: user-assistant-newlines.tmpl
+    sha256: 9edb758f1572d8a2cc2a27bff9971a774ff74e8806392aa889ba8741025f3b91
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant-newlines.tmpl
+  - filename: sauerkrautlm-solar-instruct.Q8_0.gguf
+    sha256: 909cfee91ca868bb98459a67fe72d98f09a1a3f4773ed4a00248167ed8b2d40a
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF/resolve/main/sauerkrautlm-solar-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: 
+    thebloke__sauerkrautlm-solar-instruct-gguf__sauerkrautlm-solar-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - finetune
+  - dpo
+  - Instruct
+  - augmentation
+  - german
+  - text-generation
+  - en
+  - de
+  - dataset:argilla/distilabel-math-preference-dpo
+  - base_model:VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+  - license:cc-by-nc-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-SOLAR-Instruct-GGUF

@@ -1,0 +1,840 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q2_K.gguf
+    sha256: 9ae90912c9e545613764912f35b0fb8b7d27f7377143634504bdf42f189bb127
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q3_K_L.gguf
+    sha256: b4195be857ce698b3064bd4fa522292d4b7e25d03bf5fd848af6e6b143ddbd9f
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q3_K_M.gguf
+    sha256: e4aea9d30195840e5579b228e7ba4b80147c92032a6f4070a24e372f874f8f1d
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q3_K_S.gguf
+    sha256: 506aa70aa1ef6a22c5d73e668ea07b085c077b940689e12acd75f62cbb3276c2
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q4_0.gguf
+    sha256: 95d9e3144f666ee84c457531c95a9175ba97e213dace687467596187a6c6639c
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q4_K_M.gguf
+    sha256: e9d264a382a23dc45aa66ec9217e7f1034855c7f124a6db9a979d0a221f9a98c
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q4_K_S.gguf
+    sha256: 9f54124541a9cd7a719c9e872a6e965531fc1f68b0764669e3bdc685e25491d7
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q5_0.gguf
+    sha256: 45c450b0e81cd8832d72df47fed516550be32744040977ee654fe3ab35bf2ae0
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q5_K_M.gguf
+    sha256: c748c0846efeaf74b4a615360123cd578896daf253c7e04306594e5bc1452afe
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q5_K_S.gguf
+    sha256: d1ca96e1d3e68667b58a62f7e1a6ce85a74bbd90d52238e6a0dddc116ce0f8d2
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q6_K.gguf
+    sha256: 15409e97261ca3e70d05628153944651a8a5f3bfc3143597498b3c1f2e89b268
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bun_mistral_7b_v2.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q8_0.gguf
+    sha256: 4374bb4fbdc8259f6632b3d809d81c8136096225241d56a85baebdea640ec139
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q2_K.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q2_K.gguf
+    sha256: 9ae90912c9e545613764912f35b0fb8b7d27f7377143634504bdf42f189bb127
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q3_K_L.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q3_K_L.gguf
+    sha256: b4195be857ce698b3064bd4fa522292d4b7e25d03bf5fd848af6e6b143ddbd9f
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q3_K_M.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q3_K_M.gguf
+    sha256: e4aea9d30195840e5579b228e7ba4b80147c92032a6f4070a24e372f874f8f1d
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q3_K_S.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q3_K_S.gguf
+    sha256: 506aa70aa1ef6a22c5d73e668ea07b085c077b940689e12acd75f62cbb3276c2
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q4_0.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q4_0.gguf
+    sha256: 95d9e3144f666ee84c457531c95a9175ba97e213dace687467596187a6c6639c
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q4_K_M.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q4_K_M.gguf
+    sha256: e9d264a382a23dc45aa66ec9217e7f1034855c7f124a6db9a979d0a221f9a98c
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q4_K_S.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q4_K_S.gguf
+    sha256: 9f54124541a9cd7a719c9e872a6e965531fc1f68b0764669e3bdc685e25491d7
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q5_0.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q5_0.gguf
+    sha256: 45c450b0e81cd8832d72df47fed516550be32744040977ee654fe3ab35bf2ae0
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q5_K_M.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q5_K_M.gguf
+    sha256: c748c0846efeaf74b4a615360123cd578896daf253c7e04306594e5bc1452afe
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q5_K_S.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q5_K_S.gguf
+    sha256: d1ca96e1d3e68667b58a62f7e1a6ce85a74bbd90d52238e6a0dddc116ce0f8d2
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q6_K.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q6_K.gguf
+    sha256: 15409e97261ca3e70d05628153944651a8a5f3bfc3143597498b3c1f2e89b268
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bun_mistral_7b_v2.Q8_0.gguf
+    template:
+      chat: thebloke__bun_mistral_7b_v2-gguf
+      completion: thebloke__bun_mistral_7b_v2-gguf
+  description: TheBloke/bun_mistral_7b_v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__bun_mistral_7b_v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__bun_mistral_7b_v2-gguf.tmpl
+  - filename: bun_mistral_7b_v2.Q8_0.gguf
+    sha256: 4374bb4fbdc8259f6632b3d809d81c8136096225241d56a85baebdea640ec139
+    uri: 
+      https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF/resolve/main/bun_mistral_7b_v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__bun_mistral_7b_v2-gguf__bun_mistral_7b_v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - CoT
+  - en
+  - base_model:aloobun/bun_mistral_7b_v2
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/bun_mistral_7b_v2-GGUF

@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q2_K.gguf
+    sha256: bcb3af9e7ed8b3ca40b185379f5af21d9714d628f19ab180682a8d6f1e9a3fd4
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q3_K_L.gguf
+    sha256: 3099e76ddc66eb2b005d121318795f8e1af94cf961b5f7d7d779d6e2b758937f
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q3_K_M.gguf
+    sha256: 745f85fc28bb2dff0f6cd1cfdd7f8dab0b9af0e909ec9872da33908acef05cd1
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q3_K_S.gguf
+    sha256: 2d1e575d4c236f5f4a14ba92db90ed44949fde70e54de38862a56f916f40591b
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q4_0.gguf
+    sha256: ac60221073aed378148525849af40bd6eeeb545d4710de2eb6ba946c2c970752
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q4_K_M.gguf
+    sha256: e51857baa4da4cf9b7763dcefb0f71f4ad8cb1e17dca8441649d661f5862e035
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q4_K_S.gguf
+    sha256: a49a4a32f4cbdd18fd6cb8be537a1ecad8f73bd4cb51a6ae4f6f48d294d706e3
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q5_0.gguf
+    sha256: 680602e8f73966f535d6bfb58349a0d2f53a8ad11d8ceeac6a6d02f0dd1d409b
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q5_K_M.gguf
+    sha256: a17fcb5b73968ceaa74d8ec861867fef72356fdf83d6088a0f18b2646fbf0e32
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q5_K_S.gguf
+    sha256: d9b41bfa10250696d1f6e3c229008fd0e568239c28939cb78cee3844cbfe7405
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q6_K.gguf
+    sha256: 0a7dcee316a11140b07f446109e80b44ab74d762c4a2ecc908be7998d958560d
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: greennodelm-7b-v4leo.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q8_0.gguf
+    sha256: effa08cf148a5598e5ceda6963d65d02bc8bdd7e5b7e4e4c036d9d3b6a9e345e
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q2_K.gguf
+    sha256: bcb3af9e7ed8b3ca40b185379f5af21d9714d628f19ab180682a8d6f1e9a3fd4
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q3_K_L.gguf
+    sha256: 3099e76ddc66eb2b005d121318795f8e1af94cf961b5f7d7d779d6e2b758937f
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q3_K_M.gguf
+    sha256: 745f85fc28bb2dff0f6cd1cfdd7f8dab0b9af0e909ec9872da33908acef05cd1
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q3_K_S.gguf
+    sha256: 2d1e575d4c236f5f4a14ba92db90ed44949fde70e54de38862a56f916f40591b
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q4_0.gguf
+    sha256: ac60221073aed378148525849af40bd6eeeb545d4710de2eb6ba946c2c970752
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q4_K_M.gguf
+    sha256: e51857baa4da4cf9b7763dcefb0f71f4ad8cb1e17dca8441649d661f5862e035
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q4_K_S.gguf
+    sha256: a49a4a32f4cbdd18fd6cb8be537a1ecad8f73bd4cb51a6ae4f6f48d294d706e3
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q5_0.gguf
+    sha256: 680602e8f73966f535d6bfb58349a0d2f53a8ad11d8ceeac6a6d02f0dd1d409b
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q5_K_M.gguf
+    sha256: a17fcb5b73968ceaa74d8ec861867fef72356fdf83d6088a0f18b2646fbf0e32
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q5_K_S.gguf
+    sha256: d9b41bfa10250696d1f6e3c229008fd0e568239c28939cb78cee3844cbfe7405
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q6_K.gguf
+    sha256: 0a7dcee316a11140b07f446109e80b44ab74d762c4a2ecc908be7998d958560d
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: greennodelm-7b-v4leo.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/GreenNodeLM-7B-v4leo-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: greennodelm-7b-v4leo.Q8_0.gguf
+    sha256: effa08cf148a5598e5ceda6963d65d02bc8bdd7e5b7e4e4c036d9d3b6a9e345e
+    uri: 
+      https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF/resolve/main/greennodelm-7b-v4leo.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__greennodelm-7b-v4leo-gguf__greennodelm-7b-v4leo.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:GreenNode/GreenNodeLM-7B-v4leo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GreenNodeLM-7B-v4leo-GGUF

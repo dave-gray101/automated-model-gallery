@@ -1,0 +1,840 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q2_K.gguf
+    sha256: 737b7836a3662f5693037d13b75d8e9884083d4cd7fc89207569647d14ecea4d
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q3_K_L.gguf
+    sha256: 850883d1d79726c85d3f78f35a85c4f78af6adfda08b0837f165723e64ceff71
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q3_K_M.gguf
+    sha256: 5b540336fcfeda258945db129232b01c24f122b254a98973db8f560931a2fb61
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q3_K_S.gguf
+    sha256: 4248cfac4ad671bbd3763d6207f8438cd90bd8169e83b29d3bc480a73bbc3dee
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q4_0.gguf
+    sha256: 2ed2c6a283b222850d231d6e93e5899a375436deca6fb931ad9e3dca7dbc5d52
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q4_K_M.gguf
+    sha256: f8ec45a28f84238461f96808f546cf13fb80211a941f8a0cc44366ee541ad0b6
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q4_K_S.gguf
+    sha256: e8de94da0b104ffe47454ed30be2a420714546f814e4ada49494d57c8e795b52
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q5_0.gguf
+    sha256: 7f77723bfc6d27351e898ddff0439154bb76ce5e97cc8cfa8e01dcb78b725fd7
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q5_K_M.gguf
+    sha256: cc7372a0ae2b93d68e03d8e3bd33c1c59e9eed09bfaf62b2f4bd8a058c89d734
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q5_K_S.gguf
+    sha256: a2b806ec0562331f33b75bf5cd39b5aeb273323382b6990e55e4c0d911b400f4
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q6_K.gguf
+    sha256: 926c200433724cf9c7e0ac76ac4ed1356bff3ab3a8ddf21b914948755f252929
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-9b-merged.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q8_0.gguf
+    sha256: 2ccbc0fa0dad75c24215b04d87943961f2defddd3724d3365066d48791e899ab
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q2_K.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q2_K.gguf
+    sha256: 737b7836a3662f5693037d13b75d8e9884083d4cd7fc89207569647d14ecea4d
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q3_K_L.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q3_K_L.gguf
+    sha256: 850883d1d79726c85d3f78f35a85c4f78af6adfda08b0837f165723e64ceff71
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q3_K_M.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q3_K_M.gguf
+    sha256: 5b540336fcfeda258945db129232b01c24f122b254a98973db8f560931a2fb61
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q3_K_S.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q3_K_S.gguf
+    sha256: 4248cfac4ad671bbd3763d6207f8438cd90bd8169e83b29d3bc480a73bbc3dee
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q4_0.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q4_0.gguf
+    sha256: 2ed2c6a283b222850d231d6e93e5899a375436deca6fb931ad9e3dca7dbc5d52
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q4_K_M.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q4_K_M.gguf
+    sha256: f8ec45a28f84238461f96808f546cf13fb80211a941f8a0cc44366ee541ad0b6
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q4_K_S.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q4_K_S.gguf
+    sha256: e8de94da0b104ffe47454ed30be2a420714546f814e4ada49494d57c8e795b52
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q5_0.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q5_0.gguf
+    sha256: 7f77723bfc6d27351e898ddff0439154bb76ce5e97cc8cfa8e01dcb78b725fd7
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q5_K_M.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q5_K_M.gguf
+    sha256: cc7372a0ae2b93d68e03d8e3bd33c1c59e9eed09bfaf62b2f4bd8a058c89d734
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q5_K_S.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q5_K_S.gguf
+    sha256: a2b806ec0562331f33b75bf5cd39b5aeb273323382b6990e55e4c0d911b400f4
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q6_K.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q6_K.gguf
+    sha256: 926c200433724cf9c7e0ac76ac4ed1356bff3ab3a8ddf21b914948755f252929
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-9b-merged.Q8_0.gguf
+    template:
+      chat: thebloke__neuralpipe-9b-merged-gguf
+      completion: thebloke__neuralpipe-9b-merged-gguf
+  description: TheBloke/NeuralPipe-9B-merged-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-9b-merged-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-9b-merged-gguf.tmpl
+  - filename: neuralpipe-9b-merged.Q8_0.gguf
+    sha256: 2ccbc0fa0dad75c24215b04d87943961f2defddd3724d3365066d48791e899ab
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF/resolve/main/neuralpipe-9b-merged.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-9b-merged-gguf__neuralpipe-9b-merged.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - base_model:mlabonne/NeuralPipe-9B-merged
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-9B-merged-GGUF

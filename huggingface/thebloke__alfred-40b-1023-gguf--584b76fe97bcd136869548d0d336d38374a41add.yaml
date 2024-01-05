@@ -1,0 +1,552 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q2_K.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q2_K.gguf
+    sha256: 982419b0af88a5890267a8dfa1431545cadb7bd23f302cdf729a02df1ec3995e
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q3_K_L.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q3_K_L.gguf
+    sha256: d481f18ac81f49f006a13b84ff66ee44a6e8c64e9c48f2ab8bbf0e5505e0b12d
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q3_K_M.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q3_K_M.gguf
+    sha256: 9deac8df57215d72dee736005e51af7e937bc7ec8d6be65a2274a4616a0ba01b
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q3_K_S.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q3_K_S.gguf
+    sha256: ba487b0dd7d99cea116fe0154653b72951663b9f95949f145b917c42dac39d62
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q4_0.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q4_0.gguf
+    sha256: 7db58ca6a0c5cc81faa99fa6d11c7da94040f5ccdf3c636a41bee90cf596cf03
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q4_K_M.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q4_K_M.gguf
+    sha256: 33236825912d58e06fdb4f3e83ca30f222b7305957231aa9a247bed58f7c90a0
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q4_K_S.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q4_K_S.gguf
+    sha256: 7eb8d45922909b39f6f5e35ef6b04bb509bd3cf6ea095da4b6bacbbd2399d87a
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q5_0.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q5_0.gguf
+    sha256: 26df9c67a79d1a2f962d4283db050a7711fb4ac3fd2576c5ec3267c6d5470473
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q5_K_M.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q5_K_M.gguf
+    sha256: 23e8f3cba8a1f98aa7011b21f1137ddc05af39e65dcc0fd79cd8e222e50c4b1e
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q5_K_S.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q5_K_S.gguf
+    sha256: 3a4159c0be5d339140fd370d392c4734dc767780de84f6010f313d0c18314bef
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q6_K.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q6_K.gguf
+    sha256: 1cfffc056727cbdd5623065314dfa3f1b30878fbeb56a6a2479dc998aa139f2b
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alfred-40b-1023.Q8_0.gguf
+    template:
+      chat: alfred
+      completion: alfred
+  description: TheBloke/alfred-40B-1023-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alfred.tmpl
+    sha256: 0d4a1e4f6cd5b9d20acdecd77d1c6a0fe8b06d8679604d2850dadf9d3fec969e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alfred.tmpl
+  - filename: alfred-40b-1023.Q8_0.gguf
+    sha256: e7e8766ae3f596571312d8d2335f3a910a4ef057bcd59f2389e0d0f4018736dd
+    uri: 
+      https://huggingface.co/TheBloke/alfred-40B-1023-GGUF/resolve/main/alfred-40b-1023.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__alfred-40b-1023-gguf__alfred-40b-1023.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - falcon
+  - falcon-40b
+  - long-context
+  - NTK-YaRN
+  - en
+  - fr
+  - de
+  - es
+  - it
+  - dataset:OpenAssistant/oasst1
+  - dataset:ehartford/dolphin
+  - dataset:tau/sled
+  - dataset:tiiuae/falcon-refinedweb
+  - arxiv:2306.15595
+  - arxiv:2309.00071
+  - arxiv:2307.03172
+  - base_model:lightonai/alfred-40b-1023
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/alfred-40B-1023-GGUF

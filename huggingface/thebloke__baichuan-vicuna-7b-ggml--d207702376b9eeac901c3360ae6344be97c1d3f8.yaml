@@ -1,0 +1,392 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q2_K.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q2_K.bin
+    sha256: a6241f22b84d3e47a7d86408cd186357fa81acd033d7dec91c48e3b883bb5823
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q2_K.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q3_K_L.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q3_K_L.bin
+    sha256: f2ec466ca7e17e4c61afa3c433e49d39659d072d0e51b0c0d3eef6962b3f0cb3
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q3_K_L.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q3_K_M.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q3_K_M.bin
+    sha256: 910e0c57bffc5bd0e1d4d475cf4c5ab5c536e0c085c18a86811064888b03ce8b
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q3_K_M.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q3_K_S.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q3_K_S.bin
+    sha256: cd712f0e53da9f3c5d9417066d86ff531c57a1b5a6dfd6427137e1a59875a293
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q3_K_S.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q4_0.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q4_0.bin
+    sha256: d7c12bccc40098830a18d2f3a42020d243396d240b6020a0f2daace6b203d444
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q4_0.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q4_1.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q4_1.bin
+    sha256: bcd19907430902d9a2e669026bc6d9cf0080f439e42311dd7be662a0352a617a
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q4_1.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q4_K_M.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q4_K_M.bin
+    sha256: a14791ca43dd9c78f94306e23860648727c8a822039010b690439eefaa132307
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q4_K_M.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q4_K_S.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q4_K_S.bin
+    sha256: 41549ab677398ef14548d062c56b1d1a5130cb4eafd2a7bf715cf87bf13e8be8
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q4_K_S.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q5_0.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q5_0.bin
+    sha256: 6293d206b16413f4ce83bd00d402540040ecbd298cddd1fbcc065d3ca109fe90
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q5_0.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q5_1.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q5_1.bin
+    sha256: c72ff7ffd0fbb4d29d60fac7a4491234910754155fad1d04500bf02672ce5389
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q5_1.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q5_K_M.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q5_K_M.bin
+    sha256: 8c0e13ac780e2711b8333206d63ae5f411d209f7c7736f8cfc5e1fec55ed2de1
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q5_K_M.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q5_K_S.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q5_K_S.bin
+    sha256: 45f06d54ce18948f632deb65e073b0c67fe837865100d06d160c996531427bbd
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q5_K_S.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q6_K.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q6_K.bin
+    sha256: bc74cc2def094014e7e6a5f46a69d5eb20c9889ea5653c7fc2ea2ffbe425aba3
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q6_K.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q8_0.bin
+    template:
+      chat: vicuna 1.1
+      completion: vicuna 1.1
+  description: TheBloke/baichuan-vicuna-7B-GGML - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna 1.1.tmpl
+    sha256: fba7d09a0ce3a3ed4034ee8a7d3fcb31cd92f9bab574e923e77b154330c77e47
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna
+      1.1.tmpl
+  - filename: baichuan-vicuna-7b.ggmlv3.q8_0.bin
+    sha256: 98356c8e1536e4f8fd4b595734f29d2d9dd126c4f5bd5258f2022eec53e46b83
+    uri: 
+      https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__baichuan-vicuna-7b-ggml__baichuan-vicuna-7b.ggmlv3.q8_0.bin
+  tags:
+  - arxiv:2306.04751
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML

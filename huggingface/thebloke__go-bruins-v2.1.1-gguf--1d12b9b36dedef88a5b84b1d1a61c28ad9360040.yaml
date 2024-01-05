@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q2_K.gguf
+    sha256: 8fb7f3facae801ec1b291c80460b65296ee2e273fe95e4f7bbb599c4e908a1ed
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q3_K_L.gguf
+    sha256: ccfb29fa7af0032d298a9b8d2a23accf176fdac9cf4c53e05385720540872aa1
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q3_K_M.gguf
+    sha256: 5da6a94e7fb967cf4625c7cdfe22badc2fefd819ced899344fd70aeee3e90bbc
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q3_K_S.gguf
+    sha256: 5809b6a9edaca7b5142495d53e065bbee6c5accf25a758fbee0c119efd450ae3
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q4_0.gguf
+    sha256: 3a27c96a9e643a42e5e47f3326af908bae3aa2910957cde1f47cbab1c70fcd40
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q4_K_M.gguf
+    sha256: 43584ada148e2e278bf382bcd7574067d027c50cdf163841df3bb8326c8d9b06
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q4_K_S.gguf
+    sha256: 8e2866a05d853ceb4114fc11ffd1c9076b7d9beea456ce220a44f97ff317c097
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q5_0.gguf
+    sha256: 4ac2a113305e90093da52559d00a7a9a0dfe84750be16bb752c1c1e5d6012ab5
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q5_K_M.gguf
+    sha256: c58c9882b4dd2684255b8b7c71f74834c732ecbab3553a4fff29d81ab7b094e6
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q5_K_S.gguf
+    sha256: 6fd838d7d0344345f2df1609c049a45c0f160f2e480c1df693ef12dad14e37a7
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q6_K.gguf
+    sha256: aea24226c297bd246acd214e539cc204e9287ab617ce9b94de88b1aa075fee27
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: go-bruins-v2.1.1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q8_0.gguf
+    sha256: c21bf248c5992ba6f175821dcaf704be9547fd0c34294fafff453d1765fa7ad7
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q2_K.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q2_K.gguf
+    sha256: 8fb7f3facae801ec1b291c80460b65296ee2e273fe95e4f7bbb599c4e908a1ed
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q3_K_L.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q3_K_L.gguf
+    sha256: ccfb29fa7af0032d298a9b8d2a23accf176fdac9cf4c53e05385720540872aa1
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q3_K_M.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q3_K_M.gguf
+    sha256: 5da6a94e7fb967cf4625c7cdfe22badc2fefd819ced899344fd70aeee3e90bbc
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q3_K_S.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q3_K_S.gguf
+    sha256: 5809b6a9edaca7b5142495d53e065bbee6c5accf25a758fbee0c119efd450ae3
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q4_0.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q4_0.gguf
+    sha256: 3a27c96a9e643a42e5e47f3326af908bae3aa2910957cde1f47cbab1c70fcd40
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q4_K_M.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q4_K_M.gguf
+    sha256: 43584ada148e2e278bf382bcd7574067d027c50cdf163841df3bb8326c8d9b06
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q4_K_S.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q4_K_S.gguf
+    sha256: 8e2866a05d853ceb4114fc11ffd1c9076b7d9beea456ce220a44f97ff317c097
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q5_0.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q5_0.gguf
+    sha256: 4ac2a113305e90093da52559d00a7a9a0dfe84750be16bb752c1c1e5d6012ab5
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q5_K_M.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q5_K_M.gguf
+    sha256: c58c9882b4dd2684255b8b7c71f74834c732ecbab3553a4fff29d81ab7b094e6
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q5_K_S.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q5_K_S.gguf
+    sha256: 6fd838d7d0344345f2df1609c049a45c0f160f2e480c1df693ef12dad14e37a7
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q6_K.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q6_K.gguf
+    sha256: aea24226c297bd246acd214e539cc204e9287ab617ce9b94de88b1aa075fee27
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: go-bruins-v2.1.1.Q8_0.gguf
+    template:
+      chat: thebloke__go-bruins-v2.1.1-gguf
+      completion: thebloke__go-bruins-v2.1.1-gguf
+  description: TheBloke/go-bruins-v2.1.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__go-bruins-v2.1.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__go-bruins-v2.1.1-gguf.tmpl
+  - filename: go-bruins-v2.1.1.Q8_0.gguf
+    sha256: c21bf248c5992ba6f175821dcaf704be9547fd0c34294fafff453d1765fa7ad7
+    uri: 
+      https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF/resolve/main/go-bruins-v2.1.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc
+  name: thebloke__go-bruins-v2.1.1-gguf__go-bruins-v2.1.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:rwitz2/go-bruins-v2.1.1
+  - license:cc
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/go-bruins-v2.1.1-GGUF

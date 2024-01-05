@@ -1,0 +1,660 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q2_K.gguf
+    sha256: e21c50cd91192ea0f5a407f7f833c8e1248f9326efe07488b22e37cfce69f0c7
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q3_K_L.gguf
+    sha256: 5be07355d7d39277e770d7b958fdf5413b04f32b1273b0169075be4abfa52bcd
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q3_K_M.gguf
+    sha256: d72df0e12ae878e899a7332db68f84744d4979f37b8453867142b76eea25011d
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q3_K_S.gguf
+    sha256: 809d41d68dff856cee9eda253a2fe0c187858484889146759cc9c85b2df7e870
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q4_0.gguf
+    sha256: e04a45a66935b9191a4fad9985c5e3fc4e338f8c461c9abd5150904234e9f758
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q4_K_M.gguf
+    sha256: cc17842164ecd654865281cc0edf6bae385d2e3d453fc12bd246d103b8ea2503
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q4_K_S.gguf
+    sha256: 91a773a62f07edfe109e3d4b9f155e7b04a9ea151c0d6df3c53c2256aa93485d
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q5_0.gguf
+    sha256: 2688b42f91f17cfdaef62df8d42f8de1a70a0b21de33ed0d0abc912de9d50a19
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q5_K_M.gguf
+    sha256: 5c3d855fd171b7486efa1a6a07a797d00a0e19fce8852cdaeb3914f0a0c01d3f
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q5_K_S.gguf
+    sha256: 1cd36496bcc746eda0e30a30f0ed2d25069dbf87152a581ff75061d63db23306
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q2_K.gguf
+    sha256: e21c50cd91192ea0f5a407f7f833c8e1248f9326efe07488b22e37cfce69f0c7
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q3_K_L.gguf
+    sha256: 5be07355d7d39277e770d7b958fdf5413b04f32b1273b0169075be4abfa52bcd
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q3_K_M.gguf
+    sha256: d72df0e12ae878e899a7332db68f84744d4979f37b8453867142b76eea25011d
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q3_K_S.gguf
+    sha256: 809d41d68dff856cee9eda253a2fe0c187858484889146759cc9c85b2df7e870
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q4_0.gguf
+    sha256: e04a45a66935b9191a4fad9985c5e3fc4e338f8c461c9abd5150904234e9f758
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q4_K_M.gguf
+    sha256: cc17842164ecd654865281cc0edf6bae385d2e3d453fc12bd246d103b8ea2503
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q4_K_S.gguf
+    sha256: 91a773a62f07edfe109e3d4b9f155e7b04a9ea151c0d6df3c53c2256aa93485d
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q5_0.gguf
+    sha256: 2688b42f91f17cfdaef62df8d42f8de1a70a0b21de33ed0d0abc912de9d50a19
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q5_K_M.gguf
+    sha256: 5c3d855fd171b7486efa1a6a07a797d00a0e19fce8852cdaeb3914f0a0c01d3f
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tigerbot-70b-chat-v2.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/tigerbot-70B-chat-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: tigerbot-70b-chat-v2.Q5_K_S.gguf
+    sha256: 1cd36496bcc746eda0e30a30f0ed2d25069dbf87152a581ff75061d63db23306
+    uri: 
+      https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF/resolve/main/tigerbot-70b-chat-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tigerbot-70b-chat-v2-gguf__tigerbot-70b-chat-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - zh
+  - en
+  - base_model:TigerResearch/tigerbot-70b-chat-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tigerbot-70B-chat-v2-GGUF

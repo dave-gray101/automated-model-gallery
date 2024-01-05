@@ -1,0 +1,864 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q2_K.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q2_K.gguf
+    sha256: bb1fb56ece48a73bc731602b2082286ce7b755e54baa1c89533e5eab352950f4
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q3_K_L.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q3_K_L.gguf
+    sha256: a4fa9326932318009d4b44d36b84d85c7e1f53ea172ad9b89e1587a9878b0c92
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q3_K_M.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q3_K_M.gguf
+    sha256: b6f08ae6c2a9efe4a5283466a5e6b4c9c5183ecdbc074e1e23efca13628e3956
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q3_K_S.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q3_K_S.gguf
+    sha256: f44a6d826b84593c81022340972fd95c2a5373903faeff3990fa9d23b078e538
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q4_0.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q4_0.gguf
+    sha256: 3361e060e51ea61ef1d31d4f273c84b766abae11077b1d9aa3bd87fe1629b54d
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q4_K_M.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q4_K_M.gguf
+    sha256: 9b95f88c20c7c9ffb8e1c198aba8164a3fff4a743279865423a9aeeae891c2a7
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q4_K_S.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q4_K_S.gguf
+    sha256: 544be8d413981b7b247cce95158f749cc295408def4deb4e0b99c44c5b922c12
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q5_0.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q5_0.gguf
+    sha256: cea4466c4d86d9fbe30f53269b08c76d1988b68f40e2ef8a162d5374d91f7cf4
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q5_K_M.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q5_K_M.gguf
+    sha256: 37a54484c7615a80732e8225bdab23ea2b21b9e3e838de467a9db0de2d29f155
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q5_K_S.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q5_K_S.gguf
+    sha256: ff0203cbe0cf3deff1cf05307cd633e3eeb0f9d546547cc17413ac94024d9104
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q6_K.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q6_K.gguf
+    sha256: 0228eed2a77cb61a19e8f4f2aea730a26e51933bf8891b44e120544b51016371
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q8_0.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llama configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q8_0.gguf
+    sha256: 0499269802412a0464b13d457cb27733cb30fdd0d4abcca99a3e0d202aca1b94
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q2_K.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q2_K.gguf
+    sha256: bb1fb56ece48a73bc731602b2082286ce7b755e54baa1c89533e5eab352950f4
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q3_K_L.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q3_K_L.gguf
+    sha256: a4fa9326932318009d4b44d36b84d85c7e1f53ea172ad9b89e1587a9878b0c92
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q3_K_M.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q3_K_M.gguf
+    sha256: b6f08ae6c2a9efe4a5283466a5e6b4c9c5183ecdbc074e1e23efca13628e3956
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q3_K_S.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q3_K_S.gguf
+    sha256: f44a6d826b84593c81022340972fd95c2a5373903faeff3990fa9d23b078e538
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q4_0.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q4_0.gguf
+    sha256: 3361e060e51ea61ef1d31d4f273c84b766abae11077b1d9aa3bd87fe1629b54d
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q4_K_M.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q4_K_M.gguf
+    sha256: 9b95f88c20c7c9ffb8e1c198aba8164a3fff4a743279865423a9aeeae891c2a7
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q4_K_S.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q4_K_S.gguf
+    sha256: 544be8d413981b7b247cce95158f749cc295408def4deb4e0b99c44c5b922c12
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q5_0.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q5_0.gguf
+    sha256: cea4466c4d86d9fbe30f53269b08c76d1988b68f40e2ef8a162d5374d91f7cf4
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q5_K_M.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q5_K_M.gguf
+    sha256: 37a54484c7615a80732e8225bdab23ea2b21b9e3e838de467a9db0de2d29f155
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q5_K_S.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q5_K_S.gguf
+    sha256: ff0203cbe0cf3deff1cf05307cd633e3eeb0f9d546547cc17413ac94024d9104
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q6_K.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q6_K.gguf
+    sha256: 0228eed2a77cb61a19e8f4f2aea730a26e51933bf8891b44e120544b51016371
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tulu-2-dpo-7b.Q8_0.gguf
+    template:
+      chat: tulu
+      completion: tulu
+  description: TheBloke/tulu-2-dpo-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tulu.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tulu.tmpl
+  - filename: tulu-2-dpo-7b.Q8_0.gguf
+    sha256: 0499269802412a0464b13d457cb27733cb30fdd0d4abcca99a3e0d202aca1b94
+    uri: 
+      https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF/resolve/main/tulu-2-dpo-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__tulu-2-dpo-7b-gguf__tulu-2-dpo-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:HuggingFaceH4/ultrafeedback_binarized
+  - dataset:allenai/tulu-v2-sft-mixture
+  - arxiv:2305.18290
+  - arxiv:2311.10702
+  - base_model:allenai/tulu-2-dpo-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tulu-2-dpo-7B-GGUF

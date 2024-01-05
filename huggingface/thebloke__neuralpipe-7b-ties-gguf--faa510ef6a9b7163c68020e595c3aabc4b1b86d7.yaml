@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q2_K.gguf
+    sha256: 9f2469670d36758c0db2e7e51325524e853dec05fdb5af29b6b1e74a6ba45872
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q3_K_L.gguf
+    sha256: 036e89503985e0a5c5af943dd421cbc13a99d2029614016c57b85ae768707640
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q3_K_M.gguf
+    sha256: a622b2db411606791e26c06b346bbcaf845d855538313b8ed0b6a5465d51a33f
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q3_K_S.gguf
+    sha256: 159c40315344ed73c0f062515a16025d9a68c8755733a3f2241e6c4ec7a564e3
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q4_0.gguf
+    sha256: 6fd6b12ee3b4dccc3543a5ed8fdcce0757a9ed82fd8b791e1c16a224fde27ccf
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q4_K_M.gguf
+    sha256: 63f7b9743a43e997efcc1db0d67f6229ddff8c41b5d4e09f09a5db07dda6cfff
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q4_K_S.gguf
+    sha256: 5aef5f6353ed92e68bfe0fc8c9ddf38c447b4c67adbc967299d7bcb02a0e5ab8
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q5_0.gguf
+    sha256: 37ed912b0bd321565cdfee30ed31100d9e9eafc06c9f71c36b001a1654cb2769
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q5_K_M.gguf
+    sha256: 73b8a3844373c19a78bb64333538dbf5198c9326bbe5439301184c7478e71a4a
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q5_K_S.gguf
+    sha256: 4e52c4fd175a02285e908e520797ceddbb1a8035ab46f05eb83e46ab1547b885
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q6_K.gguf
+    sha256: 4c3788758c3daa584f9d4f4996a2cbaf9b0fb9eda8faeba3682e8df49508ac64
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralpipe-7b-ties.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q8_0.gguf
+    sha256: 7c7e8b7880ee926d73413f19383382fefe37383e7ba9c237a5d17a144e8022b4
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q2_K.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q2_K.gguf
+    sha256: 9f2469670d36758c0db2e7e51325524e853dec05fdb5af29b6b1e74a6ba45872
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q3_K_L.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q3_K_L.gguf
+    sha256: 036e89503985e0a5c5af943dd421cbc13a99d2029614016c57b85ae768707640
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q3_K_M.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q3_K_M.gguf
+    sha256: a622b2db411606791e26c06b346bbcaf845d855538313b8ed0b6a5465d51a33f
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q3_K_S.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q3_K_S.gguf
+    sha256: 159c40315344ed73c0f062515a16025d9a68c8755733a3f2241e6c4ec7a564e3
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q4_0.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q4_0.gguf
+    sha256: 6fd6b12ee3b4dccc3543a5ed8fdcce0757a9ed82fd8b791e1c16a224fde27ccf
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q4_K_M.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q4_K_M.gguf
+    sha256: 63f7b9743a43e997efcc1db0d67f6229ddff8c41b5d4e09f09a5db07dda6cfff
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q4_K_S.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q4_K_S.gguf
+    sha256: 5aef5f6353ed92e68bfe0fc8c9ddf38c447b4c67adbc967299d7bcb02a0e5ab8
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q5_0.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q5_0.gguf
+    sha256: 37ed912b0bd321565cdfee30ed31100d9e9eafc06c9f71c36b001a1654cb2769
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q5_K_M.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q5_K_M.gguf
+    sha256: 73b8a3844373c19a78bb64333538dbf5198c9326bbe5439301184c7478e71a4a
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q5_K_S.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q5_K_S.gguf
+    sha256: 4e52c4fd175a02285e908e520797ceddbb1a8035ab46f05eb83e46ab1547b885
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q6_K.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q6_K.gguf
+    sha256: 4c3788758c3daa584f9d4f4996a2cbaf9b0fb9eda8faeba3682e8df49508ac64
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralpipe-7b-ties.Q8_0.gguf
+    template:
+      chat: thebloke__neuralpipe-7b-ties-gguf
+      completion: thebloke__neuralpipe-7b-ties-gguf
+  description: TheBloke/NeuralPipe-7B-ties-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralpipe-7b-ties-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralpipe-7b-ties-gguf.tmpl
+  - filename: neuralpipe-7b-ties.Q8_0.gguf
+    sha256: 7c7e8b7880ee926d73413f19383382fefe37383e7ba9c237a5d17a144e8022b4
+    uri: 
+      https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF/resolve/main/neuralpipe-7b-ties.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralpipe-7b-ties-gguf__neuralpipe-7b-ties.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralPipe-7B-ties
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralPipe-7B-ties-GGUF

@@ -1,0 +1,768 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q2_K.gguf
+    sha256: c5813681da34437f300cbd6b36367ecf84d50754d8342e4c5e89bad96484371d
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q3_K_L.gguf
+    sha256: 93a2b142c5ada7a710d765703b3f8b4a3a94b2e8d43b58a181743dc9434ecb32
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q3_K_M.gguf
+    sha256: 5d2fedce45873d6c09abd3d02e8a014f8e5a65b0c76879c2446c1af040c35889
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q3_K_S.gguf
+    sha256: 646d82af9e615ff11a310537173f81bd19fdb4c6f22c8811082f778e88158337
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q4_0.gguf
+    sha256: d54063817abb5063630ae08ebbf2b350d634b0961c8125aa4187077fb7c8812a
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q4_K_M.gguf
+    sha256: 5f3bd5841caf4625c9ff936849a53382b35f9eb9421d3b2906c278c9d8d5888c
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q4_K_S.gguf
+    sha256: 471fe9f6edb757a3f1fcee5a7134bed468e8203467ba302fef93ebdd0a600b74
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q5_0.gguf
+    sha256: 137e283af460fbd7226fb9e2d7f309a8e0e5e34c4a81f79850ddea10ec3e1c1e
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q5_K_M.gguf
+    sha256: efdc253fcfa5dccd1772d25ed92bfb6cb0eaf438c00218892afb44cd3e413116
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q5_K_S.gguf
+    sha256: 2c8e29b6390e0b1ea6176eb3528952f32b13f40a07fc6eb38baac26d2f312615
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q6_K.gguf
+    sha256: 7feb885ab2377b546c889282742179ccb310a72e53509d65b001a9187b62c384
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mindy-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q8_0.gguf
+    sha256: 30b9b9ac9658cdfdaf7ddb2df3338fc45d5ac44902bfcaa5662a4ec674a725da
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q2_K.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q2_K.gguf
+    sha256: c5813681da34437f300cbd6b36367ecf84d50754d8342e4c5e89bad96484371d
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q3_K_L.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q3_K_L.gguf
+    sha256: 93a2b142c5ada7a710d765703b3f8b4a3a94b2e8d43b58a181743dc9434ecb32
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q3_K_M.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q3_K_M.gguf
+    sha256: 5d2fedce45873d6c09abd3d02e8a014f8e5a65b0c76879c2446c1af040c35889
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q3_K_S.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q3_K_S.gguf
+    sha256: 646d82af9e615ff11a310537173f81bd19fdb4c6f22c8811082f778e88158337
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q4_0.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q4_0.gguf
+    sha256: d54063817abb5063630ae08ebbf2b350d634b0961c8125aa4187077fb7c8812a
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q4_K_M.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q4_K_M.gguf
+    sha256: 5f3bd5841caf4625c9ff936849a53382b35f9eb9421d3b2906c278c9d8d5888c
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q4_K_S.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q4_K_S.gguf
+    sha256: 471fe9f6edb757a3f1fcee5a7134bed468e8203467ba302fef93ebdd0a600b74
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q5_0.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q5_0.gguf
+    sha256: 137e283af460fbd7226fb9e2d7f309a8e0e5e34c4a81f79850ddea10ec3e1c1e
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q5_K_M.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q5_K_M.gguf
+    sha256: efdc253fcfa5dccd1772d25ed92bfb6cb0eaf438c00218892afb44cd3e413116
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q5_K_S.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q5_K_S.gguf
+    sha256: 2c8e29b6390e0b1ea6176eb3528952f32b13f40a07fc6eb38baac26d2f312615
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q6_K.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q6_K.gguf
+    sha256: 7feb885ab2377b546c889282742179ccb310a72e53509d65b001a9187b62c384
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mindy-7b.Q8_0.gguf
+    template:
+      chat: thebloke__mindy-7b-gguf
+      completion: thebloke__mindy-7b-gguf
+  description: TheBloke/mindy-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mindy-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mindy-7b-gguf.tmpl
+  - filename: mindy-7b.Q8_0.gguf
+    sha256: 30b9b9ac9658cdfdaf7ddb2df3338fc45d5ac44902bfcaa5662a4ec674a725da
+    uri: https://huggingface.co/TheBloke/mindy-7B-GGUF/resolve/main/mindy-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mindy-7b-gguf__mindy-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:mindy-labs/mindy-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mindy-7B-GGUF

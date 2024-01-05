@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q2_K.gguf
+    sha256: cad7743570d483d46c5039573690fd24de262bd4ae9e3017d51c3c1f11c3c009
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q3_K_L.gguf
+    sha256: 5468f0c934008bdf0f87f785d008bb0e3086cd0ce960a52de27e3af6d17dfdd8
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q3_K_M.gguf
+    sha256: af17558a894f39de46088642d1f1ebf02015d699fc44eb164abd20bedd45f224
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q3_K_S.gguf
+    sha256: 3c8a7448ce97cdeb39bf062d647d0ea5090d79283e113c963fc5f1e0fe4ed0a7
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q4_0.gguf
+    sha256: 5c2f3ade708a3eb32cd290eb6d65563a0928a163d9a39b8edc85965b0799f053
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q4_K_M.gguf
+    sha256: 505866577b85e0f626a074a573dfb026f90204302c936d6fa9b941862dba7165
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q4_K_S.gguf
+    sha256: e4c7ebeb71f83f92b8407d41faba14a2e241a6bc67c94e5ab30f8227214937a6
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q5_0.gguf
+    sha256: 2d2ed320df853408b284cd17035d2ee18ea9537b1a6880edd9561ea191e3fce6
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q5_K_M.gguf
+    sha256: 6c6385e0ab793e8a141ac9a1623b2bb37529479244a1c8e09ed8be2bc1db9360
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q5_K_S.gguf
+    sha256: ba863b40fe016ee25c5f20722d3a2b6ff17fae8c149019b0dcbb3993d00844b0
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q6_K.gguf
+    sha256: 106440b6521a3d5f1b111b9df8095e4082210d5d91d5ac366a24ce079153602c
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2_2-yi-34b.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2_2-yi-34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2_2-yi-34b.Q8_0.gguf
+    sha256: e9a31dac4ad83cafb4b6d9cf2248310bf750edb2ab9d697dc98bd162b6bb9500
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF/resolve/main/dolphin-2_2-yi-34b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__dolphin-2_2-yi-34b-gguf__dolphin-2_2-yi-34b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2_2-yi-34b
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2_2-yi-34b-GGUF

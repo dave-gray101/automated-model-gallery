@@ -1,0 +1,768 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q2_K.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q2_K.gguf
+    sha256: 474c4815a677be3688a93d729ba6fa73453cb90c42d6967582ff356ff373007f
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q3_K_L.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q3_K_L.gguf
+    sha256: 0fea6fc9acb0e71aa03b5310e4ed126201794199ada5883921e96281c8b79481
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q3_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q3_K_M.gguf
+    sha256: 5af363f962434dbf22c872ba9657b78f30cbcf87288fab92dbb12270175d16d0
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q3_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q3_K_S.gguf
+    sha256: e6792c7116c90d2d715a0cc2185e87a375250235ca868f49324f7ec90353edaa
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q4_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q4_0.gguf
+    sha256: 6750c385cb9e7562581d92deea8e1dfbeb82c51dd217020a4a93f493af32cb1d
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q4_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q4_K_M.gguf
+    sha256: 75e997cec93ab84631ff2e38ac1aaab979f6a24119fe5401301c5e52ef449296
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q4_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q4_K_S.gguf
+    sha256: 655095451103434742bf1283de8e872c4eec0fe73af721ea9875903ca5669f14
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q5_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q5_0.gguf
+    sha256: 221b01ec11737740a8aebb963523e3f5a0d6f8cc6a16dc488916b4456ac0dbdc
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q5_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q5_K_M.gguf
+    sha256: e12dd2ff55ec1359ca6442e5438264a1679c8f2386332e4b084ff75d7c24f1ad
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q5_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q5_K_S.gguf
+    sha256: c31856c595568fdf21f040812a624fc149a75782157b720866a96962725a99d6
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q6_K.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q6_K.gguf
+    sha256: 6f22f804948ab6c4781748a41ff1698c0f07b48d3d6c3cc188671785f49c4d6b
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q8_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q8_0.gguf
+    sha256: b0cd3a3907b3baa679f97a4f463e0ac1e2ceb18d1ce4f0ed88da3ad45c632620
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q2_K.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q2_K.gguf
+    sha256: 474c4815a677be3688a93d729ba6fa73453cb90c42d6967582ff356ff373007f
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q3_K_L.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q3_K_L.gguf
+    sha256: 0fea6fc9acb0e71aa03b5310e4ed126201794199ada5883921e96281c8b79481
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q3_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q3_K_M.gguf
+    sha256: 5af363f962434dbf22c872ba9657b78f30cbcf87288fab92dbb12270175d16d0
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q3_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q3_K_S.gguf
+    sha256: e6792c7116c90d2d715a0cc2185e87a375250235ca868f49324f7ec90353edaa
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q4_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q4_0.gguf
+    sha256: 6750c385cb9e7562581d92deea8e1dfbeb82c51dd217020a4a93f493af32cb1d
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q4_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q4_K_M.gguf
+    sha256: 75e997cec93ab84631ff2e38ac1aaab979f6a24119fe5401301c5e52ef449296
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q4_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q4_K_S.gguf
+    sha256: 655095451103434742bf1283de8e872c4eec0fe73af721ea9875903ca5669f14
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q5_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q5_0.gguf
+    sha256: 221b01ec11737740a8aebb963523e3f5a0d6f8cc6a16dc488916b4456ac0dbdc
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q5_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q5_K_M.gguf
+    sha256: e12dd2ff55ec1359ca6442e5438264a1679c8f2386332e4b084ff75d7c24f1ad
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q5_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q5_K_S.gguf
+    sha256: c31856c595568fdf21f040812a624fc149a75782157b720866a96962725a99d6
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q6_K.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q6_K.gguf
+    sha256: 6f22f804948ab6c4781748a41ff1698c0f07b48d3d6c3cc188671785f49c4d6b
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-13b.Q8_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-13b.Q8_0.gguf
+    sha256: b0cd3a3907b3baa679f97a4f463e0ac1e2ceb18d1ce4f0ed88da3ad45c632620
+    uri: https://huggingface.co/TheBloke/Code-13B-GGUF/resolve/main/code-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-13b-gguf__code-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - base_model:ajibawa-2023/Code-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-13B-GGUF

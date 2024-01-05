@@ -1,0 +1,1034 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q2_K.gguf
+    sha256: 5b8a5fa9d461604885df9ca0809366b12d96aaf6291b0fc2f44316b0902a5997
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q3_K_L.gguf
+    sha256: 8c5e588cf1d46fa2ff6d471fb55fdf71fa027a2b76205ff0bb001bcadbb5286b
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q3_K_M.gguf
+    sha256: b1746daf1791e329399bee733c8a31f7d0a34ffc9d5255697658ec9c15101c42
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q3_K_S.gguf
+    sha256: 36d241c1628f222eae05ff9b2c1b570c531084f8c468fd90a7494360f3ce71d6
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q4_0.gguf
+    sha256: d6d07528c8ef4203ed460e86208bcadfa1b636b6ad755a58a7543be0749c4298
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q4_K_M.gguf
+    sha256: 3e26f01994f22d9b0d75bc6f9dbc7ba70265e3224a033142adc885724da94b95
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q4_K_S.gguf
+    sha256: 3c431f04c713016f181091a0e322d80e0b36850840a004c9b53e16f522d1aed0
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q5_0.gguf
+    sha256: a3caa56b2d50dadbbbe654516ed0b7ff3f7f6301119c964fe12aacbb6376a36c
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf
+    sha256: 0211d460989fd84f868d82c2722240ab8e7210722bf46065a3775b8a194c36c5
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q5_K_S.gguf
+    sha256: 3919d234d0214b1aecd63051e0b3ef364da34c4438200aab97818bb730246d70
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q6_K.gguf
+    sha256: 350cd1020156fe0acc49bee49ee97c7c2b4687c832b4e30be6593fe4120be2ad
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q8_0.gguf
+    sha256: b18a611b5650d9fe7d3a9e5542cc845a1a3ab1afb867c05ed1633b81eba21f64
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q2_K.gguf
+    sha256: 5b8a5fa9d461604885df9ca0809366b12d96aaf6291b0fc2f44316b0902a5997
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q3_K_L.gguf
+    sha256: 8c5e588cf1d46fa2ff6d471fb55fdf71fa027a2b76205ff0bb001bcadbb5286b
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q3_K_M.gguf
+    sha256: b1746daf1791e329399bee733c8a31f7d0a34ffc9d5255697658ec9c15101c42
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q3_K_S.gguf
+    sha256: 36d241c1628f222eae05ff9b2c1b570c531084f8c468fd90a7494360f3ce71d6
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q4_0.gguf
+    sha256: d6d07528c8ef4203ed460e86208bcadfa1b636b6ad755a58a7543be0749c4298
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q4_K_M.gguf
+    sha256: 3e26f01994f22d9b0d75bc6f9dbc7ba70265e3224a033142adc885724da94b95
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q4_K_S.gguf
+    sha256: 3c431f04c713016f181091a0e322d80e0b36850840a004c9b53e16f522d1aed0
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q5_0.gguf
+    sha256: a3caa56b2d50dadbbbe654516ed0b7ff3f7f6301119c964fe12aacbb6376a36c
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf
+    sha256: 0211d460989fd84f868d82c2722240ab8e7210722bf46065a3775b8a194c36c5
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q5_K_S.gguf
+    sha256: 3919d234d0214b1aecd63051e0b3ef364da34c4438200aab97818bb730246d70
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q6_K.gguf
+    sha256: 350cd1020156fe0acc49bee49ee97c7c2b4687c832b4e30be6593fe4120be2ad
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.6-mistral-7b-dpo.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: dolphin-2.6-mistral-7b-dpo.Q8_0.gguf
+    sha256: b18a611b5650d9fe7d3a9e5542cc845a1a3ab1afb867c05ed1633b81eba21f64
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dolphin-2.6-mistral-7b-dpo-gguf__dolphin-2.6-mistral-7b-dpo.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/dolphin-coder
+  - dataset:teknium/openhermes
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - dataset:LDJnr/Capybara
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:cognitivecomputations/dolphin-2.6-mistral-7b-dpo
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF

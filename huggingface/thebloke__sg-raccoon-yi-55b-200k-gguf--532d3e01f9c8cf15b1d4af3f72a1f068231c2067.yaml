@@ -1,0 +1,341 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q2_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q2_K.gguf
+    sha256: 8792d6a3635784d5cb192b31aeb7fc93e9402ffb22313f06cd9abcaf6a0ec7ca
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q3_K_L.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q3_K_L.gguf
+    sha256: f0ac11a66dd81f8fecbda6748d98a463b3b1092056da87893bc3f6f9d2731a7e
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q3_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q3_K_M.gguf
+    sha256: 4feca072b481a98f8655b93f9cb3833352d491eff97c20ae338670db08aaa96d
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q3_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q3_K_S.gguf
+    sha256: 59d78e77f3e0ab07d73e3da86c2db86e28094abf31a4ef0b5173766c936e57af
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q4_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q4_0.gguf
+    sha256: 2eea0a7e96aedb05bbc272fe08296f462cd26e8c9956a6348a22c654852878e0
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q4_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q4_K_M.gguf
+    sha256: 25f03b3bc077e90973cde964ab46afced065281f945f086067c6c43419c9b106
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q4_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q4_K_S.gguf
+    sha256: 9c14d70a25861a70f603e2db2880ead7bf4a3b41fd9a234fdcba3b7d87c07d49
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q5_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q5_0.gguf
+    sha256: 55776879a1a0610412b02507024bdbfded76f9080d0ffbd64f6f58d972ee5af8
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q5_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q5_K_M.gguf
+    sha256: b3f32c03945cfdb4b0045f966293381f2b72a24b33f96983297aa0bcd2cddf46
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q5_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q5_K_S.gguf
+    sha256: b4cdaec34bd51a07ebb97ca071f95b550f96e537a54ceb2d12699791041f33df
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sg-raccoon-yi-55b-200k.Q6_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/SG-Raccoon-Yi-55B-200k-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: sg-raccoon-yi-55b-200k.Q6_K.gguf
+    sha256: b03c18db6767a255adc319c2d2b6b0a5cf09e20ec8f90a61e0e5695c0cc7e566
+    uri: 
+      https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF/resolve/main/sg-raccoon-yi-55b-200k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__sg-raccoon-yi-55b-200k-gguf__sg-raccoon-yi-55b-200k.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - conversational
+  - base_model:mlinmg/SG-Raccoon-Yi-55B-200k
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SG-Raccoon-Yi-55B-200k-GGUF

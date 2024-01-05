@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q2_K.gguf
+    sha256: 89a1d68bda701d4038e959a8d34dcb1379482932c8929dc52e328e466bf9de29
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q3_K_L.gguf
+    sha256: a16ad36a5e1f4d672977c524f70249b04eead826ee89bfda361bb3660282a21f
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q3_K_M.gguf
+    sha256: c19c5550543bccbef299f03f24a9ba1eb2a212eb00928d764d1c9c461fa372d2
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q3_K_S.gguf
+    sha256: 2dfb1499c63788a72c5ac142f9f87b64d492c0d90f8f38a015521d55b249897e
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q4_0.gguf
+    sha256: 07708835497ffa0b4a90035fe8e9bf68d2062e6df16c023031e0328ef79c550d
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q4_K_M.gguf
+    sha256: 5db6cac0fd047e382ead439bc2a519152ec752aa237a4f44d68c3677f933695d
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q4_K_S.gguf
+    sha256: a14d560ecdd66a0954118dfb9252ac0d108935c0e2e05d0058fea112bb706a0f
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q5_0.gguf
+    sha256: d5d4553e09cdef2cb843edd14803dcda64c5fea34d0d4982f517993f65309929
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q5_K_M.gguf
+    sha256: 8a3919f1585a9eb4013a68309311abd0c97b939420b775889592c2bff17cd38a
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q5_K_S.gguf
+    sha256: 52a4ff064f9c42b2cf96afaf6a1191f79d7804337b8b6bc0aed8ecd5df4fc481
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q6_K.gguf
+    sha256: e2784a8c4e607c01a01f731224c1aadb9deff39250b8e044f7ded6c7d1c40326
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q8_0.gguf
+    sha256: d7a06206c486210e3c66bff35f8a408585d6004b344d284d158df3a86f48bf55
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q2_K.gguf
+    sha256: 89a1d68bda701d4038e959a8d34dcb1379482932c8929dc52e328e466bf9de29
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q3_K_L.gguf
+    sha256: a16ad36a5e1f4d672977c524f70249b04eead826ee89bfda361bb3660282a21f
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q3_K_M.gguf
+    sha256: c19c5550543bccbef299f03f24a9ba1eb2a212eb00928d764d1c9c461fa372d2
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q3_K_S.gguf
+    sha256: 2dfb1499c63788a72c5ac142f9f87b64d492c0d90f8f38a015521d55b249897e
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q4_0.gguf
+    sha256: 07708835497ffa0b4a90035fe8e9bf68d2062e6df16c023031e0328ef79c550d
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q4_K_M.gguf
+    sha256: 5db6cac0fd047e382ead439bc2a519152ec752aa237a4f44d68c3677f933695d
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q4_K_S.gguf
+    sha256: a14d560ecdd66a0954118dfb9252ac0d108935c0e2e05d0058fea112bb706a0f
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q5_0.gguf
+    sha256: d5d4553e09cdef2cb843edd14803dcda64c5fea34d0d4982f517993f65309929
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q5_K_M.gguf
+    sha256: 8a3919f1585a9eb4013a68309311abd0c97b939420b775889592c2bff17cd38a
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q5_K_S.gguf
+    sha256: 52a4ff064f9c42b2cf96afaf6a1191f79d7804337b8b6bc0aed8ecd5df4fc481
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q6_K.gguf
+    sha256: e2784a8c4e607c01a01f731224c1aadb9deff39250b8e044f7ded6c7d1c40326
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: v1olet_merged_dpo_7b_v4.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/v1olet_merged_dpo_7B_v4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: v1olet_merged_dpo_7b_v4.Q8_0.gguf
+    sha256: d7a06206c486210e3c66bff35f8a408585d6004b344d284d158df3a86f48bf55
+    uri: 
+      https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF/resolve/main/v1olet_merged_dpo_7b_v4.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__v1olet_merged_dpo_7b_v4-gguf__v1olet_merged_dpo_7b_v4.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:v1olet/v1olet_merged_dpo_7B_v4
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/v1olet_merged_dpo_7B_v4-GGUF

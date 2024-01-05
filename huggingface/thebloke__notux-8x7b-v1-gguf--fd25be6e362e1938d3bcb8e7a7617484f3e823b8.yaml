@@ -1,0 +1,1008 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q2_K.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q2_K.gguf
+    sha256: c2f02821b89461eeca623cf5d8c1325137be93215f28a583887b457854678cd3
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q3_K_L.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q3_K_L.gguf
+    sha256: d585932fe179422bb05c7125270423347e926c0fb2b140af8312cb27d9887d5b
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q3_K_M.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q3_K_M.gguf
+    sha256: 373be7280e76f727afa462b1d9442388392e4842f272dddb0053e0d2dae677b2
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q3_K_S.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q3_K_S.gguf
+    sha256: bdbc7f752ffdeb3977b3b8d45301150b59ab8ff23f3005b46c4f5f536a68ba7f
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q4_0.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q4_0.gguf
+    sha256: 566d2330f35150c0134c60636819771d886395492bf91fb00d994302200e5506
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q4_K_M.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q4_K_M.gguf
+    sha256: 993a414ffee57a95e5393952d84f8c852a9f53ae8354b7ad9a39f57de072ac9f
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q4_K_S.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q4_K_S.gguf
+    sha256: fe69c4d5ee38fe4cc4fd54ae1081883b9844b7c2faab175e6b4b0020f4555f2f
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q5_0.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q5_0.gguf
+    sha256: e0e64704952f742bfb2914339b8a693fb9db08fd439dcaf4c8cb47717c024477
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q5_K_M.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q5_K_M.gguf
+    sha256: 73a0438da67b171e28a5cbdada81b71098de9d6e0519168a860fdbaef83864c2
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q5_K_S.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q5_K_S.gguf
+    sha256: 73ffbf8ada3c1b9069958183bc597a86d98d77f48f5c858b484a4d534b5e452e
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q6_K.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q6_K.gguf
+    sha256: ff376571064157030650960e48f45ef54b0f4e62e845f448f63f7a806065fa46
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q8_0.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q8_0.gguf
+    sha256: f6aac3e64a28048b519f2b23def223d1fb94c27e4330b4ca44d14bd7f90a1330
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q2_K.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q2_K.gguf
+    sha256: c2f02821b89461eeca623cf5d8c1325137be93215f28a583887b457854678cd3
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q3_K_L.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q3_K_L.gguf
+    sha256: d585932fe179422bb05c7125270423347e926c0fb2b140af8312cb27d9887d5b
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q3_K_M.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q3_K_M.gguf
+    sha256: 373be7280e76f727afa462b1d9442388392e4842f272dddb0053e0d2dae677b2
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q3_K_S.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q3_K_S.gguf
+    sha256: bdbc7f752ffdeb3977b3b8d45301150b59ab8ff23f3005b46c4f5f536a68ba7f
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q4_0.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q4_0.gguf
+    sha256: 566d2330f35150c0134c60636819771d886395492bf91fb00d994302200e5506
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q4_K_M.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q4_K_M.gguf
+    sha256: 993a414ffee57a95e5393952d84f8c852a9f53ae8354b7ad9a39f57de072ac9f
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q4_K_S.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q4_K_S.gguf
+    sha256: fe69c4d5ee38fe4cc4fd54ae1081883b9844b7c2faab175e6b4b0020f4555f2f
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q5_0.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q5_0.gguf
+    sha256: e0e64704952f742bfb2914339b8a693fb9db08fd439dcaf4c8cb47717c024477
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q5_K_M.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q5_K_M.gguf
+    sha256: 73a0438da67b171e28a5cbdada81b71098de9d6e0519168a860fdbaef83864c2
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q5_K_S.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q5_K_S.gguf
+    sha256: 73ffbf8ada3c1b9069958183bc597a86d98d77f48f5c858b484a4d534b5e452e
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q6_K.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q6_K.gguf
+    sha256: ff376571064157030650960e48f45ef54b0f4e62e845f448f63f7a806065fa46
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: notux-8x7b-v1.Q8_0.gguf
+    template:
+      chat: thebloke__notux-8x7b-v1-gguf
+      completion: thebloke__notux-8x7b-v1-gguf
+  description: TheBloke/notux-8x7b-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__notux-8x7b-v1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__notux-8x7b-v1-gguf.tmpl
+  - filename: notux-8x7b-v1.Q8_0.gguf
+    sha256: f6aac3e64a28048b519f2b23def223d1fb94c27e4330b4ca44d14bd7f90a1330
+    uri: 
+      https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF/resolve/main/notux-8x7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__notux-8x7b-v1-gguf__notux-8x7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dpo
+  - rlaif
+  - preference
+  - ultrafeedback
+  - text-generation
+  - en
+  - de
+  - es
+  - fr
+  - it
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:argilla/notux-8x7b-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/notux-8x7b-v1-GGUF

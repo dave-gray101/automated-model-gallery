@@ -1,0 +1,804 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q2_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q2_K.gguf
+    sha256: 2dbf53ff1792aea51ddf1d42ea7bcf5f6e5414fa9233b6c51df2ef19ded2e5c6
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q3_K_L.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q3_K_L.gguf
+    sha256: 838c4f58c58a44906f88d847b77cbcb6e11f6aa02b5c163c35b741057690c064
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q3_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q3_K_M.gguf
+    sha256: b757419aed6951f42b6816b8adb3d557f300630bb46b7aa7f150ae51d6511ec1
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q3_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q3_K_S.gguf
+    sha256: 6a74c78d0ec07e7cdd31b5e92d6f14fc2232fde813f5473593e30dad7a27720c
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q4_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q4_0.gguf
+    sha256: baa7c62c3caf0466606ea004730f32d17b08023b01b49af3c0f27fc044b7c83d
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q4_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q4_K_M.gguf
+    sha256: 1936555cf81a9150cd88344d0f86df128127d82c00d08fbc2866a05c69c96881
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q4_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q4_K_S.gguf
+    sha256: f389688b58f83c31c5c992a34f6b885124aaacfdf30bf355c1eb822c7d3fe5f5
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q5_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q5_0.gguf
+    sha256: af655342b766fea54454950c978afd4ecd257125285e6e1ecb9a68d1c070368d
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q5_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q5_K_M.gguf
+    sha256: 1e2ccf557747ca83fc0f403409fcf7b11c9da7f7740bd4310a34648de5d72779
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q5_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q5_K_S.gguf
+    sha256: 544e3a1651c30b7dfc830a08a823d1510c5af70b466392cf1ef93c598cb6f977
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q6_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q6_K.gguf
+    sha256: 8ac6d53c58afbf4b5d792c8ce57276e13a4aa01a31ed51b4e6ad5856b1570596
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q8_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q8_0.gguf
+    sha256: 7c8426bd8fa8664256837cda82a84c6212ddd59b2c0f19246395a85e5a76723b
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q2_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q2_K.gguf
+    sha256: 2dbf53ff1792aea51ddf1d42ea7bcf5f6e5414fa9233b6c51df2ef19ded2e5c6
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q3_K_L.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q3_K_L.gguf
+    sha256: 838c4f58c58a44906f88d847b77cbcb6e11f6aa02b5c163c35b741057690c064
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q3_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q3_K_M.gguf
+    sha256: b757419aed6951f42b6816b8adb3d557f300630bb46b7aa7f150ae51d6511ec1
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q3_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q3_K_S.gguf
+    sha256: 6a74c78d0ec07e7cdd31b5e92d6f14fc2232fde813f5473593e30dad7a27720c
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q4_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q4_0.gguf
+    sha256: baa7c62c3caf0466606ea004730f32d17b08023b01b49af3c0f27fc044b7c83d
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q4_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q4_K_M.gguf
+    sha256: 1936555cf81a9150cd88344d0f86df128127d82c00d08fbc2866a05c69c96881
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q4_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q4_K_S.gguf
+    sha256: f389688b58f83c31c5c992a34f6b885124aaacfdf30bf355c1eb822c7d3fe5f5
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q5_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q5_0.gguf
+    sha256: af655342b766fea54454950c978afd4ecd257125285e6e1ecb9a68d1c070368d
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q5_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q5_K_M.gguf
+    sha256: 1e2ccf557747ca83fc0f403409fcf7b11c9da7f7740bd4310a34648de5d72779
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q5_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q5_K_S.gguf
+    sha256: 544e3a1651c30b7dfc830a08a823d1510c5af70b466392cf1ef93c598cb6f977
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q6_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q6_K.gguf
+    sha256: 8ac6d53c58afbf4b5d792c8ce57276e13a4aa01a31ed51b4e6ad5856b1570596
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: capybara-tess-yi-34b-200k-dare-ties.Q8_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: capybara-tess-yi-34b-200k-dare-ties.Q8_0.gguf
+    sha256: 7c8426bd8fa8664256837cda82a84c6212ddd59b2c0f19246395a85e5a76723b
+    uri: 
+      https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF/resolve/main/capybara-tess-yi-34b-200k-dare-ties.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__capybara-tess-yi-34b-200k-dare-ties-gguf__capybara-tess-yi-34b-200k-dare-ties.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - base_model:brucethemoose/Capybara-Tess-Yi-34B-200K-DARE-Ties
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Capybara-Tess-Yi-34B-200K-DARE-Ties-GGUF

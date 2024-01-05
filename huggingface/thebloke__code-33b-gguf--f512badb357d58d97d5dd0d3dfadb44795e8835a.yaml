@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q2_K.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q2_K.gguf
+    sha256: 2cbf5bf549d00a18d24533418e41eac8bb065acd6fa5e23247fea873f6e14b31
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q3_K_L.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q3_K_L.gguf
+    sha256: a09377017d6e9030b71b09b20765eeafd7f5f8ba504bd9b18bc4374b09c2db34
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q3_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q3_K_M.gguf
+    sha256: c0b3055892d1262a88d14cd7ef6db568ca49b8a5434c77fe2a027b2b185dd4a8
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q3_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q3_K_S.gguf
+    sha256: f4c4607aeb7005082b15378660f47937ee28755ae97071e077d5daf247064192
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q4_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q4_0.gguf
+    sha256: ba0fa60a8278c004a444a5555d05f261e492b4ea1ff2f0609eede536dd03a21d
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q4_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q4_K_M.gguf
+    sha256: bada12eb35f089c93bfc1c179b5b24c5b864ee1e012a70b7bf5854f1b1d8da69
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q4_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q4_K_S.gguf
+    sha256: 1ae960462ecfd384fc6104ac802fa083ecc75da3acb98d1eb33861973e593007
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q5_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q5_0.gguf
+    sha256: 9fa87dc81c371989c8b2542a3a65d56cdbdc70db42cad421cb2b2e5e00d31b13
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q5_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q5_K_M.gguf
+    sha256: 72b5a753673a33f09ee78841189e6a239a1dacbd757ea8f5b3cf0f7ce6ba7744
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q5_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q5_K_S.gguf
+    sha256: b956e52469bfa0e62f550a5c5ba99940a29e008b4018d71a352b2b043e8fe2a8
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q6_K.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q6_K.gguf
+    sha256: e0e9de78dae0ead0904dc6d3b2bcb26230b2202de038438bcc2e8398b16f12e4
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q8_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q8_0.gguf
+    sha256: 2f995f0ea2afbe09d026a6eb914f86ae016f05419fd72ec0aaf33d0c742fa3ee
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q2_K.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q2_K.gguf
+    sha256: 2cbf5bf549d00a18d24533418e41eac8bb065acd6fa5e23247fea873f6e14b31
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q3_K_L.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q3_K_L.gguf
+    sha256: a09377017d6e9030b71b09b20765eeafd7f5f8ba504bd9b18bc4374b09c2db34
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q3_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q3_K_M.gguf
+    sha256: c0b3055892d1262a88d14cd7ef6db568ca49b8a5434c77fe2a027b2b185dd4a8
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q3_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q3_K_S.gguf
+    sha256: f4c4607aeb7005082b15378660f47937ee28755ae97071e077d5daf247064192
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q4_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q4_0.gguf
+    sha256: ba0fa60a8278c004a444a5555d05f261e492b4ea1ff2f0609eede536dd03a21d
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q4_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q4_K_M.gguf
+    sha256: bada12eb35f089c93bfc1c179b5b24c5b864ee1e012a70b7bf5854f1b1d8da69
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q4_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q4_K_S.gguf
+    sha256: 1ae960462ecfd384fc6104ac802fa083ecc75da3acb98d1eb33861973e593007
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q5_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q5_0.gguf
+    sha256: 9fa87dc81c371989c8b2542a3a65d56cdbdc70db42cad421cb2b2e5e00d31b13
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q5_K_M.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q5_K_M.gguf
+    sha256: 72b5a753673a33f09ee78841189e6a239a1dacbd757ea8f5b3cf0f7ce6ba7744
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q5_K_S.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q5_K_S.gguf
+    sha256: b956e52469bfa0e62f550a5c5ba99940a29e008b4018d71a352b2b043e8fe2a8
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q6_K.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q6_K.gguf
+    sha256: e0e9de78dae0ead0904dc6d3b2bcb26230b2202de038438bcc2e8398b16f12e4
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: code-33b.Q8_0.gguf
+    template:
+      chat: ajibawa-code
+      completion: ajibawa-code
+  description: TheBloke/Code-33B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-code.tmpl
+    sha256: 6ff6dd4df1714871db12b09e5ef2c864c7e2a391967f207296683eae044a3548
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-code.tmpl
+  - filename: code-33b.Q8_0.gguf
+    sha256: 2f995f0ea2afbe09d026a6eb914f86ae016f05419fd72ec0aaf33d0c742fa3ee
+    uri: https://huggingface.co/TheBloke/Code-33B-GGUF/resolve/main/code-33b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__code-33b-gguf__code-33b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - code
+  - en
+  - dataset:ajibawa-2023/Code-74k-ShareGPT
+  - base_model:ajibawa-2023/Code-33B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Code-33B-GGUF

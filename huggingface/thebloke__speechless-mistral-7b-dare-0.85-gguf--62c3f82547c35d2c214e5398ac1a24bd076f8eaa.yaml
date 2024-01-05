@@ -1,0 +1,828 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q2_K.gguf
+    sha256: dabbeeae26496049d334c600a8fe20f8cd490a1e32cb4648345fafe07de0726a
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q3_K_L.gguf
+    sha256: 7782a53ed14a7054d03e0ea673c944e431e4dc34660ee5da59a892c47a86ebaf
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q3_K_M.gguf
+    sha256: aebe2492a6cb2a53338bb184e1620fa4fdd494e880520cdbb5af2e5c2df8efc6
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q3_K_S.gguf
+    sha256: 40b9150ec9d45fd6398cc07f3e4d500b6d2d48738f26f08cb59b4e6aa93cc9ad
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q4_0.gguf
+    sha256: cd598076140c66135c99a47b4c28060453658ca8a8a4e64f5b335dd2905d8524
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q4_K_M.gguf
+    sha256: 7372da68bdc9fded08e67ffae8919b62d482efc2eef56c5a64c7de0bb7cb3f04
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q4_K_S.gguf
+    sha256: edc118ce0582d3f12182d2f2c110d017992a8b4382ec5236f857f7b826e23898
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q5_0.gguf
+    sha256: 3c645e18805f0bab7cf223ffda3c36f56365556cb9d6477097c093655d6df266
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q5_K_M.gguf
+    sha256: 84890133e597712615da12ae4a5209ca14fca006c0961f2364054acf9560e699
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q5_K_S.gguf
+    sha256: afcb10b16acd3515bedcede65ac601f43b6738cdce90f9a674eb97c6237765d5
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q6_K.gguf
+    sha256: df7748a9a9b4a1928a926474b8d6bb435a89811187c83daee431ff42c2d85ff6
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q8_0.gguf
+    sha256: 926991d098aaa2c2ad58f902b4b705a6258088da7a993756238a321fdb0158ab
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q2_K.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q2_K.gguf
+    sha256: dabbeeae26496049d334c600a8fe20f8cd490a1e32cb4648345fafe07de0726a
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q3_K_L.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q3_K_L.gguf
+    sha256: 7782a53ed14a7054d03e0ea673c944e431e4dc34660ee5da59a892c47a86ebaf
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q3_K_M.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q3_K_M.gguf
+    sha256: aebe2492a6cb2a53338bb184e1620fa4fdd494e880520cdbb5af2e5c2df8efc6
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q3_K_S.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q3_K_S.gguf
+    sha256: 40b9150ec9d45fd6398cc07f3e4d500b6d2d48738f26f08cb59b4e6aa93cc9ad
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q4_0.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q4_0.gguf
+    sha256: cd598076140c66135c99a47b4c28060453658ca8a8a4e64f5b335dd2905d8524
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q4_K_M.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q4_K_M.gguf
+    sha256: 7372da68bdc9fded08e67ffae8919b62d482efc2eef56c5a64c7de0bb7cb3f04
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q4_K_S.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q4_K_S.gguf
+    sha256: edc118ce0582d3f12182d2f2c110d017992a8b4382ec5236f857f7b826e23898
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q5_0.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q5_0.gguf
+    sha256: 3c645e18805f0bab7cf223ffda3c36f56365556cb9d6477097c093655d6df266
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q5_K_M.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q5_K_M.gguf
+    sha256: 84890133e597712615da12ae4a5209ca14fca006c0961f2364054acf9560e699
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q5_K_S.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q5_K_S.gguf
+    sha256: afcb10b16acd3515bedcede65ac601f43b6738cdce90f9a674eb97c6237765d5
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q6_K.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q6_K.gguf
+    sha256: df7748a9a9b4a1928a926474b8d6bb435a89811187c83daee431ff42c2d85ff6
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-7b-dare-0.85.Q8_0.gguf
+    template:
+      chat: thebloke__speechless-mistral-7b-dare-0.85-gguf
+      completion: thebloke__speechless-mistral-7b-dare-0.85-gguf
+  description: TheBloke/speechless-mistral-7B-dare-0.85-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-7b-dare-0.85-gguf.tmpl
+  - filename: speechless-mistral-7b-dare-0.85.Q8_0.gguf
+    sha256: 926991d098aaa2c2ad58f902b4b705a6258088da7a993756238a321fdb0158ab
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF/resolve/main/speechless-mistral-7b-dare-0.85.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__speechless-mistral-7b-dare-0.85-gguf__speechless-mistral-7b-dare-0.85.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:speechlessai/speechless-mistral-7b-dare-0.85
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-7B-dare-0.85-GGUF

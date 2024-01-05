@@ -1,0 +1,608 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q2_K.gguf
+    sha256: b65e23404c2660854a4c7ae5e94855f6130b18719418a81c885f3548278dd954
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q3_K_M.gguf
+    sha256: a93aa2e4892b62e043f8de1b95cc90978a5e84a1c4d1a9802a3359a387ba83af
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q4_0.gguf
+    sha256: 1a3a75d5f90c5d1e3acbd330ce2db093258e6df95e7b299c8e1d8c2b8b4ebc5b
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q4_K_M.gguf
+    sha256: c24c8b9d9902ac00de9b0cab46a185ab227bdc93c0aec7f5ed220f03ad305735
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q5_0.gguf
+    sha256: d0141cd25cbd7d8698ee3262d4541329b547e0bfb3da259a296988953053f123
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q5_K_M.gguf
+    sha256: ac1143a09c0f3aa0f681fab9130e7bdcb6630fd5a878ca4716acc15015a561b3
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q6_K.gguf
+    sha256: 01b1993d72e42527ef5f5fcaffc244312783d676beffdebd24c6d6d40ee303f0
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q8_0.gguf
+    sha256: 9debc8bae5fc7a77a8b8df6d8eae8aec57564379545380f4070d6d4d83bbb68d
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q2_K.gguf
+    sha256: b65e23404c2660854a4c7ae5e94855f6130b18719418a81c885f3548278dd954
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q3_K_M.gguf
+    sha256: a93aa2e4892b62e043f8de1b95cc90978a5e84a1c4d1a9802a3359a387ba83af
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q4_0.gguf
+    sha256: 1a3a75d5f90c5d1e3acbd330ce2db093258e6df95e7b299c8e1d8c2b8b4ebc5b
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q4_K_M.gguf
+    sha256: c24c8b9d9902ac00de9b0cab46a185ab227bdc93c0aec7f5ed220f03ad305735
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q5_0.gguf
+    sha256: d0141cd25cbd7d8698ee3262d4541329b547e0bfb3da259a296988953053f123
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q5_K_M.gguf
+    sha256: ac1143a09c0f3aa0f681fab9130e7bdcb6630fd5a878ca4716acc15015a561b3
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q6_K.gguf
+    sha256: 01b1993d72e42527ef5f5fcaffc244312783d676beffdebd24c6d6d40ee303f0
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fennec-mixtral-8x7b.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/Fennec-Mixtral-8x7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fennec-mixtral-8x7b.Q8_0.gguf
+    sha256: 9debc8bae5fc7a77a8b8df6d8eae8aec57564379545380f4070d6d4d83bbb68d
+    uri: 
+      https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF/resolve/main/fennec-mixtral-8x7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__fennec-mixtral-8x7b-gguf__fennec-mixtral-8x7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/Fennec-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Fennec-Mixtral-8x7B-GGUF

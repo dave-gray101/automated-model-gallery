@@ -1,0 +1,840 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q2_K.gguf
+    sha256: 38566016ab5ed5e75fa0295dbf23c663ae256569477a1e0c0befec532ccbe310
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_L.gguf
+    sha256: d67ea66addf8e524ff057e87116fb64a7acbafd3b7611bbac320c5aee16fdabc
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_M.gguf
+    sha256: e7d7273db41124b8ab1f8718f7513340ae6a8687f75340dde872261200af5795
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_S.gguf
+    sha256: 3abf8424cf75e49230a1dca1ddf1be6253eef3b8172ecf0e1cdc176973cef92c
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_0.gguf
+    sha256: 1ab9c109b5b0a4beaee01859165ff28aeddc66b805ed063e2ec041856b1c876c
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_M.gguf
+    sha256: cde31d833b681631ffbfe093a10171292755f3c36b9153b986a36c5939394798
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_S.gguf
+    sha256: 54d7627760b4625ee920334e565af9cade5714ea6ede4584a204a63b2af891b2
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_0.gguf
+    sha256: 3a8f522744d08e36bc23ccb3b1be91bf40ba19e00970e53a1737e9570c35b4f1
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_M.gguf
+    sha256: 2b9ba9053f951309c7f1229c09c8f75976f5482f97ec494ff1908c5a1317f9ba
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_S.gguf
+    sha256: e4197d7904d974868a61497d3a9126545c535e853165efb2ed9a23d84eef9ec2
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q6_K.gguf
+    sha256: 444619449575ac09e3ee9f0f953b63b948dfd9f3ddc28456de03aa674815b018
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - mistral
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q8_0.gguf
+    sha256: 6434b159669f0f3fecbf838f3036e7e527c88172eccd14624a67e27eb01239e3
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q2_K.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q2_K.gguf
+    sha256: 38566016ab5ed5e75fa0295dbf23c663ae256569477a1e0c0befec532ccbe310
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_L.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_L.gguf
+    sha256: d67ea66addf8e524ff057e87116fb64a7acbafd3b7611bbac320c5aee16fdabc
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_M.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_M.gguf
+    sha256: e7d7273db41124b8ab1f8718f7513340ae6a8687f75340dde872261200af5795
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_S.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_S.gguf
+    sha256: 3abf8424cf75e49230a1dca1ddf1be6253eef3b8172ecf0e1cdc176973cef92c
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_0.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_0.gguf
+    sha256: 1ab9c109b5b0a4beaee01859165ff28aeddc66b805ed063e2ec041856b1c876c
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_M.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_M.gguf
+    sha256: cde31d833b681631ffbfe093a10171292755f3c36b9153b986a36c5939394798
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_S.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_S.gguf
+    sha256: 54d7627760b4625ee920334e565af9cade5714ea6ede4584a204a63b2af891b2
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_0.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_0.gguf
+    sha256: 3a8f522744d08e36bc23ccb3b1be91bf40ba19e00970e53a1737e9570c35b4f1
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_M.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_M.gguf
+    sha256: 2b9ba9053f951309c7f1229c09c8f75976f5482f97ec494ff1908c5a1317f9ba
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_S.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_S.gguf
+    sha256: e4197d7904d974868a61497d3a9126545c535e853165efb2ed9a23d84eef9ec2
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q6_K.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q6_K.gguf
+    sha256: 444619449575ac09e3ee9f0f953b63b948dfd9f3ddc28456de03aa674815b018
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-neuralhermes-2.5-mistral-7b-linear.Q8_0.gguf
+    template:
+      chat: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+      completion: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf
+  description: TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf.tmpl
+  - filename: metamath-neuralhermes-2.5-mistral-7b-linear.Q8_0.gguf
+    sha256: 6434b159669f0f3fecbf838f3036e7e527c88172eccd14624a67e27eb01239e3
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF/resolve/main/metamath-neuralhermes-2.5-mistral-7b-linear.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__metamath-neuralhermes-2.5-mistral-7b-linear-gguf__metamath-neuralhermes-2.5-mistral-7b-linear.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-NeuralHermes-2.5-Mistral-7B-Linear-GGUF

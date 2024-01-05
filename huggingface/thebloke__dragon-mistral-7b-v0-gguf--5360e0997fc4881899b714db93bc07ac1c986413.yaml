@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q2_K.gguf
+    sha256: 2859f150bd2da61bae38e711761e598904c2e9a9fa27b2a9fa0310fc9e4c0326
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q3_K_L.gguf
+    sha256: 6affd464608c27e26a0c692a6a080661afe1b0f24eeaa199063d6966e9dad0bc
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q3_K_M.gguf
+    sha256: 7c43185143ab493f80c7776702d040a6663fb7459f131c4f7fa1069022727b15
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q3_K_S.gguf
+    sha256: 739deada237d329ce9899dcc58b33427f1bc351fe3aa00d088b66e52559d5432
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q4_0.gguf
+    sha256: 5a2147e8b8b690bd052356cbc2e2dc17df76ac055da5b37f0c40e382a93241d5
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q4_K_M.gguf
+    sha256: b1a429e9e865266e45d4204fcaa76a7efde737298e45c9970b1dc5caf3b0b320
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q4_K_S.gguf
+    sha256: 5317ad560ded1ce6689d76e1b8319cea1b8e7a8f512b6dfeb0a7551bbab59f87
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q5_0.gguf
+    sha256: cd1aadfdf0726260e2d98fb3a42ffe24e8ee1aacb7cdd4e72763a4d1ce787c22
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q5_K_M.gguf
+    sha256: 1363aaf25f5178eb0c0be63d76e7a6634214ffdd7df5ecb7cbbb64088e6f20af
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q5_K_S.gguf
+    sha256: d278eb69887520aa822b70d847ead4d290df23d3c46a305b585253c0be606c72
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q6_K.gguf
+    sha256: e579bb61628868d91e8992cd231bc62ed69b9cff43711cc850fe12598748cae9
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dragon-mistral-7b-v0.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - mistral configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q8_0.gguf
+    sha256: 90b81a965f2575ad450fd7a730f21b73a3a873cdce2e766515e2299c5f853c1b
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q2_K.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q2_K.gguf
+    sha256: 2859f150bd2da61bae38e711761e598904c2e9a9fa27b2a9fa0310fc9e4c0326
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q3_K_L.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q3_K_L.gguf
+    sha256: 6affd464608c27e26a0c692a6a080661afe1b0f24eeaa199063d6966e9dad0bc
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q3_K_M.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q3_K_M.gguf
+    sha256: 7c43185143ab493f80c7776702d040a6663fb7459f131c4f7fa1069022727b15
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q3_K_S.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q3_K_S.gguf
+    sha256: 739deada237d329ce9899dcc58b33427f1bc351fe3aa00d088b66e52559d5432
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q4_0.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q4_0.gguf
+    sha256: 5a2147e8b8b690bd052356cbc2e2dc17df76ac055da5b37f0c40e382a93241d5
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q4_K_M.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q4_K_M.gguf
+    sha256: b1a429e9e865266e45d4204fcaa76a7efde737298e45c9970b1dc5caf3b0b320
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q4_K_S.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q4_K_S.gguf
+    sha256: 5317ad560ded1ce6689d76e1b8319cea1b8e7a8f512b6dfeb0a7551bbab59f87
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q5_0.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q5_0.gguf
+    sha256: cd1aadfdf0726260e2d98fb3a42ffe24e8ee1aacb7cdd4e72763a4d1ce787c22
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q5_K_M.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q5_K_M.gguf
+    sha256: 1363aaf25f5178eb0c0be63d76e7a6634214ffdd7df5ecb7cbbb64088e6f20af
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q5_K_S.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q5_K_S.gguf
+    sha256: d278eb69887520aa822b70d847ead4d290df23d3c46a305b585253c0be606c72
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q6_K.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q6_K.gguf
+    sha256: e579bb61628868d91e8992cd231bc62ed69b9cff43711cc850fe12598748cae9
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dragon-mistral-7b-v0.Q8_0.gguf
+    template:
+      chat: human-bot
+      completion: human-bot
+  description: TheBloke/dragon-mistral-7B-v0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: human-bot.tmpl
+    sha256: f4b812547b85044dfa2ed7ec278deb3e451655a6d392e9d5235d722f672671fd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/human-bot.tmpl
+  - filename: dragon-mistral-7b-v0.Q8_0.gguf
+    sha256: 90b81a965f2575ad450fd7a730f21b73a3a873cdce2e766515e2299c5f853c1b
+    uri: 
+      https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF/resolve/main/dragon-mistral-7b-v0.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__dragon-mistral-7b-v0-gguf__dragon-mistral-7b-v0.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:llmware/dragon-mistral-7b-v0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dragon-mistral-7B-v0-GGUF

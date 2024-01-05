@@ -1,0 +1,552 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q2_K.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFallback configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q2_K.gguf
+    sha256: 9e00312796ba63f7564034d656049e2f1c14d14e7c8b5e6fb6c9161954e0457f
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q3_K_M.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFallback configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q3_K_M.gguf
+    sha256: 747edfce9846cd0a78a81d388b7b61c80b93cff729e9acc194e578fb044ce48d
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q4_0.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFallback configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q4_0.gguf
+    sha256: 693588044dba16545e6c94c561428de85b916eb7e8327acdd1e00a3a62b5f600
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q4_K_M.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFallback configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q4_K_M.gguf
+    sha256: 9d8501b20329a7de0574fa52ec1cbff164043c94b868ce179180aa1a4a2c7919
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q5_0.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFallback configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q5_0.gguf
+    sha256: 6e0baa88b88969427215d606acdd339b36f4e30277f93e98e7d18c68ce1199a8
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q5_K_M.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFallback configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q5_K_M.gguf
+    sha256: 1ea8f2a2415a0b0b1841db1e2f51c6cbd7ad041bbabab36b50c49c7f24394ae0
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q6_K.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFallback configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q6_K.gguf
+    sha256: aeead96f82d1d8f2bac886fb474d5d0adbe5c5fa539329f7ed2e1641a1a855e9
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q8_0.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFallback configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q8_0.gguf
+    sha256: 0941a8b0d2a4d49c5df361eecc55dd8d30f9937103aa13dcc166105337d640d6
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q2_K.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q2_K.gguf
+    sha256: 9e00312796ba63f7564034d656049e2f1c14d14e7c8b5e6fb6c9161954e0457f
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q3_K_M.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q3_K_M.gguf
+    sha256: 747edfce9846cd0a78a81d388b7b61c80b93cff729e9acc194e578fb044ce48d
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q4_0.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q4_0.gguf
+    sha256: 693588044dba16545e6c94c561428de85b916eb7e8327acdd1e00a3a62b5f600
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q4_K_M.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q4_K_M.gguf
+    sha256: 9d8501b20329a7de0574fa52ec1cbff164043c94b868ce179180aa1a4a2c7919
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q5_0.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q5_0.gguf
+    sha256: 6e0baa88b88969427215d606acdd339b36f4e30277f93e98e7d18c68ce1199a8
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q5_K_M.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q5_K_M.gguf
+    sha256: 1ea8f2a2415a0b0b1841db1e2f51c6cbd7ad041bbabab36b50c49c7f24394ae0
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q6_K.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q6_K.gguf
+    sha256: aeead96f82d1d8f2bac886fb474d5d0adbe5c5fa539329f7ed2e1641a1a855e9
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: instruct_mixtral-8x7b-v0.1_dolly15k.Q8_0.gguf
+    template:
+      chat: output
+      completion: output
+  description: TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: output.tmpl
+    sha256: c7c061a55f7ed6a0520fb92bf46f86c4db51c100a9cf16891def481efd2d80c8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/output.tmpl
+  - filename: instruct_mixtral-8x7b-v0.1_dolly15k.Q8_0.gguf
+    sha256: 0941a8b0d2a4d49c5df361eecc55dd8d30f9937103aa13dcc166105337d640d6
+    uri: 
+      https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF/resolve/main/instruct_mixtral-8x7b-v0.1_dolly15k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__instruct_mixtral-8x7b-v0.1_dolly15k-gguf__instruct_mixtral-8x7b-v0.1_dolly15k.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - dataset:databricks/databricks-dolly-15k
+  - base_model:Brillibits/Instruct_Mixtral-8x7B-v0.1_Dolly15K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Instruct_Mixtral-8x7B-v0.1_Dolly15K-GGUF

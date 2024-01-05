@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q2_K.gguf
+    sha256: 113917deeaf5f7e7995044213f08c2378e2022383fb63f2dfc5b6c816644e10f
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q3_K_L.gguf
+    sha256: 66b81e0c3ec0fb73ac276dc111d359bae1de1749e095c7f778497aa18a475e32
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q3_K_M.gguf
+    sha256: 1d1eeefc3b5d3bd8ea00140f623b2dec7ea9f93285cd16dd4a897e196d16494b
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q3_K_S.gguf
+    sha256: d1d2780d5c85f3cbf33320e0c23195d56bccb3cccc746ea379ed8958e134bfb5
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q4_0.gguf
+    sha256: 6330ba05a32bbf8d1d11c04f2ff5197740b000137cb8c4472fac8aa2cc26e944
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q4_K_M.gguf
+    sha256: 33e506687556c9fa8f7ab86038cc11e0edf52ee8865cb5693c58e32435e51b25
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q4_K_S.gguf
+    sha256: cfecfb1f736f7d1fd1a87465f0ae5d85e9f4a8f6b8aff558148075ab68e41b5a
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q5_0.gguf
+    sha256: 0f343623eb3d99546075f8d5930ffd86795607d33963903318ecd86dcd83b56b
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q5_K_M.gguf
+    sha256: 7d4e6feff0956593bba8ad112720cc64b6b77a5271d1c9896bd0c67682da4ec2
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q5_K_S.gguf
+    sha256: 62ea8ec08bc05cb84b900a3a92914158aaef4ed2762a129a46e33bc610a09c7a
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q6_K.gguf
+    sha256: 1952a4f80fba430c608097b762ddde9562f978ce8942092bc1d1165793af00f0
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralquant-9b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q8_0.gguf
+    sha256: 14cb91ebef160f20d57cd4d9cbe5f1990314ab23fbc69755d2f51c8e10d4a82c
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q2_K.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q2_K.gguf
+    sha256: 113917deeaf5f7e7995044213f08c2378e2022383fb63f2dfc5b6c816644e10f
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q3_K_L.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q3_K_L.gguf
+    sha256: 66b81e0c3ec0fb73ac276dc111d359bae1de1749e095c7f778497aa18a475e32
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q3_K_M.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q3_K_M.gguf
+    sha256: 1d1eeefc3b5d3bd8ea00140f623b2dec7ea9f93285cd16dd4a897e196d16494b
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q3_K_S.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q3_K_S.gguf
+    sha256: d1d2780d5c85f3cbf33320e0c23195d56bccb3cccc746ea379ed8958e134bfb5
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q4_0.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q4_0.gguf
+    sha256: 6330ba05a32bbf8d1d11c04f2ff5197740b000137cb8c4472fac8aa2cc26e944
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q4_K_M.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q4_K_M.gguf
+    sha256: 33e506687556c9fa8f7ab86038cc11e0edf52ee8865cb5693c58e32435e51b25
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q4_K_S.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q4_K_S.gguf
+    sha256: cfecfb1f736f7d1fd1a87465f0ae5d85e9f4a8f6b8aff558148075ab68e41b5a
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q5_0.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q5_0.gguf
+    sha256: 0f343623eb3d99546075f8d5930ffd86795607d33963903318ecd86dcd83b56b
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q5_K_M.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q5_K_M.gguf
+    sha256: 7d4e6feff0956593bba8ad112720cc64b6b77a5271d1c9896bd0c67682da4ec2
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q5_K_S.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q5_K_S.gguf
+    sha256: 62ea8ec08bc05cb84b900a3a92914158aaef4ed2762a129a46e33bc610a09c7a
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q6_K.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q6_K.gguf
+    sha256: 1952a4f80fba430c608097b762ddde9562f978ce8942092bc1d1165793af00f0
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralquant-9b.Q8_0.gguf
+    template:
+      chat: thebloke__neuralquant-9b-gguf
+      completion: thebloke__neuralquant-9b-gguf
+  description: TheBloke/NeuralQuant-9B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuralquant-9b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuralquant-9b-gguf.tmpl
+  - filename: neuralquant-9b.Q8_0.gguf
+    sha256: 14cb91ebef160f20d57cd4d9cbe5f1990314ab23fbc69755d2f51c8e10d4a82c
+    uri: 
+      https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF/resolve/main/neuralquant-9b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralquant-9b-gguf__neuralquant-9b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - base_model:mlabonne/NeuralQuant-9B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralQuant-9B-GGUF

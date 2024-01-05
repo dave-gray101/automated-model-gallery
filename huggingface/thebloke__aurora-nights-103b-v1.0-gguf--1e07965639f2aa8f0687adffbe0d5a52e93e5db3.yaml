@@ -1,0 +1,198 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aurora-nights-103b-v1.0.Q2_K.gguf
+    template:
+      chat: tora-system
+      completion: tora-system
+  description: TheBloke/Aurora-Nights-103B-v1.0-GGUF - llama configuration
+  files:
+  - filename: tora-system.tmpl
+    sha256: 5bef34ae86588496ed8a29955e15040e6a76830eea7aac3409b2947ead540abf
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora-system.tmpl
+  - filename: aurora-nights-103b-v1.0.Q2_K.gguf
+    sha256: 05d34bac081d305cb8c303f773d62673399fa46292d4102eaf3efd3ba8dc8358
+    uri: 
+      https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF/resolve/main/aurora-nights-103b-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__aurora-nights-103b-v1.0-gguf__aurora-nights-103b-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2307.11760
+  - base_model:sophosympatheia/Aurora-Nights-103B-v1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aurora-nights-103b-v1.0.Q3_K_M.gguf
+    template:
+      chat: tora-system
+      completion: tora-system
+  description: TheBloke/Aurora-Nights-103B-v1.0-GGUF - llama configuration
+  files:
+  - filename: tora-system.tmpl
+    sha256: 5bef34ae86588496ed8a29955e15040e6a76830eea7aac3409b2947ead540abf
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora-system.tmpl
+  - filename: aurora-nights-103b-v1.0.Q3_K_M.gguf
+    sha256: 425f5f449e36d88c29068b46bd936785872aff8b2570ab81087eb345287ab2fc
+    uri: 
+      https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF/resolve/main/aurora-nights-103b-v1.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__aurora-nights-103b-v1.0-gguf__aurora-nights-103b-v1.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2307.11760
+  - base_model:sophosympatheia/Aurora-Nights-103B-v1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aurora-nights-103b-v1.0.Q3_K_S.gguf
+    template:
+      chat: tora-system
+      completion: tora-system
+  description: TheBloke/Aurora-Nights-103B-v1.0-GGUF - llama configuration
+  files:
+  - filename: tora-system.tmpl
+    sha256: 5bef34ae86588496ed8a29955e15040e6a76830eea7aac3409b2947ead540abf
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora-system.tmpl
+  - filename: aurora-nights-103b-v1.0.Q3_K_S.gguf
+    sha256: bd0e6d9b06aa6930cc59f87c593b0ec156f660ff91b1383acbe9616cb749a27e
+    uri: 
+      https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF/resolve/main/aurora-nights-103b-v1.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__aurora-nights-103b-v1.0-gguf__aurora-nights-103b-v1.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2307.11760
+  - base_model:sophosympatheia/Aurora-Nights-103B-v1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aurora-nights-103b-v1.0.Q2_K.gguf
+    template:
+      chat: tora-system
+      completion: tora-system
+  description: TheBloke/Aurora-Nights-103B-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora-system.tmpl
+    sha256: 5bef34ae86588496ed8a29955e15040e6a76830eea7aac3409b2947ead540abf
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora-system.tmpl
+  - filename: aurora-nights-103b-v1.0.Q2_K.gguf
+    sha256: 05d34bac081d305cb8c303f773d62673399fa46292d4102eaf3efd3ba8dc8358
+    uri: 
+      https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF/resolve/main/aurora-nights-103b-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__aurora-nights-103b-v1.0-gguf__aurora-nights-103b-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2307.11760
+  - base_model:sophosympatheia/Aurora-Nights-103B-v1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aurora-nights-103b-v1.0.Q3_K_M.gguf
+    template:
+      chat: tora-system
+      completion: tora-system
+  description: TheBloke/Aurora-Nights-103B-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora-system.tmpl
+    sha256: 5bef34ae86588496ed8a29955e15040e6a76830eea7aac3409b2947ead540abf
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora-system.tmpl
+  - filename: aurora-nights-103b-v1.0.Q3_K_M.gguf
+    sha256: 425f5f449e36d88c29068b46bd936785872aff8b2570ab81087eb345287ab2fc
+    uri: 
+      https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF/resolve/main/aurora-nights-103b-v1.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__aurora-nights-103b-v1.0-gguf__aurora-nights-103b-v1.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2307.11760
+  - base_model:sophosympatheia/Aurora-Nights-103B-v1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aurora-nights-103b-v1.0.Q3_K_S.gguf
+    template:
+      chat: tora-system
+      completion: tora-system
+  description: TheBloke/Aurora-Nights-103B-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora-system.tmpl
+    sha256: 5bef34ae86588496ed8a29955e15040e6a76830eea7aac3409b2947ead540abf
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora-system.tmpl
+  - filename: aurora-nights-103b-v1.0.Q3_K_S.gguf
+    sha256: bd0e6d9b06aa6930cc59f87c593b0ec156f660ff91b1383acbe9616cb749a27e
+    uri: 
+      https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF/resolve/main/aurora-nights-103b-v1.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__aurora-nights-103b-v1.0-gguf__aurora-nights-103b-v1.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - arxiv:2307.11760
+  - base_model:sophosympatheia/Aurora-Nights-103B-v1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aurora-Nights-103B-v1.0-GGUF

@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q2_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q2_K.gguf
+    sha256: 7b8dfa40e018d34344c64dc12bcf6c79a9716838d4bfd3ae1c2da8cf80b88273
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q3_K_L.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q3_K_L.gguf
+    sha256: efadd62485996ac3b1aa96c78f4c7031f684b809df6e42a82e3f2ad23682773d
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q3_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q3_K_M.gguf
+    sha256: 03c9361eceb038dbf58ed48d29bb0725dc79e32d231e6e9443d77da3f049251e
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q3_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q3_K_S.gguf
+    sha256: bf9ff2ddeb6513a11c18caaa45fe7be59ce27495a399867494c3fb36b51d6ca3
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q4_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q4_0.gguf
+    sha256: bac50ee2e89cb56cf3962050bbbaf102c21c15bea51ad4a967960d2b78fe42ab
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q4_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q4_K_M.gguf
+    sha256: b1b664e5ad75ceb3d2ba2672f2990ca3f193e7110f9a2e1bb4b4ead999be9e78
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q4_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q4_K_S.gguf
+    sha256: b3699d2dd248031a7c142a1fba455cf6fe45b452ea8bc0bae854e17ff5f45ffc
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q5_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q5_0.gguf
+    sha256: c82cf2190a6bcf20a400f2144f730b2a3da976b0da9972f74dc85d0594a66b5e
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q5_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q5_K_M.gguf
+    sha256: 3e297f48a4977f67e5a4a2dbf1d50e4c02c05edb5af5c4911adc31eeb8678e92
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q5_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q5_K_S.gguf
+    sha256: c54015480800db802fcabb19f9b31b49d2986d3f82c4cb62facc7eac8559dad9
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q6_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q6_K.gguf
+    sha256: 61636646f9c1d1d6d4cdc1fbfe376889a383f6d72247871eae95fd7d820f60fd
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pallas-0.4.Q8_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Pallas-0.4-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: pallas-0.4.Q8_0.gguf
+    sha256: 0092f20072d547d12f45f984766a904cec1a1c205af7b6d09de7a2b1754cb594
+    uri: 
+      https://huggingface.co/TheBloke/Pallas-0.4-GGUF/resolve/main/pallas-0.4.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__pallas-0.4-gguf__pallas-0.4.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - base_model:Mihaiii/Pallas-0.4
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pallas-0.4-GGUF

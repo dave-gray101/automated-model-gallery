@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q2_K.gguf
+    sha256: 8cc7ec516e72dfe260c5c60a62f409a26cd2308db3b79a6e06ed391fa97efa4a
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q3_K_L.gguf
+    sha256: 194518efd54d4e615929105fda2b022db7ddd7ea16c6e8729dc046c38d1d2dce
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q3_K_M.gguf
+    sha256: eb8044c00d1aabc9b76b7a63d71c821a2e09e521bffcd4b63eefec566318a2df
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q3_K_S.gguf
+    sha256: 6831b4ac7db7fd8b72051fa63b903faaf76e6fcf23d884e9d462b69c6efb0ac4
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q4_0.gguf
+    sha256: a7821548f2d003d7cb534d6e6cac8c830e2094dd3e3dc45403dcf822136bd319
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q4_K_M.gguf
+    sha256: c25d547477d633f1637a7a01103f437893a44debc5ae5360c7c53ec35ea7601b
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q4_K_S.gguf
+    sha256: 7131828043eebaf1105d557bac8e8d27214c5eaec0a14820d87d60ae4313703c
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q5_0.gguf
+    sha256: 299f363229b394de40cc656ab2d2e63ac41f813a3a57adb294cc01c0a01570f4
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q5_K_M.gguf
+    sha256: 1e854fc30dce2084fa7516e4324870edfd1ac45d82e01ef677bbe6c0a0a24868
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q5_K_S.gguf
+    sha256: 2b0d390aa9bf5767b18f76e906b6e90d758e52ddb3df20fa08db06b2690ceccd
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q6_K.gguf
+    sha256: 120d96bec184092bb84bc2a8d916508b7c0e0eca78a3baa7da8fae9a4d149906
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mellogpt.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q8_0.gguf
+    sha256: 7a42455d18aa3465c4a5108ee50cc0e1c6bb1fdb3761717e9fb0cc68b906a3cc
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q2_K.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q2_K.gguf
+    sha256: 8cc7ec516e72dfe260c5c60a62f409a26cd2308db3b79a6e06ed391fa97efa4a
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q3_K_L.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q3_K_L.gguf
+    sha256: 194518efd54d4e615929105fda2b022db7ddd7ea16c6e8729dc046c38d1d2dce
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q3_K_M.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q3_K_M.gguf
+    sha256: eb8044c00d1aabc9b76b7a63d71c821a2e09e521bffcd4b63eefec566318a2df
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q3_K_S.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q3_K_S.gguf
+    sha256: 6831b4ac7db7fd8b72051fa63b903faaf76e6fcf23d884e9d462b69c6efb0ac4
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q4_0.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q4_0.gguf
+    sha256: a7821548f2d003d7cb534d6e6cac8c830e2094dd3e3dc45403dcf822136bd319
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q4_K_M.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q4_K_M.gguf
+    sha256: c25d547477d633f1637a7a01103f437893a44debc5ae5360c7c53ec35ea7601b
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q4_K_S.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q4_K_S.gguf
+    sha256: 7131828043eebaf1105d557bac8e8d27214c5eaec0a14820d87d60ae4313703c
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q5_0.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q5_0.gguf
+    sha256: 299f363229b394de40cc656ab2d2e63ac41f813a3a57adb294cc01c0a01570f4
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q5_K_M.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q5_K_M.gguf
+    sha256: 1e854fc30dce2084fa7516e4324870edfd1ac45d82e01ef677bbe6c0a0a24868
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q5_K_S.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q5_K_S.gguf
+    sha256: 2b0d390aa9bf5767b18f76e906b6e90d758e52ddb3df20fa08db06b2690ceccd
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q6_K.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q6_K.gguf
+    sha256: 120d96bec184092bb84bc2a8d916508b7c0e0eca78a3baa7da8fae9a4d149906
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mellogpt.Q8_0.gguf
+    template:
+      chat: thebloke__mellogpt-gguf
+      completion: thebloke__mellogpt-gguf
+  description: TheBloke/MelloGPT-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mellogpt-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mellogpt-gguf.tmpl
+  - filename: mellogpt.Q8_0.gguf
+    sha256: 7a42455d18aa3465c4a5108ee50cc0e1c6bb1fdb3761717e9fb0cc68b906a3cc
+    uri: https://huggingface.co/TheBloke/MelloGPT-GGUF/resolve/main/mellogpt.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__mellogpt-gguf__mellogpt.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - dataset:nbertagnolli/counsel-chat
+  - base_model:steve-cse/MelloGPT
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MelloGPT-GGUF

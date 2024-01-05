@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q2_K.gguf
+    sha256: 11d6b1f728fb7d83f966fa3f2c9dbbc5d653aeb3f24997523b9eaa21657ac9df
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q3_K_L.gguf
+    sha256: 0b438234ded38526485792c0fe97dc15a0fdbc323008f188288f30ac5ee9df46
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q3_K_M.gguf
+    sha256: 6816eb650ccc04ad54bb986bee4bdacb84dee24053f67e86cd91ad106c3e609d
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q3_K_S.gguf
+    sha256: 4ad61282a1416a063324d20428a10537658fb21b0bff182d0df09abf459c2ccf
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q4_0.gguf
+    sha256: 974915705fe8fed07f78050b821d735437ee660ab95add80476a2251ffba8b33
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q4_K_M.gguf
+    sha256: d1b3cb8309805ca8e9d55f360213554cd83f53445aecfad71b0c4dbbe039c49a
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q4_K_S.gguf
+    sha256: f26b2550f6c619d2024f9405a0296054f3ac99de66ffe3dc1f0b843a16066d5a
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q5_0.gguf
+    sha256: f5100250dc210b736f53c900df253024a83db19e82489d90a0ca4cefce8e11a3
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q5_K_M.gguf
+    sha256: 9a890404fb8243dff0cfcd88e1f45d54367e94c3fbbf1b68251efd16548cdd15
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q5_K_S.gguf
+    sha256: 44b9714967ef9878e9739c399e0e1156a3fcc6b2b2d18669c62f24f5b6e0a71b
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q6_K.gguf
+    sha256: 84132e6c823ba6467394ba0c7a8f34ea67387a98ed3695d419e5a61799d464f1
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: supermario-v2.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q8_0.gguf
+    sha256: 5013cdcad5f4a27dbfa72ece84977689985838c59f2a0e08f2b5f2865cdbd0a0
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q2_K.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q2_K.gguf
+    sha256: 11d6b1f728fb7d83f966fa3f2c9dbbc5d653aeb3f24997523b9eaa21657ac9df
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q3_K_L.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q3_K_L.gguf
+    sha256: 0b438234ded38526485792c0fe97dc15a0fdbc323008f188288f30ac5ee9df46
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q3_K_M.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q3_K_M.gguf
+    sha256: 6816eb650ccc04ad54bb986bee4bdacb84dee24053f67e86cd91ad106c3e609d
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q3_K_S.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q3_K_S.gguf
+    sha256: 4ad61282a1416a063324d20428a10537658fb21b0bff182d0df09abf459c2ccf
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q4_0.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q4_0.gguf
+    sha256: 974915705fe8fed07f78050b821d735437ee660ab95add80476a2251ffba8b33
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q4_K_M.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q4_K_M.gguf
+    sha256: d1b3cb8309805ca8e9d55f360213554cd83f53445aecfad71b0c4dbbe039c49a
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q4_K_S.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q4_K_S.gguf
+    sha256: f26b2550f6c619d2024f9405a0296054f3ac99de66ffe3dc1f0b843a16066d5a
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q5_0.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q5_0.gguf
+    sha256: f5100250dc210b736f53c900df253024a83db19e82489d90a0ca4cefce8e11a3
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q5_K_M.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q5_K_M.gguf
+    sha256: 9a890404fb8243dff0cfcd88e1f45d54367e94c3fbbf1b68251efd16548cdd15
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q5_K_S.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q5_K_S.gguf
+    sha256: 44b9714967ef9878e9739c399e0e1156a3fcc6b2b2d18669c62f24f5b6e0a71b
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q6_K.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q6_K.gguf
+    sha256: 84132e6c823ba6467394ba0c7a8f34ea67387a98ed3695d419e5a61799d464f1
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: supermario-v2.Q8_0.gguf
+    template:
+      chat: thebloke__supermario-v2-gguf
+      completion: thebloke__supermario-v2-gguf
+  description: TheBloke/supermario-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__supermario-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__supermario-v2-gguf.tmpl
+  - filename: supermario-v2.Q8_0.gguf
+    sha256: 5013cdcad5f4a27dbfa72ece84977689985838c59f2a0e08f2b5f2865cdbd0a0
+    uri: 
+      https://huggingface.co/TheBloke/supermario-v2-GGUF/resolve/main/supermario-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__supermario-v2-gguf__supermario-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:janhq/supermario-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/supermario-v2-GGUF

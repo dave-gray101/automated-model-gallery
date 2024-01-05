@@ -1,0 +1,852 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q2_K.gguf
+    sha256: 5c9438602615fd3754ad4565fdea0acbefb1af4cdf8321c403b78a44d08d054a
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q3_K_L.gguf
+    sha256: 12f2e611802e122ddb02c0651c33a58fb6044f3c3e36cf993e8d3db0a41ece3f
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q3_K_M.gguf
+    sha256: 144669a957b5d4e375ca2ed3978f9707d7c9992ccafb16795affde09f04d55c8
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q3_K_S.gguf
+    sha256: 1952e78c0ccf74a9c6ecab1e77063a4e6361e277c071d40cb3826be4ec47ad54
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q4_0.gguf
+    sha256: a0f3ea3ad818aebb18e2280c629b1ea7ad3dae5a3634380f56939b8ba5ba7a3d
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q4_K_M.gguf
+    sha256: 2e1a65ccea72fbe2ce97b8b82525be228cb939b111e1f39b9ebd3c1499c058d3
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q4_K_S.gguf
+    sha256: 764cef41609fa23efad9517e1d027940b852c4772d6abc506c8ee29782ab975f
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q5_0.gguf
+    sha256: d76249bf5f78f23a941896e5e318f33cf494e5b93a3648ddafe9917b588c51a1
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q5_K_M.gguf
+    sha256: 6f29de42a796a849040de4467fd199ac982ac3a5229b195859721d41617e35ed
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q5_K_S.gguf
+    sha256: 3665a6b3b294988d4e77d5764171b355e9a55b58bfbbadb4f5c17598e6f3ddbd
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q6_K.gguf
+    sha256: 46290c65447b8b653dea204f0bd5d2e2dc82ba44d017b41d25ff427c34c659b8
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - mistral configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q8_0.gguf
+    sha256: 54c4d51e35d7344a6686b8b8530144af8b75ef739c2d5c28af006b2e59d41661
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q2_K.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q2_K.gguf
+    sha256: 5c9438602615fd3754ad4565fdea0acbefb1af4cdf8321c403b78a44d08d054a
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q3_K_L.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q3_K_L.gguf
+    sha256: 12f2e611802e122ddb02c0651c33a58fb6044f3c3e36cf993e8d3db0a41ece3f
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q3_K_M.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q3_K_M.gguf
+    sha256: 144669a957b5d4e375ca2ed3978f9707d7c9992ccafb16795affde09f04d55c8
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q3_K_S.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q3_K_S.gguf
+    sha256: 1952e78c0ccf74a9c6ecab1e77063a4e6361e277c071d40cb3826be4ec47ad54
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q4_0.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q4_0.gguf
+    sha256: a0f3ea3ad818aebb18e2280c629b1ea7ad3dae5a3634380f56939b8ba5ba7a3d
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q4_K_M.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q4_K_M.gguf
+    sha256: 2e1a65ccea72fbe2ce97b8b82525be228cb939b111e1f39b9ebd3c1499c058d3
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q4_K_S.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q4_K_S.gguf
+    sha256: 764cef41609fa23efad9517e1d027940b852c4772d6abc506c8ee29782ab975f
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q5_0.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q5_0.gguf
+    sha256: d76249bf5f78f23a941896e5e318f33cf494e5b93a3648ddafe9917b588c51a1
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q5_K_M.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q5_K_M.gguf
+    sha256: 6f29de42a796a849040de4467fd199ac982ac3a5229b195859721d41617e35ed
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q5_K_S.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q5_K_S.gguf
+    sha256: 3665a6b3b294988d4e77d5764171b355e9a55b58bfbbadb4f5c17598e6f3ddbd
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q6_K.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q6_K.gguf
+    sha256: 46290c65447b8b653dea204f0bd5d2e2dc82ba44d017b41d25ff427c34c659b8
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: thespis-mistral-7b-alpha-v0.7.Q8_0.gguf
+    template:
+      chat: thespis
+      completion: thespis
+  description: TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thespis.tmpl
+    sha256: 921134863af1aa123f792d1814a4f11ef719ce5fc94fb386ca637d4a80defeb7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thespis.tmpl
+  - filename: thespis-mistral-7b-alpha-v0.7.Q8_0.gguf
+    sha256: 54c4d51e35d7344a6686b8b8530144af8b75ef739c2d5c28af006b2e59d41661
+    uri: 
+      https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF/resolve/main/thespis-mistral-7b-alpha-v0.7.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__thespis-mistral-7b-alpha-v0.7-gguf__thespis-mistral-7b-alpha-v0.7.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - not-for-all-audiences
+  - base_model:cgato/Thespis-Mistral-7b-Alpha-v0.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Thespis-Mistral-7B-Alpha-v0.7-GGUF

@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q2_K.gguf
+    sha256: 76e299d41c59a42754c78281fb689fbec9f38cbcbb0a9ae77f86d15273d52689
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q3_K_L.gguf
+    sha256: 58336d4cb88bf43a1b216d211dec389f94d9cb8f68d70db6b948e64fcfde62b3
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q3_K_M.gguf
+    sha256: 74a261403f20fff3e6f6c8ac60d9279f38b1334643a5a9232b7b08e5ea0f701d
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q3_K_S.gguf
+    sha256: 8e930981479fecb5e2b178d907c97a92c3a0b426f2e2c4953acae0fa3365600e
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q4_0.gguf
+    sha256: 75d2ec8585f1b038edc22482db51f4c88f4872b1f5390fdaf4f172db31f213bd
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q4_K_M.gguf
+    sha256: 3bdc03c9adc1b9e03312b78985fc0834c806aaacbf4602bb046e4bfe514a4d23
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q4_K_S.gguf
+    sha256: af2b9781d908de262173e637ba6bc7b43367ac4875f53a3929d66c07c8aeb1c7
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q5_0.gguf
+    sha256: 5e61ca6cd9b4c5b742b00910061fbb9bfb68332e09e0ecdfdc410d40f99a4b64
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q5_K_M.gguf
+    sha256: 69088def8aaf0abbcdffd7b6615bd20c32851b1ded34654b0f6e520604569ce2
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q5_K_S.gguf
+    sha256: 90551bb145597833f6aa7b9e12d3c230f0efab5be7860eff62538c2109859482
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q6_K.gguf
+    sha256: b9efa454067c1cfd5abae31af2a2306b2281ed434f9a1970db37980d39a3be12
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q8_0.gguf
+    sha256: da62d25720cee676dbcc4da5c7aabae6a00fb5b288aaf2f9319eecc5f8c8e217
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q2_K.gguf
+    sha256: 76e299d41c59a42754c78281fb689fbec9f38cbcbb0a9ae77f86d15273d52689
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q3_K_L.gguf
+    sha256: 58336d4cb88bf43a1b216d211dec389f94d9cb8f68d70db6b948e64fcfde62b3
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q3_K_M.gguf
+    sha256: 74a261403f20fff3e6f6c8ac60d9279f38b1334643a5a9232b7b08e5ea0f701d
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q3_K_S.gguf
+    sha256: 8e930981479fecb5e2b178d907c97a92c3a0b426f2e2c4953acae0fa3365600e
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q4_0.gguf
+    sha256: 75d2ec8585f1b038edc22482db51f4c88f4872b1f5390fdaf4f172db31f213bd
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q4_K_M.gguf
+    sha256: 3bdc03c9adc1b9e03312b78985fc0834c806aaacbf4602bb046e4bfe514a4d23
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q4_K_S.gguf
+    sha256: af2b9781d908de262173e637ba6bc7b43367ac4875f53a3929d66c07c8aeb1c7
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q5_0.gguf
+    sha256: 5e61ca6cd9b4c5b742b00910061fbb9bfb68332e09e0ecdfdc410d40f99a4b64
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q5_K_M.gguf
+    sha256: 69088def8aaf0abbcdffd7b6615bd20c32851b1ded34654b0f6e520604569ce2
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q5_K_S.gguf
+    sha256: 90551bb145597833f6aa7b9e12d3c230f0efab5be7860eff62538c2109859482
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q6_K.gguf
+    sha256: b9efa454067c1cfd5abae31af2a2306b2281ed434f9a1970db37980d39a3be12
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: platyi-34b-llama-q-v3.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/PlatYi-34B-Llama-Q-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: platyi-34b-llama-q-v3.Q8_0.gguf
+    sha256: da62d25720cee676dbcc4da5c7aabae6a00fb5b288aaf2f9319eecc5f8c8e217
+    uri: 
+      https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF/resolve/main/platyi-34b-llama-q-v3.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__platyi-34b-llama-q-v3-gguf__platyi-34b-llama-q-v3.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:kyujinpy/PlatYi-34B-Llama-Q-v3
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PlatYi-34B-Llama-Q-v3-GGUF

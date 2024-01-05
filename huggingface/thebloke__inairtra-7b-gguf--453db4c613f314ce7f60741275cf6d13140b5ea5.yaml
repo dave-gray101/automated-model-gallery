@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q2_K.gguf
+    sha256: e2050c72c093f73b59e43d760272aa2ec65d2295d4988f165b7224ba32eb0542
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q3_K_L.gguf
+    sha256: 8b0631e788d6f1a054feb9ef52b8004b7e575e034101cb4dfdd51f34026f6d19
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q3_K_M.gguf
+    sha256: e6a33fc97e1d82c382cef1171f61d613cba9ffe30a8e6016085ea71401d35e1e
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q3_K_S.gguf
+    sha256: 361f7033ec7a921e4ba8ab392bd37744d3fdd87de2cf75b24b950b032960edd1
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q4_0.gguf
+    sha256: 23c83bbf65aaa23dd96331aae9897c971e01d98048c846d7b8e6fe4d414f56d0
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q4_K_M.gguf
+    sha256: c060c77e9aca61aec840ac798db148ebf952f138abc774dd397dff9920c93d19
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q4_K_S.gguf
+    sha256: d9ae13468e641c24c624bf0216430898df424168d7d54e21cc1f912687650e5d
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q5_0.gguf
+    sha256: 6f73e203d139d519616498247bda9b296834eb8faa5f4d6ff43d7905b80aca8d
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q5_K_M.gguf
+    sha256: 487f7e59e9465cb0bae4cd6eef21b9821870bc6294223d2a2a12b8f0d423ad8f
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q5_K_S.gguf
+    sha256: 2302bfc9b0f2096b80b041749d7f653f2517d03352111c3a825f618dbe9c9acb
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q6_K.gguf
+    sha256: 49bdb971210b900425f19f2a0ead0b3fb472caab13a3e37fce9e2374d012e0a9
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: inairtra-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q8_0.gguf
+    sha256: 040fc7d503be1fd49fb9dd6c90b1553b30c64ea81f966df3337c670f018f9a91
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q2_K.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q2_K.gguf
+    sha256: e2050c72c093f73b59e43d760272aa2ec65d2295d4988f165b7224ba32eb0542
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q3_K_L.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q3_K_L.gguf
+    sha256: 8b0631e788d6f1a054feb9ef52b8004b7e575e034101cb4dfdd51f34026f6d19
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q3_K_M.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q3_K_M.gguf
+    sha256: e6a33fc97e1d82c382cef1171f61d613cba9ffe30a8e6016085ea71401d35e1e
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q3_K_S.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q3_K_S.gguf
+    sha256: 361f7033ec7a921e4ba8ab392bd37744d3fdd87de2cf75b24b950b032960edd1
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q4_0.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q4_0.gguf
+    sha256: 23c83bbf65aaa23dd96331aae9897c971e01d98048c846d7b8e6fe4d414f56d0
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q4_K_M.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q4_K_M.gguf
+    sha256: c060c77e9aca61aec840ac798db148ebf952f138abc774dd397dff9920c93d19
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q4_K_S.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q4_K_S.gguf
+    sha256: d9ae13468e641c24c624bf0216430898df424168d7d54e21cc1f912687650e5d
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q5_0.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q5_0.gguf
+    sha256: 6f73e203d139d519616498247bda9b296834eb8faa5f4d6ff43d7905b80aca8d
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q5_K_M.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q5_K_M.gguf
+    sha256: 487f7e59e9465cb0bae4cd6eef21b9821870bc6294223d2a2a12b8f0d423ad8f
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q5_K_S.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q5_K_S.gguf
+    sha256: 2302bfc9b0f2096b80b041749d7f653f2517d03352111c3a825f618dbe9c9acb
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q6_K.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q6_K.gguf
+    sha256: 49bdb971210b900425f19f2a0ead0b3fb472caab13a3e37fce9e2374d012e0a9
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: inairtra-7b.Q8_0.gguf
+    template:
+      chat: system-user-assistant
+      completion: system-user-assistant
+  description: TheBloke/Inairtra-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant.tmpl
+    sha256: 1be38a95f0938ccb5defe19f9b6706faacfe5d67fa8fcfa89cd6bca889aa0a16
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant.tmpl
+  - filename: inairtra-7b.Q8_0.gguf
+    sha256: 040fc7d503be1fd49fb9dd6c90b1553b30c64ea81f966df3337c670f018f9a91
+    uri: 
+      https://huggingface.co/TheBloke/Inairtra-7B-GGUF/resolve/main/inairtra-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__inairtra-7b-gguf__inairtra-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Bronya-Rand/Inairtra-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Inairtra-7B-GGUF

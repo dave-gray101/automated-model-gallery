@@ -1,0 +1,307 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1.Q2_K.gguf
+    sha256: d54b4f4ec06dbae558d25b2d1542417cdf9547907342db85eecd05b6e96e88f8
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mixtral-8x7b-instruct-v0.1-gguf__mixtral-8x7b-instruct-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - fr
+  - it
+  - de
+  - es
+  - en
+  - base_model:mistralai/Mixtral-8x7B-Instruct-v0.1
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf
+    sha256: bd2e1499e68195f1a6ff151e6fa5c6632acc150b80cca4a3772cbb7ca59d44cd
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-gguf__mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - fr
+  - it
+  - de
+  - es
+  - en
+  - base_model:mistralai/Mixtral-8x7B-Instruct-v0.1
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1.Q4_0.gguf
+    sha256: 0c57465507f21bed4364fca37efd310bee92e25a4ce4f5678ef9b44e95830e4e
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mixtral-8x7b-instruct-v0.1-gguf__mixtral-8x7b-instruct-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - fr
+  - it
+  - de
+  - es
+  - en
+  - base_model:mistralai/Mixtral-8x7B-Instruct-v0.1
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1.Q4_K_M.gguf
+    sha256: 9193684683657e90707087bd1ed19fd0b277ab66358d19edeadc26d6fdec4f53
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-gguf__mixtral-8x7b-instruct-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - fr
+  - it
+  - de
+  - es
+  - en
+  - base_model:mistralai/Mixtral-8x7B-Instruct-v0.1
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1.Q5_0.gguf
+    sha256: 6c4dd1082dfa8d89f901039c7095f8b4343dca7a6782c82a72decb6a44475803
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mixtral-8x7b-instruct-v0.1-gguf__mixtral-8x7b-instruct-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - fr
+  - it
+  - de
+  - es
+  - en
+  - base_model:mistralai/Mixtral-8x7B-Instruct-v0.1
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf
+    sha256: af12961e014037ee8c5c9f3bf7cf9fd99cadc9dabd50f528a4248c4a8ee8fe77
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-gguf__mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - fr
+  - it
+  - de
+  - es
+  - en
+  - base_model:mistralai/Mixtral-8x7B-Instruct-v0.1
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1.Q6_K.gguf
+    sha256: 56638f9853b8fff80ac1fd4a91434a1c15c21d4c910811c5458df9ef092615fd
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mixtral-8x7b-instruct-v0.1-gguf__mixtral-8x7b-instruct-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - fr
+  - it
+  - de
+  - es
+  - en
+  - base_model:mistralai/Mixtral-8x7B-Instruct-v0.1
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1.Q8_0.gguf
+    sha256: cdca4a8c09dfd722702f781d479695cda0d45e1bd1cd602ba1b6085ad921fc5f
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mixtral-8x7b-instruct-v0.1-gguf__mixtral-8x7b-instruct-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - fr
+  - it
+  - de
+  - es
+  - en
+  - base_model:mistralai/Mixtral-8x7B-Instruct-v0.1
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF

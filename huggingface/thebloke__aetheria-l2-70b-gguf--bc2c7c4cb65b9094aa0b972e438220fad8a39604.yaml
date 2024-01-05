@@ -1,0 +1,1020 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q2_K.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llama configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q2_K.gguf
+    sha256: 09546b82ceccc2de09e9b04e8f8d4e523d57b1667084a70f5de4289f6ea6a61a
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q3_K_L.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llama configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q3_K_L.gguf
+    sha256: 0c8dca874394f2e9f9be96150e2860192649cd7a8d7b6a2436bebdebf33b75e2
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q3_K_M.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llama configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q3_K_M.gguf
+    sha256: 05f9827211ade6a26ba88b0539dadb218e01167a39ee5cba11d662b8c9f47d1b
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q3_K_S.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llama configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q3_K_S.gguf
+    sha256: 5975da250415e968d96ba05ffc1ed30303903bf6b3aea1aba0a9f22126ee526d
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q4_0.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llama configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q4_0.gguf
+    sha256: 6190e9211c74498b3e24c4f8ddf7a457d385318048f65f20aa2e1f23fe15ce35
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q4_K_M.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llama configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q4_K_M.gguf
+    sha256: 550799081ec344a82af1a1666779c411af1a6a589ed0be94680e9a47af1344da
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q4_K_S.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llama configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q4_K_S.gguf
+    sha256: 710819833048b5e33d71388477b866dac13d0d2456900079ffd642fa73f01f4e
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q5_0.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llama configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q5_0.gguf
+    sha256: c5a412ccfb85c6d3dd5f68ac697af38beac340a660e57ea865fd2e6307c4f3a1
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q5_K_M.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llama configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q5_K_M.gguf
+    sha256: b8e3fb8bd6a341083baf4c0f3328a9a2f893fcb25f40be1eac40d2fced8f7000
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q5_K_S.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llama configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q5_K_S.gguf
+    sha256: 6bcc10b319898eef9a7616c0fcf4a4be75cdee4c10b405d6f0f1beaff4e7c3d1
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q2_K.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q2_K.gguf
+    sha256: 09546b82ceccc2de09e9b04e8f8d4e523d57b1667084a70f5de4289f6ea6a61a
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q3_K_L.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q3_K_L.gguf
+    sha256: 0c8dca874394f2e9f9be96150e2860192649cd7a8d7b6a2436bebdebf33b75e2
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q3_K_M.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q3_K_M.gguf
+    sha256: 05f9827211ade6a26ba88b0539dadb218e01167a39ee5cba11d662b8c9f47d1b
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q3_K_S.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q3_K_S.gguf
+    sha256: 5975da250415e968d96ba05ffc1ed30303903bf6b3aea1aba0a9f22126ee526d
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q4_0.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q4_0.gguf
+    sha256: 6190e9211c74498b3e24c4f8ddf7a457d385318048f65f20aa2e1f23fe15ce35
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q4_K_M.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q4_K_M.gguf
+    sha256: 550799081ec344a82af1a1666779c411af1a6a589ed0be94680e9a47af1344da
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q4_K_S.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q4_K_S.gguf
+    sha256: 710819833048b5e33d71388477b866dac13d0d2456900079ffd642fa73f01f4e
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q5_0.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q5_0.gguf
+    sha256: c5a412ccfb85c6d3dd5f68ac697af38beac340a660e57ea865fd2e6307c4f3a1
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q5_K_M.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q5_K_M.gguf
+    sha256: b8e3fb8bd6a341083baf4c0f3328a9a2f893fcb25f40be1eac40d2fced8f7000
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q5_K_S.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q5_K_S.gguf
+    sha256: 6bcc10b319898eef9a7616c0fcf4a4be75cdee4c10b405d6f0f1beaff4e7c3d1
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q2_K.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q2_K.gguf
+    sha256: 09546b82ceccc2de09e9b04e8f8d4e523d57b1667084a70f5de4289f6ea6a61a
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q3_K_L.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q3_K_L.gguf
+    sha256: 0c8dca874394f2e9f9be96150e2860192649cd7a8d7b6a2436bebdebf33b75e2
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q3_K_M.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q3_K_M.gguf
+    sha256: 05f9827211ade6a26ba88b0539dadb218e01167a39ee5cba11d662b8c9f47d1b
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q3_K_S.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q3_K_S.gguf
+    sha256: 5975da250415e968d96ba05ffc1ed30303903bf6b3aea1aba0a9f22126ee526d
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q4_0.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q4_0.gguf
+    sha256: 6190e9211c74498b3e24c4f8ddf7a457d385318048f65f20aa2e1f23fe15ce35
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q4_K_M.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q4_K_M.gguf
+    sha256: 550799081ec344a82af1a1666779c411af1a6a589ed0be94680e9a47af1344da
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q4_K_S.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q4_K_S.gguf
+    sha256: 710819833048b5e33d71388477b866dac13d0d2456900079ffd642fa73f01f4e
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q5_0.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q5_0.gguf
+    sha256: c5a412ccfb85c6d3dd5f68ac697af38beac340a660e57ea865fd2e6307c4f3a1
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q5_K_M.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q5_K_M.gguf
+    sha256: b8e3fb8bd6a341083baf4c0f3328a9a2f893fcb25f40be1eac40d2fced8f7000
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aetheria-l2-70b.Q5_K_S.gguf
+    template:
+      chat: limarp-alpaca
+      completion: limarp-alpaca
+  description: TheBloke/Aetheria-L2-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: limarp-alpaca.tmpl
+    sha256: f7314502411f056c7fe1ca4f0dc49a408c0abc1c6b2b2433508e76ac047c98cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/limarp-alpaca.tmpl
+  - filename: aetheria-l2-70b.Q5_K_S.gguf
+    sha256: 6bcc10b319898eef9a7616c0fcf4a4be75cdee4c10b405d6f0f1beaff4e7c3d1
+    uri: 
+      https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF/resolve/main/aetheria-l2-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__aetheria-l2-70b-gguf__aetheria-l2-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama 2
+  - text-generation
+  - en
+  - base_model:royallab/Aetheria-L2-70B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Aetheria-L2-70B-GGUF

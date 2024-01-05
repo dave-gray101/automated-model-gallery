@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q2_K.gguf
+    sha256: 814f9f952d2084062d0e764655d878fb7e2d47696c4c62b55754db2ae63a7d5c
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q3_K_L.gguf
+    sha256: ee2401990f2d0305b013856aadf8c061f432acc94fef60890a7b59ff13cfa659
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q3_K_M.gguf
+    sha256: 8f9ae0a86db0b7407139d349775fffb784ba7ccd42c5dfddc72e38237c0fdd50
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q3_K_S.gguf
+    sha256: 553352f17b950a3f6d15c98988fbc9a6868f0f47d0ded73664a5321517247b0f
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q4_0.gguf
+    sha256: 25a02a2a3f6a54631421e6dbe0d0b26089c5165dc6d5e4370e135fafec1d3ec4
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q4_K_M.gguf
+    sha256: 4089e9f9fd68d7b2708b47f761cf5d77a5949b0f963726729d085ee0b1606fe9
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q4_K_S.gguf
+    sha256: 968581ca028f2c628e8ae07e12cb8c4ac77d292ea35513c7f119c84a690f106c
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q5_0.gguf
+    sha256: 088fa54fe11d19a1cb7213cd3dbf1c5c4979fb850410594631931e0611af2422
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q5_K_M.gguf
+    sha256: 83d7b38b8431481c76208e2a76ece3924f12cb5247b2844d8f324e0828ad0c09
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q5_K_S.gguf
+    sha256: 64879b0f344c4cc8fe1afca461c60765a5ddfc0ba89e3b9d9a5bade5dc706d99
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q6_K.gguf
+    sha256: 9acb9a7111eec90058ceb48e984886084a619b4f37dac68782a60eae930c43c5
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: cinematika-7b-v0.1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q8_0.gguf
+    sha256: 1de4dcd2f66bd0f945d25ca380f9dbab8a824befa872c5ff66803e9f8f664d14
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q2_K.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q2_K.gguf
+    sha256: 814f9f952d2084062d0e764655d878fb7e2d47696c4c62b55754db2ae63a7d5c
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q3_K_L.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q3_K_L.gguf
+    sha256: ee2401990f2d0305b013856aadf8c061f432acc94fef60890a7b59ff13cfa659
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q3_K_M.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q3_K_M.gguf
+    sha256: 8f9ae0a86db0b7407139d349775fffb784ba7ccd42c5dfddc72e38237c0fdd50
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q3_K_S.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q3_K_S.gguf
+    sha256: 553352f17b950a3f6d15c98988fbc9a6868f0f47d0ded73664a5321517247b0f
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q4_0.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q4_0.gguf
+    sha256: 25a02a2a3f6a54631421e6dbe0d0b26089c5165dc6d5e4370e135fafec1d3ec4
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q4_K_M.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q4_K_M.gguf
+    sha256: 4089e9f9fd68d7b2708b47f761cf5d77a5949b0f963726729d085ee0b1606fe9
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q4_K_S.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q4_K_S.gguf
+    sha256: 968581ca028f2c628e8ae07e12cb8c4ac77d292ea35513c7f119c84a690f106c
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q5_0.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q5_0.gguf
+    sha256: 088fa54fe11d19a1cb7213cd3dbf1c5c4979fb850410594631931e0611af2422
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q5_K_M.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q5_K_M.gguf
+    sha256: 83d7b38b8431481c76208e2a76ece3924f12cb5247b2844d8f324e0828ad0c09
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q5_K_S.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q5_K_S.gguf
+    sha256: 64879b0f344c4cc8fe1afca461c60765a5ddfc0ba89e3b9d9a5bade5dc706d99
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q6_K.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q6_K.gguf
+    sha256: 9acb9a7111eec90058ceb48e984886084a619b4f37dac68782a60eae930c43c5
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cinematika-7b-v0.1.Q8_0.gguf
+    template:
+      chat: amazon
+      completion: amazon
+  description: TheBloke/cinematika-7B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: amazon.tmpl
+    sha256: 1bd68ece1c99aeb47844ed9c6baca7b171e3ecc4393eea60d42f51442e9792ef
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/amazon.tmpl
+  - filename: cinematika-7b-v0.1.Q8_0.gguf
+    sha256: 1de4dcd2f66bd0f945d25ca380f9dbab8a824befa872c5ff66803e9f8f664d14
+    uri: 
+      https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF/resolve/main/cinematika-7b-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__cinematika-7b-v0.1-gguf__cinematika-7b-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:jondurbin/cinematika-7b-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cinematika-7B-v0.1-GGUF

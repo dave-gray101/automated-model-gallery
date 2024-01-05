@@ -1,0 +1,828 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q2_K.gguf
+    sha256: 4c20e0cbdca88379a632affbf52b42cf9a7db67f1c4106e04829f4c905bf698e
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q3_K_L.gguf
+    sha256: 0c5a0a51f3760dece1441a2ceec90dc2d1604f5d1815172c46be085875234140
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q3_K_M.gguf
+    sha256: bf44d4abae7638c646a27b3047d1dd45b482f2ff6c1695716089b1f11025f2e5
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q3_K_S.gguf
+    sha256: a9952c05a0305de718e68740c3198dee2526b668bd706331958f9d2596fde62d
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q4_0.gguf
+    sha256: 6b15d0fdde28ef8af6e75e3545bc1d7ee8a36c3b2d29f80fee2e928881c14b22
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q4_K_M.gguf
+    sha256: cfc4e11e5bf089241b3aa64dafcc72241a178119e8bd3b2e9658a1a5dd5e9912
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q4_K_S.gguf
+    sha256: 95cf4c362ebedf9cc6f77b31ebb130b65bf8eb4a240141b3805ef1cb6f66e74f
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q5_0.gguf
+    sha256: dac8890732413c0c34bfe717e9d4c0f1240be054ba92c0884744493d40774699
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q5_K_M.gguf
+    sha256: 6d4280f0dde417c9c41b8663612913a7ca2495028cfe92f7901ef395a8524aaa
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q5_K_S.gguf
+    sha256: 629cc7e56090a501cfb8aa6824ed02ba8fd53185c0d0443a647e0a6e0eedab9e
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q6_K.gguf
+    sha256: 0ceba69266545d2a52051817fc403ffde80dc08b45dd11754a37a0c8e37bd870
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q8_0.gguf
+    sha256: 9945c734dde8c23c7f4b5dc14c65a925fbcf723665a5252eeda20addfaff35d8
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q2_K.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q2_K.gguf
+    sha256: 4c20e0cbdca88379a632affbf52b42cf9a7db67f1c4106e04829f4c905bf698e
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q3_K_L.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q3_K_L.gguf
+    sha256: 0c5a0a51f3760dece1441a2ceec90dc2d1604f5d1815172c46be085875234140
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q3_K_M.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q3_K_M.gguf
+    sha256: bf44d4abae7638c646a27b3047d1dd45b482f2ff6c1695716089b1f11025f2e5
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q3_K_S.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q3_K_S.gguf
+    sha256: a9952c05a0305de718e68740c3198dee2526b668bd706331958f9d2596fde62d
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q4_0.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q4_0.gguf
+    sha256: 6b15d0fdde28ef8af6e75e3545bc1d7ee8a36c3b2d29f80fee2e928881c14b22
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q4_K_M.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q4_K_M.gguf
+    sha256: cfc4e11e5bf089241b3aa64dafcc72241a178119e8bd3b2e9658a1a5dd5e9912
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q4_K_S.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q4_K_S.gguf
+    sha256: 95cf4c362ebedf9cc6f77b31ebb130b65bf8eb4a240141b3805ef1cb6f66e74f
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q5_0.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q5_0.gguf
+    sha256: dac8890732413c0c34bfe717e9d4c0f1240be054ba92c0884744493d40774699
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q5_K_M.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q5_K_M.gguf
+    sha256: 6d4280f0dde417c9c41b8663612913a7ca2495028cfe92f7901ef395a8524aaa
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q5_K_S.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q5_K_S.gguf
+    sha256: 629cc7e56090a501cfb8aa6824ed02ba8fd53185c0d0443a647e0a6e0eedab9e
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q6_K.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q6_K.gguf
+    sha256: 0ceba69266545d2a52051817fc403ffde80dc08b45dd11754a37a0c8e37bd870
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraph-openchat-3.5-1210-slerp.Q8_0.gguf
+    template:
+      chat: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+      completion: thebloke__seraph-openchat-3.5-1210-slerp-gguf
+  description: TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraph-openchat-3.5-1210-slerp-gguf.tmpl
+  - filename: seraph-openchat-3.5-1210-slerp.Q8_0.gguf
+    sha256: 9945c734dde8c23c7f4b5dc14c65a925fbcf723665a5252eeda20addfaff35d8
+    uri: 
+      https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF/resolve/main/seraph-openchat-3.5-1210-slerp.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__seraph-openchat-3.5-1210-slerp-gguf__seraph-openchat-3.5-1210-slerp.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Weyaxi/Seraph-openchat-3.5-1210-Slerp
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Seraph-openchat-3.5-1210-Slerp-GGUF

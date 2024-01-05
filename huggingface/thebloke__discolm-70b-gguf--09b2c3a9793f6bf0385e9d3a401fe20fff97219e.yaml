@@ -1,0 +1,1410 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q2_K.gguf
+    sha256: 305bb71a2df6bd3107a48e1a8bd4f89c72b56e86dc58bf8140c8dc463a01b30f
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q3_K_L.gguf
+    sha256: 8aea033fa59004b8238b8425dee6705f7b843cbca2295b3d535cd406e8fca74e
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q3_K_M.gguf
+    sha256: 251b14158bb59984e0097371200b3e7b9a2dd1926f22ed7e154ec1733852bdd0
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q3_K_S.gguf
+    sha256: edf1176d8371a624d86fa59cc67fb2ae5fe1fc423f4909ab0beba3718e415561
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q4_0.gguf
+    sha256: e47ec76ea1fe4f3cc3e0053289a155951f31b6f9a8c7a9279a0fd2f2f6587954
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q4_K_M.gguf
+    sha256: c14945cb85532d722d39a30e89f61b403f81f99a1d6af8cd93d9cd586e022521
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q4_K_S.gguf
+    sha256: 917b53aa20a5cc22c44ea1a3713588fe124f9cd75306563bd18d3b36dbdfbb8e
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q5_0.gguf
+    sha256: eb3a10c42d2fb1f0d1f4145b0f65c7c591862484d84671600cf496979f6de74b
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q5_K_M.gguf
+    sha256: e3d9e1fd53ed616bea3a6c206d90aadedfd3b7a757c84cf9acc1e2c488e3ab75
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llama configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q5_K_S.gguf
+    sha256: 396c4baa0deec6380a37b9a3458240efe829bbd5d503be70f7c03886b44839ac
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q2_K.gguf
+    sha256: 305bb71a2df6bd3107a48e1a8bd4f89c72b56e86dc58bf8140c8dc463a01b30f
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q3_K_L.gguf
+    sha256: 8aea033fa59004b8238b8425dee6705f7b843cbca2295b3d535cd406e8fca74e
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q3_K_M.gguf
+    sha256: 251b14158bb59984e0097371200b3e7b9a2dd1926f22ed7e154ec1733852bdd0
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q3_K_S.gguf
+    sha256: edf1176d8371a624d86fa59cc67fb2ae5fe1fc423f4909ab0beba3718e415561
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q4_0.gguf
+    sha256: e47ec76ea1fe4f3cc3e0053289a155951f31b6f9a8c7a9279a0fd2f2f6587954
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q4_K_M.gguf
+    sha256: c14945cb85532d722d39a30e89f61b403f81f99a1d6af8cd93d9cd586e022521
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q4_K_S.gguf
+    sha256: 917b53aa20a5cc22c44ea1a3713588fe124f9cd75306563bd18d3b36dbdfbb8e
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q5_0.gguf
+    sha256: eb3a10c42d2fb1f0d1f4145b0f65c7c591862484d84671600cf496979f6de74b
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q5_K_M.gguf
+    sha256: e3d9e1fd53ed616bea3a6c206d90aadedfd3b7a757c84cf9acc1e2c488e3ab75
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q5_K_S.gguf
+    sha256: 396c4baa0deec6380a37b9a3458240efe829bbd5d503be70f7c03886b44839ac
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q2_K.gguf
+    sha256: 305bb71a2df6bd3107a48e1a8bd4f89c72b56e86dc58bf8140c8dc463a01b30f
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q3_K_L.gguf
+    sha256: 8aea033fa59004b8238b8425dee6705f7b843cbca2295b3d535cd406e8fca74e
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q3_K_M.gguf
+    sha256: 251b14158bb59984e0097371200b3e7b9a2dd1926f22ed7e154ec1733852bdd0
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q3_K_S.gguf
+    sha256: edf1176d8371a624d86fa59cc67fb2ae5fe1fc423f4909ab0beba3718e415561
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q4_0.gguf
+    sha256: e47ec76ea1fe4f3cc3e0053289a155951f31b6f9a8c7a9279a0fd2f2f6587954
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q4_K_M.gguf
+    sha256: c14945cb85532d722d39a30e89f61b403f81f99a1d6af8cd93d9cd586e022521
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q4_K_S.gguf
+    sha256: 917b53aa20a5cc22c44ea1a3713588fe124f9cd75306563bd18d3b36dbdfbb8e
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q5_0.gguf
+    sha256: eb3a10c42d2fb1f0d1f4145b0f65c7c591862484d84671600cf496979f6de74b
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q5_K_M.gguf
+    sha256: e3d9e1fd53ed616bea3a6c206d90aadedfd3b7a757c84cf9acc1e2c488e3ab75
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm-70b.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM-70B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm-70b.Q5_K_S.gguf
+    sha256: 396c4baa0deec6380a37b9a3458240efe829bbd5d503be70f7c03886b44839ac
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM-70B-GGUF/resolve/main/discolm-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__discolm-70b-gguf__discolm-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - goliath
+  - deutsch
+  - llama2
+  - discoresearch
+  - text-generation
+  - en
+  - de
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:teknium/openhermes
+  - dataset:meta-math/MetaMathQA
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:THUDM/AgentInstruct
+  - dataset:LeoLM/German_Songs
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:bjoernp/ultrachat_de
+  - base_model:DiscoResearch/DiscoLM-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM-70B-GGUF

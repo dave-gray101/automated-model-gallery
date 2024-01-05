@@ -1,0 +1,768 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q2_K.gguf
+    sha256: 3d1c161c7270af6f3c6d34402661d3811bcf13e688d0676f37ea59413bca18c6
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q3_K_L.gguf
+    sha256: 5f3259edccf8e2fd65365d724d713176997b0dfe90b65d570fa2d8b9c354ecc0
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q3_K_M.gguf
+    sha256: f746b52dff382427938a5d68516765623ac41331e994a5ee5f92e3ce618d5765
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q3_K_S.gguf
+    sha256: df3a40e6d206f262f7277c1fb085b0a64f1669b2fdf3c55eefbc6355214c77eb
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q4_0.gguf
+    sha256: 75ac6765567fb202c29663a0dfcbd6d444844728c61ded21a7dcb0217fea5bf4
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q4_K_M.gguf
+    sha256: 1bb020f414155f69ab62832d29127131b17d83abe954c6db7852bf5f770db340
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q4_K_S.gguf
+    sha256: f6c3f0cf9a0ffad0e6959b8eb0a42ccae09ad620da95324384b9f8b5f26e75a7
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q5_0.gguf
+    sha256: ae246f61e3212e2a21292ba46cf1545ee1a89c325edd7cfcbc34978a56d1031a
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q5_K_M.gguf
+    sha256: cbe7627566c737a1caf6b38691d28a737e3af3757c931f07572d31557e4c581c
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q5_K_S.gguf
+    sha256: 37ac867f154585546c769de81fbda2ecdc36e6cf5b3a9d1b8da5ea0dc6fb69ef
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q6_K.gguf
+    sha256: a972c849d79696d33e709f4ac95e5188188df870997620316853dca1e0aa0075
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q8_0.gguf
+    sha256: 85e6d8eefc2dc3b4632486ac11ab84d7f0943134282523f490c74fcdf917bbb2
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q2_K.gguf
+    sha256: 3d1c161c7270af6f3c6d34402661d3811bcf13e688d0676f37ea59413bca18c6
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q3_K_L.gguf
+    sha256: 5f3259edccf8e2fd65365d724d713176997b0dfe90b65d570fa2d8b9c354ecc0
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q3_K_M.gguf
+    sha256: f746b52dff382427938a5d68516765623ac41331e994a5ee5f92e3ce618d5765
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q3_K_S.gguf
+    sha256: df3a40e6d206f262f7277c1fb085b0a64f1669b2fdf3c55eefbc6355214c77eb
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q4_0.gguf
+    sha256: 75ac6765567fb202c29663a0dfcbd6d444844728c61ded21a7dcb0217fea5bf4
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q4_K_M.gguf
+    sha256: 1bb020f414155f69ab62832d29127131b17d83abe954c6db7852bf5f770db340
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q4_K_S.gguf
+    sha256: f6c3f0cf9a0ffad0e6959b8eb0a42ccae09ad620da95324384b9f8b5f26e75a7
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q5_0.gguf
+    sha256: ae246f61e3212e2a21292ba46cf1545ee1a89c325edd7cfcbc34978a56d1031a
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q5_K_M.gguf
+    sha256: cbe7627566c737a1caf6b38691d28a737e3af3757c931f07572d31557e4c581c
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q5_K_S.gguf
+    sha256: 37ac867f154585546c769de81fbda2ecdc36e6cf5b3a9d1b8da5ea0dc6fb69ef
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q6_K.gguf
+    sha256: a972c849d79696d33e709f4ac95e5188188df870997620316853dca1e0aa0075
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stheno-v2-delta.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Stheno-v2-Delta-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: stheno-v2-delta.Q8_0.gguf
+    sha256: 85e6d8eefc2dc3b4632486ac11ab84d7f0943134282523f490c74fcdf917bbb2
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF/resolve/main/stheno-v2-delta.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__stheno-v2-delta-gguf__stheno-v2-delta.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-v2-Delta-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-v2-Delta-GGUF

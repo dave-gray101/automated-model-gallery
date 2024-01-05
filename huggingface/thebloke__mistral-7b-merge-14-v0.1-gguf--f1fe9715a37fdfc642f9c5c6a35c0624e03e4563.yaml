@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q2_K.gguf
+    sha256: 72df89b111f7ef170102f7c388cf72408e326b25b8ff0fc5eb4d922c5dd67de9
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q3_K_L.gguf
+    sha256: 454685abd70246bd3c60ca640bdc8fc5713f378b25236c5f6795b232db438105
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q3_K_M.gguf
+    sha256: 3fa8ded52b81c913d5609948c8c2c44b38eb2224013322000ee9ee744779b065
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q3_K_S.gguf
+    sha256: d147d359ed8a7429758a1f07fb053bf3e009e6ededd665c737b65661bc69e7a2
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q4_0.gguf
+    sha256: cbbcd6de0d9ed7005d036c6c54a8239ee2aab20bbee4b66207b61ecf53a3cec9
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q4_K_M.gguf
+    sha256: 4ea91d9287b9b1f740c028de21d1c2e8e62991ee117f1e950e032fbc62dcb1de
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q4_K_S.gguf
+    sha256: 060b554cee19cefaa4b9fe9e7db4980cb6c03384f32b4bbf6b8c51c16840f6a8
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q5_0.gguf
+    sha256: 6d576891a0321ca01ff9e59c0aa678bad3cd68a769183972ff2f33d093e0af84
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q5_K_M.gguf
+    sha256: 65b92403ea9ee1c0da490b33f8509abb0477dcaa0fdb256bccb405283993cc5f
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q5_K_S.gguf
+    sha256: db7b6412f10cc05f11ef96a5b80c9d36c89736384a19d26bb04d4d59d1c77847
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q6_K.gguf
+    sha256: 3abad12cec1dc0dd06ccf70d07fbdf53250b36c41980bf47ce37d2ee174a9949
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - mistral configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q8_0.gguf
+    sha256: 6f9801e9acd415d88d01fd76ba4008ad1c7eb27fc4b08d8d990c537267192a9f
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q2_K.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q2_K.gguf
+    sha256: 72df89b111f7ef170102f7c388cf72408e326b25b8ff0fc5eb4d922c5dd67de9
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q3_K_L.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q3_K_L.gguf
+    sha256: 454685abd70246bd3c60ca640bdc8fc5713f378b25236c5f6795b232db438105
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q3_K_M.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q3_K_M.gguf
+    sha256: 3fa8ded52b81c913d5609948c8c2c44b38eb2224013322000ee9ee744779b065
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q3_K_S.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q3_K_S.gguf
+    sha256: d147d359ed8a7429758a1f07fb053bf3e009e6ededd665c737b65661bc69e7a2
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q4_0.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q4_0.gguf
+    sha256: cbbcd6de0d9ed7005d036c6c54a8239ee2aab20bbee4b66207b61ecf53a3cec9
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q4_K_M.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q4_K_M.gguf
+    sha256: 4ea91d9287b9b1f740c028de21d1c2e8e62991ee117f1e950e032fbc62dcb1de
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q4_K_S.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q4_K_S.gguf
+    sha256: 060b554cee19cefaa4b9fe9e7db4980cb6c03384f32b4bbf6b8c51c16840f6a8
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q5_0.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q5_0.gguf
+    sha256: 6d576891a0321ca01ff9e59c0aa678bad3cd68a769183972ff2f33d093e0af84
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q5_K_M.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q5_K_M.gguf
+    sha256: 65b92403ea9ee1c0da490b33f8509abb0477dcaa0fdb256bccb405283993cc5f
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q5_K_S.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q5_K_S.gguf
+    sha256: db7b6412f10cc05f11ef96a5b80c9d36c89736384a19d26bb04d4d59d1c77847
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q6_K.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q6_K.gguf
+    sha256: 3abad12cec1dc0dd06ccf70d07fbdf53250b36c41980bf47ce37d2ee174a9949
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral-7b-merge-14-v0.1.Q8_0.gguf
+    template:
+      chat: thebloke__mistral-7b-merge-14-v0.1-gguf
+      completion: thebloke__mistral-7b-merge-14-v0.1-gguf
+  description: TheBloke/Mistral-7B-Merge-14-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__mistral-7b-merge-14-v0.1-gguf.tmpl
+  - filename: mistral-7b-merge-14-v0.1.Q8_0.gguf
+    sha256: 6f9801e9acd415d88d01fd76ba4008ad1c7eb27fc4b08d8d990c537267192a9f
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF/resolve/main/mistral-7b-merge-14-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral-7b-merge-14-v0.1-gguf__mistral-7b-merge-14-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:EmbeddedLLM/Mistral-7B-Merge-14-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Merge-14-v0.1-GGUF

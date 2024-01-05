@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q2_K.gguf
+    sha256: baef00a5d3c2568cc05f494f1481b055b97bb3eea7856137f534eeb823bbca6c
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q3_K_L.gguf
+    sha256: 3ac10b9cf0ae665bae493d2876f9a301f437703f1999a4d77d0b855a545bd807
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q3_K_M.gguf
+    sha256: d0525a072d220c1d8a8113b4502dfd42e7363ae24fc4596d98959c4e6b01e891
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q3_K_S.gguf
+    sha256: 5badca3f312773d9dd07e2211668acaa48f2f473802ac3758bf36d0cf3c7025d
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q4_0.gguf
+    sha256: 1809d5af05bbac9a93f694c65bbd3ac3ecec03547734340dbd1a0e512c9f2160
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q4_K_M.gguf
+    sha256: 29f0e413c9995ae7dad935ce2fc8363f1270dcd5a7c894ce61befa07aad7f7db
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q4_K_S.gguf
+    sha256: fda9ee7eac397ffccfb68723c598713264d7d09b3e03d2118c353c58e9e0fc16
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q5_0.gguf
+    sha256: 03da9286109f2b6c26c102a441244e04c8bb4fad0b5476c39d0aae57120583ea
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q5_K_M.gguf
+    sha256: b1ceaa38a89c97cc5a947da15356d70af4e73f6822575e969fd5e4eb67b64fe9
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q5_K_S.gguf
+    sha256: 1150591adfed2b30d3bd527bb46286ee0cdfc8b20eaf4460419e93ee0336f948
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q6_K.gguf
+    sha256: a90bc10fb6beb82aab03e1fb7c43d14cd2de9ec58890d7b2e341afb6974a604d
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tess-xs-creative-v1.0.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - mistral configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q8_0.gguf
+    sha256: 7f5d5f0819c0956ab0ba1d396b7a7aef5ec538096ae77dfa47224a66dd1db518
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q2_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q2_K.gguf
+    sha256: baef00a5d3c2568cc05f494f1481b055b97bb3eea7856137f534eeb823bbca6c
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q3_K_L.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q3_K_L.gguf
+    sha256: 3ac10b9cf0ae665bae493d2876f9a301f437703f1999a4d77d0b855a545bd807
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q3_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q3_K_M.gguf
+    sha256: d0525a072d220c1d8a8113b4502dfd42e7363ae24fc4596d98959c4e6b01e891
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q3_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q3_K_S.gguf
+    sha256: 5badca3f312773d9dd07e2211668acaa48f2f473802ac3758bf36d0cf3c7025d
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q4_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q4_0.gguf
+    sha256: 1809d5af05bbac9a93f694c65bbd3ac3ecec03547734340dbd1a0e512c9f2160
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q4_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q4_K_M.gguf
+    sha256: 29f0e413c9995ae7dad935ce2fc8363f1270dcd5a7c894ce61befa07aad7f7db
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q4_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q4_K_S.gguf
+    sha256: fda9ee7eac397ffccfb68723c598713264d7d09b3e03d2118c353c58e9e0fc16
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q5_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q5_0.gguf
+    sha256: 03da9286109f2b6c26c102a441244e04c8bb4fad0b5476c39d0aae57120583ea
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q5_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q5_K_M.gguf
+    sha256: b1ceaa38a89c97cc5a947da15356d70af4e73f6822575e969fd5e4eb67b64fe9
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q5_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q5_K_S.gguf
+    sha256: 1150591adfed2b30d3bd527bb46286ee0cdfc8b20eaf4460419e93ee0336f948
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q6_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q6_K.gguf
+    sha256: a90bc10fb6beb82aab03e1fb7c43d14cd2de9ec58890d7b2e341afb6974a604d
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xs-creative-v1.0.Q8_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Tess-XS-Creative-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: tess-xs-creative-v1.0.Q8_0.gguf
+    sha256: 7f5d5f0819c0956ab0ba1d396b7a7aef5ec538096ae77dfa47224a66dd1db518
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF/resolve/main/tess-xs-creative-v1.0.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tess-xs-creative-v1.0-gguf__tess-xs-creative-v1.0.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:migtissera/Tess-XS-Creative-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XS-Creative-v1.0-GGUF

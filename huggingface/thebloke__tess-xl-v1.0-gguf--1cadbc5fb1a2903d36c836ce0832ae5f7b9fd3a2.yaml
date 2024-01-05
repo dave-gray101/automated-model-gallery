@@ -1,0 +1,62 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xl-v1.0.Q2_K.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-XL-v1.0-GGUF - llama configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-xl-v1.0.Q2_K.gguf
+    sha256: 2b5df3720ac7b6d99d42025e7bb633d330ba84dcee3878b6b152511c05971727
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XL-v1.0-GGUF/resolve/main/tess-xl-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__tess-xl-v1.0-gguf__tess-xl-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:migtissera/Tess-XL-v1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XL-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xl-v1.0.Q2_K.gguf
+    template:
+      chat: synthia-cot
+      completion: synthia-cot
+  description: TheBloke/Tess-XL-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: synthia-cot.tmpl
+    sha256: 555d2755d074a1b6d75a74ff77327cdf9e13ae07b3b8344082f860717f92cb1f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/synthia-cot.tmpl
+  - filename: tess-xl-v1.0.Q2_K.gguf
+    sha256: 2b5df3720ac7b6d99d42025e7bb633d330ba84dcee3878b6b152511c05971727
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XL-v1.0-GGUF/resolve/main/tess-xl-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__tess-xl-v1.0-gguf__tess-xl-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:migtissera/Tess-XL-v1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XL-v1.0-GGUF

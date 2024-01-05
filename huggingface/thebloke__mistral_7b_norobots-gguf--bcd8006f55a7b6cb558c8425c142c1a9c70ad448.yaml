@@ -1,0 +1,396 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q2_K.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q2_K.gguf
+    sha256: d1bc052073f480255fd4f5e2892ee4f5c9a9524f4c10bd543e1e6c93c5490cd4
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q2_K.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q3_K_L.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q3_K_L.gguf
+    sha256: 9fdb421261f618bf3b9ab24427c8e8b214aecb9db6972f2e6740cdb8e10a9197
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q3_K_L.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q3_K_M.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q3_K_M.gguf
+    sha256: a5825c39aab4e26beab7046ed96bd0dad49e64af1620acb40f1308ed22b87ac5
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q3_K_M.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q3_K_S.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q3_K_S.gguf
+    sha256: bd3b2d65aaced403d38909675cf4e1436ca8f7af49a1ae62dca95ade93c4dba9
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q3_K_S.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q4_0.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q4_0.gguf
+    sha256: faf51315d30d8cc4885c32812228ba40558d1dc2434be713952a1d0d7d1f2182
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q4_0.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q4_K_M.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q4_K_M.gguf
+    sha256: f9dc825a04228481941767f61d7c5601b766993ae6b090b072b3876dd90bc481
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q4_K_M.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q4_K_S.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q4_K_S.gguf
+    sha256: 4c7dc5387f9421d000f3d8151b5692cd05303d178afea087d7f32ceec0ca8ed1
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q4_K_S.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q5_0.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q5_0.gguf
+    sha256: 2c07c3b6a0e53dfc13ff79c2090933cbc2a272c3f15e18ab3169f6c1dafda015
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q5_0.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q5_K_M.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q5_K_M.gguf
+    sha256: e33b6687964c623bece1d2a2658e0b15b61d1d0bac5c37519f30130ab2b121d3
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q5_K_M.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q5_K_S.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q5_K_S.gguf
+    sha256: 06b52f72630321e91d616121a5fb5381d9524fdc1ce88bbf6cc718ce141d1e83
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q5_K_S.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q6_K.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q6_K.gguf
+    sha256: 63da047907cb76075b3d7c7bcdd517e966cda773b21525c9526ad27f1aa3b85d
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q6_K.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mistral_7b_norobots.Q8_0.gguf
+    template:
+      chat: norobots
+      completion: norobots
+  description: TheBloke/mistral_7b_norobots-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: norobots.tmpl
+    sha256: 8aa25c89c890d3192db81b086fcb13a7723d8b655fd3cdb05ddb61a16318d5f6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/norobots.tmpl
+  - filename: mistral_7b_norobots.Q8_0.gguf
+    sha256: 6f05f52550392de94970868bdee2ec895253603842c06f2389b2b93d1a2061a8
+    uri: 
+      https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF/resolve/main/mistral_7b_norobots.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__mistral_7b_norobots-gguf__mistral_7b_norobots.Q8_0.gguf
+  tags:
+  - peft
+  - gguf
+  - code
+  - instruct
+  - llama2
+  - dataset:HuggingFaceH4/no_robots
+  - base_model:qblocks/mistral_7b_norobots
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/mistral_7b_norobots-GGUF

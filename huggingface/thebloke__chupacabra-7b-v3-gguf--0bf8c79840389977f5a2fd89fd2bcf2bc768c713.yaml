@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q2_K.gguf
+    sha256: 7f023fff3fd8d5fe38374f6e32dc494cba9a66d26a0bbd759b8f4b18253bc2c6
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q3_K_L.gguf
+    sha256: 30e142e41b8b527b68f3f115169bf7dc42bb31f99be39a30fb8cd9e038f2beb9
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q3_K_M.gguf
+    sha256: d00759f93434e7c4c40531395d63c482de3b030a195946a1ad6a133edef825ab
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q3_K_S.gguf
+    sha256: 6a24e3034168871dc48485d7c477eb634914221c975a82d28c53a91476c38467
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q4_0.gguf
+    sha256: 718712ddaa2b818a7503ae43c2d9578b162601db501b2293dd5a96bb907a1706
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q4_K_M.gguf
+    sha256: 00d804f53cb7a80580561b16ed3a9855736275b34e130311a66e30faa4a2f944
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q4_K_S.gguf
+    sha256: f846105f86dc1b5ada2c35b36201404d763eac97dc8620309c5c04f558561c42
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q5_0.gguf
+    sha256: a2bbb694069f19de1d49187546b87f965d0d2420a98431d2ff03878e6f92ac8d
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q5_K_M.gguf
+    sha256: d5fa7804c5524202213eb968eaebc5f9dd6422030ba88d14c9519136809779e6
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q5_K_S.gguf
+    sha256: ac55c155117e573b7933a2846ec9046be926c76034e3148511d31e9b42fddc75
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q6_K.gguf
+    sha256: a0c823de0270fdf66d172178d328ee97e33b48f4728902e4a03fac08cbb93854
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: chupacabra-7b-v3.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - mistral configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q8_0.gguf
+    sha256: 8eefae0dbd2ba7c56839926d5706bec9db9a7704784c888ae30ae9034c081fec
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q2_K.gguf
+    sha256: 7f023fff3fd8d5fe38374f6e32dc494cba9a66d26a0bbd759b8f4b18253bc2c6
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q3_K_L.gguf
+    sha256: 30e142e41b8b527b68f3f115169bf7dc42bb31f99be39a30fb8cd9e038f2beb9
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q3_K_M.gguf
+    sha256: d00759f93434e7c4c40531395d63c482de3b030a195946a1ad6a133edef825ab
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q3_K_S.gguf
+    sha256: 6a24e3034168871dc48485d7c477eb634914221c975a82d28c53a91476c38467
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q4_0.gguf
+    sha256: 718712ddaa2b818a7503ae43c2d9578b162601db501b2293dd5a96bb907a1706
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q4_K_M.gguf
+    sha256: 00d804f53cb7a80580561b16ed3a9855736275b34e130311a66e30faa4a2f944
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q4_K_S.gguf
+    sha256: f846105f86dc1b5ada2c35b36201404d763eac97dc8620309c5c04f558561c42
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q5_0.gguf
+    sha256: a2bbb694069f19de1d49187546b87f965d0d2420a98431d2ff03878e6f92ac8d
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q5_K_M.gguf
+    sha256: d5fa7804c5524202213eb968eaebc5f9dd6422030ba88d14c9519136809779e6
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q5_K_S.gguf
+    sha256: ac55c155117e573b7933a2846ec9046be926c76034e3148511d31e9b42fddc75
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q6_K.gguf
+    sha256: a0c823de0270fdf66d172178d328ee97e33b48f4728902e4a03fac08cbb93854
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chupacabra-7b-v3.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/Chupacabra-7B-v3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: chupacabra-7b-v3.Q8_0.gguf
+    sha256: 8eefae0dbd2ba7c56839926d5706bec9db9a7704784c888ae30ae9034c081fec
+    uri: 
+      https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF/resolve/main/chupacabra-7b-v3.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__chupacabra-7b-v3-gguf__chupacabra-7b-v3.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:perlthoughts/Chupacabra-7B-v3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chupacabra-7B-v3-GGUF

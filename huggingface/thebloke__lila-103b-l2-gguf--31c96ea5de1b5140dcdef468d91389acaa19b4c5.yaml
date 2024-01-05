@@ -1,0 +1,192 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lila-103b-l2.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Lila-103B-L2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: lila-103b-l2.Q2_K.gguf
+    sha256: 76e12831b44115b04a2b32fd510795775100b4db2969d81bc0729793e8ed0a96
+    uri: 
+      https://huggingface.co/TheBloke/Lila-103B-L2-GGUF/resolve/main/lila-103b-l2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__lila-103b-l2-gguf__lila-103b-l2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Lila-103B-L2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lila-103B-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lila-103b-l2.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Lila-103B-L2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: lila-103b-l2.Q3_K_M.gguf
+    sha256: 9da32eb7367f0b18ce2d4df3acb272e5bd03a7d73f481877f22de7011aeb9275
+    uri: 
+      https://huggingface.co/TheBloke/Lila-103B-L2-GGUF/resolve/main/lila-103b-l2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__lila-103b-l2-gguf__lila-103b-l2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Lila-103B-L2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lila-103B-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lila-103b-l2.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Lila-103B-L2-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: lila-103b-l2.Q3_K_S.gguf
+    sha256: 6f2a70acf291ca868e9008567398b49a6b72cfd0ca1bbf21d6f6ce51b9437773
+    uri: 
+      https://huggingface.co/TheBloke/Lila-103B-L2-GGUF/resolve/main/lila-103b-l2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__lila-103b-l2-gguf__lila-103b-l2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Lila-103B-L2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lila-103B-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lila-103b-l2.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Lila-103B-L2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: lila-103b-l2.Q2_K.gguf
+    sha256: 76e12831b44115b04a2b32fd510795775100b4db2969d81bc0729793e8ed0a96
+    uri: 
+      https://huggingface.co/TheBloke/Lila-103B-L2-GGUF/resolve/main/lila-103b-l2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__lila-103b-l2-gguf__lila-103b-l2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Lila-103B-L2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lila-103B-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lila-103b-l2.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Lila-103B-L2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: lila-103b-l2.Q3_K_M.gguf
+    sha256: 9da32eb7367f0b18ce2d4df3acb272e5bd03a7d73f481877f22de7011aeb9275
+    uri: 
+      https://huggingface.co/TheBloke/Lila-103B-L2-GGUF/resolve/main/lila-103b-l2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__lila-103b-l2-gguf__lila-103b-l2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Lila-103B-L2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lila-103B-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lila-103b-l2.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Lila-103B-L2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: lila-103b-l2.Q3_K_S.gguf
+    sha256: 6f2a70acf291ca868e9008567398b49a6b72cfd0ca1bbf21d6f6ce51b9437773
+    uri: 
+      https://huggingface.co/TheBloke/Lila-103B-L2-GGUF/resolve/main/lila-103b-l2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__lila-103b-l2-gguf__lila-103b-l2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Sao10K/Lila-103B-L2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lila-103B-L2-GGUF

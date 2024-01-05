@@ -1,0 +1,243 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-moe.Q2_K.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/PiVoT-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pivot-moe.Q2_K.gguf
+    sha256: 273e5e9ad7d80ccab2a749681524e7891dd5fe4056725044d70ce9eb4941aed0
+    uri: https://huggingface.co/TheBloke/PiVoT-MoE-GGUF/resolve/main/pivot-moe.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-moe-gguf__pivot-moe.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:maywell/PiVoT-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-moe.Q3_K_M.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/PiVoT-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pivot-moe.Q3_K_M.gguf
+    sha256: 2cbc8f1316184712163166c4ede440c3888bdbec33a2bcb8b6db25066d01c93d
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-MoE-GGUF/resolve/main/pivot-moe.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-moe-gguf__pivot-moe.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:maywell/PiVoT-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-moe.Q4_0.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/PiVoT-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pivot-moe.Q4_0.gguf
+    sha256: 0f91012589f992ed0a6df9e1626ae369ca35ebb3f70272fb120f4e79f6dc849d
+    uri: https://huggingface.co/TheBloke/PiVoT-MoE-GGUF/resolve/main/pivot-moe.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-moe-gguf__pivot-moe.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:maywell/PiVoT-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-moe.Q4_K_M.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/PiVoT-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pivot-moe.Q4_K_M.gguf
+    sha256: 6426ac15e7b50f8b42b05c4352b733ef9e3e6c858170d28f686fd6f5584b84f2
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-MoE-GGUF/resolve/main/pivot-moe.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-moe-gguf__pivot-moe.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:maywell/PiVoT-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-moe.Q5_0.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/PiVoT-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pivot-moe.Q5_0.gguf
+    sha256: 2b7bd80646c91081ad44030fc69f182bde7f3de5da90f1c5a2e6228ae3d52483
+    uri: https://huggingface.co/TheBloke/PiVoT-MoE-GGUF/resolve/main/pivot-moe.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-moe-gguf__pivot-moe.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:maywell/PiVoT-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-moe.Q5_K_M.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/PiVoT-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pivot-moe.Q5_K_M.gguf
+    sha256: 3acc081363b2bc8d3774c800b560483a49749f2b9e0d4d4ebd1eae25b525a39a
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-MoE-GGUF/resolve/main/pivot-moe.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-moe-gguf__pivot-moe.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:maywell/PiVoT-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-moe.Q6_K.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/PiVoT-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pivot-moe.Q6_K.gguf
+    sha256: 0e9e2a592d81c941228da6b152396a64d9753dd9b45f985a13d7a995ef9af871
+    uri: https://huggingface.co/TheBloke/PiVoT-MoE-GGUF/resolve/main/pivot-moe.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-moe-gguf__pivot-moe.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:maywell/PiVoT-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-moe.Q8_0.gguf
+    template:
+      chat: alpaca-system
+      completion: alpaca-system
+  description: TheBloke/PiVoT-MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-system.tmpl
+    sha256: 7e1f909283681075b35bf6114ef684d13f6cb7fab47088fa191abce872576e96
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-system.tmpl
+  - filename: pivot-moe.Q8_0.gguf
+    sha256: d1110f69378ba7b61bdb241c0d1bb7ce10724a9ed8693d3f4c521a3f6650574b
+    uri: https://huggingface.co/TheBloke/PiVoT-MoE-GGUF/resolve/main/pivot-moe.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-moe-gguf__pivot-moe.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - base_model:maywell/PiVoT-MoE
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-MoE-GGUF

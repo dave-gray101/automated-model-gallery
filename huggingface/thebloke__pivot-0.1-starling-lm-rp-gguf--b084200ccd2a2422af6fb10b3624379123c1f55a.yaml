@@ -1,0 +1,1236 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q2_K.gguf
+    sha256: 83b2b41eacca6d462a41e5ddf7b346b8de01bbef9be23611e667ff099dbf8759
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+    sha256: b720439dacb7b125e1d7f24eda361bb8ad57b5518e74ed86cf5968426e069174
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+    sha256: d78ad5ffcfd80f5f37a06f75666ec423eb53556d7a862869b2e9bf2aecf8d53c
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+    sha256: 6fe0ac5d1330e1b29a32bed5217e6baeafba8db8ef7bbaac2263470aaa2875a3
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q4_0.gguf
+    sha256: c74873f86abc398faef460d009e48aaa4dcbe7fa26ab58622562f62a97a1e2a4
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+    sha256: 40aacdb6d15c6f61ab36c85ed911bacf879ddaadf753dcc3d35fe79076738a59
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+    sha256: e8e0452a440ee7172f084cecef730e08eca6aa60d9e0b5a85007c5458e8efe24
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q5_0.gguf
+    sha256: f41d44b7798ea1e6c2876e0c021e3fdca19e68eeca05b1019f7adade8ebe4b5c
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+    sha256: 6bee4607a5194bd41ae2742aa54146b6bd83910eb716ee9e39794cf9401a32da
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+    sha256: 486ada9d4010c88998b623bdf8e92e7bbd96ed4c41c42ba883c80e31a2c63657
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q6_K.gguf
+    sha256: 3b9cb61fbbd61e7fb7485187ad9792b748e001bcfb310e08c8fcb2fcfe95d729
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - mistral configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q8_0.gguf
+    sha256: f00a0cf3a310d6e2a350a0aea1e2f376d7b41e1fcffaa1c581bd553999b5261b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q2_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q2_K.gguf
+    sha256: 83b2b41eacca6d462a41e5ddf7b346b8de01bbef9be23611e667ff099dbf8759
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+    sha256: b720439dacb7b125e1d7f24eda361bb8ad57b5518e74ed86cf5968426e069174
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+    sha256: d78ad5ffcfd80f5f37a06f75666ec423eb53556d7a862869b2e9bf2aecf8d53c
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+    sha256: 6fe0ac5d1330e1b29a32bed5217e6baeafba8db8ef7bbaac2263470aaa2875a3
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q4_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q4_0.gguf
+    sha256: c74873f86abc398faef460d009e48aaa4dcbe7fa26ab58622562f62a97a1e2a4
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+    sha256: 40aacdb6d15c6f61ab36c85ed911bacf879ddaadf753dcc3d35fe79076738a59
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+    sha256: e8e0452a440ee7172f084cecef730e08eca6aa60d9e0b5a85007c5458e8efe24
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q5_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q5_0.gguf
+    sha256: f41d44b7798ea1e6c2876e0c021e3fdca19e68eeca05b1019f7adade8ebe4b5c
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+    sha256: 6bee4607a5194bd41ae2742aa54146b6bd83910eb716ee9e39794cf9401a32da
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+    sha256: 486ada9d4010c88998b623bdf8e92e7bbd96ed4c41c42ba883c80e31a2c63657
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q6_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q6_K.gguf
+    sha256: 3b9cb61fbbd61e7fb7485187ad9792b748e001bcfb310e08c8fcb2fcfe95d729
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q8_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q8_0.gguf
+    sha256: f00a0cf3a310d6e2a350a0aea1e2f376d7b41e1fcffaa1c581bd553999b5261b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q2_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q2_K.gguf
+    sha256: 83b2b41eacca6d462a41e5ddf7b346b8de01bbef9be23611e667ff099dbf8759
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+    sha256: b720439dacb7b125e1d7f24eda361bb8ad57b5518e74ed86cf5968426e069174
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+    sha256: d78ad5ffcfd80f5f37a06f75666ec423eb53556d7a862869b2e9bf2aecf8d53c
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+    sha256: 6fe0ac5d1330e1b29a32bed5217e6baeafba8db8ef7bbaac2263470aaa2875a3
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q4_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q4_0.gguf
+    sha256: c74873f86abc398faef460d009e48aaa4dcbe7fa26ab58622562f62a97a1e2a4
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+    sha256: 40aacdb6d15c6f61ab36c85ed911bacf879ddaadf753dcc3d35fe79076738a59
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+    sha256: e8e0452a440ee7172f084cecef730e08eca6aa60d9e0b5a85007c5458e8efe24
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q5_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q5_0.gguf
+    sha256: f41d44b7798ea1e6c2876e0c021e3fdca19e68eeca05b1019f7adade8ebe4b5c
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+    sha256: 6bee4607a5194bd41ae2742aa54146b6bd83910eb716ee9e39794cf9401a32da
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+    sha256: 486ada9d4010c88998b623bdf8e92e7bbd96ed4c41c42ba883c80e31a2c63657
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q6_K.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q6_K.gguf
+    sha256: 3b9cb61fbbd61e7fb7485187ad9792b748e001bcfb310e08c8fcb2fcfe95d729
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-0.1-starling-lm-rp.Q8_0.gguf
+    template:
+      chat: openchat
+      completion: openchat
+  description: TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat.tmpl
+    sha256: d2a410d51f30b3e2ed076f3c085791417040e55084ace13a753fe4ec56c8caff
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat.tmpl
+  - filename: pivot-0.1-starling-lm-rp.Q8_0.gguf
+    sha256: f00a0cf3a310d6e2a350a0aea1e2f376d7b41e1fcffaa1c581bd553999b5261b
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF/resolve/main/pivot-0.1-starling-lm-rp.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__pivot-0.1-starling-lm-rp-gguf__pivot-0.1-starling-lm-rp.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - base_model:maywell/PiVoT-0.1-Starling-LM-RP
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-0.1-Starling-LM-RP-GGUF

@@ -1,0 +1,864 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q2_K.gguf
+    sha256: 84a09b3552fc030fb9bd1c9aa35146e4bf7e3fa8bfb2bc2f60fb6043269694ee
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q3_K_L.gguf
+    sha256: 1f729fe8dc9173eab483d2c74b26d441112632572dc4ec613be3ee0e1cc2410e
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q3_K_M.gguf
+    sha256: e5991cfc64b7073733ae0602a8f382ed36ed77096ab1528e5fe2c44a3181cf96
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q3_K_S.gguf
+    sha256: 515c5073ba35356fe09a79899966b52d54272db56ccc38c07184a99a28c5c2b0
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q4_0.gguf
+    sha256: 71638b01ff34e7a0dff532f5109e523ba942e3bc8ad48cc5f2f34c9747564df6
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q4_K_M.gguf
+    sha256: 1d44c90d6d2587a56bc0ae27ed2897ab05081ba5669944fd726e41307a5f49b5
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q4_K_S.gguf
+    sha256: 572af6619b37cfb35b2bbdb72c1b3721c29567075f9435a815e0796ef324f93c
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q5_0.gguf
+    sha256: b7ad59ee7e46192819ed4d83cde82abf8fd7c4cc67e6c3d35a4e3a68d18069fd
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q5_K_M.gguf
+    sha256: 041031ed5c773b7086dfa2d2d8bfd6cb5db6a388c0b5cfb0f00dccde0c814d32
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q5_K_S.gguf
+    sha256: bada19760e2c84077a573c14eacc2631c93459dcb344e5dabddb69b1ad63427e
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q6_K.gguf
+    sha256: 4f5f035f3bb7b350d702b3b28cd1b7df5d2a7c8e722e7a41abc1949f608d6966
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: deita-7b-v1.0-sft.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - mistral configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q8_0.gguf
+    sha256: 2d258527dc883af7612b5c451eef3223dfc86f1e97dee69c58b952aae12135c1
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q2_K.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q2_K.gguf
+    sha256: 84a09b3552fc030fb9bd1c9aa35146e4bf7e3fa8bfb2bc2f60fb6043269694ee
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q3_K_L.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q3_K_L.gguf
+    sha256: 1f729fe8dc9173eab483d2c74b26d441112632572dc4ec613be3ee0e1cc2410e
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q3_K_M.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q3_K_M.gguf
+    sha256: e5991cfc64b7073733ae0602a8f382ed36ed77096ab1528e5fe2c44a3181cf96
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q3_K_S.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q3_K_S.gguf
+    sha256: 515c5073ba35356fe09a79899966b52d54272db56ccc38c07184a99a28c5c2b0
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q4_0.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q4_0.gguf
+    sha256: 71638b01ff34e7a0dff532f5109e523ba942e3bc8ad48cc5f2f34c9747564df6
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q4_K_M.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q4_K_M.gguf
+    sha256: 1d44c90d6d2587a56bc0ae27ed2897ab05081ba5669944fd726e41307a5f49b5
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q4_K_S.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q4_K_S.gguf
+    sha256: 572af6619b37cfb35b2bbdb72c1b3721c29567075f9435a815e0796ef324f93c
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q5_0.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q5_0.gguf
+    sha256: b7ad59ee7e46192819ed4d83cde82abf8fd7c4cc67e6c3d35a4e3a68d18069fd
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q5_K_M.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q5_K_M.gguf
+    sha256: 041031ed5c773b7086dfa2d2d8bfd6cb5db6a388c0b5cfb0f00dccde0c814d32
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q5_K_S.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q5_K_S.gguf
+    sha256: bada19760e2c84077a573c14eacc2631c93459dcb344e5dabddb69b1ad63427e
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q6_K.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q6_K.gguf
+    sha256: 4f5f035f3bb7b350d702b3b28cd1b7df5d2a7c8e722e7a41abc1949f608d6966
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deita-7b-v1.0-sft.Q8_0.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/deita-7B-v1.0-sft-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: deita-7b-v1.0-sft.Q8_0.gguf
+    sha256: 2d258527dc883af7612b5c451eef3223dfc86f1e97dee69c58b952aae12135c1
+    uri: 
+      https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF/resolve/main/deita-7b-v1.0-sft.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__deita-7b-v1.0-sft-gguf__deita-7b-v1.0-sft.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:hkust-nlp/deita-6k-v0
+  - arxiv:2312.15685
+  - base_model:hkust-nlp/deita-7b-v1.0-sft
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/deita-7B-v1.0-sft-GGUF

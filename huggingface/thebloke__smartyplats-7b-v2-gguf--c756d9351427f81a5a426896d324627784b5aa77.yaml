@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q2_K.gguf
+    sha256: 2ff968ece4386b03aab0a533d9057a496f3d6bd62e9363049a1e702c0c4c78d3
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q3_K_L.gguf
+    sha256: 4eddf5823cb952e2667edba5e78b50dda4317777399513dd371d11c5107f5744
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q3_K_M.gguf
+    sha256: 83ec7855863f97762e8c55703bb496d55af81086dd859c38d6bb39e9cfa6ddfd
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q3_K_S.gguf
+    sha256: 48a94ad39c0f3c084f1046243159b42443fc73cc48d53c8aebf803303220192e
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q4_0.gguf
+    sha256: 5d4ceb5f334681d21b2abe38f423a09e48266e591268fb3b907be2d536182527
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q4_K_M.gguf
+    sha256: 86f00e76646012d5b4972281d71e2fdf116871fee3e083cfdd6a993843880db6
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q4_K_S.gguf
+    sha256: 18475f87e0386f97345b87c3a1463cc374ba0ff1c9a406daf583f546e7cccbb9
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q5_0.gguf
+    sha256: 4d7d5a32f9154312c494f3f6d7f4b56862235febcee2e01016d38f89d39e4cf9
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q5_K_M.gguf
+    sha256: 0cc02d9ebeeeb73eb5cbb1fe4cd2c19133c0566314a6800f9134cfa50ebefeb0
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q5_K_S.gguf
+    sha256: 4d82803e8ae453dd4b6c8e5211bc3b72b0fb1be74628bfc0908b55ee14767ec5
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q6_K.gguf
+    sha256: d87cbdb797380792945be5c5075cd0617c102f8dc303b726ee67c68ca5163638
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: smartyplats-7b-v2.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q8_0.gguf
+    sha256: b6c7386f818de8d26b8962342ce6702c454ecc4575d64d4f854c52a1fa0b3055
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q2_K.gguf
+    sha256: 2ff968ece4386b03aab0a533d9057a496f3d6bd62e9363049a1e702c0c4c78d3
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q3_K_L.gguf
+    sha256: 4eddf5823cb952e2667edba5e78b50dda4317777399513dd371d11c5107f5744
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q3_K_M.gguf
+    sha256: 83ec7855863f97762e8c55703bb496d55af81086dd859c38d6bb39e9cfa6ddfd
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q3_K_S.gguf
+    sha256: 48a94ad39c0f3c084f1046243159b42443fc73cc48d53c8aebf803303220192e
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q4_0.gguf
+    sha256: 5d4ceb5f334681d21b2abe38f423a09e48266e591268fb3b907be2d536182527
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q4_K_M.gguf
+    sha256: 86f00e76646012d5b4972281d71e2fdf116871fee3e083cfdd6a993843880db6
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q4_K_S.gguf
+    sha256: 18475f87e0386f97345b87c3a1463cc374ba0ff1c9a406daf583f546e7cccbb9
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q5_0.gguf
+    sha256: 4d7d5a32f9154312c494f3f6d7f4b56862235febcee2e01016d38f89d39e4cf9
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q5_K_M.gguf
+    sha256: 0cc02d9ebeeeb73eb5cbb1fe4cd2c19133c0566314a6800f9134cfa50ebefeb0
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q5_K_S.gguf
+    sha256: 4d82803e8ae453dd4b6c8e5211bc3b72b0fb1be74628bfc0908b55ee14767ec5
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q6_K.gguf
+    sha256: d87cbdb797380792945be5c5075cd0617c102f8dc303b726ee67c68ca5163638
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: smartyplats-7b-v2.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/smartyplats-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: smartyplats-7b-v2.Q8_0.gguf
+    sha256: b6c7386f818de8d26b8962342ce6702c454ecc4575d64d4f854c52a1fa0b3055
+    uri: 
+      https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF/resolve/main/smartyplats-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__smartyplats-7b-v2-gguf__smartyplats-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:vihangd/smartyplats-7b-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/smartyplats-7B-v2-GGUF

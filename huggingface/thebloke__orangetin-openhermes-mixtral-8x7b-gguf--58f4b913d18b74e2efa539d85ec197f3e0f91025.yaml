@@ -1,0 +1,632 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q2_K.gguf
+    sha256: defc086de564139ad977192c7c78e748d081ed13ef34ded4ac595b56d6aca874
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q3_K_M.gguf
+    sha256: cf6e5bf9ef0b644cd51e5f9cd2663ae036b38320040a34924b6629561a328d65
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q4_0.gguf
+    sha256: 5108c1109742464e4e1b5e1ec4f3b48cfa092f94432a929f59a5eac627dd4a33
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q4_K_M.gguf
+    sha256: 25d71aef8d68cc70415ef9e691001a7353b2ba6b6486400ec0a85deb3b12aa3d
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q5_0.gguf
+    sha256: 244cdfa696ca9efaefe70251788dc783a35292316716782491dbd1d18c86c256
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q5_K_M.gguf
+    sha256: 772d02386765e3d9b8e0f6df762b9db53927d8b04f583c82e5a7c73a2f4fb932
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q6_K.gguf
+    sha256: 8c0d5bfc5f7a600341d1944a77813a8ac3fc3319ddb9c159666114f5d7945ff4
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q8_0.gguf
+    sha256: bbc28585f1930038d0a80917d3851474d085b0ef417b551d7cb3e25cdefd2076
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q2_K.gguf
+    sha256: defc086de564139ad977192c7c78e748d081ed13ef34ded4ac595b56d6aca874
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q3_K_M.gguf
+    sha256: cf6e5bf9ef0b644cd51e5f9cd2663ae036b38320040a34924b6629561a328d65
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q4_0.gguf
+    sha256: 5108c1109742464e4e1b5e1ec4f3b48cfa092f94432a929f59a5eac627dd4a33
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q4_K_M.gguf
+    sha256: 25d71aef8d68cc70415ef9e691001a7353b2ba6b6486400ec0a85deb3b12aa3d
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q5_0.gguf
+    sha256: 244cdfa696ca9efaefe70251788dc783a35292316716782491dbd1d18c86c256
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q5_K_M.gguf
+    sha256: 772d02386765e3d9b8e0f6df762b9db53927d8b04f583c82e5a7c73a2f4fb932
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q6_K.gguf
+    sha256: 8c0d5bfc5f7a600341d1944a77813a8ac3fc3319ddb9c159666114f5d7945ff4
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orangetin-openhermes-mixtral-8x7b.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: orangetin-openhermes-mixtral-8x7b.Q8_0.gguf
+    sha256: bbc28585f1930038d0a80917d3851474d085b0ef417b551d7cb3e25cdefd2076
+    uri: 
+      https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF/resolve/main/orangetin-openhermes-mixtral-8x7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__orangetin-openhermes-mixtral-8x7b-gguf__orangetin-openhermes-mixtral-8x7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - instruct
+  - finetune
+  - llama
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:orangetin/OpenHermes-Mixtral-8x7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GGUF

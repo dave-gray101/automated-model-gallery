@@ -1,0 +1,576 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q2_K.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q2_K.gguf
+    sha256: f1c934ccfcac855913ba108f77e0bdb73bf89ec03ba164f3fde7439b2dd1ffbf
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q3_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q3_K_M.gguf
+    sha256: 986ffc91d8b05bdda687dbfc10759d2b4ba4c1b7ea0a6335830ad2fcffc1d274
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_0.gguf
+    sha256: 619e1320a395cb0f23494e7a240c03d684ac4a68d454b131b846ae73d551b58b
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_K_M.gguf
+    sha256: 9d27b40695f805b068a8260bddb34d26093a1c5985bbab4a4244b92d36939656
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_0.gguf
+    sha256: 01b7478093aa7d07900de1d8c8b0ca8d815d1dd4f2086bf1e2be0ed7bd0f2c98
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_K_M.gguf
+    sha256: 3d8c8c9d59252c19ceac1814e5ef755b16598f00056f874f60e3ce34fa7d9786
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q6_K.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q6_K.gguf
+    sha256: fcf63d16abb0e42007e36a5956129e5146ff5c2209ff638ebb19558e7c07e6e5
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q8_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q8_0.gguf
+    sha256: 4baa5941e0043da96272a12194fd2e0dd74cb9697efdbc19cbbf7306ab5def17
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q2_K.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q2_K.gguf
+    sha256: f1c934ccfcac855913ba108f77e0bdb73bf89ec03ba164f3fde7439b2dd1ffbf
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q3_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q3_K_M.gguf
+    sha256: 986ffc91d8b05bdda687dbfc10759d2b4ba4c1b7ea0a6335830ad2fcffc1d274
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_0.gguf
+    sha256: 619e1320a395cb0f23494e7a240c03d684ac4a68d454b131b846ae73d551b58b
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_K_M.gguf
+    sha256: 9d27b40695f805b068a8260bddb34d26093a1c5985bbab4a4244b92d36939656
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_0.gguf
+    sha256: 01b7478093aa7d07900de1d8c8b0ca8d815d1dd4f2086bf1e2be0ed7bd0f2c98
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_K_M.gguf
+    sha256: 3d8c8c9d59252c19ceac1814e5ef755b16598f00056f874f60e3ce34fa7d9786
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q6_K.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q6_K.gguf
+    sha256: fcf63d16abb0e42007e36a5956129e5146ff5c2209ff638ebb19558e7c07e6e5
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q8_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: mixtral-8x7b-instruct-v0.1-limarp-zloss.Q8_0.gguf
+    sha256: 4baa5941e0043da96272a12194fd2e0dd74cb9697efdbc19cbbf7306ab5def17
+    uri: 
+      https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1-limarp-zloss.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__mixtral-8x7b-instruct-v0.1-limarp-zloss-gguf__mixtral-8x7b-instruct-v0.1-limarp-zloss.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - text-generation
+  - en
+  - dataset:lemonilia/LimaRP
+  - base_model:Doctor-Shotgun/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-LimaRP-ZLoss-GGUF

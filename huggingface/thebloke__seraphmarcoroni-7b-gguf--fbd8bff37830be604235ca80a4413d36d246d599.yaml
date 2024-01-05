@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q2_K.gguf
+    sha256: e3e35142f771be4f7dd644826b2e4cfff8b1a140f82f396620cade52743a60ce
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q3_K_L.gguf
+    sha256: 9b4f07786ab48cc7a8a9043439d5fb94e8732e76c565719d88249428a44bacec
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q3_K_M.gguf
+    sha256: 6644752e1654a3997af9862d3f554e5137162a1a16a8c8567f6f7816f7a32b7a
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q3_K_S.gguf
+    sha256: 1c337173eb72f030e8c8114495df7b8ce7f3ace33bd281fd6cc8631d8a4c83b5
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q4_0.gguf
+    sha256: f86f10e2973cc76d2b388b79419bd1d20f5b2f863e99386804194bcdf0bd77f1
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q4_K_M.gguf
+    sha256: 1943c8b9a0b04f8eb5def12e73fc224c70a2ad4822ee36f589e7502f6809ac9c
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q4_K_S.gguf
+    sha256: 989a8fe67b04a4fed1120afd0732d9a12ac6fea21ef5a53dc1f20ffcbd17d787
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q5_0.gguf
+    sha256: b12cb9376f8447bdf920d6c6817200224def0d740dbd6af3b842f3fd5a4bb755
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q5_K_M.gguf
+    sha256: 541b16cc048785493d7b8acd551ae95a71afc7ccd4772add36959a17d1b3681c
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q5_K_S.gguf
+    sha256: 2f1a46742895d8796e192a49232791d1031f4ab929f907e7eb23e013cf6984f7
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q6_K.gguf
+    sha256: d936e77a88f8aa67e120d96999f571ce2ec3ce64e4b1bca1045a4abdc941b737
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: seraphmarcoroni-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q8_0.gguf
+    sha256: a9738f5131532c9ca7123e9dc2b00f95ad7f99e4a5f1935578e3a883efa0f3b0
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q2_K.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q2_K.gguf
+    sha256: e3e35142f771be4f7dd644826b2e4cfff8b1a140f82f396620cade52743a60ce
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q3_K_L.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q3_K_L.gguf
+    sha256: 9b4f07786ab48cc7a8a9043439d5fb94e8732e76c565719d88249428a44bacec
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q3_K_M.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q3_K_M.gguf
+    sha256: 6644752e1654a3997af9862d3f554e5137162a1a16a8c8567f6f7816f7a32b7a
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q3_K_S.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q3_K_S.gguf
+    sha256: 1c337173eb72f030e8c8114495df7b8ce7f3ace33bd281fd6cc8631d8a4c83b5
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q4_0.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q4_0.gguf
+    sha256: f86f10e2973cc76d2b388b79419bd1d20f5b2f863e99386804194bcdf0bd77f1
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q4_K_M.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q4_K_M.gguf
+    sha256: 1943c8b9a0b04f8eb5def12e73fc224c70a2ad4822ee36f589e7502f6809ac9c
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q4_K_S.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q4_K_S.gguf
+    sha256: 989a8fe67b04a4fed1120afd0732d9a12ac6fea21ef5a53dc1f20ffcbd17d787
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q5_0.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q5_0.gguf
+    sha256: b12cb9376f8447bdf920d6c6817200224def0d740dbd6af3b842f3fd5a4bb755
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q5_K_M.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q5_K_M.gguf
+    sha256: 541b16cc048785493d7b8acd551ae95a71afc7ccd4772add36959a17d1b3681c
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q5_K_S.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q5_K_S.gguf
+    sha256: 2f1a46742895d8796e192a49232791d1031f4ab929f907e7eb23e013cf6984f7
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q6_K.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q6_K.gguf
+    sha256: d936e77a88f8aa67e120d96999f571ce2ec3ce64e4b1bca1045a4abdc941b737
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: seraphmarcoroni-7b.Q8_0.gguf
+    template:
+      chat: thebloke__seraphmarcoroni-7b-gguf
+      completion: thebloke__seraphmarcoroni-7b-gguf
+  description: TheBloke/SeraphMarcoroni-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__seraphmarcoroni-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__seraphmarcoroni-7b-gguf.tmpl
+  - filename: seraphmarcoroni-7b.Q8_0.gguf
+    sha256: a9738f5131532c9ca7123e9dc2b00f95ad7f99e4a5f1935578e3a883efa0f3b0
+    uri: 
+      https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF/resolve/main/seraphmarcoroni-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__seraphmarcoroni-7b-gguf__seraphmarcoroni-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:simonveitner/SeraphMarcoroni-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SeraphMarcoroni-7B-GGUF

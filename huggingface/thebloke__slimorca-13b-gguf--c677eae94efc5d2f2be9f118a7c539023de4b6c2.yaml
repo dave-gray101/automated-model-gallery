@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q2_K.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q2_K.gguf
+    sha256: 1953396ee6b91a8ca183cca72286fee8f1bb53c4476bf1445df59018023f8492
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q3_K_L.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q3_K_L.gguf
+    sha256: 29e9bd0d692ae681619f19bc92c1a99e69dd2c2b7856a7e58cb18c99a8e85c71
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q3_K_M.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q3_K_M.gguf
+    sha256: bd9bb91fe24285c1cd930daf45507689c3c4eb776369cc7d3717f16a0af021ad
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q3_K_S.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q3_K_S.gguf
+    sha256: 9cbb98682992ff8f41697b556f51e7dd8183c738653b900337324539c18b0895
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q4_0.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q4_0.gguf
+    sha256: b15378bcc05bd38497bd85e44e4e945fe62ef95eafeebc512ef8b72594f375bc
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q4_K_M.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q4_K_M.gguf
+    sha256: 915843d86efa9e3fbecacff227cd4887bbadcb7ca274a3916616f698842ccb1f
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q4_K_S.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q4_K_S.gguf
+    sha256: 40793573c5108a5587edffeac396219b479bfd1efe7fa0a42cb2f69f23fae9c9
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q5_0.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q5_0.gguf
+    sha256: 9f2a56220153822d64ca3d216917889a9c978d7338073675006c60a10bba2195
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q5_K_M.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q5_K_M.gguf
+    sha256: 645bf5da8f839a486b00abd3bdf37086c9e669a9b2e1aec9ef109948d20355ef
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q5_K_S.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q5_K_S.gguf
+    sha256: 5f352f32c33c6a159e25cdb582bb56ebb08e2cc5b51e017c16484fad94bb7292
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q6_K.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q6_K.gguf
+    sha256: 8988629a6ffb090dd4df3542bed0212fd16107a6a3ef004f8cdd2cada765e46b
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q8_0.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llama configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q8_0.gguf
+    sha256: b313fd4d6e1347177c4a557ee31ef9af66d8ec3b79f2954601589ea8df7a65f9
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q2_K.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q2_K.gguf
+    sha256: 1953396ee6b91a8ca183cca72286fee8f1bb53c4476bf1445df59018023f8492
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q3_K_L.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q3_K_L.gguf
+    sha256: 29e9bd0d692ae681619f19bc92c1a99e69dd2c2b7856a7e58cb18c99a8e85c71
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q3_K_M.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q3_K_M.gguf
+    sha256: bd9bb91fe24285c1cd930daf45507689c3c4eb776369cc7d3717f16a0af021ad
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q3_K_S.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q3_K_S.gguf
+    sha256: 9cbb98682992ff8f41697b556f51e7dd8183c738653b900337324539c18b0895
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q4_0.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q4_0.gguf
+    sha256: b15378bcc05bd38497bd85e44e4e945fe62ef95eafeebc512ef8b72594f375bc
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q4_K_M.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q4_K_M.gguf
+    sha256: 915843d86efa9e3fbecacff227cd4887bbadcb7ca274a3916616f698842ccb1f
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q4_K_S.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q4_K_S.gguf
+    sha256: 40793573c5108a5587edffeac396219b479bfd1efe7fa0a42cb2f69f23fae9c9
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q5_0.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q5_0.gguf
+    sha256: 9f2a56220153822d64ca3d216917889a9c978d7338073675006c60a10bba2195
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q5_K_M.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q5_K_M.gguf
+    sha256: 645bf5da8f839a486b00abd3bdf37086c9e669a9b2e1aec9ef109948d20355ef
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q5_K_S.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q5_K_S.gguf
+    sha256: 5f352f32c33c6a159e25cdb582bb56ebb08e2cc5b51e017c16484fad94bb7292
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q6_K.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q6_K.gguf
+    sha256: 8988629a6ffb090dd4df3542bed0212fd16107a6a3ef004f8cdd2cada765e46b
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: slimorca-13b.Q8_0.gguf
+    template:
+      chat: ajibawa-assistant
+      completion: ajibawa-assistant
+  description: TheBloke/SlimOrca-13B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: ajibawa-assistant.tmpl
+    sha256: 32fdb60b18c78acc48c0994a0e642d59588ca96cc630d4f02d41a6e627a0ec94
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ajibawa-assistant.tmpl
+  - filename: slimorca-13b.Q8_0.gguf
+    sha256: b313fd4d6e1347177c4a557ee31ef9af66d8ec3b79f2954601589ea8df7a65f9
+    uri: 
+      https://huggingface.co/TheBloke/SlimOrca-13B-GGUF/resolve/main/slimorca-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-nd-4.0
+  name: thebloke__slimorca-13b-gguf__slimorca-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - dataset:Open-Orca/SlimOrca
+  - dataset:ajibawa-2023/SlimOrca-ShareGPT
+  - base_model:ajibawa-2023/SlimOrca-13B
+  - license:cc-by-nc-nd-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SlimOrca-13B-GGUF

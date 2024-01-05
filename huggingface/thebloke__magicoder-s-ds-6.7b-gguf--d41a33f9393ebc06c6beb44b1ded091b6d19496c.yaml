@@ -1,0 +1,1260 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q2_K.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q2_K.gguf
+    sha256: 7c31cf5d54c3f2315658900e97cf44605084d9517c59591518b9a8fbce4f195b
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q3_K_L.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q3_K_L.gguf
+    sha256: e4f54ecc54ec4378e86074725a44cdf80834918b0be55a512d23f6eb3baddae6
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q3_K_M.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q3_K_M.gguf
+    sha256: 7bac275870a6c9a992b7fab9bcf2010130b57625ad99bee4309e1f0d98904b6b
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q3_K_S.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q3_K_S.gguf
+    sha256: c3567e9d56285575a380c3d959fdc7639c9311625ccc9106c45314757e10a311
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q4_0.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q4_0.gguf
+    sha256: dff24bb9061c24649fa77d9bfb475a5ebb1ed7102d4518450fc090e4c5c327f0
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q4_K_M.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q4_K_M.gguf
+    sha256: 4b340a9d033091627273fa0f95a4d43b5fe95500c714f9d2f683fbe266c9bc52
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q4_K_S.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q4_K_S.gguf
+    sha256: 339a38540b7bb150f4ac54b13b15527429ba03b2617c424acf48c27d228a403d
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q5_0.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q5_0.gguf
+    sha256: 57862a757de80c30ae2a4abad955a1bef72965a25446d86be26415ffd7b5cdb9
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q5_K_M.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q5_K_M.gguf
+    sha256: beaf8675e2e3bbb494903d974a54c7f369384a02d8cfff0a959999c4033026a0
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q5_K_S.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q5_K_S.gguf
+    sha256: baea24420e68753a0e7b0fc739b3616cab5b82a358cbc92b2b6afff1560b3012
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q6_K.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q6_K.gguf
+    sha256: 80dd0a12581628f9ade13ea98045d11b3564193afcddf97de4901df1244a8f44
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q8_0.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llama configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q8_0.gguf
+    sha256: 45e6b4c4ab2a44541c5f328c13232c9ab2ec4008ffc9a563e73ceca875240868
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q2_K.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q2_K.gguf
+    sha256: 7c31cf5d54c3f2315658900e97cf44605084d9517c59591518b9a8fbce4f195b
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q3_K_L.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q3_K_L.gguf
+    sha256: e4f54ecc54ec4378e86074725a44cdf80834918b0be55a512d23f6eb3baddae6
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q3_K_M.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q3_K_M.gguf
+    sha256: 7bac275870a6c9a992b7fab9bcf2010130b57625ad99bee4309e1f0d98904b6b
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q3_K_S.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q3_K_S.gguf
+    sha256: c3567e9d56285575a380c3d959fdc7639c9311625ccc9106c45314757e10a311
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q4_0.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q4_0.gguf
+    sha256: dff24bb9061c24649fa77d9bfb475a5ebb1ed7102d4518450fc090e4c5c327f0
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q4_K_M.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q4_K_M.gguf
+    sha256: 4b340a9d033091627273fa0f95a4d43b5fe95500c714f9d2f683fbe266c9bc52
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q4_K_S.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q4_K_S.gguf
+    sha256: 339a38540b7bb150f4ac54b13b15527429ba03b2617c424acf48c27d228a403d
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q5_0.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q5_0.gguf
+    sha256: 57862a757de80c30ae2a4abad955a1bef72965a25446d86be26415ffd7b5cdb9
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q5_K_M.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q5_K_M.gguf
+    sha256: beaf8675e2e3bbb494903d974a54c7f369384a02d8cfff0a959999c4033026a0
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q5_K_S.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q5_K_S.gguf
+    sha256: baea24420e68753a0e7b0fc739b3616cab5b82a358cbc92b2b6afff1560b3012
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q6_K.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q6_K.gguf
+    sha256: 80dd0a12581628f9ade13ea98045d11b3564193afcddf97de4901df1244a8f44
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q8_0.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q8_0.gguf
+    sha256: 45e6b4c4ab2a44541c5f328c13232c9ab2ec4008ffc9a563e73ceca875240868
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q2_K.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q2_K.gguf
+    sha256: 7c31cf5d54c3f2315658900e97cf44605084d9517c59591518b9a8fbce4f195b
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q3_K_L.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q3_K_L.gguf
+    sha256: e4f54ecc54ec4378e86074725a44cdf80834918b0be55a512d23f6eb3baddae6
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q3_K_M.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q3_K_M.gguf
+    sha256: 7bac275870a6c9a992b7fab9bcf2010130b57625ad99bee4309e1f0d98904b6b
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q3_K_S.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q3_K_S.gguf
+    sha256: c3567e9d56285575a380c3d959fdc7639c9311625ccc9106c45314757e10a311
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q4_0.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q4_0.gguf
+    sha256: dff24bb9061c24649fa77d9bfb475a5ebb1ed7102d4518450fc090e4c5c327f0
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q4_K_M.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q4_K_M.gguf
+    sha256: 4b340a9d033091627273fa0f95a4d43b5fe95500c714f9d2f683fbe266c9bc52
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q4_K_S.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q4_K_S.gguf
+    sha256: 339a38540b7bb150f4ac54b13b15527429ba03b2617c424acf48c27d228a403d
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q5_0.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q5_0.gguf
+    sha256: 57862a757de80c30ae2a4abad955a1bef72965a25446d86be26415ffd7b5cdb9
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q5_K_M.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q5_K_M.gguf
+    sha256: beaf8675e2e3bbb494903d974a54c7f369384a02d8cfff0a959999c4033026a0
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q5_K_S.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q5_K_S.gguf
+    sha256: baea24420e68753a0e7b0fc739b3616cab5b82a358cbc92b2b6afff1560b3012
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q6_K.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q6_K.gguf
+    sha256: 80dd0a12581628f9ade13ea98045d11b3564193afcddf97de4901df1244a8f44
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: magicoder-s-ds-6.7b.Q8_0.gguf
+    template:
+      chat: magicoder
+      completion: magicoder
+  description: TheBloke/Magicoder-S-DS-6.7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: magicoder.tmpl
+    sha256: b21874015074a17a98318f41c7efa07b07747ed6966398854cac1835c34acea8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/magicoder.tmpl
+  - filename: magicoder-s-ds-6.7b.Q8_0.gguf
+    sha256: 45e6b4c4ab2a44541c5f328c13232c9ab2ec4008ffc9a563e73ceca875240868
+    uri: 
+      https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__magicoder-s-ds-6.7b-gguf__magicoder-s-ds-6.7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - deepseek
+  - text-generation
+  - dataset:ise-uiuc/Magicoder-OSS-Instruct-75K
+  - dataset:ise-uiuc/Magicoder-Evol-Instruct-110K
+  - arxiv:2312.02120
+  - arxiv:2305.06161
+  - base_model:ise-uiuc/Magicoder-S-DS-6.7B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF

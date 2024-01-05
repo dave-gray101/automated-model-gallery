@@ -1,0 +1,936 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q2_K.gguf
+    sha256: 2c567a1735d0fc166d6998d89cd6c43a20f5c11494edc5d465811d99e1e71ce1
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q3_K_L.gguf
+    sha256: ea2fd66faf9d4e282a3678cc9820705bbc22bc68250ceab21b86ec5e19f61a16
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q3_K_M.gguf
+    sha256: 4507c4a7a0f6d4102c2cb80219f98d152927ef8cb95adc1d4ec60717cb1ca09a
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q3_K_S.gguf
+    sha256: 15dba781a1f6656bc0e4954b865e0d9278289dcc233936575ebb41e19840c211
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q4_0.gguf
+    sha256: 1f9db08cc562ecf63a456114f611342c52ec03bc3527c872d8a748541089f9a1
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q4_K_M.gguf
+    sha256: 93091fd898a0cfd0b96ce04e0ef1076bd97fcabd7c751beae319bf6438e4150b
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q4_K_S.gguf
+    sha256: 9f6713a8b53729ada32ec9f57ef2caca8a3b0637379be0ceefa49c9083d4f42b
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q5_0.gguf
+    sha256: 6afe30da8ddd25d5a77090576f0cd1941d9f923e6e315dc64d89d500cc051469
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q5_K_M.gguf
+    sha256: af1865013cd3b6f783c5c41f2eff44d7b9affb20e66a1e393122b531cb74fad5
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q5_K_S.gguf
+    sha256: 0ae38e6d0d88a277e99bd57994b0fb3188e1b27736f5dd2da6cbdc7b012e507f
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q6_K.gguf
+    sha256: c27fa537b9db50d14a03055ba2ed64edeecb7342aac3abd14aa3aebf8eb0ec37
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: geitje-7b-chat.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q8_0.gguf
+    sha256: e8b72aeb935649e849eeb02961b0c2775b21fa75eef6aa8be61d4496342655c1
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q2_K.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q2_K.gguf
+    sha256: 2c567a1735d0fc166d6998d89cd6c43a20f5c11494edc5d465811d99e1e71ce1
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q3_K_L.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q3_K_L.gguf
+    sha256: ea2fd66faf9d4e282a3678cc9820705bbc22bc68250ceab21b86ec5e19f61a16
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q3_K_M.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q3_K_M.gguf
+    sha256: 4507c4a7a0f6d4102c2cb80219f98d152927ef8cb95adc1d4ec60717cb1ca09a
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q3_K_S.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q3_K_S.gguf
+    sha256: 15dba781a1f6656bc0e4954b865e0d9278289dcc233936575ebb41e19840c211
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q4_0.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q4_0.gguf
+    sha256: 1f9db08cc562ecf63a456114f611342c52ec03bc3527c872d8a748541089f9a1
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q4_K_M.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q4_K_M.gguf
+    sha256: 93091fd898a0cfd0b96ce04e0ef1076bd97fcabd7c751beae319bf6438e4150b
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q4_K_S.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q4_K_S.gguf
+    sha256: 9f6713a8b53729ada32ec9f57ef2caca8a3b0637379be0ceefa49c9083d4f42b
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q5_0.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q5_0.gguf
+    sha256: 6afe30da8ddd25d5a77090576f0cd1941d9f923e6e315dc64d89d500cc051469
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q5_K_M.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q5_K_M.gguf
+    sha256: af1865013cd3b6f783c5c41f2eff44d7b9affb20e66a1e393122b531cb74fad5
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q5_K_S.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q5_K_S.gguf
+    sha256: 0ae38e6d0d88a277e99bd57994b0fb3188e1b27736f5dd2da6cbdc7b012e507f
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q6_K.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q6_K.gguf
+    sha256: c27fa537b9db50d14a03055ba2ed64edeecb7342aac3abd14aa3aebf8eb0ec37
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: geitje-7b-chat.Q8_0.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/GEITje-7B-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: geitje-7b-chat.Q8_0.gguf
+    sha256: e8b72aeb935649e849eeb02961b0c2775b21fa75eef6aa8be61d4496342655c1
+    uri: 
+      https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF/resolve/main/geitje-7b-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__geitje-7b-chat-gguf__geitje-7b-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - generated_from_trainer
+  - GEITje
+  - conversational
+  - nl
+  - dataset:Rijgersberg/no_robots_nl
+  - dataset:Rijgersberg/ultrachat_10k_nl
+  - base_model:Rijgersberg/GEITje-7B-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GEITje-7B-chat-GGUF

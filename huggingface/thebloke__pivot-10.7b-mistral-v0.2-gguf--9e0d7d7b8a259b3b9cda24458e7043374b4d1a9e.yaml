@@ -1,0 +1,1272 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q2_K.gguf
+    sha256: 5f0ead944888f157edd0fe8b7e6462d1fedbad507ede3c055fdc49e7a76c5966
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+    sha256: aeeb6f89302090172e202f41f2c028c748c631e7c0caa83b5104d1983877d189
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+    sha256: d888d4035f8e4441f2c99695821035c3051331cf29f5c3e2a1af0ca6d1b4a145
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+    sha256: 28abdfbecf0cf7e81bd0ea248852eb8e710fb8bd939939e9a7e459c01f3e4d1a
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q4_0.gguf
+    sha256: 6c07f4f175307874e8ebab4a2c2ecd6b7e836fad9dacdba4a7e36056eeea48a8
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+    sha256: 03db227476530216051f6691208caa5678b64f2592b567b7b774c249d59b5d97
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+    sha256: 00f2998a8051efd7f384f24ab5fe5b5230e7a20ad4466fbde130f2ff3011985e
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q5_0.gguf
+    sha256: 29c77696b1a105644a93b2bd935fae79dc1e8f9014d32b704a36d34b31dd1bf7
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+    sha256: ddf692546d27f6089044891482a75e76ead556a02d6bbea9d13ed11767f21c09
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+    sha256: 2706bd654433aad9f31043df5d7205dfa6c3e7c3cdc07152959b6659829ea889
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q6_K.gguf
+    sha256: 19ac5e73dcbe94feff6ba7a11e814d045875e6164b8b6e60d45acfb7d547a947
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q8_0.gguf
+    sha256: 7c31fff7369b6fbb46d4bb0e2da61adf5b81f0ed8fe663bffa421cbed0a4ae72
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q2_K.gguf
+    sha256: 5f0ead944888f157edd0fe8b7e6462d1fedbad507ede3c055fdc49e7a76c5966
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+    sha256: aeeb6f89302090172e202f41f2c028c748c631e7c0caa83b5104d1983877d189
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+    sha256: d888d4035f8e4441f2c99695821035c3051331cf29f5c3e2a1af0ca6d1b4a145
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+    sha256: 28abdfbecf0cf7e81bd0ea248852eb8e710fb8bd939939e9a7e459c01f3e4d1a
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q4_0.gguf
+    sha256: 6c07f4f175307874e8ebab4a2c2ecd6b7e836fad9dacdba4a7e36056eeea48a8
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+    sha256: 03db227476530216051f6691208caa5678b64f2592b567b7b774c249d59b5d97
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+    sha256: 00f2998a8051efd7f384f24ab5fe5b5230e7a20ad4466fbde130f2ff3011985e
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q5_0.gguf
+    sha256: 29c77696b1a105644a93b2bd935fae79dc1e8f9014d32b704a36d34b31dd1bf7
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+    sha256: ddf692546d27f6089044891482a75e76ead556a02d6bbea9d13ed11767f21c09
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+    sha256: 2706bd654433aad9f31043df5d7205dfa6c3e7c3cdc07152959b6659829ea889
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q6_K.gguf
+    sha256: 19ac5e73dcbe94feff6ba7a11e814d045875e6164b8b6e60d45acfb7d547a947
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q8_0.gguf
+    sha256: 7c31fff7369b6fbb46d4bb0e2da61adf5b81f0ed8fe663bffa421cbed0a4ae72
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q2_K.gguf
+    sha256: 5f0ead944888f157edd0fe8b7e6462d1fedbad507ede3c055fdc49e7a76c5966
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+    sha256: aeeb6f89302090172e202f41f2c028c748c631e7c0caa83b5104d1983877d189
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+    sha256: d888d4035f8e4441f2c99695821035c3051331cf29f5c3e2a1af0ca6d1b4a145
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+    sha256: 28abdfbecf0cf7e81bd0ea248852eb8e710fb8bd939939e9a7e459c01f3e4d1a
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q4_0.gguf
+    sha256: 6c07f4f175307874e8ebab4a2c2ecd6b7e836fad9dacdba4a7e36056eeea48a8
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+    sha256: 03db227476530216051f6691208caa5678b64f2592b567b7b774c249d59b5d97
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+    sha256: 00f2998a8051efd7f384f24ab5fe5b5230e7a20ad4466fbde130f2ff3011985e
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q5_0.gguf
+    sha256: 29c77696b1a105644a93b2bd935fae79dc1e8f9014d32b704a36d34b31dd1bf7
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+    sha256: ddf692546d27f6089044891482a75e76ead556a02d6bbea9d13ed11767f21c09
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+    sha256: 2706bd654433aad9f31043df5d7205dfa6c3e7c3cdc07152959b6659829ea889
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q6_K.gguf
+    sha256: 19ac5e73dcbe94feff6ba7a11e814d045875e6164b8b6e60d45acfb7d547a947
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pivot-10.7b-mistral-v0.2.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: pivot-10.7b-mistral-v0.2.Q8_0.gguf
+    sha256: 7c31fff7369b6fbb46d4bb0e2da61adf5b81f0ed8fe663bffa421cbed0a4ae72
+    uri: 
+      https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF/resolve/main/pivot-10.7b-mistral-v0.2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-sa-4.0
+  name: thebloke__pivot-10.7b-mistral-v0.2-gguf__pivot-10.7b-mistral-v0.2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - ko
+  - base_model:maywell/PiVoT-10.7B-Mistral-v0.2
+  - license:cc-by-sa-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PiVoT-10.7B-Mistral-v0.2-GGUF

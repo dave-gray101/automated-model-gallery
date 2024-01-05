@@ -1,0 +1,854 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q2_K.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q2_K.gguf
+    sha256: 59952874e9d0501cc24340358bb792261648dbce9751225ff47d290ab1d821ad
+    uri: https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q3_K_L.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q3_K_L.gguf
+    sha256: 418e21294f40caceae6a630518eb9cbfecf56dd2d9dcfe6b09fc1da084bef6fb
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q3_K_M.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q3_K_M.gguf
+    sha256: f35b79a78c8ba4c0b58243418acac316fe0b54b41039f1bf83509555473c4291
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q3_K_S.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q3_K_S.gguf
+    sha256: ea4ddaeab5f823139f0ac00f9deb0ea72137360483d6d347046500ec89414360
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q4_0.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q4_0.gguf
+    sha256: 069d1c99abe431d844fbc292667ffceb170ad9ff165de8b20c3724fdab887d15
+    uri: https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q4_K_M.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q4_K_M.gguf
+    sha256: a7138612921d39fc3e9f36d15d86440d75e2ac2a3264794c88298a7a74bec7ac
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q4_K_S.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q4_K_S.gguf
+    sha256: 2ec5dd98a7bcfa226d4412fc557b5ac0c14fb2b09eeb0b12bd4f90984882ffcf
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q5_0.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q5_0.gguf
+    sha256: 2dac0c91949463fe77a9a3c2d9f6b840765e81b4400ec231a621b5cc4846587b
+    uri: https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q5_K_M.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q5_K_M.gguf
+    sha256: ad71f2b82354afabf5063bfbb119f3d2d2fa1d1f154963e21396dcc192bd8171
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q5_K_S.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q5_K_S.gguf
+    sha256: cfb664d6c39df98084d57301a9ec77a015e38220ce1fcd5124d3e2db6cda4517
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q6_K.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q6_K.gguf
+    sha256: 216ad2cccea33e0a21cbe1034a2c733af56557ed4f1132b2b8ba6f1f9c8276d1
+    uri: https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q8_0.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q8_0.gguf
+    sha256: c769e52caa4d9898ca4c001c8ed4c8b2ed06076a00a9dafd6d53fd79c9ba3b69
+    uri: https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q2_K.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q2_K.gguf
+    sha256: 59952874e9d0501cc24340358bb792261648dbce9751225ff47d290ab1d821ad
+    uri: https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q3_K_L.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q3_K_L.gguf
+    sha256: 418e21294f40caceae6a630518eb9cbfecf56dd2d9dcfe6b09fc1da084bef6fb
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q3_K_M.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q3_K_M.gguf
+    sha256: f35b79a78c8ba4c0b58243418acac316fe0b54b41039f1bf83509555473c4291
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q3_K_S.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q3_K_S.gguf
+    sha256: ea4ddaeab5f823139f0ac00f9deb0ea72137360483d6d347046500ec89414360
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q4_0.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q4_0.gguf
+    sha256: 069d1c99abe431d844fbc292667ffceb170ad9ff165de8b20c3724fdab887d15
+    uri: https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q4_K_M.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q4_K_M.gguf
+    sha256: a7138612921d39fc3e9f36d15d86440d75e2ac2a3264794c88298a7a74bec7ac
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q4_K_S.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q4_K_S.gguf
+    sha256: 2ec5dd98a7bcfa226d4412fc557b5ac0c14fb2b09eeb0b12bd4f90984882ffcf
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q5_0.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q5_0.gguf
+    sha256: 2dac0c91949463fe77a9a3c2d9f6b840765e81b4400ec231a621b5cc4846587b
+    uri: https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q5_K_M.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q5_K_M.gguf
+    sha256: ad71f2b82354afabf5063bfbb119f3d2d2fa1d1f154963e21396dcc192bd8171
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q5_K_S.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q5_K_S.gguf
+    sha256: cfb664d6c39df98084d57301a9ec77a015e38220ce1fcd5124d3e2db6cda4517
+    uri: 
+      https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q6_K.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q6_K.gguf
+    sha256: 216ad2cccea33e0a21cbe1034a2c733af56557ed4f1132b2b8ba6f1f9c8276d1
+    uri: https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amberchat.Q8_0.gguf
+    template:
+      chat: vicuna
+      completion: vicuna
+  description: TheBloke/AmberChat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: vicuna.tmpl
+    sha256: 242a7459501a1d53298fdeb4e6cc71c34002a10d9dc4d6425f9fef8d70acb745
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/vicuna.tmpl
+  - filename: amberchat.Q8_0.gguf
+    sha256: c769e52caa4d9898ca4c001c8ed4c8b2ed06076a00a9dafd6d53fd79c9ba3b69
+    uri: https://huggingface.co/TheBloke/AmberChat-GGUF/resolve/main/amberchat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__amberchat-gguf__amberchat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - amber
+  - nlp
+  - llm
+  - text-generation
+  - en
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:icybee/share_gpt_90k_v1
+  - base_model:LLM360/AmberChat
+  - license:apache-2.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AmberChat-GGUF

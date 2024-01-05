@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q2_K.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q2_K.gguf
+    sha256: 030a469a63576d59f601ef5608846b7718eaa884dd820e9aa7493efec1788afa
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q3_K_L.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q3_K_L.gguf
+    sha256: 3c725e62c1e9a16d949ade83c2a561be1330eaaf41d98773c3fe929512a70aaf
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q3_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q3_K_M.gguf
+    sha256: ec461c4d2b60896152bca3978aa49cd70edad7298715e4222e12af1eefea2125
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q3_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q3_K_S.gguf
+    sha256: 6d58c8fbdaa822b004d7ba473f9b9ad4d1ef7c2dd2c4cf9f9856451aa44bf0ca
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q4_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q4_0.gguf
+    sha256: da3087fb14aede55fde6eb81a0e55e886810e43509ec82ecdc7aa5d62a03b556
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
+    sha256: 9fecc3b3cd76bba89d504f29b616eedf7da85b96540e490ca5824d3f7d2776a0
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q4_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q4_K_S.gguf
+    sha256: fdf50b4eebd34ccd953b2061d8b4b504f59a8e88d570adf035b1405154d12c29
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q5_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q5_0.gguf
+    sha256: bf0264251d7c9406983b6beb71b2242428d4564f5a5154bc00825b43965f89b2
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf
+    sha256: aa54a5fb99ace5b964859cf072346631b2da6109715a805d07161d157c66ce7f
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q5_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q5_K_S.gguf
+    sha256: 87dfd8c5111e6e0b87c5bac654ce01eae412fb3bed24067c75aba60e454b5399
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q6_K.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q6_K.gguf
+    sha256: 9fb2be7c8bbc0ca358ae88cef6d9e6844b81929eaffa5016a543e6f56b22cb6d
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-chat-v1.0.Q8_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: tinyllama-1.1b-chat-v1.0.Q8_0.gguf
+    sha256: a4c9bb1dbaa372f6381a035fa5c02ef087aaa1ff1f843a56a22328114f03fc59
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tinyllama-1.1b-chat-v1.0-gguf__tinyllama-1.1b-chat-v1.0.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - tinyllama
+  - en
+  - dataset:cerebras/SlimPajama-627B
+  - dataset:bigcode/starcoderdata
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  - license:apache-2.0
+  - has_space
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF

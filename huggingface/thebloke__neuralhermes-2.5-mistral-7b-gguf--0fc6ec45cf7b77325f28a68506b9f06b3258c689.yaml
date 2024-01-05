@@ -1,0 +1,1068 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q2_K.gguf
+    sha256: 8bb7af11074f2b127777e9316701ad18e389c90f5d21e1312b0eaeb2fcc4f060
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q3_K_L.gguf
+    sha256: ba92a08598d41a87e3b295498fd55d0854a6a21caf22fea863c77eee7ba4268f
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q3_K_M.gguf
+    sha256: ad0f83a051b19407f2f452b539fefb55d8e6a6e16bd9a00facb107af33a0782b
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q3_K_S.gguf
+    sha256: 41e91a9c1c8cabe5117d89cf7b5bd1b07f138337c2c3d6092aa360b2f9c2d692
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q4_0.gguf
+    sha256: 56784883abd31d58d215e4294954447345fe7931d77c234fa654e3f5deb7e824
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q4_K_M.gguf
+    sha256: fe42898e848a6610dc33c05b58e5b6bf802ed2d7301aeb8a7f7567154ac46603
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q4_K_S.gguf
+    sha256: c59b63ee0107e755031eb038bbe1060d5a0c03b22a3da455b5da20482c21a5ef
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q5_0.gguf
+    sha256: fa7b23f38479afa49d9778a6bf57c8a987ff1b0cda7912c16a8b5b3e76f427c1
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q5_K_M.gguf
+    sha256: 88c61b96652685991f954523c7bb634629724232f2ec95fd939fc414c3fa78a5
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q5_K_S.gguf
+    sha256: 6de9b83843e3ecbbfb1a8de7b664ffc34040bfab0d403fd9f2e4c0cea44f0995
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q6_K.gguf
+    sha256: 0567c2e16da171b9c5241521acc7e9c3f74ccb9fb8903fdf01bc4498bb5893ab
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q8_0.gguf
+    sha256: 1cf3b8f3371797b7a4f25249befb053be8e45ff8fe6f503618f1795d2d925a9b
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q2_K.gguf
+    sha256: 8bb7af11074f2b127777e9316701ad18e389c90f5d21e1312b0eaeb2fcc4f060
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q3_K_L.gguf
+    sha256: ba92a08598d41a87e3b295498fd55d0854a6a21caf22fea863c77eee7ba4268f
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q3_K_M.gguf
+    sha256: ad0f83a051b19407f2f452b539fefb55d8e6a6e16bd9a00facb107af33a0782b
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q3_K_S.gguf
+    sha256: 41e91a9c1c8cabe5117d89cf7b5bd1b07f138337c2c3d6092aa360b2f9c2d692
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q4_0.gguf
+    sha256: 56784883abd31d58d215e4294954447345fe7931d77c234fa654e3f5deb7e824
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q4_K_M.gguf
+    sha256: fe42898e848a6610dc33c05b58e5b6bf802ed2d7301aeb8a7f7567154ac46603
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q4_K_S.gguf
+    sha256: c59b63ee0107e755031eb038bbe1060d5a0c03b22a3da455b5da20482c21a5ef
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q5_0.gguf
+    sha256: fa7b23f38479afa49d9778a6bf57c8a987ff1b0cda7912c16a8b5b3e76f427c1
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q5_K_M.gguf
+    sha256: 88c61b96652685991f954523c7bb634629724232f2ec95fd939fc414c3fa78a5
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q5_K_S.gguf
+    sha256: 6de9b83843e3ecbbfb1a8de7b664ffc34040bfab0d403fd9f2e4c0cea44f0995
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q6_K.gguf
+    sha256: 0567c2e16da171b9c5241521acc7e9c3f74ccb9fb8903fdf01bc4498bb5893ab
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralhermes-2.5-mistral-7b.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralhermes-2.5-mistral-7b.Q8_0.gguf
+    sha256: 1cf3b8f3371797b7a4f25249befb053be8e45ff8fe6f503618f1795d2d925a9b
+    uri: 
+      https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF/resolve/main/neuralhermes-2.5-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__neuralhermes-2.5-mistral-7b-gguf__neuralhermes-2.5-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - dpo
+  - rlhf
+  - en
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:mlabonne/NeuralHermes-2.5-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralHermes-2.5-Mistral-7B-GGUF

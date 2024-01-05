@@ -1,0 +1,768 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q2_K.gguf
+    sha256: 2dbd376174e1a749a7c809c32b6039544dd9e0016b72819c19bfd0bf984ba5ec
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q3_K_L.gguf
+    sha256: 128593108b20e771dd38ece7c3062dde40824a30cfc9b98487e0859f1c57d083
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q3_K_M.gguf
+    sha256: fa39915986cdba015d58e6b036bc7e3d69cd4475f2582995bee4d38305ff0af0
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q3_K_S.gguf
+    sha256: 31728fb44abc00f1608342e4c95b0ee93ca34ef54e699d06ca40735af640565b
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q4_0.gguf
+    sha256: 183be210a8e3680c519a85e99d0c0755e0f64d22edd295840db1babebdda2a47
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q4_K_M.gguf
+    sha256: 4402fd5b169fba1268ae1e58d4f8a585317a7dfde5a8d7e6f4c9decf6a98a714
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q4_K_S.gguf
+    sha256: a3a3ea915d0ed924f7187852c4b9441ee6208d7150e1795e57656e9908240138
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q5_0.gguf
+    sha256: 6d967b5b64bdd56f7e9ebfb4df630c8355cbc8b216833e9a54b861acbd112253
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q5_K_M.gguf
+    sha256: d78863de1a85edb79a974e5ef42313a4a5ce3095fa72871262ddfd191100cda7
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q5_K_S.gguf
+    sha256: 3f3ab847c4350a59e1ce67e388f280cf8178d0a2f88f1955cf8bcf478abe7e0c
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q6_K.gguf
+    sha256: 3a993387e7ec24229df6418cfb870bca9aa9285f3c3ca975db7f862299687b34
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llama configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q8_0.gguf
+    sha256: 962309c1359d6b0b9182fdc0c46c5bd7df949c6bfddcc3f6a8415ff2f35b3056
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q2_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q2_K.gguf
+    sha256: 2dbd376174e1a749a7c809c32b6039544dd9e0016b72819c19bfd0bf984ba5ec
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q3_K_L.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q3_K_L.gguf
+    sha256: 128593108b20e771dd38ece7c3062dde40824a30cfc9b98487e0859f1c57d083
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q3_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q3_K_M.gguf
+    sha256: fa39915986cdba015d58e6b036bc7e3d69cd4475f2582995bee4d38305ff0af0
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q3_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q3_K_S.gguf
+    sha256: 31728fb44abc00f1608342e4c95b0ee93ca34ef54e699d06ca40735af640565b
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q4_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q4_0.gguf
+    sha256: 183be210a8e3680c519a85e99d0c0755e0f64d22edd295840db1babebdda2a47
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q4_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q4_K_M.gguf
+    sha256: 4402fd5b169fba1268ae1e58d4f8a585317a7dfde5a8d7e6f4c9decf6a98a714
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q4_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q4_K_S.gguf
+    sha256: a3a3ea915d0ed924f7187852c4b9441ee6208d7150e1795e57656e9908240138
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q5_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q5_0.gguf
+    sha256: 6d967b5b64bdd56f7e9ebfb4df630c8355cbc8b216833e9a54b861acbd112253
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q5_K_M.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q5_K_M.gguf
+    sha256: d78863de1a85edb79a974e5ef42313a4a5ce3095fa72871262ddfd191100cda7
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q5_K_S.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q5_K_S.gguf
+    sha256: 3f3ab847c4350a59e1ce67e388f280cf8178d0a2f88f1955cf8bcf478abe7e0c
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q6_K.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q6_K.gguf
+    sha256: 3a993387e7ec24229df6418cfb870bca9aa9285f3c3ca975db7f862299687b34
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mergemonster-13b-20231124.Q8_0.gguf
+    template:
+      chat: alpaca-instructonly2
+      completion: alpaca-instructonly2
+  description: TheBloke/MergeMonster-13B-20231124-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca-instructonly2.tmpl
+    sha256: f7a00223da06801e95796023ebca54e81f5673721d5b1bd26a8ec933359a5d71
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca-instructonly2.tmpl
+  - filename: mergemonster-13b-20231124.Q8_0.gguf
+    sha256: 962309c1359d6b0b9182fdc0c46c5bd7df949c6bfddcc3f6a8415ff2f35b3056
+    uri: 
+      https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF/resolve/main/mergemonster-13b-20231124.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__mergemonster-13b-20231124-gguf__mergemonster-13b-20231124.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - en
+  - base_model:Gryphe/MergeMonster-13b-20231124
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MergeMonster-13B-20231124-GGUF

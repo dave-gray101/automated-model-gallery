@@ -1,0 +1,444 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q2_K.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q2_K.gguf
+    sha256: a88dd11bcb0506b895aecdc788ba3e9321634ad3791c91ced464a2314d0ce71b
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q3_K_L.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q3_K_L.gguf
+    sha256: 249900cef3b0580b9e9fb45475c1f1053c453bba6bb3174bb16e38f97a77a501
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q3_K_M.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q3_K_M.gguf
+    sha256: c1280135ffae6e95afb7e5c84e5488561f8339736b1a8b3c12c7d077211ef711
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q3_K_S.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q3_K_S.gguf
+    sha256: b2744d1597a7b8b8a3a7b2bec7c5a7d0d8e5f7cd3bce77fc5dd0fab3e979c390
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q4_0.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q4_0.gguf
+    sha256: cf7c2b7f95a8c27766cbd6933a114d51eb00826546ff902719524464889442d5
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q4_K_M.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q4_K_M.gguf
+    sha256: 15ce766018678fb2a1fbd431a912b2c981e4c739fe8a2ca850b8cd54875accdb
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q4_K_S.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q4_K_S.gguf
+    sha256: 21380a7ffefe895408ce17249ab072313deb969060ffd3348ba1b42b8c7cbfd5
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q5_0.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q5_0.gguf
+    sha256: 3529381d124ec0d5cf7d32cd153173e6cfcd88e37f6ee5ed9225ac507371be24
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q5_K_M.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q5_K_M.gguf
+    sha256: 5dec2af2b0468ea0ff2bbb7c79fb91b73a7346e0853717c9b7821f006854c9bb
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q5_K_S.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q5_K_S.gguf
+    sha256: 71eae70878682d2045429e7b728505d6c4e25886a39bfc56e72519e23b6042e4
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q6_K.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q6_K.gguf
+    sha256: 3511ed6971975d3cf0a62953da0caf3154f90a8c0bb86777257981ae0d16beb6
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-34b.Q8_0.gguf
+    template:
+      chat: user-assistant
+      completion: user-assistant
+  description: TheBloke/Nous-Capybara-34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: user-assistant.tmpl
+    sha256: ce3c1ccd2a4526ea15f96564b3ebed50bc921d27bfba5cdf72106a4121b89d58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/user-assistant.tmpl
+  - filename: nous-capybara-34b.Q8_0.gguf
+    sha256: 32d3ff6f00028eec74b7ee26d9a74b54990e7e32c4cda1dc4ccb616e3c8500c8
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF/resolve/main/nous-capybara-34b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: thebloke__nous-capybara-34b-gguf__nous-capybara-34b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - sft
+  - Yi-34B-200K
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-34B
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF

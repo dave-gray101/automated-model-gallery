@@ -1,0 +1,768 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q2_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q2_K.gguf
+    sha256: 82dd2f31040dda331f7a3c0eae4b4a0c896c690d778025108fc81331017e955e
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q3_K_L.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q3_K_L.gguf
+    sha256: 2734573960f0cc2417ac4cc5b0c20b07766236ab7efd1ed8a8bd977e71b2e6a9
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q3_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q3_K_M.gguf
+    sha256: 5642ea96cd4dce817f003ef0e6b0ddd5f28b66d9373b3a24c7b203727ace34c7
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q3_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q3_K_S.gguf
+    sha256: ab28c482b4708cd8244f9f8504340dc6a8aa63a7d747fe2cc21272c6d59af811
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q4_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q4_0.gguf
+    sha256: b4b751b0e53084fc6d365956b9103d8b08e7c9269c7b876407b36a4c3cc52989
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q4_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q4_K_M.gguf
+    sha256: 350d16ebe477e1e81a77d9e7f38530c959398799fd358db2bb50a61d455b0bc7
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q4_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q4_K_S.gguf
+    sha256: 0564368ecb97fbd2f80ef3215c721530812bbf4797a1bd46471220988eba5a00
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q5_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q5_0.gguf
+    sha256: d3b7f5932da863bc4274a589d8c3306cde37b167acde5d9881617bd5e0db9862
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q5_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q5_K_M.gguf
+    sha256: ef4d675efc41fca0885196a519ff523d5ce80896e0bfc3d00f075056366710ef
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q5_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q5_K_S.gguf
+    sha256: ce60debf2b0de3e835a04f87eb5cf178667b9e3cb99e9800ceee348ca6658f76
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q6_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q6_K.gguf
+    sha256: 1301c63ce4fc78be9576a657cdbb0b01023ac0d7f2cfa72bc87854456df94b26
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q8_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q8_0.gguf
+    sha256: f734c8b5ce4e88979462020274c23fb97482631aba17ee83d703ea23d6ca8155
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q2_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q2_K.gguf
+    sha256: 82dd2f31040dda331f7a3c0eae4b4a0c896c690d778025108fc81331017e955e
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q3_K_L.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q3_K_L.gguf
+    sha256: 2734573960f0cc2417ac4cc5b0c20b07766236ab7efd1ed8a8bd977e71b2e6a9
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q3_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q3_K_M.gguf
+    sha256: 5642ea96cd4dce817f003ef0e6b0ddd5f28b66d9373b3a24c7b203727ace34c7
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q3_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q3_K_S.gguf
+    sha256: ab28c482b4708cd8244f9f8504340dc6a8aa63a7d747fe2cc21272c6d59af811
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q4_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q4_0.gguf
+    sha256: b4b751b0e53084fc6d365956b9103d8b08e7c9269c7b876407b36a4c3cc52989
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q4_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q4_K_M.gguf
+    sha256: 350d16ebe477e1e81a77d9e7f38530c959398799fd358db2bb50a61d455b0bc7
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q4_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q4_K_S.gguf
+    sha256: 0564368ecb97fbd2f80ef3215c721530812bbf4797a1bd46471220988eba5a00
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q5_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q5_0.gguf
+    sha256: d3b7f5932da863bc4274a589d8c3306cde37b167acde5d9881617bd5e0db9862
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q5_K_M.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q5_K_M.gguf
+    sha256: ef4d675efc41fca0885196a519ff523d5ce80896e0bfc3d00f075056366710ef
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q5_K_S.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q5_K_S.gguf
+    sha256: ce60debf2b0de3e835a04f87eb5cf178667b9e3cb99e9800ceee348ca6658f76
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q6_K.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q6_K.gguf
+    sha256: 1301c63ce4fc78be9576a657cdbb0b01023ac0d7f2cfa72bc87854456df94b26
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sakura-solar-instruct.Q8_0.gguf
+    template:
+      chat: orca-hashes
+      completion: orca-hashes
+  description: TheBloke/Sakura-SOLAR-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: orca-hashes.tmpl
+    sha256: c7281359114fa089ec7b48bb178c74a603d09ce58812e976c0090013c0e4c00b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-hashes.tmpl
+  - filename: sakura-solar-instruct.Q8_0.gguf
+    sha256: f734c8b5ce4e88979462020274c23fb97482631aba17ee83d703ea23d6ca8155
+    uri: 
+      https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF/resolve/main/sakura-solar-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-sa-4.0
+  name: thebloke__sakura-solar-instruct-gguf__sakura-solar-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - solar
+  - text-generation
+  - en
+  - base_model:kyujinpy/Sakura-SOLAR-Instruct
+  - license:cc-by-nc-sa-4.0
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sakura-SOLAR-Instruct-GGUF

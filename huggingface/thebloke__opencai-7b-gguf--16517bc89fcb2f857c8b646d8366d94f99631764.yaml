@@ -1,0 +1,888 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q2_K.gguf
+    sha256: 55eee4ae96b7f135da789973c3d98d3a8804bd9ca51d425fdf2983d422834c6b
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q3_K_L.gguf
+    sha256: 65b7388349750ae60eb6d6408dedc8564d439b7136bc3a84a11c50b427263cdb
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q3_K_M.gguf
+    sha256: 694917844a8de82eb31cfe5abafd1ad3909498b270bb95d32f7f9f0040ae0849
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q3_K_S.gguf
+    sha256: 813a4aca90d7c0431795dc9f60cf4a92ac6079d7d6235f7ecec4f2eb02f7aee1
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q4_0.gguf
+    sha256: d1c1003bdc6206a2a117f6a722d4592c317c7a39287aed13f29ed2e3e13f78dd
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q4_K_M.gguf
+    sha256: 86329049c7f34978245a04023585ed4b6fc82a924f2c453ab4dac5e319c625c3
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q4_K_S.gguf
+    sha256: 2523f67669541cba2ce47676c4c82603959d807a2d26f1595658425a2ec2dee8
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q5_0.gguf
+    sha256: c94914658cfaf1855e9d789db0def723789168c4035abce3567642531d32d954
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q5_K_M.gguf
+    sha256: 2b2e014514f95e5173381d5e73df33e6f9603d099ac2fe3570c296c1f0c16b9a
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q5_K_S.gguf
+    sha256: 80891a874e74c8002c71af614235e98ac8011cc71a3d97f7b6ade2f571a0f9ba
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q6_K.gguf
+    sha256: cac0647038039f70d6c98a9506e2f9031100e498ecf0707208f8a84b7b009a25
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: opencai-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - mistral configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q8_0.gguf
+    sha256: d70bc3ca1baf1dc161a0597d6d8d47a7e3f1a34aa70e61eca194a8a1acbced86
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q2_K.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q2_K.gguf
+    sha256: 55eee4ae96b7f135da789973c3d98d3a8804bd9ca51d425fdf2983d422834c6b
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q3_K_L.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q3_K_L.gguf
+    sha256: 65b7388349750ae60eb6d6408dedc8564d439b7136bc3a84a11c50b427263cdb
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q3_K_M.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q3_K_M.gguf
+    sha256: 694917844a8de82eb31cfe5abafd1ad3909498b270bb95d32f7f9f0040ae0849
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q3_K_S.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q3_K_S.gguf
+    sha256: 813a4aca90d7c0431795dc9f60cf4a92ac6079d7d6235f7ecec4f2eb02f7aee1
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q4_0.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q4_0.gguf
+    sha256: d1c1003bdc6206a2a117f6a722d4592c317c7a39287aed13f29ed2e3e13f78dd
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q4_K_M.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q4_K_M.gguf
+    sha256: 86329049c7f34978245a04023585ed4b6fc82a924f2c453ab4dac5e319c625c3
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q4_K_S.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q4_K_S.gguf
+    sha256: 2523f67669541cba2ce47676c4c82603959d807a2d26f1595658425a2ec2dee8
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q5_0.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q5_0.gguf
+    sha256: c94914658cfaf1855e9d789db0def723789168c4035abce3567642531d32d954
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q5_K_M.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q5_K_M.gguf
+    sha256: 2b2e014514f95e5173381d5e73df33e6f9603d099ac2fe3570c296c1f0c16b9a
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q5_K_S.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q5_K_S.gguf
+    sha256: 80891a874e74c8002c71af614235e98ac8011cc71a3d97f7b6ade2f571a0f9ba
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q6_K.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q6_K.gguf
+    sha256: cac0647038039f70d6c98a9506e2f9031100e498ecf0707208f8a84b7b009a25
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opencai-7b.Q8_0.gguf
+    template:
+      chat: cai
+      completion: cai
+  description: TheBloke/OpenCAI-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: cai.tmpl
+    sha256: 3248da87d308b5660435e614dcf671cb9acbcadf4b2e9296a1060002961ddc3a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/cai.tmpl
+  - filename: opencai-7b.Q8_0.gguf
+    sha256: d70bc3ca1baf1dc161a0597d6d8d47a7e3f1a34aa70e61eca194a8a1acbced86
+    uri: 
+      https://huggingface.co/TheBloke/OpenCAI-7B-GGUF/resolve/main/opencai-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__opencai-7b-gguf__opencai-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - art
+  - not-for-all-audiences
+  - en
+  - dataset:Norquinal/OpenCAI
+  - base_model:Norquinal/OpenCAI-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenCAI-7B-GGUF

@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q2_K.gguf
+    sha256: 8ed85eea4b8adbd47460a6315f8b029f78aeca4b93664a4fddb4f404da185ea7
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q3_K_L.gguf
+    sha256: 7e9e0a882bb02e9c8899fc374788cab5415dfabe1bb5ded2fb67935736d570f4
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q3_K_M.gguf
+    sha256: 69356f2e1c505f5c20a74f965e47cd304de2561721253af11343ec7de0ea435d
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q3_K_S.gguf
+    sha256: 8c668151ca2883d2e2f05d946de60bdad63017bad2bf6efef67dca2dfa9764ff
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q4_0.gguf
+    sha256: 4c562294851b25f10054fde4f1d232ee4682eebbbb5cb5c86689060e05c38879
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q4_K_M.gguf
+    sha256: e38f84187c6518e7d677f8b3ee74da5fc77ace2022aa6dd38832ae90a5ca71de
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q4_K_S.gguf
+    sha256: 289eab1a5ff34653767d5faba17d4fd1bd99b48b58789bed3fe588370c2dac11
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q5_0.gguf
+    sha256: d2758cded65ea9f7820f2e7a429f1b00787dfb271bc1b91b85e31a57eed6bc62
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q5_K_M.gguf
+    sha256: b266c942db68f885b540c8b8a57f13c6a5cd02a3d2c928fc54e382899db69e4f
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q5_K_S.gguf
+    sha256: 4476de8ac2a9615dc8b7b1f1795a449b653a6a4bd35330d62dcda1e7dd95d977
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q6_K.gguf
+    sha256: 14d2437fd5a4bcd7f7428d07df1d23aa714e947872b31782cb2a0b1d39219c85
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q8_0.gguf
+    sha256: b67478a84e64f05e90124b77c6a82d7c0b321d07aca19e080258a73fcccca5b7
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q2_K.gguf
+    sha256: 8ed85eea4b8adbd47460a6315f8b029f78aeca4b93664a4fddb4f404da185ea7
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q3_K_L.gguf
+    sha256: 7e9e0a882bb02e9c8899fc374788cab5415dfabe1bb5ded2fb67935736d570f4
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q3_K_M.gguf
+    sha256: 69356f2e1c505f5c20a74f965e47cd304de2561721253af11343ec7de0ea435d
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q3_K_S.gguf
+    sha256: 8c668151ca2883d2e2f05d946de60bdad63017bad2bf6efef67dca2dfa9764ff
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q4_0.gguf
+    sha256: 4c562294851b25f10054fde4f1d232ee4682eebbbb5cb5c86689060e05c38879
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q4_K_M.gguf
+    sha256: e38f84187c6518e7d677f8b3ee74da5fc77ace2022aa6dd38832ae90a5ca71de
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q4_K_S.gguf
+    sha256: 289eab1a5ff34653767d5faba17d4fd1bd99b48b58789bed3fe588370c2dac11
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q5_0.gguf
+    sha256: d2758cded65ea9f7820f2e7a429f1b00787dfb271bc1b91b85e31a57eed6bc62
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q5_K_M.gguf
+    sha256: b266c942db68f885b540c8b8a57f13c6a5cd02a3d2c928fc54e382899db69e4f
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q5_K_S.gguf
+    sha256: 4476de8ac2a9615dc8b7b1f1795a449b653a6a4bd35330d62dcda1e7dd95d977
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q6_K.gguf
+    sha256: 14d2437fd5a4bcd7f7428d07df1d23aa714e947872b31782cb2a0b1d39219c85
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bruinsv2-ophermesneu-11b.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/BruinsV2-OpHermesNeu-11B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bruinsv2-ophermesneu-11b.Q8_0.gguf
+    sha256: b67478a84e64f05e90124b77c6a82d7c0b321d07aca19e080258a73fcccca5b7
+    uri: 
+      https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF/resolve/main/bruinsv2-ophermesneu-11b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__bruinsv2-ophermesneu-11b-gguf__bruinsv2-ophermesneu-11b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - base_model:Ba2han/BruinsV2-OpHermesNeu-11B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/BruinsV2-OpHermesNeu-11B-GGUF

@@ -1,0 +1,840 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q2_K.gguf
+    sha256: 4b3983a121ec3b09dc32de251f1c945073164c45e13be3d3e31a63f60f6c4a14
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q3_K_L.gguf
+    sha256: 16054b6850cf0413b2d309fe44aed8347631b8c7e7de615b649a43228af53402
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q3_K_M.gguf
+    sha256: e0e66099bc587f57a34e541978d7783172f4252a08c220d54c4650984b2b89f0
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q3_K_S.gguf
+    sha256: 7d3b1b792772104e8f0d7eca11685c3624887c0f103e949525e79f82e633f71d
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q4_0.gguf
+    sha256: d0ef47b37d482e30da1808f6efc2560f80eec632fb838178e8439d89cd974071
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q4_K_M.gguf
+    sha256: 3cbfd21b0438ecd94924404b7fe7b6dd4df180b5e50b62754372fbbad99562ad
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q4_K_S.gguf
+    sha256: 944d103576cf12e6857f6e59323375b5bb60e1c7ba47bc782396e45f1a33e2eb
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q5_0.gguf
+    sha256: 8c3595a0e77bffa887568eb6d417c640519f5719ea8fd5ebb101624c5c268682
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q5_K_M.gguf
+    sha256: 9200d699a87c3f021c480688349c10eea4b0cf94c88a8268fddaee4e66e7edd3
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q5_K_S.gguf
+    sha256: 4a0dab1af9719270e3c99808f9976ae9628b6ea67e72969a97a0743cb533cd0c
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q6_K.gguf
+    sha256: dd36e5c663ba3a4050edf62e7ca5d0f2c69a606c032b5114f7b08794d79f4653
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: agiin-13.6b-v0.1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - mistral configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q8_0.gguf
+    sha256: deeb6c984429fc086833583de7720e1226c5c6d53626829b4f3880b802185837
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q2_K.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q2_K.gguf
+    sha256: 4b3983a121ec3b09dc32de251f1c945073164c45e13be3d3e31a63f60f6c4a14
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q3_K_L.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q3_K_L.gguf
+    sha256: 16054b6850cf0413b2d309fe44aed8347631b8c7e7de615b649a43228af53402
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q3_K_M.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q3_K_M.gguf
+    sha256: e0e66099bc587f57a34e541978d7783172f4252a08c220d54c4650984b2b89f0
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q3_K_S.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q3_K_S.gguf
+    sha256: 7d3b1b792772104e8f0d7eca11685c3624887c0f103e949525e79f82e633f71d
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q4_0.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q4_0.gguf
+    sha256: d0ef47b37d482e30da1808f6efc2560f80eec632fb838178e8439d89cd974071
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q4_K_M.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q4_K_M.gguf
+    sha256: 3cbfd21b0438ecd94924404b7fe7b6dd4df180b5e50b62754372fbbad99562ad
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q4_K_S.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q4_K_S.gguf
+    sha256: 944d103576cf12e6857f6e59323375b5bb60e1c7ba47bc782396e45f1a33e2eb
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q5_0.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q5_0.gguf
+    sha256: 8c3595a0e77bffa887568eb6d417c640519f5719ea8fd5ebb101624c5c268682
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q5_K_M.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q5_K_M.gguf
+    sha256: 9200d699a87c3f021c480688349c10eea4b0cf94c88a8268fddaee4e66e7edd3
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q5_K_S.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q5_K_S.gguf
+    sha256: 4a0dab1af9719270e3c99808f9976ae9628b6ea67e72969a97a0743cb533cd0c
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q6_K.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q6_K.gguf
+    sha256: dd36e5c663ba3a4050edf62e7ca5d0f2c69a606c032b5114f7b08794d79f4653
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agiin-13.6b-v0.1.Q8_0.gguf
+    template:
+      chat: tora
+      completion: tora
+  description: TheBloke/agiin-13.6B-v0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: tora.tmpl
+    sha256: c1ce4c3793ab64d1d327f4f6ccf293199df0431a60b4af8c2a66d044c3530d8a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/tora.tmpl
+  - filename: agiin-13.6b-v0.1.Q8_0.gguf
+    sha256: deeb6c984429fc086833583de7720e1226c5c6d53626829b4f3880b802185837
+    uri: 
+      https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF/resolve/main/agiin-13.6b-v0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__agiin-13.6b-v0.1-gguf__agiin-13.6b-v0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - base_model:mncai/agiin-13.6B-v0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agiin-13.6B-v0.1-GGUF
