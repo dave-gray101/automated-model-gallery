@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q2_K.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q2_K.gguf
+    sha256: 4c0ad42ef9a645ff78b39002ce5bf368a905f789149079a218689350d5c5ccbf
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q3_K_L.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q3_K_L.gguf
+    sha256: 2b9b9e308595749fff704a010e7b5e0a687ff68db963b2257142fcd7005a1d7f
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q3_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q3_K_M.gguf
+    sha256: 26b867592f3cb69c4c55a80138758a89f6c90b516deaf918ce0721d8d4f65fe3
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q3_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q3_K_S.gguf
+    sha256: eb9624324e175b1de328cbfe0fb30c8e8b2d534b2d4ce807887fd74642e6af7b
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q4_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q4_0.gguf
+    sha256: b3d1d6f79a6dca3dad7214893405c96f648e5496a4e342bba24466330cb1fa66
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q4_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q4_K_M.gguf
+    sha256: abf7d345077562968ff80ee8a47be0f6378fb254934eb29aabba77a3589095fc
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q4_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q4_K_S.gguf
+    sha256: f7ae0bd083389d5aa266e60cd117f0de90f8d0321a881f7c8f1fd9e08c183e8a
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q5_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q5_0.gguf
+    sha256: 5cf0c809a32da9d844a2c6138ce094228e6c95ab62528dcdfe359c2ed743368b
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q5_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q5_K_M.gguf
+    sha256: 93d0800912f90979c094ed219ee5f39281d0a61fa941a29a6929b29ff3391534
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q5_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q5_K_S.gguf
+    sha256: 7beecf7e14af71017cfe55dc19acbdcfc78848468cb8ea7442da06c9d6ecc461
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q6_K.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q6_K.gguf
+    sha256: 126516b5eb274ee97253e89689991022327cfbad30c4a96ac2c9e05a94b7985d
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q8_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q8_0.gguf
+    sha256: 64e3108c7b4915bc47c411e6da3e066825bbf6e43cf04aa5c1533c93b0315bdc
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q2_K.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q2_K.gguf
+    sha256: 4c0ad42ef9a645ff78b39002ce5bf368a905f789149079a218689350d5c5ccbf
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q3_K_L.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q3_K_L.gguf
+    sha256: 2b9b9e308595749fff704a010e7b5e0a687ff68db963b2257142fcd7005a1d7f
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q3_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q3_K_M.gguf
+    sha256: 26b867592f3cb69c4c55a80138758a89f6c90b516deaf918ce0721d8d4f65fe3
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q3_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q3_K_S.gguf
+    sha256: eb9624324e175b1de328cbfe0fb30c8e8b2d534b2d4ce807887fd74642e6af7b
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q4_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q4_0.gguf
+    sha256: b3d1d6f79a6dca3dad7214893405c96f648e5496a4e342bba24466330cb1fa66
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q4_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q4_K_M.gguf
+    sha256: abf7d345077562968ff80ee8a47be0f6378fb254934eb29aabba77a3589095fc
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q4_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q4_K_S.gguf
+    sha256: f7ae0bd083389d5aa266e60cd117f0de90f8d0321a881f7c8f1fd9e08c183e8a
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q5_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q5_0.gguf
+    sha256: 5cf0c809a32da9d844a2c6138ce094228e6c95ab62528dcdfe359c2ed743368b
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q5_K_M.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q5_K_M.gguf
+    sha256: 93d0800912f90979c094ed219ee5f39281d0a61fa941a29a6929b29ff3391534
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q5_K_S.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q5_K_S.gguf
+    sha256: 7beecf7e14af71017cfe55dc19acbdcfc78848468cb8ea7442da06c9d6ecc461
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q6_K.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q6_K.gguf
+    sha256: 126516b5eb274ee97253e89689991022327cfbad30c4a96ac2c9e05a94b7985d
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephyr-quiklang-3b-4k.Q8_0.gguf
+    template:
+      chat: zephyr
+      completion: zephyr
+  description: TheBloke/zephyr-quiklang-3b-4K-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: zephyr.tmpl
+    sha256: f57aa3f3fcab395a8cad03399a84d23f89af415e170f124623e9583c77503b56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/zephyr.tmpl
+  - filename: zephyr-quiklang-3b-4k.Q8_0.gguf
+    sha256: 64e3108c7b4915bc47c411e6da3e066825bbf6e43cf04aa5c1533c93b0315bdc
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF/resolve/main/zephyr-quiklang-3b-4k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__zephyr-quiklang-3b-4k-gguf__zephyr-quiklang-3b-4k.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal_lm
+  - text-generation
+  - dataset:teknium/openhermes
+  - base_model:Walmart-the-bag/zephyr-quiklang-3b-4K
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-quiklang-3b-4K-GGUF
