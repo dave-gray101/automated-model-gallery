@@ -1,0 +1,1320 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q2_K.gguf
+    sha256: 57f80df8390dc0cf524a574d901378beb7c5ebd91eca4817230c3de09bc071cf
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q3_K_L.gguf
+    sha256: 2801e5a35521b29e7f6faea39bd310643f9be0124cf6e9cc6bb128635f5ef450
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q3_K_M.gguf
+    sha256: e504ded8992195f1b873f026dd684debf799984ec2c2b77f0e457c4fcc85a4a0
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q3_K_S.gguf
+    sha256: 65934991229a76905386db9ea78495c6228b0d57172cfbf3ff1d9dc3dba084ed
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q4_0.gguf
+    sha256: 593a00264f10e39e227e95a7d80497d408372c5feda87b012df0abd953a0061f
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q4_K_M.gguf
+    sha256: a0fe5f82bc2a93654d169dacca9934887e1ad070c5b747ae413d9b85b34af79a
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q4_K_S.gguf
+    sha256: 9b6890aef35a86a117822db1e4647cd9fe8db6a64d1cf60ad64c8231a0350095
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q5_0.gguf
+    sha256: 2e8eb1deff54c36aa85a49eee1354bd96fb187d914e01f3b70296af6c636b0ee
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q5_K_M.gguf
+    sha256: 06a6ceccb287ed07202d211b05af84a7a4b4ea0fe7eaa442f70e320046648a1c
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q5_K_S.gguf
+    sha256: 2b06eba3041e57692a4cd95937b03fb256e6fab3a7a37eb029e7bbe84a54351c
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q6_K.gguf
+    sha256: b359966dc9bb3e93b8f4a3c76f646aa378fb3015d69ae81e6beceada1c3683a3
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: speechless-mistral-moloras-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q8_0.gguf
+    sha256: 87547d27e1737bd4dfdca7868fb30d32c3a4d06b8e6feff242fbeb07eb381b29
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q2_K.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q2_K.gguf
+    sha256: 57f80df8390dc0cf524a574d901378beb7c5ebd91eca4817230c3de09bc071cf
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q3_K_L.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q3_K_L.gguf
+    sha256: 2801e5a35521b29e7f6faea39bd310643f9be0124cf6e9cc6bb128635f5ef450
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q3_K_M.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q3_K_M.gguf
+    sha256: e504ded8992195f1b873f026dd684debf799984ec2c2b77f0e457c4fcc85a4a0
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q3_K_S.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q3_K_S.gguf
+    sha256: 65934991229a76905386db9ea78495c6228b0d57172cfbf3ff1d9dc3dba084ed
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q4_0.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q4_0.gguf
+    sha256: 593a00264f10e39e227e95a7d80497d408372c5feda87b012df0abd953a0061f
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q4_K_M.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q4_K_M.gguf
+    sha256: a0fe5f82bc2a93654d169dacca9934887e1ad070c5b747ae413d9b85b34af79a
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q4_K_S.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q4_K_S.gguf
+    sha256: 9b6890aef35a86a117822db1e4647cd9fe8db6a64d1cf60ad64c8231a0350095
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q5_0.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q5_0.gguf
+    sha256: 2e8eb1deff54c36aa85a49eee1354bd96fb187d914e01f3b70296af6c636b0ee
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q5_K_M.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q5_K_M.gguf
+    sha256: 06a6ceccb287ed07202d211b05af84a7a4b4ea0fe7eaa442f70e320046648a1c
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q5_K_S.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q5_K_S.gguf
+    sha256: 2b06eba3041e57692a4cd95937b03fb256e6fab3a7a37eb029e7bbe84a54351c
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q6_K.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q6_K.gguf
+    sha256: b359966dc9bb3e93b8f4a3c76f646aa378fb3015d69ae81e6beceada1c3683a3
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q8_0.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q8_0.gguf
+    sha256: 87547d27e1737bd4dfdca7868fb30d32c3a4d06b8e6feff242fbeb07eb381b29
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q2_K.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q2_K.gguf
+    sha256: 57f80df8390dc0cf524a574d901378beb7c5ebd91eca4817230c3de09bc071cf
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q3_K_L.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q3_K_L.gguf
+    sha256: 2801e5a35521b29e7f6faea39bd310643f9be0124cf6e9cc6bb128635f5ef450
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q3_K_M.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q3_K_M.gguf
+    sha256: e504ded8992195f1b873f026dd684debf799984ec2c2b77f0e457c4fcc85a4a0
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q3_K_S.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q3_K_S.gguf
+    sha256: 65934991229a76905386db9ea78495c6228b0d57172cfbf3ff1d9dc3dba084ed
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q4_0.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q4_0.gguf
+    sha256: 593a00264f10e39e227e95a7d80497d408372c5feda87b012df0abd953a0061f
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q4_K_M.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q4_K_M.gguf
+    sha256: a0fe5f82bc2a93654d169dacca9934887e1ad070c5b747ae413d9b85b34af79a
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q4_K_S.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q4_K_S.gguf
+    sha256: 9b6890aef35a86a117822db1e4647cd9fe8db6a64d1cf60ad64c8231a0350095
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q5_0.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q5_0.gguf
+    sha256: 2e8eb1deff54c36aa85a49eee1354bd96fb187d914e01f3b70296af6c636b0ee
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q5_K_M.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q5_K_M.gguf
+    sha256: 06a6ceccb287ed07202d211b05af84a7a4b4ea0fe7eaa442f70e320046648a1c
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q5_K_S.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q5_K_S.gguf
+    sha256: 2b06eba3041e57692a4cd95937b03fb256e6fab3a7a37eb029e7bbe84a54351c
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q6_K.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q6_K.gguf
+    sha256: b359966dc9bb3e93b8f4a3c76f646aa378fb3015d69ae81e6beceada1c3683a3
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: speechless-mistral-moloras-7b.Q8_0.gguf
+    template:
+      chat: thebloke__speechless-mistral-moloras-7b-gguf
+      completion: thebloke__speechless-mistral-moloras-7b-gguf
+  description: TheBloke/speechless-mistral-moloras-7B-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__speechless-mistral-moloras-7b-gguf.tmpl
+  - filename: speechless-mistral-moloras-7b.Q8_0.gguf
+    sha256: 87547d27e1737bd4dfdca7868fb30d32c3a4d06b8e6feff242fbeb07eb381b29
+    uri: 
+      https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF/resolve/main/speechless-mistral-moloras-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    thebloke__speechless-mistral-moloras-7b-gguf__speechless-mistral-moloras-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - text-generation
+  - en
+  - dataset:yahma/alpaca-cleaned
+  - base_model:uukuguy/speechless-mistral-moloras-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/speechless-mistral-moloras-7B-GGUF
