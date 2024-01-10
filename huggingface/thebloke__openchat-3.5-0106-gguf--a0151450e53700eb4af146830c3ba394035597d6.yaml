@@ -1,0 +1,1344 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q2_K.gguf
+    sha256: 5026252eb208f6272e836d86c3b52cf6714fb4b6b15a1e231e6fc7a72f51d2f6
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q3_K_L.gguf
+    sha256: 4236511c629283ffee2fe6a5d5daa5319cdc8494e97ff23a54a0896505e6d7d5
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q3_K_M.gguf
+    sha256: 9a1cdbe9da1fd44876cb7bc5aacf4b24212f2e962e15314354d843d75092de48
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q3_K_S.gguf
+    sha256: e254ed6864efee4912695127a04c4892350092b03b5cf53db3adc8d091f8c058
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q4_0.gguf
+    sha256: 01e2e59616baab8ad941a2804cb47d6ef5a4fb81cb56f94707b0fc1a82d34bd7
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q4_K_M.gguf
+    sha256: 49190d4d039e6dea463e567ebce707eb001648f4ba01e43eb7fa88d9975fc0ce
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q4_K_S.gguf
+    sha256: b72d156a77b7c492ba39e6033bf583649d888efcc91cc1769cebe7d72cb0d321
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q5_0.gguf
+    sha256: 9b9e2863982c8bb6e4ffa39519a7a383a869961ad3f207b1917a5960e7143b1d
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q5_K_M.gguf
+    sha256: 36a74fec42da7c3fc2614ce3444a99868647342ff4789f0e0d82882d7735aab5
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q5_K_S.gguf
+    sha256: 594eadb464ced905508f288d0c8c05b4e8ad62208a6718381ebe1b29f3a5f611
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q6_K.gguf
+    sha256: 11ffb503fcdbf4a6512786a139102ec7f0665a669b80a1575bfe38719f02e913
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openchat-3.5-0106.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - mistral configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q8_0.gguf
+    sha256: 69ef6975cce795b5b433e23577eb8d38421fe7064d73ef91d3f323409d2696fb
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q2_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q2_K.gguf
+    sha256: 5026252eb208f6272e836d86c3b52cf6714fb4b6b15a1e231e6fc7a72f51d2f6
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q3_K_L.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q3_K_L.gguf
+    sha256: 4236511c629283ffee2fe6a5d5daa5319cdc8494e97ff23a54a0896505e6d7d5
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q3_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q3_K_M.gguf
+    sha256: 9a1cdbe9da1fd44876cb7bc5aacf4b24212f2e962e15314354d843d75092de48
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q3_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q3_K_S.gguf
+    sha256: e254ed6864efee4912695127a04c4892350092b03b5cf53db3adc8d091f8c058
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q4_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q4_0.gguf
+    sha256: 01e2e59616baab8ad941a2804cb47d6ef5a4fb81cb56f94707b0fc1a82d34bd7
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q4_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q4_K_M.gguf
+    sha256: 49190d4d039e6dea463e567ebce707eb001648f4ba01e43eb7fa88d9975fc0ce
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q4_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q4_K_S.gguf
+    sha256: b72d156a77b7c492ba39e6033bf583649d888efcc91cc1769cebe7d72cb0d321
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q5_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q5_0.gguf
+    sha256: 9b9e2863982c8bb6e4ffa39519a7a383a869961ad3f207b1917a5960e7143b1d
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q5_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q5_K_M.gguf
+    sha256: 36a74fec42da7c3fc2614ce3444a99868647342ff4789f0e0d82882d7735aab5
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q5_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q5_K_S.gguf
+    sha256: 594eadb464ced905508f288d0c8c05b4e8ad62208a6718381ebe1b29f3a5f611
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q6_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q6_K.gguf
+    sha256: 11ffb503fcdbf4a6512786a139102ec7f0665a669b80a1575bfe38719f02e913
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q8_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q8_0.gguf
+    sha256: 69ef6975cce795b5b433e23577eb8d38421fe7064d73ef91d3f323409d2696fb
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q2_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q2_K.gguf
+    sha256: 5026252eb208f6272e836d86c3b52cf6714fb4b6b15a1e231e6fc7a72f51d2f6
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q3_K_L.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q3_K_L.gguf
+    sha256: 4236511c629283ffee2fe6a5d5daa5319cdc8494e97ff23a54a0896505e6d7d5
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q3_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q3_K_M.gguf
+    sha256: 9a1cdbe9da1fd44876cb7bc5aacf4b24212f2e962e15314354d843d75092de48
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q3_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q3_K_S.gguf
+    sha256: e254ed6864efee4912695127a04c4892350092b03b5cf53db3adc8d091f8c058
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q4_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q4_0.gguf
+    sha256: 01e2e59616baab8ad941a2804cb47d6ef5a4fb81cb56f94707b0fc1a82d34bd7
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q4_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q4_K_M.gguf
+    sha256: 49190d4d039e6dea463e567ebce707eb001648f4ba01e43eb7fa88d9975fc0ce
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q4_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q4_K_S.gguf
+    sha256: b72d156a77b7c492ba39e6033bf583649d888efcc91cc1769cebe7d72cb0d321
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q5_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q5_0.gguf
+    sha256: 9b9e2863982c8bb6e4ffa39519a7a383a869961ad3f207b1917a5960e7143b1d
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q5_K_M.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q5_K_M.gguf
+    sha256: 36a74fec42da7c3fc2614ce3444a99868647342ff4789f0e0d82882d7735aab5
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q5_K_S.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q5_K_S.gguf
+    sha256: 594eadb464ced905508f288d0c8c05b4e8ad62208a6718381ebe1b29f3a5f611
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q6_K.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q6_K.gguf
+    sha256: 11ffb503fcdbf4a6512786a139102ec7f0665a669b80a1575bfe38719f02e913
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openchat-3.5-0106.Q8_0.gguf
+    template:
+      chat: openchat-correct
+      completion: openchat-correct
+  description: TheBloke/openchat-3.5-0106-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: openchat-correct.tmpl
+    sha256: 0749fb368bd89f80b87e68e180b4b79fb553e7d4cfde4283f13418ab47ca2ee3
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/openchat-correct.tmpl
+  - filename: openchat-3.5-0106.Q8_0.gguf
+    sha256: 69ef6975cce795b5b433e23577eb8d38421fe7064d73ef91d3f323409d2696fb
+    uri: 
+      https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__openchat-3.5-0106-gguf__openchat-3.5-0106.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - openchat
+  - C-RLFT
+  - text-generation
+  - arxiv:2309.11235
+  - arxiv:2303.08774
+  - base_model:openchat/openchat-3.5-0106
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openchat-3.5-0106-GGUF

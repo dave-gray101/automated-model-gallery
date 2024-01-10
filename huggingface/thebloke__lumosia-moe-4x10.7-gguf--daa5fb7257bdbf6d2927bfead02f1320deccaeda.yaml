@@ -1,0 +1,468 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q2_K.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q2_K.gguf
+    sha256: b941e2004d29a2f882ae3388633020c78c804df9147d416397627916847b38fe
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q3_K_L.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q3_K_L.gguf
+    sha256: 2040731d1373ae773e291d4f6053c9bc5c42097717e528a9916f2711313e4167
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q3_K_M.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q3_K_M.gguf
+    sha256: 261110d3097db90c978e6ad9c9a30efc0aba9538c8ebf454b37662b92e6a3ed8
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q3_K_S.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q3_K_S.gguf
+    sha256: 6d9fcd966f94a075a19001b7961546560458255a741e79a8216b78dfed41e6ce
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q4_0.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q4_0.gguf
+    sha256: 18bf5cc01236070215cc675d71fada873bcba8c69347e32ca99c30abc876a1de
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q4_K_M.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q4_K_M.gguf
+    sha256: e8987ea26a3d58b83e9ea9c9025c71c3652eadbeb9b9191eab993cb010d9318b
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q4_K_S.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q4_K_S.gguf
+    sha256: eef5abb3d187b1552b2a9dc4b2a8f8b5df9112e8eb7a8591d07203f16391b411
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q5_0.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q5_0.gguf
+    sha256: 1c7ecf522c35f6a2c94209f931f7a4af35079b8aab62bea8a389d64edbf7ce88
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q5_K_M.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q5_K_M.gguf
+    sha256: a3238931f026f0205bcf1be70a235713d19f418c6d2dbd541112c6475c2fe5ce
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q5_K_S.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q5_K_S.gguf
+    sha256: 2c1c694a9419ce074f45c3caad0b88c575955a5f46bc55b8a13cfe7198c578ed
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q6_K.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q6_K.gguf
+    sha256: 56cca08b395e446ad50f1ea4d0db1f9186b2c8a66be50bc99991405998c8497f
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lumosia-moe-4x10.7.Q8_0.gguf
+    template:
+      chat: lumosia
+      completion: lumosia
+  description: TheBloke/Lumosia-MoE-4x10.7-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: lumosia.tmpl
+    sha256: c8521a117015e9387c21b2637c79d807de7a6f941febebf626191b19555bf1b7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/lumosia.tmpl
+  - filename: lumosia-moe-4x10.7.Q8_0.gguf
+    sha256: 85db872c10b9daf5886b2ac493582a262fad79ec39b65c94fba9f4f323b25e4a
+    uri: 
+      https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF/resolve/main/lumosia-moe-4x10.7.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lumosia-moe-4x10.7-gguf__lumosia-moe-4x10.7.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - merge
+  - mergekit
+  - lazymergekit
+  - DopeorNope/SOLARC-M-10.7B
+  - maywell/PiVoT-10.7B-Mistral-v0.2-RP
+  - kyujinpy/Sakura-SOLAR-Instruct
+  - jeonsworld/CarbonVillain-en-10.7B-v1
+  - base_model:Steelskull/Lumosia-MoE-4x10.7
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lumosia-MoE-4x10.7-GGUF

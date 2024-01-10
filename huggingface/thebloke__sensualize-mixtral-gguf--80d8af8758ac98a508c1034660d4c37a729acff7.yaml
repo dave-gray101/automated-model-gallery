@@ -1,0 +1,256 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sensualize-mixtral.Q2_K.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Sensualize-Mixtral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: sensualize-mixtral.Q2_K.gguf
+    sha256: fad01e6151d9680d697e12b80eb63f8fca6c913772ba7a34ee45d2e3b03c34c5
+    uri: 
+      https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF/resolve/main/sensualize-mixtral.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__sensualize-mixtral-gguf__sensualize-mixtral.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dataset:NobodyExistsOnTheInternet/full120k
+  - base_model:Sao10K/Sensualize-Mixtral-bf16
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sensualize-mixtral.Q3_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Sensualize-Mixtral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: sensualize-mixtral.Q3_K_M.gguf
+    sha256: b715d7f1c09fa225167a0f24522b90599e2d1768461d5030134005788a17a8c7
+    uri: 
+      https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF/resolve/main/sensualize-mixtral.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__sensualize-mixtral-gguf__sensualize-mixtral.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dataset:NobodyExistsOnTheInternet/full120k
+  - base_model:Sao10K/Sensualize-Mixtral-bf16
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sensualize-mixtral.Q4_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Sensualize-Mixtral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: sensualize-mixtral.Q4_0.gguf
+    sha256: ffd41918d610d0485fbf276344a25a8184625e8548327e7e738da4317dfbf8fb
+    uri: 
+      https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF/resolve/main/sensualize-mixtral.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__sensualize-mixtral-gguf__sensualize-mixtral.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dataset:NobodyExistsOnTheInternet/full120k
+  - base_model:Sao10K/Sensualize-Mixtral-bf16
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sensualize-mixtral.Q4_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Sensualize-Mixtral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: sensualize-mixtral.Q4_K_M.gguf
+    sha256: d25a0e882e41423723d69f6e8ba324cc918507eff95d0182408298162fc4c143
+    uri: 
+      https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF/resolve/main/sensualize-mixtral.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__sensualize-mixtral-gguf__sensualize-mixtral.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dataset:NobodyExistsOnTheInternet/full120k
+  - base_model:Sao10K/Sensualize-Mixtral-bf16
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sensualize-mixtral.Q5_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Sensualize-Mixtral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: sensualize-mixtral.Q5_0.gguf
+    sha256: c493343ce1d984b6e4eed6adacb68f8ec86a9f9e4b253de2629245a63b84efbb
+    uri: 
+      https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF/resolve/main/sensualize-mixtral.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__sensualize-mixtral-gguf__sensualize-mixtral.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dataset:NobodyExistsOnTheInternet/full120k
+  - base_model:Sao10K/Sensualize-Mixtral-bf16
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sensualize-mixtral.Q5_K_M.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Sensualize-Mixtral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: sensualize-mixtral.Q5_K_M.gguf
+    sha256: 9a1b914036eeb5d54d1d8e5c6bfe4139f3126f50a9d75967d31ec9f14691942c
+    uri: 
+      https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF/resolve/main/sensualize-mixtral.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__sensualize-mixtral-gguf__sensualize-mixtral.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dataset:NobodyExistsOnTheInternet/full120k
+  - base_model:Sao10K/Sensualize-Mixtral-bf16
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sensualize-mixtral.Q6_K.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Sensualize-Mixtral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: sensualize-mixtral.Q6_K.gguf
+    sha256: 5b859ac50a97793e5dc7dcaa07b58f1f0ae3f7896ff4577a0899476b80f0445e
+    uri: 
+      https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF/resolve/main/sensualize-mixtral.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__sensualize-mixtral-gguf__sensualize-mixtral.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dataset:NobodyExistsOnTheInternet/full120k
+  - base_model:Sao10K/Sensualize-Mixtral-bf16
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sensualize-mixtral.Q8_0.gguf
+    template:
+      chat: instruction-input-response
+      completion: instruction-input-response
+  description: TheBloke/Sensualize-Mixtral-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: instruction-input-response.tmpl
+    sha256: 807dc22d2ce372b96ab1a2b6a0eaf8e4b00ca01eabe795f9d897a7276b0f5fde
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/instruction-input-response.tmpl
+  - filename: sensualize-mixtral.Q8_0.gguf
+    sha256: cb9ef6cb0aa8f3d65ea3ede038917e0a4898b05c5db15c4d391463867c096fc0
+    uri: 
+      https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF/resolve/main/sensualize-mixtral.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__sensualize-mixtral-gguf__sensualize-mixtral.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - dataset:NobodyExistsOnTheInternet/full120k
+  - base_model:Sao10K/Sensualize-Mixtral-bf16
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sensualize-Mixtral-GGUF

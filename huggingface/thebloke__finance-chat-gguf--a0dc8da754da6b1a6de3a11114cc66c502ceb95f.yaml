@@ -1,0 +1,1368 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q2_K.gguf
+    sha256: 89a80d33ce6da2b7fb0889c613ae55fe180f0fa4f10bff8e5365787e9eff3a0c
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q3_K_L.gguf
+    sha256: a106a32428a8ec746b716908304e7127b17171a3b42415d1ddf1db14f44bbab0
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q3_K_M.gguf
+    sha256: c5f14e073a72be46d33d5a76f878939ad4b35ba7506b5e0885d9c5d0cafcf93b
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q3_K_S.gguf
+    sha256: a96e550f8dc7323b31b6d6387a1aee8bdb0b2092d5b38988ea53df559d4b45ed
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q4_0.gguf
+    sha256: 978abf4ec64fc168cffc1ffba9474c277ef0cf08a2cc7341a6ee268a09d90d59
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q4_K_M.gguf
+    sha256: f6808c32835587187d464fe6a056ab9bbe6dea019a53d1315f244de5f16bb372
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q4_K_S.gguf
+    sha256: 0bfaee9e007979b929ade74e421a1e34769d6788667e8db0a247e38fcc3583c0
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q5_0.gguf
+    sha256: 6b66e9e3a04207e6f8bf436f055a9fcc37339533d38155e504cda11f2bd33da2
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q5_K_M.gguf
+    sha256: a579f4387bede3a82636e13ff0a008f171ebfac41b56d85720817ae667a359f5
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q5_K_S.gguf
+    sha256: 17466962987a356dd1469ff3f5823d3b86c564cc44b02607c64542856849c76f
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q6_K.gguf
+    sha256: ee682302c8a162cffae47cff28ea381075e246876c4f6522100b6ff4dae6e58a
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llama configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q8_0.gguf
+    sha256: f12cb50a0af307bda9e32db9f416580a5b6430a8b9b6274dd70d689059660c44
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q2_K.gguf
+    sha256: 89a80d33ce6da2b7fb0889c613ae55fe180f0fa4f10bff8e5365787e9eff3a0c
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q3_K_L.gguf
+    sha256: a106a32428a8ec746b716908304e7127b17171a3b42415d1ddf1db14f44bbab0
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q3_K_M.gguf
+    sha256: c5f14e073a72be46d33d5a76f878939ad4b35ba7506b5e0885d9c5d0cafcf93b
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q3_K_S.gguf
+    sha256: a96e550f8dc7323b31b6d6387a1aee8bdb0b2092d5b38988ea53df559d4b45ed
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q4_0.gguf
+    sha256: 978abf4ec64fc168cffc1ffba9474c277ef0cf08a2cc7341a6ee268a09d90d59
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q4_K_M.gguf
+    sha256: f6808c32835587187d464fe6a056ab9bbe6dea019a53d1315f244de5f16bb372
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q4_K_S.gguf
+    sha256: 0bfaee9e007979b929ade74e421a1e34769d6788667e8db0a247e38fcc3583c0
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q5_0.gguf
+    sha256: 6b66e9e3a04207e6f8bf436f055a9fcc37339533d38155e504cda11f2bd33da2
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q5_K_M.gguf
+    sha256: a579f4387bede3a82636e13ff0a008f171ebfac41b56d85720817ae667a359f5
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q5_K_S.gguf
+    sha256: 17466962987a356dd1469ff3f5823d3b86c564cc44b02607c64542856849c76f
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q6_K.gguf
+    sha256: ee682302c8a162cffae47cff28ea381075e246876c4f6522100b6ff4dae6e58a
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q8_0.gguf
+    sha256: f12cb50a0af307bda9e32db9f416580a5b6430a8b9b6274dd70d689059660c44
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q2_K.gguf
+    sha256: 89a80d33ce6da2b7fb0889c613ae55fe180f0fa4f10bff8e5365787e9eff3a0c
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q3_K_L.gguf
+    sha256: a106a32428a8ec746b716908304e7127b17171a3b42415d1ddf1db14f44bbab0
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q3_K_M.gguf
+    sha256: c5f14e073a72be46d33d5a76f878939ad4b35ba7506b5e0885d9c5d0cafcf93b
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q3_K_S.gguf
+    sha256: a96e550f8dc7323b31b6d6387a1aee8bdb0b2092d5b38988ea53df559d4b45ed
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q4_0.gguf
+    sha256: 978abf4ec64fc168cffc1ffba9474c277ef0cf08a2cc7341a6ee268a09d90d59
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q4_K_M.gguf
+    sha256: f6808c32835587187d464fe6a056ab9bbe6dea019a53d1315f244de5f16bb372
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q4_K_S.gguf
+    sha256: 0bfaee9e007979b929ade74e421a1e34769d6788667e8db0a247e38fcc3583c0
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q5_0.gguf
+    sha256: 6b66e9e3a04207e6f8bf436f055a9fcc37339533d38155e504cda11f2bd33da2
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q5_K_M.gguf
+    sha256: a579f4387bede3a82636e13ff0a008f171ebfac41b56d85720817ae667a359f5
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q5_K_S.gguf
+    sha256: 17466962987a356dd1469ff3f5823d3b86c564cc44b02607c64542856849c76f
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q6_K.gguf
+    sha256: ee682302c8a162cffae47cff28ea381075e246876c4f6522100b6ff4dae6e58a
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: finance-chat.Q8_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/finance-chat-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: finance-chat.Q8_0.gguf
+    sha256: f12cb50a0af307bda9e32db9f416580a5b6430a8b9b6274dd70d689059660c44
+    uri: 
+      https://huggingface.co/TheBloke/finance-chat-GGUF/resolve/main/finance-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__finance-chat-gguf__finance-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - finance
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/finance-chat
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/finance-chat-GGUF
