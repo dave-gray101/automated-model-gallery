@@ -1,0 +1,1104 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q2_K.gguf
+    sha256: 68ab7d8f5dea667c050092fe89f448f1f232f41b5f9750bfa453f4bce7a690cb
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q3_K_L.gguf
+    sha256: 720ac21c07c3130fa11b2e79b8948a0b40d691c5ca8a96586402d51424406aea
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q3_K_M.gguf
+    sha256: ad88fdb56cf7de1fc44302ee80242491847507394f0b9c0915f06e0f59c2915a
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q3_K_S.gguf
+    sha256: c9c642e8018a8466f5a7e6429f877cf6c7cb581c3731b8f7c6a3ebd2c0d3d447
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q4_0.gguf
+    sha256: 57d3bdf0cda4e99f523f8a75af68b57fe054afcc1be6d97ccff35170095070c0
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q4_K_M.gguf
+    sha256: b302866f3c7ee7144daa104f5cee126bdb4e65fadc57789c94b61437aefbac4a
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q4_K_S.gguf
+    sha256: 949227879248a40666d8931abb6ca794a15723535f95fd0a2c5950c2ca5dc86a
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q5_0.gguf
+    sha256: 9c012be70523717daa01946d2d70ebcd3a7fa79e82de7486dc676dca43daf5e5
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q5_K_M.gguf
+    sha256: 03423340ff7cec96795cc0de1c223fa98aea73e1e6bdb293e91a9ed406a3ead5
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q5_K_S.gguf
+    sha256: 70f50149d49bf1eaa1ba2e485140b61f2bd5e85062c896b111f9b661779611e6
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q6_K.gguf
+    sha256: e680c4ba487a164b01caf44950c3b825d5e3ec78417360c5eeca6382859c4c82
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: tenyxchat-7b-v1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - mistral configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q8_0.gguf
+    sha256: eceb86e3cf044a731ac18cea5175b1b5471520155e0b1ec3bdc9c8abedaad8a6
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q2_K.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q2_K.gguf
+    sha256: 68ab7d8f5dea667c050092fe89f448f1f232f41b5f9750bfa453f4bce7a690cb
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q3_K_L.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q3_K_L.gguf
+    sha256: 720ac21c07c3130fa11b2e79b8948a0b40d691c5ca8a96586402d51424406aea
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q3_K_M.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q3_K_M.gguf
+    sha256: ad88fdb56cf7de1fc44302ee80242491847507394f0b9c0915f06e0f59c2915a
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q3_K_S.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q3_K_S.gguf
+    sha256: c9c642e8018a8466f5a7e6429f877cf6c7cb581c3731b8f7c6a3ebd2c0d3d447
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q4_0.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q4_0.gguf
+    sha256: 57d3bdf0cda4e99f523f8a75af68b57fe054afcc1be6d97ccff35170095070c0
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q4_K_M.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q4_K_M.gguf
+    sha256: b302866f3c7ee7144daa104f5cee126bdb4e65fadc57789c94b61437aefbac4a
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q4_K_S.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q4_K_S.gguf
+    sha256: 949227879248a40666d8931abb6ca794a15723535f95fd0a2c5950c2ca5dc86a
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q5_0.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q5_0.gguf
+    sha256: 9c012be70523717daa01946d2d70ebcd3a7fa79e82de7486dc676dca43daf5e5
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q5_K_M.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q5_K_M.gguf
+    sha256: 03423340ff7cec96795cc0de1c223fa98aea73e1e6bdb293e91a9ed406a3ead5
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q5_K_S.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q5_K_S.gguf
+    sha256: 70f50149d49bf1eaa1ba2e485140b61f2bd5e85062c896b111f9b661779611e6
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q6_K.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q6_K.gguf
+    sha256: e680c4ba487a164b01caf44950c3b825d5e3ec78417360c5eeca6382859c4c82
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tenyxchat-7b-v1.Q8_0.gguf
+    template:
+      chat: system-user-assistant-nohash
+      completion: system-user-assistant-nohash
+  description: TheBloke/TenyxChat-7B-v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: system-user-assistant-nohash.tmpl
+    sha256: 1fe8e5031d9e169fe7c8b0f6c6de11bc3bb5ec47deb45ad2e3304d88f9d38c4b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/system-user-assistant-nohash.tmpl
+  - filename: tenyxchat-7b-v1.Q8_0.gguf
+    sha256: eceb86e3cf044a731ac18cea5175b1b5471520155e0b1ec3bdc9c8abedaad8a6
+    uri: 
+      https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF/resolve/main/tenyxchat-7b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__tenyxchat-7b-v1-gguf__tenyxchat-7b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - tenyx-fine-tuning
+  - dpo
+  - tenyxchat
+  - en
+  - arxiv:2305.18290
+  - arxiv:2309.11235
+  - arxiv:2306.05685
+  - arxiv:1803.05457
+  - arxiv:1905.07830
+  - arxiv:2009.03300
+  - arxiv:2109.07958
+  - arxiv:1907.10641
+  - arxiv:2110.14168
+  - base_model:tenyx/TenyxChat-7B-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TenyxChat-7B-v1-GGUF

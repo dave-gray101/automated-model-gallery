@@ -1,0 +1,64 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wintergoliath-123b.Q2_K.gguf
+    template:
+      chat: thebloke__wintergoliath-123b-gguf
+      completion: thebloke__wintergoliath-123b-gguf
+  description: TheBloke/WinterGoliath-123b-GGUF - llama configuration
+  files:
+  - filename: thebloke__wintergoliath-123b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__wintergoliath-123b-gguf.tmpl
+  - filename: wintergoliath-123b.Q2_K.gguf
+    sha256: 279ab757d5cdd5732052358396e5ff5f250e4a2e45cdb044b53533a552f5c80f
+    uri: 
+      https://huggingface.co/TheBloke/WinterGoliath-123b-GGUF/resolve/main/wintergoliath-123b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__wintergoliath-123b-gguf__wintergoliath-123b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - base_model:ChuckMcSneed/WinterGoliath-123b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WinterGoliath-123b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wintergoliath-123b.Q2_K.gguf
+    template:
+      chat: thebloke__wintergoliath-123b-gguf
+      completion: thebloke__wintergoliath-123b-gguf
+  description: TheBloke/WinterGoliath-123b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__wintergoliath-123b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__wintergoliath-123b-gguf.tmpl
+  - filename: wintergoliath-123b.Q2_K.gguf
+    sha256: 279ab757d5cdd5732052358396e5ff5f250e4a2e45cdb044b53533a552f5c80f
+    uri: 
+      https://huggingface.co/TheBloke/WinterGoliath-123b-GGUF/resolve/main/wintergoliath-123b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__wintergoliath-123b-gguf__wintergoliath-123b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - base_model:ChuckMcSneed/WinterGoliath-123b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WinterGoliath-123b-GGUF

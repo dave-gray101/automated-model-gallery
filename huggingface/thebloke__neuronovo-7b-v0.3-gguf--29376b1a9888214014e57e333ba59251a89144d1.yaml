@@ -1,0 +1,864 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q2_K.gguf
+    sha256: fd79884b98e0f61cde0d78334e6efca43a132a5c9417332c4c94a59ddfea09d3
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q3_K_L.gguf
+    sha256: 5a3fb6676893faf62c8d83d73a04a592b5cac268b5b2010ecc30ac7c8b5e0444
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q3_K_M.gguf
+    sha256: 3fee73f4437c9084558a734407ce338bea04322a5d8f817c00a20fa578fce01c
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q3_K_S.gguf
+    sha256: 21a1e2c1513acdf755ff3cf4c5996fd7166df231649144f7cc7146c82bd5f519
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q4_0.gguf
+    sha256: a4395908c164f2d127d521ff50a6a35176ac84045660d3353d555720742569c1
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q4_K_M.gguf
+    sha256: 9e2559145e2e6fe261d66c79a823881ba1692000ec8f1458e58ae96e57243dc8
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q4_K_S.gguf
+    sha256: d9bbf09594572b632761aedb3c690c8559e7e8f0a541abcc63a4859fe5d8c3a5
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q5_0.gguf
+    sha256: 5829e3b5f01870776decc7b012e0145a22f8abb1c08e01d7783ee45e438e408f
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q5_K_M.gguf
+    sha256: 5a28a997253df44c06a620950a481d277b5a8aba3239b37b71a3068fbfe9bf2d
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q5_K_S.gguf
+    sha256: bfce157d7ddccaa53a6b8947fa7971d5eb34dd558c5c30df9c8084b0fb9562a1
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q6_K.gguf
+    sha256: ddf74380ce092b78f379f6ebfbccbc0d5259c4f3dac1d5f283848d04f70fa912
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuronovo-7b-v0.3.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - mistral configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q8_0.gguf
+    sha256: 076d353113f4598d7341969f37b06bc6b17ed0bd0f90b9098861a2b6933ae2d4
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q2_K.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q2_K.gguf
+    sha256: fd79884b98e0f61cde0d78334e6efca43a132a5c9417332c4c94a59ddfea09d3
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q3_K_L.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q3_K_L.gguf
+    sha256: 5a3fb6676893faf62c8d83d73a04a592b5cac268b5b2010ecc30ac7c8b5e0444
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q3_K_M.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q3_K_M.gguf
+    sha256: 3fee73f4437c9084558a734407ce338bea04322a5d8f817c00a20fa578fce01c
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q3_K_S.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q3_K_S.gguf
+    sha256: 21a1e2c1513acdf755ff3cf4c5996fd7166df231649144f7cc7146c82bd5f519
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q4_0.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q4_0.gguf
+    sha256: a4395908c164f2d127d521ff50a6a35176ac84045660d3353d555720742569c1
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q4_K_M.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q4_K_M.gguf
+    sha256: 9e2559145e2e6fe261d66c79a823881ba1692000ec8f1458e58ae96e57243dc8
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q4_K_S.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q4_K_S.gguf
+    sha256: d9bbf09594572b632761aedb3c690c8559e7e8f0a541abcc63a4859fe5d8c3a5
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q5_0.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q5_0.gguf
+    sha256: 5829e3b5f01870776decc7b012e0145a22f8abb1c08e01d7783ee45e438e408f
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q5_K_M.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q5_K_M.gguf
+    sha256: 5a28a997253df44c06a620950a481d277b5a8aba3239b37b71a3068fbfe9bf2d
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q5_K_S.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q5_K_S.gguf
+    sha256: bfce157d7ddccaa53a6b8947fa7971d5eb34dd558c5c30df9c8084b0fb9562a1
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q6_K.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q6_K.gguf
+    sha256: ddf74380ce092b78f379f6ebfbccbc0d5259c4f3dac1d5f283848d04f70fa912
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuronovo-7b-v0.3.Q8_0.gguf
+    template:
+      chat: thebloke__neuronovo-7b-v0.3-gguf
+      completion: thebloke__neuronovo-7b-v0.3-gguf
+  description: TheBloke/neuronovo-7B-v0.3-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__neuronovo-7b-v0.3-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__neuronovo-7b-v0.3-gguf.tmpl
+  - filename: neuronovo-7b-v0.3.Q8_0.gguf
+    sha256: 076d353113f4598d7341969f37b06bc6b17ed0bd0f90b9098861a2b6933ae2d4
+    uri: 
+      https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF/resolve/main/neuronovo-7b-v0.3.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuronovo-7b-v0.3-gguf__neuronovo-7b-v0.3.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:mlabonne/chatml_dpo_pairs
+  - base_model:Neuronovo/neuronovo-7B-v0.3
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/neuronovo-7B-v0.3-GGUF
