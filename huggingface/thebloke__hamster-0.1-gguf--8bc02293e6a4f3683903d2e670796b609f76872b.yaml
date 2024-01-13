@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q2_K.gguf
+    sha256: 9f8766613648de28a6d21d7475f7864b6a876abe10147c3021079e5342743abf
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q3_K_L.gguf
+    sha256: a4c3f805bf096743f737c430a8c3fa92d32227d4793828111f7e5820b03e1dd5
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q3_K_M.gguf
+    sha256: eaff25f593d766cc65c6895569ebe218b12e0563ec5a277b1ea44317f0a1c737
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q3_K_S.gguf
+    sha256: 30553601ab23a67209cbadd9495ebf95446cff0d7bfcc2a8aa718453ba91185e
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q4_0.gguf
+    sha256: cf523c1929d91a4eea85c24acc7b6db6344358493f3dd89b8388a86517586484
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q4_K_M.gguf
+    sha256: 125c66f04750776f651de4a05d113716ac5a61e9f6b4f29c01bf659a8199ceeb
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q4_K_S.gguf
+    sha256: 0f5d932622ea6c8358b15baea06cc492cdf2c557f9d6ac2867ce4c971e935d2f
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q5_0.gguf
+    sha256: 738e30991703067d82fd5563d8c0ddef12815c518b4ccbff4fd3338d53a5cfd0
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q5_K_M.gguf
+    sha256: 63d08ad456e608ad9317e28c0bd9dec563e892d4fa61021e7d675cc87d958a35
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q5_K_S.gguf
+    sha256: 85101738a880f14089be786081ea96289f8eeaf903fa347c8cc29f0199184415
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q6_K.gguf
+    sha256: 5192f2a897fbf7995748e2beeb0003dc624244daa5b50dae89502889e59c7fac
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hamster-0.1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - mistral configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q8_0.gguf
+    sha256: 4f3d4eb08abf483b8a8d4e6885f150468a6fb005cf2d1a7d79dfe4cfb2d95086
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q2_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q2_K.gguf
+    sha256: 9f8766613648de28a6d21d7475f7864b6a876abe10147c3021079e5342743abf
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q3_K_L.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q3_K_L.gguf
+    sha256: a4c3f805bf096743f737c430a8c3fa92d32227d4793828111f7e5820b03e1dd5
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q3_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q3_K_M.gguf
+    sha256: eaff25f593d766cc65c6895569ebe218b12e0563ec5a277b1ea44317f0a1c737
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q3_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q3_K_S.gguf
+    sha256: 30553601ab23a67209cbadd9495ebf95446cff0d7bfcc2a8aa718453ba91185e
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q4_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q4_0.gguf
+    sha256: cf523c1929d91a4eea85c24acc7b6db6344358493f3dd89b8388a86517586484
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q4_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q4_K_M.gguf
+    sha256: 125c66f04750776f651de4a05d113716ac5a61e9f6b4f29c01bf659a8199ceeb
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q4_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q4_K_S.gguf
+    sha256: 0f5d932622ea6c8358b15baea06cc492cdf2c557f9d6ac2867ce4c971e935d2f
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q5_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q5_0.gguf
+    sha256: 738e30991703067d82fd5563d8c0ddef12815c518b4ccbff4fd3338d53a5cfd0
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q5_K_M.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q5_K_M.gguf
+    sha256: 63d08ad456e608ad9317e28c0bd9dec563e892d4fa61021e7d675cc87d958a35
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q5_K_S.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q5_K_S.gguf
+    sha256: 85101738a880f14089be786081ea96289f8eeaf903fa347c8cc29f0199184415
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q6_K.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q6_K.gguf
+    sha256: 5192f2a897fbf7995748e2beeb0003dc624244daa5b50dae89502889e59c7fac
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: hamster-0.1.Q8_0.gguf
+    template:
+      chat: mistral
+      completion: mistral
+  description: TheBloke/HamSter-0.1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: mistral.tmpl
+    sha256: 4e3670ae2558474b22ccc903d5cc89737f3aa1f34cbbb73e8e49c3df5d27d05d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/mistral.tmpl
+  - filename: hamster-0.1.Q8_0.gguf
+    sha256: 4f3d4eb08abf483b8a8d4e6885f150468a6fb005cf2d1a7d79dfe4cfb2d95086
+    uri: 
+      https://huggingface.co/TheBloke/HamSter-0.1-GGUF/resolve/main/hamster-0.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__hamster-0.1-gguf__hamster-0.1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:PotatoOff/HamSter-0.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/HamSter-0.1-GGUF

@@ -1,0 +1,231 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-hermes-2x34b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Bagel-Hermes-2x34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bagel-hermes-2x34b.Q2_K.gguf
+    sha256: ce508936dd4bacbbbf0a925afd7853c543c5b5e990a091883ab576b7a390ac38
+    uri: 
+      https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF/resolve/main/bagel-hermes-2x34b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__bagel-hermes-2x34b-gguf__bagel-hermes-2x34b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - yi
+  - moe
+  - base_model:Weyaxi/Bagel-Hermes-2x34b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-hermes-2x34b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Bagel-Hermes-2x34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bagel-hermes-2x34b.Q3_K_M.gguf
+    sha256: a2c40641810020d0bba648e9b9e46adf281dcc5abcd156fd98ecdc0651a08feb
+    uri: 
+      https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF/resolve/main/bagel-hermes-2x34b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__bagel-hermes-2x34b-gguf__bagel-hermes-2x34b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - yi
+  - moe
+  - base_model:Weyaxi/Bagel-Hermes-2x34b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-hermes-2x34b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Bagel-Hermes-2x34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bagel-hermes-2x34b.Q4_0.gguf
+    sha256: fafc7775af295d7a3a93bcfe4ec7e4ed96fd6a6fe27d9a195cbf978e921a10f6
+    uri: 
+      https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF/resolve/main/bagel-hermes-2x34b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__bagel-hermes-2x34b-gguf__bagel-hermes-2x34b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - yi
+  - moe
+  - base_model:Weyaxi/Bagel-Hermes-2x34b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-hermes-2x34b.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Bagel-Hermes-2x34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bagel-hermes-2x34b.Q4_K_M.gguf
+    sha256: 16c8c93c5ab95831edcb40ff3555ed2003c543ec205565b9924b930e476fd836
+    uri: 
+      https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF/resolve/main/bagel-hermes-2x34b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__bagel-hermes-2x34b-gguf__bagel-hermes-2x34b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - yi
+  - moe
+  - base_model:Weyaxi/Bagel-Hermes-2x34b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-hermes-2x34b.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Bagel-Hermes-2x34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bagel-hermes-2x34b.Q5_0.gguf
+    sha256: 8d736596d4da4399f19e696f1c775504ca60591284fe5397bb8db8ac189c0aa2
+    uri: 
+      https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF/resolve/main/bagel-hermes-2x34b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__bagel-hermes-2x34b-gguf__bagel-hermes-2x34b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - yi
+  - moe
+  - base_model:Weyaxi/Bagel-Hermes-2x34b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-hermes-2x34b.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Bagel-Hermes-2x34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bagel-hermes-2x34b.Q5_K_M.gguf
+    sha256: 7cc706502cc4a2621a3639f4af6c1d2f82389b2769f056652fcc7b6dd8ec3450
+    uri: 
+      https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF/resolve/main/bagel-hermes-2x34b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__bagel-hermes-2x34b-gguf__bagel-hermes-2x34b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - yi
+  - moe
+  - base_model:Weyaxi/Bagel-Hermes-2x34b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: bagel-hermes-2x34b.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Bagel-Hermes-2x34b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: bagel-hermes-2x34b.Q6_K.gguf
+    sha256: 34423c6344651f3368eae7ab7267e43d889e58be562131efb898a9a2b2361713
+    uri: 
+      https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF/resolve/main/bagel-hermes-2x34b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__bagel-hermes-2x34b-gguf__bagel-hermes-2x34b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - yi
+  - moe
+  - base_model:Weyaxi/Bagel-Hermes-2x34b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Bagel-Hermes-2x34b-GGUF

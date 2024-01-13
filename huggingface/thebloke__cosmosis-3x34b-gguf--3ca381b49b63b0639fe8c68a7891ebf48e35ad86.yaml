@@ -1,0 +1,99 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cosmosis-3x34b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Cosmosis-3x34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: cosmosis-3x34b.Q2_K.gguf
+    sha256: 7931bc4293a00a8b6cb1177fcfcb1b19eed02ca44933f2a7cae3bd55739ac133
+    uri: 
+      https://huggingface.co/TheBloke/Cosmosis-3x34B-GGUF/resolve/main/cosmosis-3x34b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__cosmosis-3x34b-gguf__cosmosis-3x34b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - yi
+  - moe
+  - base_model:Weyaxi/Cosmosis-3x34B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Cosmosis-3x34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cosmosis-3x34b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Cosmosis-3x34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: cosmosis-3x34b.Q3_K_M.gguf
+    sha256: f99bb05c61ee8b27d7a2dc2fdf71022cc8adb896b8ad8504aac5e7eb9ee9e2ea
+    uri: 
+      https://huggingface.co/TheBloke/Cosmosis-3x34B-GGUF/resolve/main/cosmosis-3x34b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__cosmosis-3x34b-gguf__cosmosis-3x34b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - yi
+  - moe
+  - base_model:Weyaxi/Cosmosis-3x34B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Cosmosis-3x34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cosmosis-3x34b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/Cosmosis-3x34B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: cosmosis-3x34b.Q4_0.gguf
+    sha256: 947971cc8301059f1ab9a92a24357ce3cb082fb84ca2689672a0ccb6bd42f006
+    uri: 
+      https://huggingface.co/TheBloke/Cosmosis-3x34B-GGUF/resolve/main/cosmosis-3x34b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__cosmosis-3x34b-gguf__cosmosis-3x34b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - yi
+  - moe
+  - base_model:Weyaxi/Cosmosis-3x34B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Cosmosis-3x34B-GGUF
