@@ -1,0 +1,570 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.IQ2_XS.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.IQ2_XS.gguf
+    sha256: 943dc3df8cb6c2f488d9ffa7bb136d4f03e825b29855302690e37b16f07f9874
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.IQ2_XS.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.IQ2_XS.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.IQ2_XXS.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.IQ2_XXS.gguf
+    sha256: a39fc7e0d8b80455ba27371e4e99a4834340b7edeb05507e599d76a074ed0710
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.IQ2_XXS.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.IQ2_XXS.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q2_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q2_K.gguf
+    sha256: 3549baa55ffbab33b4bb21dfb13251dbc88dff1f78d1f128da98bbb7eaeb4054
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q2_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q2_K_S.gguf
+    sha256: 9486fd22214e565c905ef5115669a4661ac1278225f84f5d2cb95b308b32d16f
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q2_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q2_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q3_K_L.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q3_K_L.gguf
+    sha256: 51d22a0705a806dc594d00156791db4df67aa30b5221b48032b0212611ce9724
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q3_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q3_K_M.gguf
+    sha256: 564c8acd27d44e68011208a049b7be6189ad858a232ddf7f436eede64d0217df
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q3_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q3_K_S.gguf
+    sha256: 33db71be57d77bbceca25882b47a74b67508760a05f379a5b8930c4181b473d7
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q4_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q4_0.gguf
+    sha256: 31993b68b37eb0ca631fb3048992143f6701e19d2de20a9871a1cc362243b0aa
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q4_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q4_K_M.gguf
+    sha256: 9e8b051497b793f6f400228df2aa7bb55a4b1d5b5334a69b1cb5ce03ce1117df
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q4_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q4_K_S.gguf
+    sha256: 3849c5f6e75864cafbbd1f0d43d6799d9c9a6b029208190f601fec2e2f25f184
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q5_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q5_0.gguf
+    sha256: bdee6cde7631af0cf3d127be65ecdd92367de34bb08837de45e1de2c784e8a56
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q5_K_M.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q5_K_M.gguf
+    sha256: d0a00c4c8ef1c79f230add0c90acb9237b49110165e59a0ac40303e23e988ea0
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q5_K_S.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q5_K_S.gguf
+    sha256: 73057aa685d05f45aa0886c80d10f97d84072e557642740984d3c162cd78bb34
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q6_K.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q6_K.gguf
+    sha256: dcc5973e2bae80bdbab5f88d114cb1f3eb9329c162984532242220281b444492
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yi-34b-200k-dare-megamerge-v8.Q8_0.gguf
+    template:
+      chat: orca-vicuna
+      completion: orca-vicuna
+  description: TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: orca-vicuna.tmpl
+    sha256: f06b85495bb636e85a996808f2739d9994bd16551dc544ff500185d0dc5f6f9d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca-vicuna.tmpl
+  - filename: yi-34b-200k-dare-megamerge-v8.Q8_0.gguf
+    sha256: cd9e983828eb1c8ed82c5963faa292887d043c4c5e704bbd681a7025e1580ca9
+    uri: 
+      https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF/resolve/main/yi-34b-200k-dare-megamerge-v8.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    thebloke__yi-34b-200k-dare-megamerge-v8-gguf__yi-34b-200k-dare-megamerge-v8.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - yi
+  - mergekit
+  - merge
+  - Yi
+  - en
+  - arxiv:2311.03099
+  - arxiv:2306.01708
+  - base_model:brucethemoose/Yi-34B-200K-DARE-megamerge-v8
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yi-34B-200K-DARE-megamerge-v8-GGUF

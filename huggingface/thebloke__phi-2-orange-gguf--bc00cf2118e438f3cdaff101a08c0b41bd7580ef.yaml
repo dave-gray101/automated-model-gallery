@@ -1,0 +1,456 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q2_K.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q2_K.gguf
+    sha256: d6df0d0c37bbee9f5f6ea72d689ee28b946f87815f3a139c8e31c9aafb0f3d9a
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q3_K_L.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q3_K_L.gguf
+    sha256: 6c9470e9977e184316ee3791a923996e30b65429a6f82f52bb1d367a2c33af44
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q3_K_M.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q3_K_M.gguf
+    sha256: 094d52452dc90f4bea5c940e4c3ad1eae035b6ca81c1b2dc37eec4ff82ead8b4
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q3_K_S.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q3_K_S.gguf
+    sha256: 3c058f2f64c1826ca3e1e3b852dde67bda164a61979c0ee024008f2bfa975cf1
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q4_0.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q4_0.gguf
+    sha256: 49cb710ae688e1b19b1b299087fa40765a0cd677e3afcc45e5f7ef6750975dcf
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q4_K_M.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q4_K_M.gguf
+    sha256: 294dc0153f18649d4c460fc7900a0391369f383ddbd640a05d346489fd5a2718
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q4_K_S.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q4_K_S.gguf
+    sha256: ce03a0db92438415c741071962ca92fcb29ef334484eccdf2431662026288696
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q5_0.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q5_0.gguf
+    sha256: 40439bd4904c367dd3734dad6372362cb7eec0ec71d2c27f7ce266ee50cc565a
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q5_K_M.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q5_K_M.gguf
+    sha256: eb2dbf6862b1d70a4c448f1a5f2a0dd1463864b90e1834c1582ef82f2e672dd2
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q5_K_S.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q5_K_S.gguf
+    sha256: 8764db53898b69713a401f88c83ca66ac44c432f56a3c9142c2e945212395de9
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q6_K.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q6_K.gguf
+    sha256: 50fd20971c46b5078b601f3e45ab3c4c6f4bd344c09f02ca7597be4ce1ed32e6
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: phi-2-orange.Q8_0.gguf
+    template:
+      chat: thebloke__phi-2-orange-gguf
+      completion: thebloke__phi-2-orange-gguf
+  description: TheBloke/phi-2-orange-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__phi-2-orange-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__phi-2-orange-gguf.tmpl
+  - filename: phi-2-orange.Q8_0.gguf
+    sha256: a66dc4719c0ded626e572094a0ae9f8da68d09c30cfee36292a6598178b0f237
+    uri: 
+      https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__phi-2-orange-gguf__phi-2-orange.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - phi-msft
+  - dataset:Open-Orca/SlimOrca-Dedup
+  - dataset:migtissera/Synthia-v1.3
+  - dataset:LDJnr/Verified-Camel
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Capybara
+  - dataset:meta-math/MetaMathQA
+  - dataset:Intel/orca_dpo_pairs
+  - dataset:argilla/ultrafeedback-binarized-preferences-cleaned
+  - base_model:rhysjones/phi-2-orange
+  - license:mit
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/phi-2-orange-GGUF
