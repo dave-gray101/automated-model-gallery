@@ -1,0 +1,1440 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q2_K.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q2_K.gguf
+    sha256: 6e791882eb2ed9ce4fa55081aa84184060d3deee568673972b2989e91f1b00ab
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q3_K_L.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q3_K_L.gguf
+    sha256: 617bded02dc89ceeceefbe1c84a19801d499e8f299efe9ea3a526a0a378dcd09
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q3_K_M.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q3_K_M.gguf
+    sha256: c218f24e3c010c1c6b0ee059d267ad9359d0fa44549171b7b1ec788322c8e274
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q3_K_S.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q3_K_S.gguf
+    sha256: 90a71cc029f9caebd5823989aae3ff62929f6c8e9e9160908f9ea94631e2431d
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q4_0.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q4_0.gguf
+    sha256: 344aa8c75ffcbfac5e81b205214e3ce9ad9a448d4f898cccfbbd61842f6c5235
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q4_K_M.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q4_K_M.gguf
+    sha256: c64c2ed4e8c1faeba145513bf423057950d2b484ca36a66238631d381f79eac6
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q4_K_S.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q4_K_S.gguf
+    sha256: ae68180f6e82e5ac2c8d1a05e0d4e9195b5c32575d6766e9e9364820aa0ea7c0
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q5_0.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q5_0.gguf
+    sha256: 524a8d7a70fe64f591f0313fda53ee2d223bec4e480a7bfbe6b4e92f5b74d440
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q5_K_M.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q5_K_M.gguf
+    sha256: 834e085f8f57721a9eb65410b5892883a2cc281b5523a999bf88fefec78b3da9
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q5_K_S.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q5_K_S.gguf
+    sha256: 820f7942a163b87255e18034ae80d35dfe8df711af3658b99f59aeffa9582ccf
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q6_K.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q6_K.gguf
+    sha256: 624bc964a69728fa5eab50210a15306a50a02b443a36870eb7c930e73d95e0fd
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q8_0.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llama configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q8_0.gguf
+    sha256: 90404a99003ead0a7461d7d1b0f59e6ef5089b00ccd12f0511261dce352204ad
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q2_K.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q2_K.gguf
+    sha256: 6e791882eb2ed9ce4fa55081aa84184060d3deee568673972b2989e91f1b00ab
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q3_K_L.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q3_K_L.gguf
+    sha256: 617bded02dc89ceeceefbe1c84a19801d499e8f299efe9ea3a526a0a378dcd09
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q3_K_M.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q3_K_M.gguf
+    sha256: c218f24e3c010c1c6b0ee059d267ad9359d0fa44549171b7b1ec788322c8e274
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q3_K_S.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q3_K_S.gguf
+    sha256: 90a71cc029f9caebd5823989aae3ff62929f6c8e9e9160908f9ea94631e2431d
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q4_0.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q4_0.gguf
+    sha256: 344aa8c75ffcbfac5e81b205214e3ce9ad9a448d4f898cccfbbd61842f6c5235
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q4_K_M.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q4_K_M.gguf
+    sha256: c64c2ed4e8c1faeba145513bf423057950d2b484ca36a66238631d381f79eac6
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q4_K_S.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q4_K_S.gguf
+    sha256: ae68180f6e82e5ac2c8d1a05e0d4e9195b5c32575d6766e9e9364820aa0ea7c0
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q5_0.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q5_0.gguf
+    sha256: 524a8d7a70fe64f591f0313fda53ee2d223bec4e480a7bfbe6b4e92f5b74d440
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q5_K_M.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q5_K_M.gguf
+    sha256: 834e085f8f57721a9eb65410b5892883a2cc281b5523a999bf88fefec78b3da9
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q5_K_S.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q5_K_S.gguf
+    sha256: 820f7942a163b87255e18034ae80d35dfe8df711af3658b99f59aeffa9582ccf
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q6_K.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q6_K.gguf
+    sha256: 624bc964a69728fa5eab50210a15306a50a02b443a36870eb7c930e73d95e0fd
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q8_0.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q8_0.gguf
+    sha256: 90404a99003ead0a7461d7d1b0f59e6ef5089b00ccd12f0511261dce352204ad
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q2_K.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q2_K.gguf
+    sha256: 6e791882eb2ed9ce4fa55081aa84184060d3deee568673972b2989e91f1b00ab
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q3_K_L.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q3_K_L.gguf
+    sha256: 617bded02dc89ceeceefbe1c84a19801d499e8f299efe9ea3a526a0a378dcd09
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q3_K_M.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q3_K_M.gguf
+    sha256: c218f24e3c010c1c6b0ee059d267ad9359d0fa44549171b7b1ec788322c8e274
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q3_K_S.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q3_K_S.gguf
+    sha256: 90a71cc029f9caebd5823989aae3ff62929f6c8e9e9160908f9ea94631e2431d
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q4_0.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q4_0.gguf
+    sha256: 344aa8c75ffcbfac5e81b205214e3ce9ad9a448d4f898cccfbbd61842f6c5235
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q4_K_M.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q4_K_M.gguf
+    sha256: c64c2ed4e8c1faeba145513bf423057950d2b484ca36a66238631d381f79eac6
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q4_K_S.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q4_K_S.gguf
+    sha256: ae68180f6e82e5ac2c8d1a05e0d4e9195b5c32575d6766e9e9364820aa0ea7c0
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q5_0.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q5_0.gguf
+    sha256: 524a8d7a70fe64f591f0313fda53ee2d223bec4e480a7bfbe6b4e92f5b74d440
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q5_K_M.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q5_K_M.gguf
+    sha256: 834e085f8f57721a9eb65410b5892883a2cc281b5523a999bf88fefec78b3da9
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q5_K_S.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q5_K_S.gguf
+    sha256: 820f7942a163b87255e18034ae80d35dfe8df711af3658b99f59aeffa9582ccf
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q6_K.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q6_K.gguf
+    sha256: 624bc964a69728fa5eab50210a15306a50a02b443a36870eb7c930e73d95e0fd
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medicine-llm.Q8_0.gguf
+    template:
+      chat: adaptllm
+      completion: adaptllm
+  description: TheBloke/medicine-LLM-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: adaptllm.tmpl
+    sha256: fd792f0e8554091c917df2062978042b1971c91d3a2a93392c3adafcd4d88a1c
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/adaptllm.tmpl
+  - filename: medicine-llm.Q8_0.gguf
+    sha256: 90404a99003ead0a7461d7d1b0f59e6ef5089b00ccd12f0511261dce352204ad
+    uri: 
+      https://huggingface.co/TheBloke/medicine-LLM-GGUF/resolve/main/medicine-llm.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__medicine-llm-gguf__medicine-llm.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - biology
+  - medical
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:GAIR/lima
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:EleutherAI/pile
+  - arxiv:2309.09530
+  - base_model:AdaptLLM/medicine-LLM
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medicine-LLM-GGUF

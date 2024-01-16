@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q2_K.gguf
+    sha256: 710644df74951e2b9abb6101b17602609b58b78865dee82fb230d6044617142e
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q3_K_L.gguf
+    sha256: 9ed06641e54772170b4692c7d33ea6cfdff6f21def0d6f1d6721597ce6b20949
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q3_K_M.gguf
+    sha256: ff00619388100079157081908e744474eb7c4ae24053a31ac1460f3c46a935f2
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q3_K_S.gguf
+    sha256: 1417bdfb2bd5648ba706738467a30f2360f19c9141b586393e26563702c204ac
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q4_0.gguf
+    sha256: 8e8ae6a1b3e5caf4facf0f20e8b445a87baef260e2bd87cc0769c4304f7991c5
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q4_K_M.gguf
+    sha256: 4f2eb7a3e8efc3c3a4c67c2eb2e3361fc0195f7d870f9e0bf69a7f404c6ae978
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q4_K_S.gguf
+    sha256: 4c453744b524f4d11dc47b566841778f3e59ebc1e178210e6036bee4387a4c87
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q5_0.gguf
+    sha256: 6a75ed47e0be49d8dddb79e842d82601887c4aadd11ee8adde7e608f973d0fbe
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q5_K_M.gguf
+    sha256: 324da6b7d48566026c795c56b918ed8880d95d16c88147e31aa572e822c43129
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q5_K_S.gguf
+    sha256: c02c4723da28753ff6285eb06158797283c7ce7cfcf794c2e1290ac9b6020c9b
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q6_K.gguf
+    sha256: 66130819c5f5ae2e1ddf78900bbfe4ea14780b650d5cbca9682a0496190e2b14
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q8_0.gguf
+    sha256: c54887683c2185370973935fc3ff663382f0702b3ce18774a28deadf9fea5f5a
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q2_K.gguf
+    sha256: 710644df74951e2b9abb6101b17602609b58b78865dee82fb230d6044617142e
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q3_K_L.gguf
+    sha256: 9ed06641e54772170b4692c7d33ea6cfdff6f21def0d6f1d6721597ce6b20949
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q3_K_M.gguf
+    sha256: ff00619388100079157081908e744474eb7c4ae24053a31ac1460f3c46a935f2
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q3_K_S.gguf
+    sha256: 1417bdfb2bd5648ba706738467a30f2360f19c9141b586393e26563702c204ac
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q4_0.gguf
+    sha256: 8e8ae6a1b3e5caf4facf0f20e8b445a87baef260e2bd87cc0769c4304f7991c5
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q4_K_M.gguf
+    sha256: 4f2eb7a3e8efc3c3a4c67c2eb2e3361fc0195f7d870f9e0bf69a7f404c6ae978
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q4_K_S.gguf
+    sha256: 4c453744b524f4d11dc47b566841778f3e59ebc1e178210e6036bee4387a4c87
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q5_0.gguf
+    sha256: 6a75ed47e0be49d8dddb79e842d82601887c4aadd11ee8adde7e608f973d0fbe
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q5_K_M.gguf
+    sha256: 324da6b7d48566026c795c56b918ed8880d95d16c88147e31aa572e822c43129
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q5_K_S.gguf
+    sha256: c02c4723da28753ff6285eb06158797283c7ce7cfcf794c2e1290ac9b6020c9b
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q6_K.gguf
+    sha256: 66130819c5f5ae2e1ddf78900bbfe4ea14780b650d5cbca9682a0496190e2b14
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-estopia.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/LLaMA2-13B-Estopia-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: llama2-13b-estopia.Q8_0.gguf
+    sha256: c54887683c2185370973935fc3ff663382f0702b3ce18774a28deadf9fea5f5a
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF/resolve/main/llama2-13b-estopia.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: thebloke__llama2-13b-estopia-gguf__llama2-13b-estopia.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - mergekit
+  - merge
+  - base_model:KoboldAI/LLaMA2-13B-Estopia
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-Estopia-GGUF
