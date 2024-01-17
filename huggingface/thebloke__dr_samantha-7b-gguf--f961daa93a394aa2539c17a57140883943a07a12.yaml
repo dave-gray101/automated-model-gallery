@@ -1,0 +1,1404 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q2_K.gguf
+    sha256: 83d7c6b4fe9dee589d2bf327da69e4cc3c54cea63e19cc78c25436d68c31de23
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q3_K_L.gguf
+    sha256: 7f0ea8d81bcead0f6472cbfeefedaed7236009f1b3aed0c448d8db0aaffd1a5d
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q3_K_M.gguf
+    sha256: 81f3625510ff3a1841ba2af4f792306e20de9215013335f2a868065e09c83cc9
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q3_K_S.gguf
+    sha256: b7c9f622969433a2e2f386a43e754ce8120852eabfbe01a0e999ddb8b4bc2e59
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q4_0.gguf
+    sha256: 3f2af1546eba521bcb4f1c9d2f605abfd81ff3442d6302fc2d02ec355607cbf0
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q4_K_M.gguf
+    sha256: e96b918ef4a06ac1072659544aff219b05cf8ad860d1ba751c0d2abb571fec8d
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q4_K_S.gguf
+    sha256: b279597e87aa16a368d4435d057e8cdd8c93853f09c0de3b1f7e0830c919825a
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q5_0.gguf
+    sha256: f04c244df1b957231a65ab0fb9f77385d0f0be058881a7b7d2579d12f6d3187f
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q5_K_M.gguf
+    sha256: 6d80a85a71d6739c7d1883b90698444f70bb30a9d9d9fb1e6e36693ea50fd14a
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q5_K_S.gguf
+    sha256: e6e3e38580ec1f577c9dc9da78072143a3a95f592bca50c3b10e6eefd162a704
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q6_K.gguf
+    sha256: e7b1214858896d91330a8f4fc67f5f35daef08ef8e0fcba14e7fd858cafc154a
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q8_0.gguf
+    sha256: 7f5ec6165686d81aa2ea9d06ace7d6a9dfa3b09d038d50b960b1982765b765e2
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q2_K.gguf
+    sha256: 83d7c6b4fe9dee589d2bf327da69e4cc3c54cea63e19cc78c25436d68c31de23
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q3_K_L.gguf
+    sha256: 7f0ea8d81bcead0f6472cbfeefedaed7236009f1b3aed0c448d8db0aaffd1a5d
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q3_K_M.gguf
+    sha256: 81f3625510ff3a1841ba2af4f792306e20de9215013335f2a868065e09c83cc9
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q3_K_S.gguf
+    sha256: b7c9f622969433a2e2f386a43e754ce8120852eabfbe01a0e999ddb8b4bc2e59
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q4_0.gguf
+    sha256: 3f2af1546eba521bcb4f1c9d2f605abfd81ff3442d6302fc2d02ec355607cbf0
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q4_K_M.gguf
+    sha256: e96b918ef4a06ac1072659544aff219b05cf8ad860d1ba751c0d2abb571fec8d
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q4_K_S.gguf
+    sha256: b279597e87aa16a368d4435d057e8cdd8c93853f09c0de3b1f7e0830c919825a
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q5_0.gguf
+    sha256: f04c244df1b957231a65ab0fb9f77385d0f0be058881a7b7d2579d12f6d3187f
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q5_K_M.gguf
+    sha256: 6d80a85a71d6739c7d1883b90698444f70bb30a9d9d9fb1e6e36693ea50fd14a
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q5_K_S.gguf
+    sha256: e6e3e38580ec1f577c9dc9da78072143a3a95f592bca50c3b10e6eefd162a704
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q6_K.gguf
+    sha256: e7b1214858896d91330a8f4fc67f5f35daef08ef8e0fcba14e7fd858cafc154a
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q8_0.gguf
+    sha256: 7f5ec6165686d81aa2ea9d06ace7d6a9dfa3b09d038d50b960b1982765b765e2
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q2_K.gguf
+    sha256: 83d7c6b4fe9dee589d2bf327da69e4cc3c54cea63e19cc78c25436d68c31de23
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q3_K_L.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q3_K_L.gguf
+    sha256: 7f0ea8d81bcead0f6472cbfeefedaed7236009f1b3aed0c448d8db0aaffd1a5d
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q3_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q3_K_M.gguf
+    sha256: 81f3625510ff3a1841ba2af4f792306e20de9215013335f2a868065e09c83cc9
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q3_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q3_K_S.gguf
+    sha256: b7c9f622969433a2e2f386a43e754ce8120852eabfbe01a0e999ddb8b4bc2e59
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q4_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q4_0.gguf
+    sha256: 3f2af1546eba521bcb4f1c9d2f605abfd81ff3442d6302fc2d02ec355607cbf0
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q4_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q4_K_M.gguf
+    sha256: e96b918ef4a06ac1072659544aff219b05cf8ad860d1ba751c0d2abb571fec8d
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q4_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q4_K_S.gguf
+    sha256: b279597e87aa16a368d4435d057e8cdd8c93853f09c0de3b1f7e0830c919825a
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q5_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q5_0.gguf
+    sha256: f04c244df1b957231a65ab0fb9f77385d0f0be058881a7b7d2579d12f6d3187f
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q5_K_M.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q5_K_M.gguf
+    sha256: 6d80a85a71d6739c7d1883b90698444f70bb30a9d9d9fb1e6e36693ea50fd14a
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q5_K_S.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q5_K_S.gguf
+    sha256: e6e3e38580ec1f577c9dc9da78072143a3a95f592bca50c3b10e6eefd162a704
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q6_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q6_K.gguf
+    sha256: e7b1214858896d91330a8f4fc67f5f35daef08ef8e0fcba14e7fd858cafc154a
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dr_samantha-7b.Q8_0.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Dr_Samantha-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: dr_samantha-7b.Q8_0.gguf
+    sha256: 7f5ec6165686d81aa2ea9d06ace7d6a9dfa3b09d038d50b960b1982765b765e2
+    uri: 
+      https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF/resolve/main/dr_samantha-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__dr_samantha-7b-gguf__dr_samantha-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - merge
+  - medical
+  - text-generation
+  - en
+  - zh
+  - dataset:GBaker/MedQA-USMLE-4-options
+  - dataset:cognitivecomputations/samantha-data
+  - dataset:shibing624/medical
+  - base_model:sethuiyer/Dr_Samantha-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dr_Samantha-7B-GGUF

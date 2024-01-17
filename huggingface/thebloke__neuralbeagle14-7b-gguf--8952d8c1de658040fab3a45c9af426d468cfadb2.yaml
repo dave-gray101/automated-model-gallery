@@ -1,0 +1,960 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q2_K.gguf
+    sha256: af8427c49b39d2d136a87288e2e31ff982118aec556d39c07ff15e1dd002bc67
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q3_K_L.gguf
+    sha256: d6213f96131273a444a73ff7417bea67b583f8d7e7a0687b81c50cf8892b53bd
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q3_K_M.gguf
+    sha256: 9af073ee514126c559fda0cf5f54e6c95eed9da058b567485d2e33616fc0bf8b
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q3_K_S.gguf
+    sha256: e6a38769d7db7b90b83bcfccf2f0c8d2754b786455b9a513fc581b8adaafe0e7
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q4_0.gguf
+    sha256: 302e7960671089ea1445f75fc9fab9e0b041e01046fd1868acc33d867afe64fa
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q4_K_M.gguf
+    sha256: da8dc393b988406ec1e42dcda3b31bcb2c247b8f8bb91fc0b25c893a22b11aaf
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q4_K_S.gguf
+    sha256: f0a262513cac1ef0898608f1d9e7fe3bf4ee5447b30dc119a9235e8ba037e252
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q5_0.gguf
+    sha256: b44dcb1370927321e9d74c8ceb21801b6c1cb87887ec6c6560b29b6073ee55b6
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q5_K_M.gguf
+    sha256: f6927d2fe908f0231a1474c70f9895ee0140d989e191a164924fbb70632983e4
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q5_K_S.gguf
+    sha256: 399dc68e24e038b3582fc0d00a299463587ee40748af6cc0405af68901c6be47
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q6_K.gguf
+    sha256: dcdaa2c0c8a797ed29887b8d0924ae24cb0521e5d03306eb6863360f2bce088c
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: neuralbeagle14-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q8_0.gguf
+    sha256: 4abf99af62d503bdc784a3386c1d9be6e9dc79a9e3965263dd13b22aebe95d5a
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q2_K.gguf
+    sha256: af8427c49b39d2d136a87288e2e31ff982118aec556d39c07ff15e1dd002bc67
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q3_K_L.gguf
+    sha256: d6213f96131273a444a73ff7417bea67b583f8d7e7a0687b81c50cf8892b53bd
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q3_K_M.gguf
+    sha256: 9af073ee514126c559fda0cf5f54e6c95eed9da058b567485d2e33616fc0bf8b
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q3_K_S.gguf
+    sha256: e6a38769d7db7b90b83bcfccf2f0c8d2754b786455b9a513fc581b8adaafe0e7
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q4_0.gguf
+    sha256: 302e7960671089ea1445f75fc9fab9e0b041e01046fd1868acc33d867afe64fa
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q4_K_M.gguf
+    sha256: da8dc393b988406ec1e42dcda3b31bcb2c247b8f8bb91fc0b25c893a22b11aaf
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q4_K_S.gguf
+    sha256: f0a262513cac1ef0898608f1d9e7fe3bf4ee5447b30dc119a9235e8ba037e252
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q5_0.gguf
+    sha256: b44dcb1370927321e9d74c8ceb21801b6c1cb87887ec6c6560b29b6073ee55b6
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q5_K_M.gguf
+    sha256: f6927d2fe908f0231a1474c70f9895ee0140d989e191a164924fbb70632983e4
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q5_K_S.gguf
+    sha256: 399dc68e24e038b3582fc0d00a299463587ee40748af6cc0405af68901c6be47
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q6_K.gguf
+    sha256: dcdaa2c0c8a797ed29887b8d0924ae24cb0521e5d03306eb6863360f2bce088c
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: neuralbeagle14-7b.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/NeuralBeagle14-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: neuralbeagle14-7b.Q8_0.gguf
+    sha256: 4abf99af62d503bdc784a3386c1d9be6e9dc79a9e3965263dd13b22aebe95d5a
+    uri: 
+      https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF/resolve/main/neuralbeagle14-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__neuralbeagle14-7b-gguf__neuralbeagle14-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - fblgit/UNA-TheBeagle-7b-v1
+  - argilla/distilabeled-Marcoro14-7B-slerp
+  - dpo
+  - rlhf
+  - base_model:mlabonne/NeuralBeagle14-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NeuralBeagle14-7B-GGUF

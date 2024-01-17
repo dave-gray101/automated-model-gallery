@@ -1,0 +1,564 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q2_K.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q2_K.gguf
+    sha256: 2851cc6cbfafb80b2117345b7d9ba3e704db734dd2866c77645b88b770d61fa5
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q3_K_L.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q3_K_L.gguf
+    sha256: 977fe38326870673fadc7bc19069bc37a3dd9b1821649e8e057dc3f8f7d59251
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q3_K_M.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q3_K_M.gguf
+    sha256: 07e7719037a1b30ffb0f3e6bbc90607375293b1d56c816c4ff757982bf103662
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q3_K_S.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q3_K_S.gguf
+    sha256: 01ea6a992def5f893d4f04aeb97cb0d47e882f7ec5a58c527de03a2f199b30ba
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q4_0.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q4_0.gguf
+    sha256: 57e08210806b905fb8f75a067546f5c91559a13371a0538b916cea71e3289315
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q4_K_M.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q4_K_M.gguf
+    sha256: ee19af8605fcb7a73c5d68f43f734df4cc30409962347158299e939cb51e233c
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q4_K_S.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q4_K_S.gguf
+    sha256: 838e59be22a84b32ab366925767efa84ded2375d850f8fa824e4546456ade621
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q5_0.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q5_0.gguf
+    sha256: 6b1c8fe47e16f83432cc89511156aa9b67785b2b8d474c85847dce2013db7278
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q5_K_M.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q5_K_M.gguf
+    sha256: 7f3047065875218e83d69f5278ad9634d3a63e92d4caa0991f1266e015cedb10
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q5_K_S.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q5_K_S.gguf
+    sha256: b76074f73346994d6c514920453f0e307411bb784d56d475627ea338b7b700f2
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q6_K.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q6_K.gguf
+    sha256: ed10b6f9d27acc765f51bde6d02a585eaa5c559e545853eb531bb37cc1bca3cf
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: stable-code-3b.Q8_0.gguf
+    template:
+      chat: thebloke__stable-code-3b-gguf
+      completion: thebloke__stable-code-3b-gguf
+  description: TheBloke/stable-code-3b-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__stable-code-3b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__stable-code-3b-gguf.tmpl
+  - filename: stable-code-3b.Q8_0.gguf
+    sha256: b035a641f366a02231ddd137842e760b20b9e6e4d99ecc20bea6cf999ed62331
+    uri: 
+      https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: thebloke__stable-code-3b-gguf__stable-code-3b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - stablelm_epoch
+  - causal-lm
+  - code
+  - en
+  - dataset:tiiuae/falcon-refinedweb
+  - dataset:bigcode/the-stack-github-issues
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/starcoderdata
+  - dataset:EleutherAI/proof-pile-2
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2307.09288
+  - arxiv:2104.09864
+  - arxiv:2204.06745
+  - arxiv:2305.06161
+  - arxiv:2310.10631
+  - arxiv:2309.12284
+  - arxiv:1910.02054
+  - base_model:stabilityai/stable-code-3b
+  - license:other
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/stable-code-3b-GGUF
