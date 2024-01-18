@@ -1,0 +1,912 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q2_K.gguf
+    sha256: f84fb20b5c329075dbbaeae72526a14bbae0e5df818a31eb0d8f5865868c3776
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q3_K_L.gguf
+    sha256: 1b1af12c23c5ec78aa8952c91217dfee4b5b822a821e6306cd5743e3bed90382
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q3_K_M.gguf
+    sha256: 5b4a68eb4277d6d4595ccfbc145860dc791f2335ec293962a0a2c960d431fcb2
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q3_K_S.gguf
+    sha256: b9dc5ae675a947e5090642ca4e92170b3804c8072a9965ad63abb222e02e4540
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q4_0.gguf
+    sha256: 221eac9afa3baf8f7143f7f2173ed632b9a977d8f2a2fd65a77f9ea266da687c
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q4_K_M.gguf
+    sha256: c35aa56ea3e87940891d75f4521c25d4fc021517f0e80cd1decfbca4a975bec2
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q4_K_S.gguf
+    sha256: 6dcfa273493ba9d43d885638f7ab193323ea8ec2e583e0a75b564644ca3e36f1
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q5_0.gguf
+    sha256: 84caa7f2ce9694f361f9672a2615639d3eeae332fcfb84f8110eed3e8e461247
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q5_K_M.gguf
+    sha256: e76d4b74eee3449ac1066c6b122c65d4b1039e4c380fa7c48aec130a2953dbfb
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q5_K_S.gguf
+    sha256: d0d9944790f51122cc33cbfa867d7c353f2a1cbd2531041279ba0b9d141baca0
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q6_K.gguf
+    sha256: 1cae862046f780736daa14ce137384be1761ead6bf096942cd7b2d19d81bbf73
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: lelantos-maid-dpo-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q8_0.gguf
+    sha256: e85507048d57fe982b9287aa19c95952b722ae632c28566632a67de14d5e1197
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q2_K.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q2_K.gguf
+    sha256: f84fb20b5c329075dbbaeae72526a14bbae0e5df818a31eb0d8f5865868c3776
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q3_K_L.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q3_K_L.gguf
+    sha256: 1b1af12c23c5ec78aa8952c91217dfee4b5b822a821e6306cd5743e3bed90382
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q3_K_M.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q3_K_M.gguf
+    sha256: 5b4a68eb4277d6d4595ccfbc145860dc791f2335ec293962a0a2c960d431fcb2
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q3_K_S.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q3_K_S.gguf
+    sha256: b9dc5ae675a947e5090642ca4e92170b3804c8072a9965ad63abb222e02e4540
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q4_0.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q4_0.gguf
+    sha256: 221eac9afa3baf8f7143f7f2173ed632b9a977d8f2a2fd65a77f9ea266da687c
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q4_K_M.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q4_K_M.gguf
+    sha256: c35aa56ea3e87940891d75f4521c25d4fc021517f0e80cd1decfbca4a975bec2
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q4_K_S.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q4_K_S.gguf
+    sha256: 6dcfa273493ba9d43d885638f7ab193323ea8ec2e583e0a75b564644ca3e36f1
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q5_0.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q5_0.gguf
+    sha256: 84caa7f2ce9694f361f9672a2615639d3eeae332fcfb84f8110eed3e8e461247
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q5_K_M.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q5_K_M.gguf
+    sha256: e76d4b74eee3449ac1066c6b122c65d4b1039e4c380fa7c48aec130a2953dbfb
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q5_K_S.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q5_K_S.gguf
+    sha256: d0d9944790f51122cc33cbfa867d7c353f2a1cbd2531041279ba0b9d141baca0
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q6_K.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q6_K.gguf
+    sha256: 1cae862046f780736daa14ce137384be1761ead6bf096942cd7b2d19d81bbf73
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lelantos-maid-dpo-7b.Q8_0.gguf
+    template:
+      chat: thebloke__lelantos-maid-dpo-7b-gguf
+      completion: thebloke__lelantos-maid-dpo-7b-gguf
+  description: TheBloke/Lelantos-Maid-DPO-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__lelantos-maid-dpo-7b-gguf.tmpl
+  - filename: lelantos-maid-dpo-7b.Q8_0.gguf
+    sha256: e85507048d57fe982b9287aa19c95952b722ae632c28566632a67de14d5e1197
+    uri: 
+      https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF/resolve/main/lelantos-maid-dpo-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__lelantos-maid-dpo-7b-gguf__lelantos-maid-dpo-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - mergekit
+  - lazymergekit
+  - SanjiWatsuki/Lelantos-DPO-7B
+  - NeverSleep/Noromaid-7B-0.4-DPO
+  - base_model:SanjiWatsuki/Lelantos-Maid-DPO-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Lelantos-Maid-DPO-7B-GGUF

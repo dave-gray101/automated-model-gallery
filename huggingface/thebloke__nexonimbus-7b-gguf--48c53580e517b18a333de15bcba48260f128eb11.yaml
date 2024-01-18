@@ -1,0 +1,888 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q2_K.gguf
+    sha256: e6cb758e2abdd4f89074abcf15397e8f85b1f135b531dd545d5640e3b6cd81cd
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q3_K_L.gguf
+    sha256: 26075600d8643dfb06f1e64f805edd3ba9b191255933bc92b5de0d1a08403949
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q3_K_M.gguf
+    sha256: 5ec25be83b0cb036214ffaa390775d7e1f8246e8deb08585a54fecc55b27263d
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q3_K_S.gguf
+    sha256: 750b4accaae9c71cdb3317b12cf0b92ba42c07c606ab81564f787410abbc375f
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q4_0.gguf
+    sha256: c468c5d8bc6061f2b2c3926b0ed06b46c894af300285a8267564868c5b7a89ab
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q4_K_M.gguf
+    sha256: 8ac3c427aa18fe343dd3b767e207a5e1e6fdd83862edb54a8552f1002120d2a0
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q4_K_S.gguf
+    sha256: d5551b44dc0f8309138d69ec704d91b52219ad1978ba960ff9fe8c19eb7e0b82
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q5_0.gguf
+    sha256: 1f6c6722147b833495912ff5783906fe9247490c2aa532bbc2a6f40b05f1fec3
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q5_K_M.gguf
+    sha256: ca9d28d1737f6693d213f5416dab3ed7924f2ecea2763dbc18ddec348b09a254
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q5_K_S.gguf
+    sha256: 6454f87c6ef19680af4a7033ebb31a5c140a962cfac5f29288b4bfc46299afa5
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q6_K.gguf
+    sha256: 12ece571fff0dfe01d66d679668b45dfedba4ba98532c75b3a504db3a3c93dcf
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: nexonimbus-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - mistral configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q8_0.gguf
+    sha256: 3605f98eb661e35ebcb32492ab46f0e0d4be9c94b2b81066a361fa915cdc5e31
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q2_K.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q2_K.gguf
+    sha256: e6cb758e2abdd4f89074abcf15397e8f85b1f135b531dd545d5640e3b6cd81cd
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q3_K_L.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q3_K_L.gguf
+    sha256: 26075600d8643dfb06f1e64f805edd3ba9b191255933bc92b5de0d1a08403949
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q3_K_M.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q3_K_M.gguf
+    sha256: 5ec25be83b0cb036214ffaa390775d7e1f8246e8deb08585a54fecc55b27263d
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q3_K_S.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q3_K_S.gguf
+    sha256: 750b4accaae9c71cdb3317b12cf0b92ba42c07c606ab81564f787410abbc375f
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q4_0.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q4_0.gguf
+    sha256: c468c5d8bc6061f2b2c3926b0ed06b46c894af300285a8267564868c5b7a89ab
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q4_K_M.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q4_K_M.gguf
+    sha256: 8ac3c427aa18fe343dd3b767e207a5e1e6fdd83862edb54a8552f1002120d2a0
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q4_K_S.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q4_K_S.gguf
+    sha256: d5551b44dc0f8309138d69ec704d91b52219ad1978ba960ff9fe8c19eb7e0b82
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q5_0.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q5_0.gguf
+    sha256: 1f6c6722147b833495912ff5783906fe9247490c2aa532bbc2a6f40b05f1fec3
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q5_K_M.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q5_K_M.gguf
+    sha256: ca9d28d1737f6693d213f5416dab3ed7924f2ecea2763dbc18ddec348b09a254
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q5_K_S.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q5_K_S.gguf
+    sha256: 6454f87c6ef19680af4a7033ebb31a5c140a962cfac5f29288b4bfc46299afa5
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q6_K.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q6_K.gguf
+    sha256: 12ece571fff0dfe01d66d679668b45dfedba4ba98532c75b3a504db3a3c93dcf
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nexonimbus-7b.Q8_0.gguf
+    template:
+      chat: thebloke__nexonimbus-7b-gguf
+      completion: thebloke__nexonimbus-7b-gguf
+  description: TheBloke/NexoNimbus-7B-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__nexonimbus-7b-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__nexonimbus-7b-gguf.tmpl
+  - filename: nexonimbus-7b.Q8_0.gguf
+    sha256: 3605f98eb661e35ebcb32492ab46f0e0d4be9c94b2b81066a361fa915cdc5e31
+    uri: 
+      https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF/resolve/main/nexonimbus-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__nexonimbus-7b-gguf__nexonimbus-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - merge
+  - abideen/DareVox-7B
+  - udkai/Garrulus
+  - en
+  - base_model:abideen/NexoNimbus-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NexoNimbus-7B-GGUF
