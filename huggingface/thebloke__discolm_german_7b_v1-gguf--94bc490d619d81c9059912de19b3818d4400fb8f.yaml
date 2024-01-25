@@ -1,0 +1,1008 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q2_K.gguf
+    sha256: 721f6bf43771dd15b181f06d02add8c4dcce58c8449b7b8dc680b2a2e710a969
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q3_K_L.gguf
+    sha256: 7f8bf4f834ac8140f066c9f80cd25328cd6d1c4f59959a0bd895c1fd71d3be77
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q3_K_M.gguf
+    sha256: f8523ade7909bbdbe7ac59682114adb42be132be09f025efc854390078e908a3
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q3_K_S.gguf
+    sha256: 5ffbd9d5f360bb4b1677b25673032911845abb80be83c9cbde3eeda6f52293b1
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q4_0.gguf
+    sha256: 6d38a99d62fe045da5811fcc0924ef8e6f6a10a6a47f9be0d4e8c541e223f7b2
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q4_K_M.gguf
+    sha256: 5cd5336db349ecb34eb0e3df2e4ed93f40ee52379646a77e355e342a365b79e2
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q4_K_S.gguf
+    sha256: 4e26fedef4bea9052e7fd86ea7700b2e171e1f24aa2b0f72efa7cda9a2c47ca5
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q5_0.gguf
+    sha256: f288d388941f19b50a73d59331457062a5468c4c079fbbd5f6f4997a17ef90fc
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q5_K_M.gguf
+    sha256: 97a5fa7989f99eb3accdca0a484e955efd335be5d06c43f8725219e532bd4b35
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q5_K_S.gguf
+    sha256: 4a8432202c061d2fe286301f3fd70d58670cd6e1112144d70ab5d979c435f851
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q6_K.gguf
+    sha256: 130add1e2f2263d45aa50afd8d4f997a4c0fb2dee5148c042b7499a518375ad1
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: discolm_german_7b_v1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - mistral configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q8_0.gguf
+    sha256: 69dca11ceadcb585e9b9920b4164f2dafdaf403a05cb1fde546a6f4d414fb776
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q2_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q2_K.gguf
+    sha256: 721f6bf43771dd15b181f06d02add8c4dcce58c8449b7b8dc680b2a2e710a969
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q3_K_L.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q3_K_L.gguf
+    sha256: 7f8bf4f834ac8140f066c9f80cd25328cd6d1c4f59959a0bd895c1fd71d3be77
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q3_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q3_K_M.gguf
+    sha256: f8523ade7909bbdbe7ac59682114adb42be132be09f025efc854390078e908a3
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q3_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q3_K_S.gguf
+    sha256: 5ffbd9d5f360bb4b1677b25673032911845abb80be83c9cbde3eeda6f52293b1
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q4_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q4_0.gguf
+    sha256: 6d38a99d62fe045da5811fcc0924ef8e6f6a10a6a47f9be0d4e8c541e223f7b2
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q4_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q4_K_M.gguf
+    sha256: 5cd5336db349ecb34eb0e3df2e4ed93f40ee52379646a77e355e342a365b79e2
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q4_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q4_K_S.gguf
+    sha256: 4e26fedef4bea9052e7fd86ea7700b2e171e1f24aa2b0f72efa7cda9a2c47ca5
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q5_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q5_0.gguf
+    sha256: f288d388941f19b50a73d59331457062a5468c4c079fbbd5f6f4997a17ef90fc
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q5_K_M.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q5_K_M.gguf
+    sha256: 97a5fa7989f99eb3accdca0a484e955efd335be5d06c43f8725219e532bd4b35
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q5_K_S.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q5_K_S.gguf
+    sha256: 4a8432202c061d2fe286301f3fd70d58670cd6e1112144d70ab5d979c435f851
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q6_K.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q6_K.gguf
+    sha256: 130add1e2f2263d45aa50afd8d4f997a4c0fb2dee5148c042b7499a518375ad1
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: discolm_german_7b_v1.Q8_0.gguf
+    template:
+      chat: chatml
+      completion: chatml
+  description: TheBloke/DiscoLM_German_7b_v1-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: chatml.tmpl
+    sha256: 96edc939f785d5cf5b35abb7289f60e0ad92b3f6fbd75f4f95647f559af5fa2e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/chatml.tmpl
+  - filename: discolm_german_7b_v1.Q8_0.gguf
+    sha256: 69dca11ceadcb585e9b9920b4164f2dafdaf403a05cb1fde546a6f4d414fb776
+    uri: 
+      https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF/resolve/main/discolm_german_7b_v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__discolm_german_7b_v1-gguf__discolm_german_7b_v1.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - Mistral
+  - finetune
+  - chatml
+  - DPO
+  - German
+  - Deutsch
+  - synthetic data
+  - de
+  - en
+  - base_model:DiscoResearch/DiscoLM_German_7b_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/DiscoLM_German_7b_v1-GGUF

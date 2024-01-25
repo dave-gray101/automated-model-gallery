@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q2_K.gguf
+    sha256: 129d4fd4d87f9abcb20da75414b682fbf16b2cecdbf65a3b1284ad08398c6617
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q3_K_L.gguf
+    sha256: fc338b1aa1baf89e4df43f3263543f62caf78a084c52b8b464ca719028c28d6e
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q3_K_M.gguf
+    sha256: f1d1761766e634aebbaa325222db14fff4cebd79afee1adf0915e364e8517bd9
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q3_K_S.gguf
+    sha256: 768f1d951def10dce3f78826b2d0dbcd477eba9e61d3b6371990ca397e85c6e9
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q4_0.gguf
+    sha256: 9d4b56284f15c0cdaf326b01bc0e0995085561c4f3f81ea5af9c17487e3b8f68
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q4_K_M.gguf
+    sha256: 7a7f75e43719c201f74a06d732f380c19c9913acf69b67abead30ca220389573
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q4_K_S.gguf
+    sha256: bc9dc1115dde9facaa728498a7ba0fea3eea8d89da70edad6b40c70e4571d135
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q5_0.gguf
+    sha256: ca98be9e00f5dc53f431d63792f63a565969930611672a53bdb491b9603ab8fc
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q5_K_M.gguf
+    sha256: f922fec555f5e2c97101b07c2ab3e0aafa2d545693b9222b94269a843f46a487
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q5_K_S.gguf
+    sha256: 70a2237a9ca513b4e26ce32db169d3e1f9a06ca2553621aa5d42e1b5fc9db3ec
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q6_K.gguf
+    sha256: d73623e27847aac800d38a049e0233caf37651f117986edcb46994ca9fe52641
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westseverus-7b-dpo.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q8_0.gguf
+    sha256: 758d895cd724e3b62a164606af2e26830cbd6f5fc7aa6adc28846259f74a7529
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q2_K.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q2_K.gguf
+    sha256: 129d4fd4d87f9abcb20da75414b682fbf16b2cecdbf65a3b1284ad08398c6617
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q3_K_L.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q3_K_L.gguf
+    sha256: fc338b1aa1baf89e4df43f3263543f62caf78a084c52b8b464ca719028c28d6e
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q3_K_M.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q3_K_M.gguf
+    sha256: f1d1761766e634aebbaa325222db14fff4cebd79afee1adf0915e364e8517bd9
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q3_K_S.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q3_K_S.gguf
+    sha256: 768f1d951def10dce3f78826b2d0dbcd477eba9e61d3b6371990ca397e85c6e9
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q4_0.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q4_0.gguf
+    sha256: 9d4b56284f15c0cdaf326b01bc0e0995085561c4f3f81ea5af9c17487e3b8f68
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q4_K_M.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q4_K_M.gguf
+    sha256: 7a7f75e43719c201f74a06d732f380c19c9913acf69b67abead30ca220389573
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q4_K_S.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q4_K_S.gguf
+    sha256: bc9dc1115dde9facaa728498a7ba0fea3eea8d89da70edad6b40c70e4571d135
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q5_0.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q5_0.gguf
+    sha256: ca98be9e00f5dc53f431d63792f63a565969930611672a53bdb491b9603ab8fc
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q5_K_M.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q5_K_M.gguf
+    sha256: f922fec555f5e2c97101b07c2ab3e0aafa2d545693b9222b94269a843f46a487
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q5_K_S.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q5_K_S.gguf
+    sha256: 70a2237a9ca513b4e26ce32db169d3e1f9a06ca2553621aa5d42e1b5fc9db3ec
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q6_K.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q6_K.gguf
+    sha256: d73623e27847aac800d38a049e0233caf37651f117986edcb46994ca9fe52641
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westseverus-7b-dpo.Q8_0.gguf
+    template:
+      chat: thebloke__westseverus-7b-dpo-gguf
+      completion: thebloke__westseverus-7b-dpo-gguf
+  description: TheBloke/WestSeverus-7B-DPO-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westseverus-7b-dpo-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westseverus-7b-dpo-gguf.tmpl
+  - filename: westseverus-7b-dpo.Q8_0.gguf
+    sha256: 758d895cd724e3b62a164606af2e26830cbd6f5fc7aa6adc28846259f74a7529
+    uri: 
+      https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF/resolve/main/westseverus-7b-dpo.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westseverus-7b-dpo-gguf__westseverus-7b-dpo.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - arxiv:1910.09700
+  - base_model:PetroGPT/WestSeverus-7B-DPO
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestSeverus-7B-DPO-GGUF

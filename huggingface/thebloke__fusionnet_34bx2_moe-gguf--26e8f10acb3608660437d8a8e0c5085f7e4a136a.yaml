@@ -1,0 +1,748 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q2_K.gguf
+    sha256: eb7569a2828c2d0ac783b653a7cf2f300ac2793dd91146149d24d1867b11e28a
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q3_K_L.gguf
+    sha256: f197d3539b7e287943c54e51185c846cb5b39862ea60d1db46b7b7c5d396c3d0
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q3_K_M.gguf
+    sha256: 5da01fdda56de66f755d9dae5e99b447025e00d9cbf6c23f3ea813f8d3f87dce
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q3_K_S.gguf
+    sha256: c87d0c69ac2a0c48b8b9b09483f85d0e710b4a88e5b346f7a6a526b3d0dd5e3d
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q4_0.gguf
+    sha256: da41f87cf3066c809142362b25a746740094c960b04276f20f3dfb2f1f4b0835
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q4_K_M.gguf
+    sha256: 8644c2bc224635f7157d0ce97208959ddb3f006891fc4a696d6adc4964fdf476
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q4_K_S.gguf
+    sha256: 5791f59bc98c7031154b867768baec17d57a954cc0652f9f8118ce102b79df3c
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q5_0.gguf
+    sha256: 6dfb11ff7f80ff213c02a2839f0c56a88ad2951b7c645fb1abab328e4bbfa030
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q5_K_M.gguf
+    sha256: f7bc61a96e016b2a66d597957162fcc1270b5300a3139242f44810629aa5f023
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q5_K_S.gguf
+    sha256: e2f9ff9ca830d2b66674d8a9840999df16f3215431bde4ff67c003a342693dc5
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q6_K.gguf
+    sha256: 491917091db6a294f441f2e6a82aed660462e3c32599698ce152f4f3d2ad0b64
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q2_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q2_K.gguf
+    sha256: eb7569a2828c2d0ac783b653a7cf2f300ac2793dd91146149d24d1867b11e28a
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q3_K_L.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q3_K_L.gguf
+    sha256: f197d3539b7e287943c54e51185c846cb5b39862ea60d1db46b7b7c5d396c3d0
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q3_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q3_K_M.gguf
+    sha256: 5da01fdda56de66f755d9dae5e99b447025e00d9cbf6c23f3ea813f8d3f87dce
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q3_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q3_K_S.gguf
+    sha256: c87d0c69ac2a0c48b8b9b09483f85d0e710b4a88e5b346f7a6a526b3d0dd5e3d
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q4_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q4_0.gguf
+    sha256: da41f87cf3066c809142362b25a746740094c960b04276f20f3dfb2f1f4b0835
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q4_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q4_K_M.gguf
+    sha256: 8644c2bc224635f7157d0ce97208959ddb3f006891fc4a696d6adc4964fdf476
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q4_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q4_K_S.gguf
+    sha256: 5791f59bc98c7031154b867768baec17d57a954cc0652f9f8118ce102b79df3c
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q5_0.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q5_0.gguf
+    sha256: 6dfb11ff7f80ff213c02a2839f0c56a88ad2951b7c645fb1abab328e4bbfa030
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q5_K_M.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q5_K_M.gguf
+    sha256: f7bc61a96e016b2a66d597957162fcc1270b5300a3139242f44810629aa5f023
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q5_K_S.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q5_K_S.gguf
+    sha256: e2f9ff9ca830d2b66674d8a9840999df16f3215431bde4ff67c003a342693dc5
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fusionnet_34bx2_moe.Q6_K.gguf
+    template:
+      chat: llama-2-chat
+      completion: llama-2-chat
+  description: TheBloke/FusionNet_34Bx2_MoE-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: llama-2-chat.tmpl
+    sha256: 58a0866ec49e095d6656bae0ef9c686f7778b15fd82cd800b05f252ede4ff63e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/llama-2-chat.tmpl
+  - filename: fusionnet_34bx2_moe.Q6_K.gguf
+    sha256: 491917091db6a294f441f2e6a82aed660462e3c32599698ce152f4f3d2ad0b64
+    uri: 
+      https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF/resolve/main/fusionnet_34bx2_moe.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: thebloke__fusionnet_34bx2_moe-gguf__fusionnet_34bx2_moe.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mixtral
+  - moe
+  - text-generation
+  - en
+  - base_model:TomGrc/FusionNet_34Bx2_MoE
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/FusionNet_34Bx2_MoE-GGUF

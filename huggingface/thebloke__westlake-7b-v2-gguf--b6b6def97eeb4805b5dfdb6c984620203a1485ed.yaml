@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q2_K.gguf
+    sha256: abc69950cc651cb1bc77d38743d062a571498b07a47460de28106b38720e6e98
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q3_K_L.gguf
+    sha256: fbe730e0438b670c8c0ed5e553d82453664b490e4f49f3a756880d33bb5ba524
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q3_K_M.gguf
+    sha256: 58815e5bee9a41f87b011ff83068adc55c057193168cfba88d7d76ccf1199a3a
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q3_K_S.gguf
+    sha256: e21d477fe3cff134f03ba873a79315279433823d13ee64338570c42013623583
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q4_0.gguf
+    sha256: 034c8f9864af67941739d3804949f9e9ff0cd2e26e3a5f2f28d6ea4aaffcd8ab
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q4_K_M.gguf
+    sha256: 2d11377d25f34f66044fc150d14e01920102b81780b2003b371300b1ce66e2a9
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q4_K_S.gguf
+    sha256: 070a604b5f6ddaab8ffe52f75f6c277800c63564ce0348c16c7d29faec8c9580
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q5_0.gguf
+    sha256: 7a6f901134bb564955936f946ca1f8101c0cf0b67be9d7374c73b537129b9395
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q5_K_M.gguf
+    sha256: 9b183e1e209ea5010684175796af6adec7a8e572f8e6e473a9e8199cd251c047
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q5_K_S.gguf
+    sha256: e123424f640a5dc5e3866c92b5de3485ca55344571ed31342495866e321ab09d
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q6_K.gguf
+    sha256: feca226309ba9793f03035361b4c4d300f65e0c63f5e3c1f7327be19279672ec
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: westlake-7b-v2.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - mistral configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q8_0.gguf
+    sha256: 45dbcf05767f6673ea4b9461ab53379f01490d8d48fe1f1e6322ebac574b1612
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q2_K.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q2_K.gguf
+    sha256: abc69950cc651cb1bc77d38743d062a571498b07a47460de28106b38720e6e98
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q3_K_L.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q3_K_L.gguf
+    sha256: fbe730e0438b670c8c0ed5e553d82453664b490e4f49f3a756880d33bb5ba524
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q3_K_M.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q3_K_M.gguf
+    sha256: 58815e5bee9a41f87b011ff83068adc55c057193168cfba88d7d76ccf1199a3a
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q3_K_S.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q3_K_S.gguf
+    sha256: e21d477fe3cff134f03ba873a79315279433823d13ee64338570c42013623583
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q4_0.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q4_0.gguf
+    sha256: 034c8f9864af67941739d3804949f9e9ff0cd2e26e3a5f2f28d6ea4aaffcd8ab
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q4_K_M.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q4_K_M.gguf
+    sha256: 2d11377d25f34f66044fc150d14e01920102b81780b2003b371300b1ce66e2a9
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q4_K_S.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q4_K_S.gguf
+    sha256: 070a604b5f6ddaab8ffe52f75f6c277800c63564ce0348c16c7d29faec8c9580
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q5_0.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q5_0.gguf
+    sha256: 7a6f901134bb564955936f946ca1f8101c0cf0b67be9d7374c73b537129b9395
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q5_K_M.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q5_K_M.gguf
+    sha256: 9b183e1e209ea5010684175796af6adec7a8e572f8e6e473a9e8199cd251c047
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q5_K_S.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q5_K_S.gguf
+    sha256: e123424f640a5dc5e3866c92b5de3485ca55344571ed31342495866e321ab09d
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q6_K.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q6_K.gguf
+    sha256: feca226309ba9793f03035361b4c4d300f65e0c63f5e3c1f7327be19279672ec
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: westlake-7b-v2.Q8_0.gguf
+    template:
+      chat: thebloke__westlake-7b-v2-gguf
+      completion: thebloke__westlake-7b-v2-gguf
+  description: TheBloke/WestLake-7B-v2-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: thebloke__westlake-7b-v2-gguf.tmpl
+    sha256: e1a2961994016082e8bd585199ff1e1dc0e8ef2b1596da49b38cc99785321e22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/thebloke__westlake-7b-v2-gguf.tmpl
+  - filename: westlake-7b-v2.Q8_0.gguf
+    sha256: 45dbcf05767f6673ea4b9461ab53379f01490d8d48fe1f1e6322ebac574b1612
+    uri: 
+      https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF/resolve/main/westlake-7b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: thebloke__westlake-7b-v2-gguf__westlake-7b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - mistral
+  - en
+  - base_model:senseable/WestLake-7B-v2
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WestLake-7B-v2-GGUF
