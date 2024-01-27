@@ -1,0 +1,65 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: goliath-longlora-120b-rope8-32k-fp16.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Goliath-longLORA-120b-rope8-32k-fp16-GGUF - llama configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: goliath-longlora-120b-rope8-32k-fp16.Q2_K.gguf
+    sha256: 201619197ce989fdeb30a0a0a475720322aa801ed8d085a78b8d873136429dcf
+    uri: 
+      https://huggingface.co/TheBloke/Goliath-longLORA-120b-rope8-32k-fp16-GGUF/resolve/main/goliath-longlora-120b-rope8-32k-fp16.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__goliath-longlora-120b-rope8-32k-fp16-gguf__goliath-longlora-120b-rope8-32k-fp16.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:grimulkan/Goliath-longLORA-120b-rope8-32k-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Goliath-longLORA-120b-rope8-32k-fp16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: goliath-longlora-120b-rope8-32k-fp16.Q2_K.gguf
+    template:
+      chat: alpaca
+      completion: alpaca
+  description: TheBloke/Goliath-longLORA-120b-rope8-32k-fp16-GGUF - llamaFileFormatFallback
+    configuration
+  files:
+  - filename: alpaca.tmpl
+    sha256: d03973275075b80adddf0be8fc0e780df838f971a2a3b45abc737b6321bb2679
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/alpaca.tmpl
+  - filename: goliath-longlora-120b-rope8-32k-fp16.Q2_K.gguf
+    sha256: 201619197ce989fdeb30a0a0a475720322aa801ed8d085a78b8d873136429dcf
+    uri: 
+      https://huggingface.co/TheBloke/Goliath-longLORA-120b-rope8-32k-fp16-GGUF/resolve/main/goliath-longlora-120b-rope8-32k-fp16.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    thebloke__goliath-longlora-120b-rope8-32k-fp16-gguf__goliath-longlora-120b-rope8-32k-fp16.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - base_model:grimulkan/Goliath-longLORA-120b-rope8-32k-fp16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Goliath-longLORA-120b-rope8-32k-fp16-GGUF
