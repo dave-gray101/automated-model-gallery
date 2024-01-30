@@ -1,0 +1,1050 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q2_K.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llama configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q2_K.gguf
+    sha256: 6269296478bccb1c0505b161a9cddf4fa6be426f767dd834989c5573f205c2bd
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q3_K_L.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llama configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q3_K_L.gguf
+    sha256: 622ff89d2fcd4cd510a497bbcb38b59e80f8bf63a4ede9defcc66843a28de709
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q3_K_M.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llama configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q3_K_M.gguf
+    sha256: c428ea70f7979909ed70992a81c595d450748380b309a89be0fbb7466a423ded
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q3_K_S.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llama configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q3_K_S.gguf
+    sha256: 0d4046ba44124d464e32448db4bacbc444a08384d38f4f207fe9044f96862070
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q4_0.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llama configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q4_0.gguf
+    sha256: 8c9bfc45701b69018ea30098109fa8cec41ca504f904a04b6c756f9b9b139f07
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q4_K_M.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llama configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q4_K_M.gguf
+    sha256: 3ccb06c4c25e12130c30812b1739110d8c059f09ad2805edb655445bbfb0e4cc
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q4_K_S.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llama configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q4_K_S.gguf
+    sha256: 75b9247ac57d0501c602038b7278f1365205855b2ce17d62a866b0715d522c8f
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q5_0.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llama configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q5_0.gguf
+    sha256: 458fddf4958f271c599183175137eb5758fa8c7d0def4e359c47fa41eda82fe6
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q5_K_M.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llama configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q5_K_M.gguf
+    sha256: 7a12f7931073b74a829a03b4a9517a5d83fe628072e6f8132119043400e9a649
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q5_K_S.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llama configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q5_K_S.gguf
+    sha256: 88acfebfb313e20ffc51629527b87141e5eb801bc5ccd80a8b28358bc037a296
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q2_K.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q2_K.gguf
+    sha256: 6269296478bccb1c0505b161a9cddf4fa6be426f767dd834989c5573f205c2bd
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q3_K_L.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q3_K_L.gguf
+    sha256: 622ff89d2fcd4cd510a497bbcb38b59e80f8bf63a4ede9defcc66843a28de709
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q3_K_M.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q3_K_M.gguf
+    sha256: c428ea70f7979909ed70992a81c595d450748380b309a89be0fbb7466a423ded
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q3_K_S.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q3_K_S.gguf
+    sha256: 0d4046ba44124d464e32448db4bacbc444a08384d38f4f207fe9044f96862070
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q4_0.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q4_0.gguf
+    sha256: 8c9bfc45701b69018ea30098109fa8cec41ca504f904a04b6c756f9b9b139f07
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q4_K_M.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q4_K_M.gguf
+    sha256: 3ccb06c4c25e12130c30812b1739110d8c059f09ad2805edb655445bbfb0e4cc
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q4_K_S.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q4_K_S.gguf
+    sha256: 75b9247ac57d0501c602038b7278f1365205855b2ce17d62a866b0715d522c8f
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q5_0.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q5_0.gguf
+    sha256: 458fddf4958f271c599183175137eb5758fa8c7d0def4e359c47fa41eda82fe6
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q5_K_M.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q5_K_M.gguf
+    sha256: 7a12f7931073b74a829a03b4a9517a5d83fe628072e6f8132119043400e9a649
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q5_K_S.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q5_K_S.gguf
+    sha256: 88acfebfb313e20ffc51629527b87141e5eb801bc5ccd80a8b28358bc037a296
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q2_K.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q2_K.gguf
+    sha256: 6269296478bccb1c0505b161a9cddf4fa6be426f767dd834989c5573f205c2bd
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q3_K_L.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q3_K_L.gguf
+    sha256: 622ff89d2fcd4cd510a497bbcb38b59e80f8bf63a4ede9defcc66843a28de709
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q3_K_M.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q3_K_M.gguf
+    sha256: c428ea70f7979909ed70992a81c595d450748380b309a89be0fbb7466a423ded
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q3_K_S.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q3_K_S.gguf
+    sha256: 0d4046ba44124d464e32448db4bacbc444a08384d38f4f207fe9044f96862070
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q4_0.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q4_0.gguf
+    sha256: 8c9bfc45701b69018ea30098109fa8cec41ca504f904a04b6c756f9b9b139f07
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q4_K_M.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q4_K_M.gguf
+    sha256: 3ccb06c4c25e12130c30812b1739110d8c059f09ad2805edb655445bbfb0e4cc
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q4_K_S.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q4_K_S.gguf
+    sha256: 75b9247ac57d0501c602038b7278f1365205855b2ce17d62a866b0715d522c8f
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q5_0.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q5_0.gguf
+    sha256: 458fddf4958f271c599183175137eb5758fa8c7d0def4e359c47fa41eda82fe6
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q5_K_M.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q5_K_M.gguf
+    sha256: 7a12f7931073b74a829a03b4a9517a5d83fe628072e6f8132119043400e9a649
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-70b-instruct.Q5_K_S.gguf
+    template:
+      chat: codellama-70b-instruct
+      completion: codellama-70b-instruct
+  description: TheBloke/CodeLlama-70B-Instruct-GGUF - llamaFileFormatFallback configuration
+  files:
+  - filename: codellama-70b-instruct.tmpl
+    sha256: 2d624e8d16d2c43a97d1823ee29e199e37eb7403e92df2ce9f1a55e98aa14c36
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/codellama-70b-instruct.tmpl
+  - filename: codellama-70b-instruct.Q5_K_S.gguf
+    sha256: 88acfebfb313e20ffc51629527b87141e5eb801bc5ccd80a8b28358bc037a296
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: thebloke__codellama-70b-instruct-gguf__codellama-70b-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - gguf
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-70b-Instruct-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF
